@@ -1,5 +1,6 @@
 ---
 import Layout from "../../components/Layout.astro";
+import LemmaLink from "../../components/LemmaLink";
 import data from "../../../public/data.json";
 
 export async function getStaticPaths() {
@@ -32,61 +33,93 @@ const crossLinks = data.crossLinks
 ---
 
 <Layout title={lemma.original}>
-  <h1>{lemma.original}</h1>
-  <p>{lemma.translation}</p>
+    <div class="lemma-header-container">
+      <header class="lemma-header">
+        <h1>{lemma.original}
+          {(lemma.original && lemma.transliteration) ? <br/> : null}
+          {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
+        </h1>
+        <p>{lemma.language_label} {lemma.partofspeech_value}</p>
+        {lemma.last_edit && (
+        <p class="last-edit">
+        Last edited: {new Date(lemma.last_edit).toLocaleString()}
+        </p>
+        )}
+      </header>
 
-  {lemma.transliteration && <p><strong>Transliteration:</strong> {lemma.transliteration}</p>}
-  {lemma.primary_meaning && <p><strong>Primary meaning:</strong> {lemma.primary_meaning}</p>}
+      <aside class="variants">
+        {lemma.primary_meaning &&
+        (<h2>Primary meaning</h2>
+        <span class="primary-meaning">{lemma.primary_meaning}</span>)
+        }
+        {lemma.translation &&
+        (<h2>Literal translation</h2>
+        <span class="translation">{lemma.translation}</span>
+        )}
+        {variants.length > 0 &&
+        (<h2>Variants</h2>
+        <ul>
+          {variants.map(v => <li>{v.original} {v.transliteration && <span class="transliteration">{v.transliteration}</span>} {v.comment && <span class="comment">{v.comment}</span>}</li>)}
+        </ul>)}
+      </aside>
+    </div>
 
-  <h2>Meanings</h2>
-  {meaningsWithQuotes.map(m => (
-  <section>
-    <h3>{m.value}</h3>
+    <section class="meanings">
+      {meaningsWithQuotes.map(m => (
+      <article class="meaning">
+        <div class="meaning-string">{m.value}
+          <span class="comment">{m.comment}</span>
 
-    {m.categories.length > 0 && (
-    <p>
-    <strong>Categories:</strong> {m.categories.join(", ")}
-    </p>
-    )}
+        {m.categories.length > 0 && (
+        <span class="categories">{m.categories.join(", ")}</span>
+        )}</div>
 
-    <h4>Quotations</h4>
-    {m.quotations.length === 0 && <p>No quotations.</p>}
-    <ul>
-      {m.quotations.map(q => (
-      <li>
-        <blockquote>
-          <p>〈{q.original}〉</p>
-          <p><i>{q.transliteration}</i></p>
-          <p>‘{q.translation}’</p>
-        </blockquote>
-        <div><strong>Source:</strong> {q.source}<br/>
-        <strong>Line:</strong> {q.line}<br/>
-        <strong>Page:</strong> {q.page}<br/>
-        <strong>Comment:</strong> {q.comment}</div>
-      </li>
+        <ul class="quotations">
+          {m.quotations.map(q => (
+          <li class="quotation">
+            <blockquote>
+              <div class="quotation-original">
+              {q.original && <p>{q.original}</p>}
+              {q.transliteration && <p class="transliteration">{q.transliteration}</p>}
+              </div>
+              {q.translation && <p class="quotation-translation">‘{q.translation}’</p>}
+            </blockquote>
+            <div class="quote-meta">
+              {q.source && <div><strong>Source:</strong> {q.source}</div>}
+              {q.line && <div><strong>Line:</strong> {q.line}</div>}
+              {q.genre && <div><strong>Genre:</strong> {q.genre}</div>}
+              {q.provenance && <div><strong>Provenance:</strong> {q.provenance}</div>}
+              {q.date && <div><strong>Date:</strong> {q.date}</div>}
+              {q.publication && <div><strong>Publication:</strong> {q.publication}</div>}
+              {q.page && <div><strong>Page:</strong> {q.page}</div>}
+              {q.comment && <div><strong>Comment:</strong> {q.comment}</div>}
+            </div>
+          </li>
+          ))}
+        </ul>
+      </article>
       ))}
-    </ul>
-  </section>
-  ))}
+    </section>
 
-  <h2>Variants</h2>
-  <ul>
-    {variants.map(v => <li>{v.original}</li>)}
-  </ul>
+    {crossLinks.length > 0 &&
+    <section class="cross-links">
+      <h2>See also</h2>
+      <ul>
+        {crossLinks.map(c => (
+        <li>
+          <LemmaLink lemma={c.target} />
+        </li>
+        ))}
+      </ul>
+    </section>
+    }
 
-  <h2>External links</h2>
-  <ul>
-    {external.map(e => <li><a href={e.url}>{e.display}</a></li>)}
-  </ul>
-
-  <h2>Cross-links</h2>
-  <ul>
-    {crossLinks.map(c => (
-    <li>
-      {c.target
-      ? <><a href={`/lemma/${c.target?.lemma_id}`}>〈{c.target.original || "—"}〉</a> <i>{c.target.transliteration}</i> ‘{c.target.primary_meaning}’</>
-      : `(unknown lemma ${c.target?.lemma_id})`}
-    </li>
-    ))}
-  </ul>
+    {external.length > 0 &&
+    <section class="external-links">
+      <h2>External links</h2>
+      <ul>
+        {external.map(e => <li><a href={e.url}>{e.display}</a></li>)}
+      </ul>
+    </section>
+    }
 </Layout>

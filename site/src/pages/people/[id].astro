@@ -1,0 +1,26 @@
+---
+import Layout from '../../components/Layout.astro';
+import LemmaLink from '../../components/LemmaLink';
+import data from '../../../public/data.json';
+
+export async function getStaticPaths() {
+  const editors = Array.from(new Set(data.lemmata.map(l => l.editor).filter(Boolean)));
+  return editors.map(name => ({ params: { id: encodeURIComponent(name) } }));
+}
+
+const name = decodeURIComponent(Astro.params.id);
+const entries = data.lemmata.filter(l => l.editor === name);
+---
+
+<Layout title={`Entries by ${name}`}>
+  <h1>{name}</h1>
+  {entries.length === 0 && <p>No entries found.</p>}
+
+  <ul>
+    {entries.map(l => (
+      <li>
+        <LemmaLink lemma={l} />
+      </li>
+    ))}
+  </ul>
+</Layout>

@@ -1,0 +1,20 @@
+---
+import Layout from '../components/Layout.astro';
+import data from '../../public/data.json';
+
+// Aggregate all contributors from lemmata
+const contributors = Array.from(
+  new Set(data.lemmata.map(l => l.editor).filter(Boolean))
+).sort();
+---
+
+<Layout title="Contributors">
+  <h1>Contributors</h1>
+  <ul>
+    {contributors.map((name, i) => (
+      <li key={i}>
+        <a href={`/people/${encodeURIComponent(name)}`}>{name}</a>
+      </li>
+    ))}
+  </ul>
+</Layout>

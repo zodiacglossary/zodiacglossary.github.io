@@ -9,30 +9,29 @@ import "../styles/global.css";
   <head>
     <meta charset="utf-8" />
     <title>{title}</title>
-    <link rel="stylesheet" href="/styles/global.css" />
   </head>
   <body>
-    <div className="flex flex-col md:flex-row min-h-screen">
-      {/* Top nav bar */}
-      <nav className="w-full bg-gray-800 text-white p-4 flex justify-between items-center md:hidden">
-        <div className="font-bold">Glossary</div>
-        <div className="space-x-4">
-          <a href="/" className="hover:underline">Home</a>
-          <a href="/about" className="hover:underline">About</a>
-          <a href="/people" className="hover:underline">People</a>
+    <div class="layout">
+      <!-- Top nav bar for mobile -->
+      <nav class="top-nav">
+        <div class="logo">Glossary</div>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/people">People</a>
         </div>
       </nav>
 
-      <aside className="md:w-64 bg-gray-100 p-4 overflow-auto max-h-screen">
-        <Search />
-        <div className="hidden md:block mt-4 space-y-2">
-          <a href="/" className="block hover:underline">Home</a>
-          <a href="/about" className="block hover:underline">About</a>
-          <a href="/people" className="block hover:underline">People</a>
+      <aside class="sidebar">
+        <div class="sidebar-links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/people">People</a>
         </div>
+        <Search client:load />
       </aside>
 
-      <main className="flex-1 p-4 overflow-auto">
+      <main class="content">
         <slot />
       </main>
     </div>
