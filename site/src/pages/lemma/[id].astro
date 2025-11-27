@@ -12,6 +12,13 @@ export async function getStaticPaths() {
 const id = Number(Astro.params.id);
 const lemma = data.lemmata.find(l => l.lemma_id === id);
 const meanings = data.meanings.filter(m => m.lemma_id === id);
+const meaningsWithQuotes = meanings.map(m => ({
+  ...m,
+  quotations: data.quotations.filter(q => q.meaning_id === m.meaning_id),
+  categories: data.meaningCategories
+      .filter(c => c.meaning_id === m.meaning_id)
+      .map(c => c.category)
+}));
 const variants = data.variants.filter(v => v.lemma_id === id);
 const quotations = data.quotations.filter(q => q.lemma_id === id);
 const external = data.externalLinks.filter(e => e.lemma_id === id);
@@ -32,18 +39,36 @@ const crossLinks = data.crossLinks
   {lemma.primary_meaning && <p><strong>Primary meaning:</strong> {lemma.primary_meaning}</p>}
 
   <h2>Meanings</h2>
-  <ul>
-    {meanings.map(m => <li>{m.value}</li>)}
-  </ul>
+  {meaningsWithQuotes.map(m => (
+  <section>
+    <h3>{m.value}</h3>
+
+    {m.categories?.length > 0 && (
+    <ul>
+      {m.categories.map(cat => <li>{cat}</li>)}
+    </ul>
+    )}
+
+    <h4>Quotations</h4>
+    {m.quotations.length === 0 && <p>No quotations.</p>}
+    <ul>
+      {m.quotations.map(q => (
+      <li>
+        <div><strong>Original:</strong> {q.original}</div>
+        <div><strong>Translation:</strong> {q.translation}</div>
+        <div><strong>Source:</strong> {q.source}</div>
+        <div><strong>Line:</strong> {q.line}</div>
+        <div><strong>Page:</strong> {q.page}</div>
+        <div><strong>Comment:</strong> {q.comment}</div>
+      </li>
+      ))}
+    </ul>
+  </section>
+  ))}
 
   <h2>Variants</h2>
   <ul>
     {variants.map(v => <li>{v.original}</li>)}
-  </ul>
-
-  <h2>Quotations</h2>
-  <ul>
-    {quotations.map(q => <li>{q.original} — {q.source}</li>)}
   </ul>
 
   <h2>External links</h2>
