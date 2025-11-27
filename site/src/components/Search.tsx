@@ -1,35 +1,44 @@
 import { useState, useEffect } from "react";
-import data from "../../public/data.json";
 import LemmaLink from "../components/LemmaLink";
 
 export default function Search() {
-  const [query, setQuery] = useState("");
-  const [results, setResults] = useState<typeof data.lemmata>([]);
-  const [selectedLangs, setSelectedLangs] = useState(
-    data.languages.map(l => l.language_id)
-  );
+  const [data, setData] = useState<{
+    lemmata: any[];
+    languages: { language_id: number; label: string }[];
+  } | null>(null);
 
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<any[]>([]);
+  const [selectedLangs, setSelectedLangs] = useState<number[]>([]);
   const [sortBy, setSortBy] = useState<"original" | "transliteration" | "primary_meaning">(
     "original"
   );
 
-  // Filter results dynamically
+  // Load data.json in the browser
   useEffect(() => {
-    if (!query) {
-      setResults([]); // empty by default
-      return;
-    }
+    fetch("/data.json")
+      .then(r => r.json())
+      .then(d => {
+        setData(d);
+        setSelectedLangs(d.languages.map((l: any) => l.language_id));
+      });
+  }, []);
 
+  // Filter and sort results dynamically
+  useEffect(() => {
+    if (!data) return;
+
+    // If query is empty, show all lemmata in selected languages
     const filtered = data.lemmata.filter(
-      l =>
-        selectedLangs.includes(l.language_id) &&
-        [l.original, l.transliteration, l.primary_meaning].some(f =>
-          f.toLowerCase().includes(query.toLowerCase())
-        )
+      l => selectedLangs.includes(l.language_id) &&
+        // Only filter by query if query exists
+        (!query || [l.original, l.transliteration, l.primary_meaning].some(f =>
+                                                                           f?.toLowerCase().includes(query.toLowerCase())
+                                                                          ))
     );
 
     setResults(filtered.sort((a, b) => a[sortBy].localeCompare(b[sortBy])));
-  }, [query, selectedLangs, sortBy]);
+  }, [query, selectedLangs, sortBy, data]);
 
   const toggleLang = (id: number) => {
     setSelectedLangs(prev =>
@@ -37,8 +46,12 @@ export default function Search() {
     );
   };
 
-  const selectAll = () => setSelectedLangs(data.languages.map(l => l.language_id));
+  const selectAll = () => {
+    if (data) setSelectedLangs(data.languages.map((l: any) => l.language_id));
+  };
   const deselectAll = () => setSelectedLangs([]);
+
+  if (!data) return <p>Loading…</p>;
 
   return (
     <div className="search">
@@ -56,7 +69,7 @@ export default function Search() {
       </div>
 
       <div className="search-languages">
-        {data.languages.map(l => (
+        {data.languages.map((l: any) => (
           <label key={l.language_id} className="lang-label">
             <input
               type="checkbox"
@@ -83,9 +96,8 @@ export default function Search() {
   );
 }
 
-function SearchResults({ results, query }: { results: typeof data.lemmata; query: string }) {
-  if (!results.length && query) return <p className="no-results">No results found.</p>;
-  if (!query) return <p className="hint">Type something to search the glossary…</p>;
+function SearchResults({ results, query }: { results: any[]; query: string }) {
+  if (!results.length) return <p className="no-results">No results found.</p>;
 
   return (
     <ul className="search-results">
