@@ -43,10 +43,10 @@ const crossLinks = data.crossLinks
   <section>
     <h3>{m.value}</h3>
 
-    {m.categories?.length > 0 && (
-    <ul>
-      {m.categories.map(cat => <li>{cat}</li>)}
-    </ul>
+    {m.categories.length > 0 && (
+    <p>
+    <strong>Categories:</strong> {m.categories.join(", ")}
+    </p>
     )}
 
     <h4>Quotations</h4>
@@ -80,9 +80,9 @@ const crossLinks = data.crossLinks
   <ul>
     {crossLinks.map(c => (
     <li>
-      <a href={`/lemma/${c.target?.lemma_id}`}>
-        {c.target?.original ?? `(unknown lemma ${c.target?.lemma_id})`}
-      </a>
+      {c.target
+      ? <><a href={`/lemma/${c.target?.lemma_id}`}>〈{c.target.original || "—"}〉</a> <i>{c.target.transliteration}</i> ‘{c.target.primary_meaning}’</>
+      : `(unknown lemma ${c.target?.lemma_id})`}
     </li>
     ))}
   </ul>

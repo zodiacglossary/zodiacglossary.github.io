@@ -1,91 +1,84 @@
-import React, { useState, useMemo } from "react";
-import Fuse from "fuse.js";
+import { useState } from "react";
 import data from "../../public/data.json";
 
 export default function Search() {
   const [query, setQuery] = useState("");
-  const [language, setLanguage] = useState("");
-  const [pos, setPos] = useState("");
-  const [category, setCategory] = useState("");
-
-  const fuse = useMemo(
-    () =>
-      new Fuse(data.lemmata, {
-        keys: ["original", "translation", "transliteration", "primary_meaning"],
-        threshold: 0.3,
-      }),
-    []
+  const [selectedLangs, setSelectedLangs] = useState(
+    data.languages.map(l => l.language_id)
   );
 
-  const results = useMemo(() => {
-    let base = query ? fuse.search(query).map((r) => r.item) : data.lemmata;
+const [sortBy, setSortBy] = useState<"original" | "transliteration" | "primary_meaning">(
+  "original"
+);
 
-    if (language) base = base.filter((l) => l.language_id?.toString() === language);
-    if (pos)      base = base.filter((l) => l.partofspeech_id?.toString() === pos);
 
-    if (category) {
-      const meaningIds = data.meaningCategories
-        .filter((c) => c.category_id.toString() === category)
-        .map((c) => c.meaning_id);
+  const toggleLang = (id: number) => {
+    setSelectedLangs(prev =>
+      prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]
+    );
+  };
 
-      const lemmaIds = data.meanings
-        .filter((m) => meaningIds.includes(m.meaning_id))
-        .map((m) => m.lemma_id);
+  const selectAll = () => setSelectedLangs(data.languages.map(l => l.language_id));
+  const deselectAll = () => setSelectedLangs([]);
 
-      base = base.filter((l) => lemmaIds.includes(l.lemma_id));
-    }
+  const filteredLemmata = data.lemmata.filter(
+    l =>
+      selectedLangs.includes(l.language_id) &&
+      [l.original, l.transliteration, l.primary_meaning].some(f =>
+        f.toLowerCase().includes(query.toLowerCase())
+      )
+  );
 
-    return base;
-  }, [query, language, pos, category]);
+  const sortedResults = filteredLemmata.sort((a, b) => a[sortBy].localeCompare(b[sortBy]));
+
+  function SearchResults({ results }: { results: typeof data.lemmata }) {
+    if (!results.length) return <p>No results found.</p>;
+
+    return (
+      <ul>
+      {results.map(l => (
+        <li key={l.lemma_id}>
+        <a href={"/lemma/" + l.lemma_id}>〈{l.original || "—"}〉</a> <i>{l.transliteration}</i> ‘{l.primary_meaning}’
+        </li>
+      ))}
+      </ul>
+    );
+  }
 
   return (
     <div>
       <input
-        type="search"
-        placeholder="Search lemmata…"
+        type="text"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search..."
+        onChange={e => setQuery(e.target.value)}
       />
 
-      {/* Language filter */}
-      <select value={language} onChange={(e) => setLanguage(e.target.value)}>
-        <option value="">All languages</option>
-        {data.languages.map((l) => (
-          <option key={l.language_id} value={l.language_id}>
+      <div style={{ marginTop: "0.5em" }}>
+        <button onClick={selectAll}>Select All</button>
+        <button onClick={deselectAll}>Deselect All</button>
+      </div>
+
+      <div style={{ display: "flex", flexWrap: "wrap", marginTop: "0.5em" }}>
+        {data.languages.map(l => (
+          <label key={l.language_id} style={{ marginRight: "1em" }}>
+            <input
+              type="checkbox"
+              checked={selectedLangs.includes(l.language_id)}
+              onChange={() => toggleLang(l.language_id)}
+            />
             {l.label}
-          </option>
+          </label>
         ))}
+      </div>
+
+      <select value={sortBy} onChange={e => setSortBy(e.target.value as any)}>
+      <option value="original">Original</option>
+      <option value="transliteration">Transliteration</option>
+      <option value="primary_meaning">Primary Meaning</option>
       </select>
 
-      {/* Parts of Speech */}
-      <select value={pos} onChange={(e) => setPos(e.target.value)}>
-        <option value="">All POS</option>
-        {data.partsofspeech.map((p) => (
-          <option key={p.partofspeech_id} value={p.partofspeech_id}>
-            {p.label}
-          </option>
-        ))}
-      </select>
-
-      {/* Meaning Category */}
-      <select value={category} onChange={(e) => setCategory(e.target.value)}>
-        <option value="">All categories</option>
-        {data.meaningCategories.map((c) => (
-          <option key={c.category_id} value={c.category_id}>
-            {c.category}
-          </option>
-        ))}
-      </select>
-
-      <ul>
-        {results.map((lemma) => (
-          <li key={lemma.lemma_id}>
-            <a href={`/lemma/${lemma.lemma_id}`}>
-              {lemma.original} — {lemma.translation}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <SearchResults results={sortedResults} />
     </div>
   );
 }
