@@ -1,0 +1,14 @@
+       table        | total_size | size_bytes
+--------------------+------------+------------
+ quotations         | 2872 kB    |    2940928
+ edit_history       | 1248 kB    |    1277952
+ lemmata            | 832 kB     |     851968
+ variants           | 656 kB     |     671744
+ meaning_categories | 560 kB     |     573440
+ meanings           | 536 kB     |     548864
+ cross_links        | 328 kB     |     335872
+ external_links     | 168 kB     |     172032
+ todo               | 80 kB      |      81920
+ languages          | 32 kB      |      32768
+ users              | 32 kB      |      32768
+ partsofspeech      | 24 kB      |      24576

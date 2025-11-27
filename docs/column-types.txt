@@ -1,0 +1,84 @@
+                table_name                |     column_name      |        data_type
+------------------------------------------+----------------------+--------------------------
+ cross_links                              | cross_link_id        | integer
+ cross_links                              | lemma_id             | integer
+ cross_links                              | link                 | integer
+ edit_history                             | id                   | integer
+ edit_history                             | lemma_id             | integer
+ edit_history                             | username             | character varying
+ edit_history                             | timestamp            | timestamp with time zone
+ external_links                           | external_link_id     | integer
+ external_links                           | url                  | character varying
+ external_links                           | display              | character varying
+ external_links                           | lemma_id             | integer
+ incomplete_todo_list_items               | id                   | integer
+ incomplete_todo_list_items               | item                 | character varying
+ incomplete_todo_list_items               | complete             | boolean
+ incomplete_todo_list_items               | date_added           | timestamp with time zone
+ incomplete_todo_list_items               | added_by             | integer
+ incomplete_todo_list_items               | username             | character varying
+ languages                                | language_id          | integer
+ languages                                | label                | character varying
+ languages                                | active               | boolean
+ languages                                | value                | character varying
+ lemmata                                  | lemma_id             | integer
+ lemmata                                  | published            | boolean
+ lemmata                                  | original             | character varying
+ lemmata                                  | translation          | character varying
+ lemmata                                  | transliteration      | character varying
+ lemmata                                  | partofspeech_id      | integer
+ lemmata                                  | language_id          | integer
+ lemmata                                  | primary_meaning      | character varying
+ lemmata                                  | editor               | character varying
+ lemmata                                  | literal_translation2 | character varying
+ lemmata                                  | last_edit            | timestamp with time zone
+ lemmata                                  | comment              | character varying
+ lemmata                                  | checked              | boolean
+ lemmata                                  | attention            | boolean
+ lemmata                                  | loan_language_id     | integer
+ lemmata                                  | loan_type            | character varying
+ meaning_categories                       | category_id          | integer
+ meaning_categories                       | meaning_id           | integer
+ meaning_categories                       | category             | character varying
+ meanings                                 | meaning_id           | integer
+ meanings                                 | value                | character varying
+ meanings                                 | lemma_id             | integer
+ meanings                                 | category             | character varying
+ meanings                                 | comment              | character varying
+ partsofspeech                            | partofspeech_id      | integer
+ partsofspeech                            | label                | character varying
+ partsofspeech                            | active               | boolean
+ partsofspeech                            | value                | character varying
+ quotations                               | quotation_id         | integer
+ quotations                               | original             | character varying
+ quotations                               | transliteration      | character varying
+ quotations                               | lemma_id             | integer
+ quotations                               | translation          | character varying
+ quotations                               | source               | character varying
+ quotations                               | genre                | character varying
+ quotations                               | provenance           | character varying
+ quotations                               | date                 | character varying
+ quotations                               | publication          | character varying
+ quotations                               | link                 | character varying
+ quotations                               | line                 | character varying
+ quotations                               | meaning_id           | integer
+ quotations                               | page                 | character varying
+ quotations                               | comment              | character varying
+ todo                                     | id                   | integer
+ todo                                     | item                 | character varying
+ todo                                     | complete             | boolean
+ todo                                     | date_added           | timestamp with time zone
+ todo                                     | added_by             | integer
+ users                                    | id                   | integer
+ users                                    | first_name           | character varying
+ users                                    | last_name            | character varying
+ users                                    | email                | character varying
+ users                                    | username             | character varying
+ users                                    | password             | character varying
+ users                                    | active               | boolean
+ users                                    | website              | character varying
+ variants                                 | variant_id           | integer
+ variants                                 | original             | character varying
+ variants                                 | transliteration      | character varying
+ variants                                 | lemma_id             | integer
+ variants                                 | comment              | character varying

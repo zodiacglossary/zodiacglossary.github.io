@@ -1,0 +1,14 @@
+ schema_name |     table_name     |   n
+-------------+--------------------+-------
+ public      | edit_history       | 15008
+ public      | meaning_categories |  5778
+ public      | cross_links        |  5164
+ public      | variants           |  4572
+ public      | quotations         |  4099
+ public      | meanings           |  4004
+ public      | lemmata            |  3345
+ public      | external_links     |   942
+ public      | todo               |   177
+ public      | users              |    11
+ public      | languages          |    -1
+ public      | partsofspeech      |    -1
