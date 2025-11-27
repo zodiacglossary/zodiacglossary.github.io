@@ -1,5 +1,7 @@
 ---
 const { title = "Glossary" } = Astro.props;
+import Search from '../components/Search';
+import "../styles/global.css";
 ---
 
 <!DOCTYPE html>
@@ -7,11 +9,32 @@ const { title = "Glossary" } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <title>{title}</title>
-    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/styles/global.css" />
   </head>
   <body>
-    <main>
-      <slot />
-    </main>
+    <div className="flex flex-col md:flex-row min-h-screen">
+      {/* Top nav bar */}
+      <nav className="w-full bg-gray-800 text-white p-4 flex justify-between items-center md:hidden">
+        <div className="font-bold">Glossary</div>
+        <div className="space-x-4">
+          <a href="/" className="hover:underline">Home</a>
+          <a href="/about" className="hover:underline">About</a>
+          <a href="/people" className="hover:underline">People</a>
+        </div>
+      </nav>
+
+      <aside className="md:w-64 bg-gray-100 p-4 overflow-auto max-h-screen">
+        <Search />
+        <div className="hidden md:block mt-4 space-y-2">
+          <a href="/" className="block hover:underline">Home</a>
+          <a href="/about" className="block hover:underline">About</a>
+          <a href="/people" className="block hover:underline">People</a>
+        </div>
+      </aside>
+
+      <main className="flex-1 p-4 overflow-auto">
+        <slot />
+      </main>
+    </div>
   </body>
 </html>
