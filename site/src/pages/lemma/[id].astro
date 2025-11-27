@@ -15,7 +15,13 @@ const meanings = data.meanings.filter(m => m.lemma_id === id);
 const variants = data.variants.filter(v => v.lemma_id === id);
 const quotations = data.quotations.filter(q => q.lemma_id === id);
 const external = data.externalLinks.filter(e => e.lemma_id === id);
-const cross = data.crossLinks.filter(c => c.lemma_id === id);
+const crossLinks = data.crossLinks
+  .filter(c => c.lemma_id === lemma.lemma_id || c.link === lemma.lemma_id)
+  .map(c => {
+    const otherId = c.lemma_id === lemma.lemma_id ? c.link : c.lemma_id;
+    const target = data.lemmata.find(l => l.lemma_id === otherId);
+    return { ...c, target };
+  });
 ---
 
 <Layout title={lemma.original}>
@@ -47,15 +53,12 @@ const cross = data.crossLinks.filter(c => c.lemma_id === id);
 
   <h2>Cross-links</h2>
   <ul>
-    {cross.map(c => {
-    const target = data.lemmata.find(l => l.lemma_id === c.link);
-    return (
+    {crossLinks.map(c => (
     <li>
-      <a href={`/lemma/${c.link}`}>
-        {target ? target.original : `Entry ${c.link}`}
+      <a href={`/lemma/${c.target?.lemma_id}`}>
+        {c.target?.original ?? `(unknown lemma ${c.target?.lemma_id})`}
       </a>
     </li>
-    );
-    })}
+    ))}
   </ul>
 </Layout>
