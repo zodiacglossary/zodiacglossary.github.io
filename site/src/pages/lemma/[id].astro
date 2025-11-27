@@ -1,0 +1,54 @@
+---
+import Layout from "../../components/Layout.astro";
+import data from "../../../public/data.json";
+
+export async function getStaticPaths() {
+  // data.lemmata is assumed to be an array of lemma objects
+  return data.lemmata.map((lemma) => ({
+    params: { id: lemma.lemma_id.toString() },
+  }));
+}
+
+const id = Number(Astro.params.id);
+const lemma = data.lemmata.find(l => l.lemma_id === id);
+const meanings = data.meanings.filter(m => m.lemma_id === id);
+const variants = data.variants.filter(v => v.lemma_id === id);
+const quotations = data.quotations.filter(q => q.lemma_id === id);
+const external = data.externalLinks.filter(e => e.lemma_id === id);
+const cross = data.crossLinks.filter(c => c.lemma_id === id);
+---
+
+<Layout title={lemma.original}>
+  <h1>{lemma.original}</h1>
+  <p>{lemma.translation}</p>
+
+  {lemma.transliteration && <p><strong>Transliteration:</strong> {lemma.transliteration}</p>}
+  {lemma.primary_meaning && <p><strong>Primary meaning:</strong> {lemma.primary_meaning}</p>}
+
+  <h2>Meanings</h2>
+  <ul>
+    {meanings.map(m => <li>{m.value}</li>)}
+  </ul>
+
+  <h2>Variants</h2>
+  <ul>
+    {variants.map(v => <li>{v.original}</li>)}
+  </ul>
+
+  <h2>Quotations</h2>
+  <ul>
+    {quotations.map(q => <li>{q.original} — {q.source}</li>)}
+  </ul>
+
+  <h2>External links</h2>
+  <ul>
+    {external.map(e => <li><a href={e.url}>{e.display}</a></li>)}
+  </ul>
+
+  <h2>Cross-links</h2>
+  <ul>
+    {cross.map(c => (
+      <li><a href={`/lemma/${c.link}`}>Entry {c.link}</a></li>
+    ))}
+  </ul>
+</Layout>
