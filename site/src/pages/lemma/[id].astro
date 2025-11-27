@@ -47,8 +47,15 @@ const cross = data.crossLinks.filter(c => c.lemma_id === id);
 
   <h2>Cross-links</h2>
   <ul>
-    {cross.map(c => (
-      <li><a href={`/lemma/${c.link}`}>Entry {c.link}</a></li>
-    ))}
+    {cross.map(c => {
+    const target = data.lemmata.find(l => l.lemma_id === c.link);
+    return (
+    <li>
+      <a href={`/lemma/${c.link}`}>
+        {target ? target.original : `Entry ${c.link}`}
+      </a>
+    </li>
+    );
+    })}
   </ul>
 </Layout>
