@@ -54,12 +54,15 @@ const crossLinks = data.crossLinks
     <ul>
       {m.quotations.map(q => (
       <li>
-        <div><strong>Original:</strong> {q.original}</div>
-        <div><strong>Translation:</strong> {q.translation}</div>
-        <div><strong>Source:</strong> {q.source}</div>
-        <div><strong>Line:</strong> {q.line}</div>
-        <div><strong>Page:</strong> {q.page}</div>
-        <div><strong>Comment:</strong> {q.comment}</div>
+        <blockquote>
+          <p>〈{q.original}〉</p>
+          <p><i>{q.transliteration}</i></p>
+          <p>‘{q.translation}’</p>
+        </blockquote>
+        <div><strong>Source:</strong> {q.source}<br/>
+        <strong>Line:</strong> {q.line}<br/>
+        <strong>Page:</strong> {q.page}<br/>
+        <strong>Comment:</strong> {q.comment}</div>
       </li>
       ))}
     </ul>
