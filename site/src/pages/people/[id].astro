@@ -4,23 +4,37 @@ import LemmaLink from '../../components/LemmaLink';
 import data from '../../../public/data.json';
 
 export async function getStaticPaths() {
-  const editors = Array.from(new Set(data.lemmata.map(l => l.editor).filter(Boolean)));
-  return editors.map(name => ({ params: { id: encodeURIComponent(name) } }));
+  return data.users.map(user => ({ params: { id: user.id.toString() } }));
 }
 
-const name = decodeURIComponent(Astro.params.id);
-const entries = data.lemmata.filter(l => l.editor === name);
+const userId = Astro.params.id;
+const user = data.users.find(u => u.id.toString() === userId);
+const entries = user
+  ? data.lemmata.filter(l => l.editor.split(", ").includes(user.username))
+  : [];
 ---
 
-<Layout title={`Entries by ${name}`}>
-  <h1>{name}</h1>
-  {entries.length === 0 && <p>No entries found.</p>}
+<Layout title={`Entries by ${user ? `${user.first_name} ${user.last_name}` : 'Unknown'}`}>
+  {user ? (
+    <>
+      <h1>{user.first_name} {user.last_name}</h1>
+      <p>{user.email && <><strong>Email:</strong> <a href={`mailto:${user.email}`}>{user.email}</a></>}</p>
+      <p>{user.website && <><strong>Website:</strong> <a href={user.website} target="_blank" rel="noopener noreferrer">{user.website}</a></>}</p>
 
-  <ul>
-    {entries.map(l => (
-      <li>
-        <LemmaLink lemma={l} />
-      </li>
-    ))}
-  </ul>
+      <h2>Edited Entries</h2>
+      {entries.length === 0 ? (
+        <p>No entries found.</p>
+      ) : (
+        <ul>
+          {entries.map(l => (
+            <li>
+              <LemmaLink client:only="react" lemma={l} />
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
+  ) : (
+    <p>User not found.</p>
+  )}
 </Layout>

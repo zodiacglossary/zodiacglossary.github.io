@@ -23,6 +23,8 @@ async function main() {
       l.language_id,
       lang.label AS language_label,
       lang.value AS language_value,
+      loan_lang.label AS loan_language_label,
+      loan_lang.value AS loan_language_value,
       l.primary_meaning,
       l.editor,
       l.literal_translation2,
@@ -30,11 +32,12 @@ async function main() {
       l.comment,
       l.checked,
       l.attention,
-      l.loan_language_id,
       l.loan_type
     FROM lemmata l
     LEFT JOIN partsofspeech pos ON pos.partofspeech_id = l.partofspeech_id
     LEFT JOIN languages lang ON lang.language_id = l.language_id
+    LEFT JOIN languages loan_lang ON loan_lang.language_id = l.loan_language_id
+    WHERE l.published
     ORDER BY l.lemma_id ASC;
   `)).rows;
 
@@ -45,6 +48,7 @@ async function main() {
   const quotations = (await client.query(`SELECT * FROM quotations ORDER BY quotation_id;`)).rows;
   const externalLinks = (await client.query(`SELECT * FROM external_links ORDER BY external_link_id;`)).rows;
   const crossLinks = (await client.query(`SELECT * FROM cross_links ORDER BY cross_link_id;`)).rows;
+  const users = (await client.query(`SELECT id, first_name, last_name, email, username, website FROM users WHERE active ORDER BY id;`)).rows;
 
   // --- Build object -------------------------------------------
   const data = {
@@ -55,6 +59,7 @@ async function main() {
     quotations,
     externalLinks,
     crossLinks,
+    users,
     languages: (await client.query(`SELECT * FROM languages ORDER BY language_id;`)).rows,
     partsofspeech: (await client.query(`SELECT * FROM partsofspeech ORDER BY partofspeech_id;`)).rows,
   };

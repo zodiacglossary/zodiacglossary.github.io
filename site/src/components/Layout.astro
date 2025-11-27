@@ -8,6 +8,8 @@ import "../styles/global.css";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
     <title>{title}</title>
   </head>
   <body>
@@ -29,10 +31,18 @@ import "../styles/global.css";
           <a href="/people">People</a>
         </div>
         <Search client:load />
+        <div class="sidebar-logos">
+        <a href="https://www.geschkult.fu-berlin.de/e/zodiac/index.html"><img src="/zodiac_logo.svg" alt="logo of the ZODIAC project"/></a>
+        <a href="https://www.fu-berlin.de/"><img src="/fu_logo.svg" alt="old siglum of Freie Universität Berlin"/></a>
+        <a href="https://erc.europa.eu/homepage"><img src="/erc_logo.svg" alt="logo of the European Research Council (ERC)"/></a>
+        </div>
       </aside>
 
       <main class="content">
         <slot />
+      <footer class="footer">
+        <p>&copy; {new Date().getFullYear()} Glossary Project</p>
+      </footer>
       </main>
     </div>
   </body>

@@ -20,6 +20,7 @@
   background: var(--box-bg);
   padding: 0.5rem 1rem;
   border-radius: 6px;
+  border: 1px solid var(--box-border);
 }
 
 .variants ul {
@@ -129,7 +130,7 @@ blockquote p+p {
 
 /* External links */
 .external-links,
-.cross-links {
+.cross-links, .citation-display {
   margin-top: 1rem;
   border: 1px solid var(--box-border);
   background: var(--box-bg);

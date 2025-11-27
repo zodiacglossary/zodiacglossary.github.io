@@ -2,6 +2,7 @@
 import Layout from "../../components/Layout.astro";
 import LemmaLink from "../../components/LemmaLink";
 import data from "../../../public/data.json";
+import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
   // data.lemmata is assumed to be an array of lemma objects
@@ -23,6 +24,7 @@ const meaningsWithQuotes = meanings.map(m => ({
 const variants = data.variants.filter(v => v.lemma_id === id);
 const quotations = data.quotations.filter(q => q.lemma_id === id);
 const external = data.externalLinks.filter(e => e.lemma_id === id);
+const lemmaEditors = data.users.filter(u => lemma.editor.split(", ").includes(u.username));
 const crossLinks = data.crossLinks
   .filter(c => c.lemma_id === lemma.lemma_id || c.link === lemma.lemma_id)
   .map(c => {
@@ -40,6 +42,7 @@ const crossLinks = data.crossLinks
           {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
         </h1>
         <p>{lemma.language_label} {lemma.partofspeech_value}</p>
+        {lemma.loan_language_value && lemma.loan_language_value !== "none" && <p>{lemma.loan_type === "none" || lemma.loan_type === "loan" ? "loaned" : lemma.loan_type === "quote" ? "quoted" : lemma.loan_type === "calque" ? "calqued" : null} from {lemma.loan_language_value}</p>}
         {lemma.last_edit && (
         <p class="last-edit">
         Last edited: {new Date(lemma.last_edit).toLocaleString()}
@@ -122,4 +125,18 @@ const crossLinks = data.crossLinks
       </ul>
     </section>
     }
+
+    <section class="citation-display">
+      <h2>Cite this entry</h2>
+      <CitationDisplay entry={{
+       id: "zodiac"+lemma.lemma_id,
+       type: "webpage",
+       author: lemmaEditors.map(u => ({given: u.first_name, family: u.last_name})),
+       title: (lemma.original || lemma.transliteration) + " (Lemma #" + lemma.lemma_id + ")",
+       "container-title": "The ZODIAC Glossary: A Cross-Cultural Glossary of Ancient Astral Science",
+       issued: lemma.last_edit ? {"date-parts": [new Date(lemma.last_edit).getFullYear()]} : null,
+       URL: `${Astro.site}${Astro.url.pathname}`,
+       accessed: {"date-parts": [new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDay()]}
+       }} />
+    </section>
 </Layout>

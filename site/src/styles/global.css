@@ -1,5 +1,6 @@
 @import "./typography.css";
 @import "./search.css";
+@import "./citation.css";
 @import "./lemma.css";
 
 /* Reset some basics */
@@ -45,6 +46,51 @@ a:hover {
   text-decoration: underline;
 }
 
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--box-border);
+  background: var(--box-bg);
+  color: var(--text-color);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+button:hover,
+input:hover,
+select:hover,
+textarea:hover {
+  background: var(--bg-color);
+  border-color: var(--link-color);
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--link-color);
+  outline-offset: 2px;
+}
+
+button {
+  cursor: pointer;
+  background: var(--link-color);
+  color: var(--bg-color);
+  border-color: var(--box-border);
+  font-weight: 500;
+}
+
+button:hover {
+  background: color-mix(in srgb, var(--link-color) 85%, black);
+}
+
+button:active {
+  background: color-mix(in srgb, var(--link-color) 75%, black);
+}
+
 /* Layout */
 .layout {
   display: flex;
@@ -78,6 +124,10 @@ main {
   background: var(--box-bg);
   padding: 1em;
   overflow-y: auto;
+  position: sticky;
+  top: 0;
+  align-self: flex-start; /* ensures it respects flex layout */
+  height: calc(100vh - 0px); /* optional: ensure full viewport height */
 }
 
 .sidebar-links {
@@ -107,8 +157,30 @@ main {
   }
 
   .sidebar {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 
+
+.sidebar-logos {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-around; /* even spacing */
+  align-items: center;            /* vertical centering */
+  gap: 1rem;                      /* optional extra spacing */
+}
+
+.sidebar-logos img {
+  height: 40px;       /* scale all logos uniformly */
+  width: auto;        /* preserve aspect ratio */
+  object-fit: contain;
+  opacity: 0.9;       /* optional: soften tone */
+}
+
+@media (max-width: 500px) {
+  .sidebar-logos img {
+    height: 30px;  /* shrink on small screens */
+  }
+}

@@ -1,0 +1,60 @@
+---
+import {Cite} from "@citation-js/core";
+import "@citation-js/plugin-bibtex";
+import "@citation-js/plugin-csl";
+
+
+const { entry } = Astro.props;
+const cite = new Cite(entry);
+
+const apa = cite.format("bibliography", {
+  template: "apa",
+  lang: "en",
+  format: "html",
+});
+
+const chicago = cite.format("bibliography", {
+  template: "chicago-author-date",
+  lang: "en",
+  format: "html",
+});
+
+const mla = cite.format("bibliography", {
+  template: "modern-language-association",
+  lang: "en",
+  format: "html",
+});
+
+const harvard = cite.format("bibliography", {
+  template: "harvard1",
+  lang: "en",
+  format: "html",
+});
+
+const bibtex = cite.format("bibtex");
+---
+
+<details>
+  <summary>APA (7th)</summary>
+  <div set:html={apa}></div>
+</details>
+
+<details>
+  <summary>Chicago (Author-Date)</summary>
+  <div set:html={chicago}></div>
+</details>
+
+<details>
+  <summary>MLA (9th)</summary>
+  <div set:html={mla}></div>
+</details>
+
+<details>
+  <summary>Harvard</summary>
+  <div set:html={harvard}></div>
+</details>
+
+<details>
+  <summary>BibTeX</summary>
+  <pre>{bibtex}</pre>
+</details>
