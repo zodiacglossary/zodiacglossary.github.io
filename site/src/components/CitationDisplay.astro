@@ -1,8 +1,11 @@
 ---
-import {Cite} from "@citation-js/core";
+import {Cite, plugins} from "@citation-js/core";
 import "@citation-js/plugin-bibtex";
 import "@citation-js/plugin-csl";
 
+const config = plugins.config.get("@bibtex");
+config.format.asciiOnly = false;
+config.format.useIdAsLabel = true;
 
 const { entry } = Astro.props;
 const cite = new Cite(entry);
