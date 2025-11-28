@@ -63,6 +63,8 @@ export default function Search() {
         className="search-input"
       />
 
+      <h3>Languages</h3>
+
       <div className="search-controls">
         <button onClick={selectAll}>Select All</button>
         <button onClick={deselectAll}>Deselect All</button>
@@ -80,6 +82,8 @@ export default function Search() {
           </label>
         ))}
       </div>
+
+      <h3>Sort By</h3>
 
       <select
         value={sortBy}
