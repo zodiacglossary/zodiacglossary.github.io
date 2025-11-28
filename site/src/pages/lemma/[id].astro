@@ -41,8 +41,11 @@ const crossLinks = data.crossLinks
           {(lemma.original && lemma.transliteration) ? <br/> : null}
           {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
         </h1>
-        <p>{lemma.language_label} {lemma.partofspeech_value}</p>
-        {lemma.loan_language_value && lemma.loan_language_value !== "none" && <p>{lemma.loan_type === "none" || lemma.loan_type === "loan" ? "loaned" : lemma.loan_type === "quote" ? "quoted" : lemma.loan_type === "calque" ? "calqued" : null} from {lemma.loan_language_value}</p>}
+        <p>{lemma.language_label} {lemma.partofspeech_value} {lemma.loan_language_value && lemma.loan_language_value !== "none" && <>
+            <br/>
+           {lemma.loan_type === "none" || lemma.loan_type === "loan" ? "loaned" : lemma.loan_type === "quote" ? "quoted" : lemma.loan_type === "calque" ? "calqued" : null} from {lemma.loan_language_label}
+          </>
+        }</p>
         {lemma.last_edit && (
         <p class="last-edit">
         Last edited: {new Date(lemma.last_edit).toLocaleString()}
