@@ -34,7 +34,7 @@ const crossLinks = data.crossLinks
   });
 ---
 
-<Layout title={lemma.original}>
+<Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"}>
     <div class="lemma-header-container">
       <header class="lemma-header">
         <h1>{lemma.original}
