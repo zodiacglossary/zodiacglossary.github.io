@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^4.3.12",
     "@astrojs/react": "^4.4.2",
     "@citation-js/core": "^0.7.21",
     "@citation-js/plugin-bibtex": "^0.7.21",
