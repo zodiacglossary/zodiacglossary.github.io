@@ -1,5 +1,5 @@
 ---
-const { title = "Glossary" } = Astro.props;
+const { title = "Glossary", search = true } = Astro.props;
 import Search from '../components/Search';
 import "../styles/global.css";
 ---
@@ -31,7 +31,9 @@ import "../styles/global.css";
           <a href="/people">People</a>
           <a href="/search">Advanced Search</a>
         </div>
+        {search &&
         <Search client:load />
+        }
         <div class="sidebar-logos">
         <a href="https://www.geschkult.fu-berlin.de/e/zodiac/index.html"><img src="/zodiac_logo.svg" alt="logo of the ZODIAC project"/></a>
         <a href="https://www.fu-berlin.de/"><img src="/fu_logo.svg" alt="old siglum of Freie Universität Berlin"/></a>
