@@ -29,7 +29,7 @@ body {
     'Noto Sans Devanagari',
     'Noto Sans',
     sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1,
@@ -40,11 +40,12 @@ h5,
 h6 {
   font-variant: small-caps;
   font-weight: 400;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--text-color-secondary);
-  padding-top: 0.5rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 h1 {
@@ -55,3 +56,9 @@ h1 {
 ul {
   padding-left: 20px;
 }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
