@@ -5,7 +5,6 @@
   border: 1px solid var(--border-color, #ccc);
   border-radius: 6px;
   background-color: var(--bg-color, #f9f9f9);
-  transition: background-color 0.3s, border-color 0.3s;
 }
 
 /* Hover effect on the closed summary */
@@ -24,21 +23,6 @@
   justify-content: space-between;
   align-items: center;
   user-select: none;
-}
-
-/* Add a little arrow that rotates */
-.citation-display summary::marker {
-  display: none; /* hide default marker */
-}
-
-.citation-display summary::after {
-  content: "▸"; /* right-pointing arrow */
-  margin-left: 0.5rem;
-  transition: transform 0.2s ease;
-}
-
-.citation-display details[open] summary::after {
-  transform: rotate(90deg); /* arrow points down when open */
 }
 
 /* Inner content */
