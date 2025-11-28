@@ -47,7 +47,15 @@ async function main() {
   const variants = (await client.query(`SELECT * FROM variants ORDER BY variant_id;`)).rows;
   const quotations = (await client.query(`SELECT * FROM quotations ORDER BY quotation_id;`)).rows;
   const externalLinks = (await client.query(`SELECT * FROM external_links ORDER BY external_link_id;`)).rows;
-  const crossLinks = (await client.query(`SELECT * FROM cross_links ORDER BY cross_link_id;`)).rows;
+  const crossLinks = (await client.query(`
+    SELECT cl.*
+    FROM cross_links cl
+    JOIN lemmata l1 ON cl.lemma_id = l1.lemma_id
+    JOIN lemmata l2 ON cl.link = l2.lemma_id
+    WHERE l1.published = TRUE
+      AND l2.published = TRUE
+    ORDER BY cl.cross_link_id;
+  `)).rows;
   const users = (await client.query(`SELECT id, first_name, last_name, email, username, website FROM users WHERE active ORDER BY id;`)).rows;
 
   // --- Build object -------------------------------------------
