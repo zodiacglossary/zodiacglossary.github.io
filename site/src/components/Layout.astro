@@ -1,5 +1,5 @@
 ---
-const { title = "Glossary", search = true } = Astro.props;
+const { title = "Glossary", search = false } = Astro.props;
 import Search from '../components/Search';
 import "../styles/global.css";
 ---
@@ -16,7 +16,6 @@ import "../styles/global.css";
     <div class="layout">
       <!-- Top nav bar for mobile -->
       <nav class="top-nav">
-        <div class="logo">Glossary</div>
         <div class="nav-links">
           <a href="/">Home</a>
           <a href="/about">About</a>
@@ -25,6 +24,7 @@ import "../styles/global.css";
       </nav>
 
       <aside class="sidebar">
+        <div class="logo">ZODIAC</div>
         <div class="sidebar-links">
           <a href="/">Home</a>
           <a href="/about">About</a>
@@ -43,9 +43,6 @@ import "../styles/global.css";
 
       <main class="content">
         <slot />
-      <footer class="footer">
-        <p>&copy; {new Date().getFullYear()} Glossary Project</p>
-      </footer>
       </main>
     </div>
   </body>
