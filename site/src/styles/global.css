@@ -162,7 +162,14 @@ main {
   }
 }
 
-
+footer.footer {
+  text-align: center;
+  padding: 1em;
+  background: var(--header-bg);
+  color: var(--text-color-secondary);
+  font-size: 0.9rem;
+  margin-top: auto;
+}
 
 .sidebar-logos {
   display: flex;
