@@ -124,6 +124,9 @@ export default function AdvancedSearch() {
   ]);
   const [results, setResults] = useState<any[]>([]);
 
+  const [includeSpellingVariants, setIncludeSpellingVariants] = useState(true);
+  const [includeQuotations, setIncludeQuotations] = useState(true);
+
   // Load JSON
   useEffect(() => {
     fetch("/data.json")
@@ -157,6 +160,28 @@ export default function AdvancedSearch() {
     const r = [...sortRows];
     r[i].type = type;
     setSortRows(r);
+  };
+
+  const generatePDF = async () => {
+    const body = {
+      lemmaIds: results.map((r) => r.lemma_id),
+      includeSpellingVariants,
+      includeQuotations,
+      searchTerms: [],
+      sortingCriteria: [],
+    };
+
+    const res = await fetch("https://zodiac-glossary-pdf.fly.dev/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    });
+
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    window.open(url, "_blank");
   };
 
   // Perform filtering whenever rows/data change
@@ -418,6 +443,34 @@ export default function AdvancedSearch() {
               + Add Sort Criterion
             </button>
           </form>
+        </div>
+      </div>
+      <hr />
+      <div class="grid">
+        <button onClick={generatePDF} class="secondary">
+          Generate PDF
+        </button>
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              class="secondary"
+              checked={includeSpellingVariants}
+              onChange={(e) => setIncludeSpellingVariants(e.target.checked)}
+            />{" "}
+            Include Spelling Variants
+          </label>
+        </div>
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              class="secondary"
+              checked={includeQuotations}
+              onChange={(e) => setIncludeQuotations(e.target.checked)}
+            />{" "}
+            Include Quotations
+          </label>
         </div>
       </div>
       <hr />
