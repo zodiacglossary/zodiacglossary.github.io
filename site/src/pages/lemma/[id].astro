@@ -167,7 +167,7 @@ const crossLinks = data.crossLinks
        title: (lemma.original || lemma.transliteration) + " (Lemma #" + lemma.lemma_id + ")",
        "container-title": "The ZODIAC Glossary: A Cross-Cultural Glossary of Ancient Astral Science",
        issued: lemma.last_edit ? {"date-parts": [new Date(lemma.last_edit).getFullYear()]} : null,
-       URL: `${Astro.site}${Astro.url.pathname}`.replace("//","/"),
+       URL: `${Astro.site}${Astro.url.pathname.slice(1)}`,
        accessed: {"date-parts": [new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDay()]}
        }} />
     </article>
