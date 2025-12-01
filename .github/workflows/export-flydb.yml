@@ -1,0 +1,84 @@
+name: Export Fly.io DB
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 3 * * 1"   # every Monday at 03:00 UTC (change as needed)
+
+jobs:
+  export-db:
+    runs-on: ubuntu-latest
+
+    env:
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      FLY_APP_NAME: zodiac-db
+      LOCAL_PROXY_PORT: 5432
+      EXPORT_OUTPUT_PATH: export/data.json
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # prevents read-only default being used for PR
+      - name: Install Fly CLI
+        run: curl -L https://fly.io/install.sh | sh
+
+      - name: Add Fly CLI to PATH
+        run: |
+          export FLYCTL_INSTALL="$HOME/.fly"
+          echo "$FLYCTL_INSTALL/bin" >> $GITHUB_PATH
+
+      - name: Start Fly Postgres Proxy
+        run: |
+          fly proxy $LOCAL_PROXY_PORT:$LOCAL_PROXY_PORT -a "$FLY_APP_NAME" &
+          echo $! > proxy_pid.txt
+          sleep 5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Prepare and run export
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          PGHOST: localhost
+          PGPORT: ${{ env.LOCAL_PROXY_PORT }}
+        run: |
+          cd export
+          npm install
+          node export.js
+
+      - name: Stop Fly Proxy
+        if: always()
+        run: |
+          kill $(cat proxy_pid.txt) || true
+
+      - name: Commit export changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          # Stage only export output
+          git add $EXPORT_OUTPUT_PATH
+
+          # Detect if there is anything to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Weekly DB export"
+
+
+      - name: Set branch name
+        id: vars
+        run: echo "BRANCH_NAME=export/update-$(date +'%Y%m%d')" >> $GITHUB_ENV
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Weekly DB export"
+          branch: ${{ env.BRANCH_NAME }}
+          title: "Weekly DB export"
+          body: "This PR contains the latest automated DB export."
+          labels: export
+          add-paths: ${{ env.EXPORT_OUTPUT_PATH }}
