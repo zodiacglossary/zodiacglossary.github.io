@@ -250,15 +250,17 @@ export default function AdvancedSearch() {
     setResults(filtered);
   }, [searchRows, data, sortRows]);
 
-  if (!data) return <p>Loading…</p>;
+  if (!data) return <p aria-busy="true">Loading…</p>;
 
   return (
-    <div className="advanced-search">
-      <h2>Search criteria</h2>
+    <>
+    <div class="grid">
+    <div>
+      <h3>Search criteria</h3>
 
-      <div className="search-rows">
+      <form className="search-rows">
         {searchRows.map((row, i) => (
-          <div key={i} className="search-row">
+          <fieldset key={i} role="group">
             {/* Field selector */}
             <select
               value={row.field}
@@ -315,36 +317,42 @@ export default function AdvancedSearch() {
               />
             )}
 
-            <button onClick={() => removeSearchRow(i)}>✕</button>
-          </div>
+            <button class="secondary" onClick={() => removeSearchRow(i)}>✕</button>
+          </fieldset>
         ))}
-      </div>
+      </form>
 
-      <button onClick={addSearchRow} className="add-row">
+      <button onClick={addSearchRow} class="secondary">
         + Add Search Condition
       </button>
+      </div>
 
-      <h2>Sorting</h2>
-      <div className="sort-rows">
+      <div>
+      <h3>Sorting</h3>
+      <form className="sort-rows">
         {sortRows.map((row, i) => (
-          <div key={i} className="sort-row">
+          <fieldset role="group" key={i}>
             <select value={row.type} onChange={(e) => updateSortType(i, e.target.value as SortType)}>
               {Object.keys(sortFieldMap).map(k => <option key={k} value={k}>{k}</option>)}
             </select>
-            <button onClick={() => removeSortRow(i)}>✕</button>
-          </div>
+            <button class="secondary" onClick={() => removeSortRow(i)}>✕</button>
+          </fieldset>
         ))}
-        <button onClick={addSortRow}>+ Add Sort Criterion</button>
+        <button class="secondary" onClick={addSortRow}>+ Add Sort Criterion</button>
+      </form>
       </div>
 
-      <h3>Results ({results.length})</h3>
-
-      <ul className="results-list">
+    </div>
+    <hr/>
+      <article>
+      <header>Results ({results.length})</header>
+      <ul className="search-results">
         {results.map((l: any) => (
           <li key={l.lemma_id}><LemmaLink lemma={l}/></li>
 
         ))}
       </ul>
-    </div>
+      </article>
+      </>
   );
 }

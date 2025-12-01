@@ -1,0 +1,79 @@
+/* ----------------------------------------------------
+DARK THEME — Starlit Deepspace
+Background: dark space-blue
+Accents: starlight silver, cool astral blues
+----------------------------------------------------- */
+
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]),
+  :host:not([data-theme]) {
+    color-scheme: dark;
+
+    /* Base */
+    --pico-background-color: #0a1120; /* deep cosmic blue */
+    --pico-color: #cdd3e2;           /* soft starlight */
+    --pico-text-selection-color: rgba(120, 160, 255, 0.3);
+
+    /* Muted */
+    --pico-muted-color: #8f97a8;
+    --pico-muted-border-color: #141c2e;
+
+    /* Primary — astral glow blue */
+    --pico-primary: #6fb6ff;
+    --pico-primary-background: #2f6ba8;
+    --pico-primary-border: #2f6ba8;
+    --pico-primary-hover: #9bcdff;
+    --pico-primary-hover-background: #3b7ec7;
+    --pico-primary-focus: rgba(111, 182, 255, 0.55);
+    --pico-primary-underline: rgba(111, 182, 255, 0.55);
+    --pico-primary-inverse: #ffffff;
+
+    /* Secondary — moonlit brass */
+    --pico-secondary: #bda679;
+    --pico-secondary-background: #8d6f37;
+    --pico-secondary-border: #8d6f37;
+    --pico-secondary-hover: #d4c093;
+    --pico-secondary-hover-background: #a48343;
+    --pico-secondary-focus: rgba(189, 166, 121, 0.35);
+    --pico-secondary-inverse: #ffffff;
+
+    /* Contrast — starlight white */
+    --pico-contrast: #f4f7fb;
+    --pico-contrast-background: #ffffff;
+    --pico-contrast-border: #ffffff;
+    --pico-contrast-hover: #ffffff;
+    --pico-contrast-inverse: #000000;
+
+    /* Typography */
+    --pico-h1-color: #f2f5fc;
+    --pico-h2-color: #e2e7f2;
+    --pico-h3-color: #cdd3e2;
+    --pico-h4-color: #b4bacc;
+    --pico-h5-color: #9ca2b4;
+    --pico-h6-color: #8f97a8;
+
+    /* Marks & semantic */
+    --pico-mark-background-color: #1c2f48;
+    --pico-mark-color: #ffffff;
+    --pico-ins-color: #6ad0bf;
+    --pico-del-color: #d7837d;
+
+    /* Components */
+    --pico-card-background-color: #0d1628;
+    --pico-card-border-color: #0d1628;
+    --pico-dropdown-background-color: #0d1628;
+
+    /* Tables & code */
+    --pico-table-border-color: #141c2e;
+    --pico-table-row-stripped-background-color: rgba(189, 166, 121, 0.07);
+
+    --pico-code-background-color: #141c2e;
+    --pico-code-color: #a3adc2;
+
+    /* Forms */
+    --pico-form-element-background-color: #141c2e;
+    --pico-form-element-border-color: #22314a;
+    --pico-form-element-placeholder-color: #8f97a8;
+    --pico-form-element-color: #e2e7f2;
+  }
+}

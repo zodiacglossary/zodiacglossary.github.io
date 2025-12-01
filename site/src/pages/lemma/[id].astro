@@ -6,7 +6,8 @@ import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
   // data.lemmata is assumed to be an array of lemma objects
-  return data.lemmata.map((lemma) => ({
+  const prefiltered = undefined;
+  return data.lemmata.filter(l => prefiltered ? prefiltered.includes(l.lemma_id) : true).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
   }));
 }
@@ -34,9 +35,9 @@ const crossLinks = data.crossLinks
   });
 ---
 
-<Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"} search={true}>
-    <div class="lemma-header-container">
-      <header class="lemma-header">
+<Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"}>
+  <div class="grid">
+  <div>
         <h1>{lemma.original}
           {(lemma.original && lemma.transliteration) ? <br/> : null}
           {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
@@ -47,90 +48,118 @@ const crossLinks = data.crossLinks
           </>
         }</p>
         {lemma.last_edit && (
-        <p class="last-edit">
+        <small class="last-edited">
         Last edited: {new Date(lemma.last_edit).toLocaleString()}
-        </p>
+        </small>
         )}
-      </header>
+      </div>
 
-      <aside class="variants">
-        {lemma.primary_meaning &&
-        (<h2>Primary meaning</h2>
-        <span class="primary-meaning">{lemma.primary_meaning}</span>)
-        }
-        {lemma.translation &&
-        (<h2>Literal translation</h2>
-        <span class="translation">{lemma.translation}</span>
-        )}
-        {variants.length > 0 &&
-        (<h2>Variants</h2>
-        <ul>
-          {variants.map(v => <li>{v.original} {v.transliteration && <span class="transliteration">{v.transliteration}</span>} {v.comment && <span class="comment">{v.comment}</span>}</li>)}
-        </ul>)}
-      </aside>
+      <div>
+        <table>
+            <tbody>
+             {lemma.primary_meaning && <tr>
+              <th scope="row">Primary meaning</th>
+              <td>{lemma.primary_meaning}</td>
+              </tr>}
+             {lemma.translation && <tr>
+              <th scope="row">Literal translation</th>
+              <td>{lemma.translation}</td>
+              </tr>}
+             {variants.length > 0 && <tr>
+              <th scope="row">Variants</th>
+              <td>
+                  {variants.map(v => <div>{v.original} {v.transliteration && <span class="transliteration">{v.transliteration}</span>} {v.comment && <span class="comment">{v.comment}</span>}</div>)}
+              </td>
+             </tr>}
+              {lemma.editor && (
+              <tr>
+                <th scope="row">Edited by</th>
+                <td>
+                  {lemmaEditors.map((u, index) => (
+                  <div><a href={`/people/${u.id}`} key={u.id}>
+                      {u.first_name} {u.last_name}
+                    </a></div>
+                     ))}
+                </td>
+              </tr>
+                    )
+                  }
+            </tbody>
+        </table>
+      </div>
+    </div>
     </div>
 
+    <hr/>
+
+        <div class="grid">
     <section class="meanings">
       {meaningsWithQuotes.map(m => (
-      <article class="meaning">
-        <div class="meaning-string">{m.value}
-          <span class="comment">{m.comment}</span>
-
+      <details open class="meaning">
+        <summary>
+        {m.value}
         {m.categories.length > 0 && (
         <span class="categories">{m.categories.join(", ")}</span>
-        )}</div>
+        )}
+        </summary>
 
-        <ul class="quotations">
+
+          <div>
+            {m.comment && <p class="comment">{m.comment}</p>}
           {m.quotations.map(q => (
-          <li class="quotation">
             <blockquote>
-              <div class="quotation-original">
+              <div class="quotation-text">
               {q.original && <p>{q.original}</p>}
               {q.transliteration && <p class="transliteration">{q.transliteration}</p>}
               </div>
               {q.translation && <p class="quotation-translation">‘{q.translation}’</p>}
-            </blockquote>
-            <div class="quote-meta">
-              {q.source && <div><strong>Source:</strong> {q.source}</div>}
-              {q.line && <div><strong>Line:</strong> {q.line}</div>}
+            <footer>
+              <cite>
+              <div>
+                  — {q.source} {q.line}
+              </div>
+              <p>
               {q.genre && <div><strong>Genre:</strong> {q.genre}</div>}
               {q.provenance && <div><strong>Provenance:</strong> {q.provenance}</div>}
               {q.date && <div><strong>Date:</strong> {q.date}</div>}
-              {q.publication && <div><strong>Publication:</strong> {q.publication}</div>}
-              {q.page && <div><strong>Page:</strong> {q.page}</div>}
-              {q.comment && <div><strong>Comment:</strong> {q.comment}</div>}
-            </div>
-          </li>
+              </p>
+              <p><small>
+              {q.publication}
+              {q.page}
+              </small></p>
+              {q.comment && <p>{q.comment}</p>}
+              </cite>
+            </footer>
+            </blockquote>
           ))}
-        </ul>
-      </article>
+      </details>
+        <hr/>
       ))}
     </section>
 
+    <div>
     {crossLinks.length > 0 &&
-    <section class="cross-links">
-      <h2>See also</h2>
-      <ul>
-        {crossLinks.map(c => (
-        <li>
-          <LemmaLink lemma={c.target} />
-        </li>
-        ))}
-      </ul>
-    </section>
+    <article>
+      <header>See also</header>
+      {crossLinks.map(c => (
+      <p>
+        <LemmaLink lemma={c.target} />
+      </p>
+      ))}
+    </article>
     }
 
     {external.length > 0 &&
-    <section class="external-links">
-      <h2>External links</h2>
+    <article>
+      <header>External links</header>
       <ul>
         {external.map(e => <li><a href={e.url}>{e.display}</a></li>)}
       </ul>
-    </section>
+    </article>
     }
 
-    <section class="citation-display">
-      <h2>Cite this entry</h2>
+    <article>
+      <header>Cite this entry</header>
       <CitationDisplay entry={{
        id: "zodiac"+lemma.lemma_id,
        type: "webpage",
@@ -141,5 +170,6 @@ const crossLinks = data.crossLinks
        URL: `${Astro.site}${Astro.url.pathname}`,
        accessed: {"date-parts": [new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDay()]}
        }} />
-    </section>
+    </article>
+    </div>
 </Layout>

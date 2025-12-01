@@ -1,0 +1,79 @@
+/* ----------------------------------------------------
+   LIGHT THEME — Parchment Aurora
+   Background: parchment-yellow
+   Accents: warm ink, brass, astral blue
+----------------------------------------------------- */
+
+[data-theme="light"],
+:root:not([data-theme="dark"]),
+:host(:not([data-theme="dark"])) {
+  color-scheme: light;
+
+  /* Base */
+  --pico-background-color: #faf3d5; /* light parchment yellow */
+  --pico-color: #3c2f24;            /* warm ink */
+  --pico-text-selection-color: rgba(120, 160, 220, 0.25);
+
+  /* Muted */
+  --pico-muted-color: #7a6b5c;
+  --pico-muted-border-color: #e6dcc0;
+
+  /* Primary — astral blue */
+  --pico-primary: #2f6ba8;
+  --pico-primary-background: #2f6ba8;
+  --pico-primary-border: #2f6ba8;
+  --pico-primary-hover: #26578a;
+  --pico-primary-hover-background: #26578a;
+  --pico-primary-focus: rgba(47, 107, 168, 0.45);
+  --pico-primary-underline: rgba(47, 107, 168, 0.45);
+  --pico-primary-inverse: #ffffff;
+
+  /* Secondary — aged brass */
+  --pico-secondary: #a48343;
+  --pico-secondary-background: #8d6f37;
+  --pico-secondary-border: #8d6f37;
+  --pico-secondary-hover: #7a5f30;
+  --pico-secondary-hover-background: #7a5f30;
+  --pico-secondary-focus: rgba(164, 131, 67, 0.35);
+  --pico-secondary-inverse: #ffffff;
+
+  /* Contrast — dark ink */
+  --pico-contrast: #2a231d;
+  --pico-contrast-background: #2a231d;
+  --pico-contrast-border: #2a231d;
+  --pico-contrast-hover: #000;
+  --pico-contrast-hover-background: #000;
+  --pico-contrast-inverse: #ffffff;
+
+  /* Typography */
+  --pico-h1-color: #302620;
+  --pico-h2-color: #3c2f24;
+  --pico-h3-color: #4b3d32;
+  --pico-h4-color: #5a4b40;
+  --pico-h5-color: #6a5b50;
+  --pico-h6-color: #7a6b5c;
+
+  /* Marks & semantic */
+  --pico-mark-background-color: #fdeeb7;
+  --pico-mark-color: #3c2f24;
+  --pico-ins-color: #3d816e;
+  --pico-del-color: #a8564d;
+
+  /* Components */
+  --pico-card-background-color: #faf3d5;
+  --pico-card-border-color: #e8dfc8;
+  --pico-dropdown-background-color: #fffbe9;
+
+  /* Tables & code */
+  --pico-table-border-color: #e6dcc0;
+  --pico-table-row-stripped-background-color: rgba(164, 131, 67, 0.06);
+
+  --pico-code-background-color: #f4e8c0;
+  --pico-code-color: #6a5b50;
+
+  /* Forms */
+  --pico-form-element-background-color: #fffbe9;
+  --pico-form-element-border-color: #e2d7b7;
+  --pico-form-element-placeholder-color: #9d8b7a;
+  --pico-form-element-color: #2c241f;
+}

@@ -27,12 +27,12 @@ export default function Search() {
       (!query || [l.original, l.transliteration, l.primary_meaning].some(f =>
                                                                          f?.toLowerCase().includes(query.toLowerCase())
                                                                         ))
-    );
+    ).toSorted((a, b) => (a.transliteration || a.original).localeCompare(b.transliteration || b.original));
 
     setResults(filtered);
   }, [query, data]);
 
-  if (!data) return <p>Loading…</p>;
+  if (!data) return <p aria-busy="true">Loading…</p>;
 
   return (
     <div className="search">
@@ -52,7 +52,7 @@ function SearchResults({ results }: { results: any[] }) {
   if (!results.length) return <p className="no-results">No results found.</p>;
 
   return (
-    <ul className="search-results">
+    <ul class="search-results">
       {results.map(l => (
         <li key={l.lemma_id} className="result-item">
           <LemmaLink lemma={l} />
