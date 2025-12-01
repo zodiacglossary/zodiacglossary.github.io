@@ -94,8 +94,8 @@ const crossLinks = data.crossLinks
 
         <div class="grid">
     <section class="meanings">
-      {meaningsWithQuotes.map(m => (
-      <details open class="meaning">
+      {meaningsWithQuotes.map((m, i) => (
+      <details open id={`meaning-${i+1}`} class="meaning">
         <summary>
         {m.value}
         {m.categories.length > 0 && (
