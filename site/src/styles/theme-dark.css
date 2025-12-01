@@ -11,7 +11,7 @@ Accents: starlight silver, cool astral blues
 
     /* Base */
     --pico-background-color: #0a1120; /* deep cosmic blue */
-    --pico-color: #cdd3e2;           /* soft starlight */
+    --pico-color: #cdd3e2; /* soft starlight */
     --pico-text-selection-color: rgba(120, 160, 255, 0.3);
 
     /* Muted */

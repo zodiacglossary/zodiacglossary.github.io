@@ -34,7 +34,10 @@ interface SortRow {
   type: SortType;
 }
 
-const sortFieldMap: Record<SortType, "original" | "transliteration" | "primary_meaning"> = {
+const sortFieldMap: Record<
+  SortType,
+  "original" | "transliteration" | "primary_meaning"
+> = {
   alphabetical: "original",
   alphabetical_transliteration: "transliteration",
   alphabetical_primary_meaning: "primary_meaning",
@@ -48,12 +51,56 @@ const sortFieldMap: Record<SortType, "original" | "transliteration" | "primary_m
 
 const sortingLists: Record<string, string[]> = {
   zodiac: [
-    "aries","taurus","gemini","cancer","leo","virgo","libra","scorpio","sagittarius","capricorn","aquarius","pisces"
+    "aries",
+    "taurus",
+    "gemini",
+    "cancer",
+    "leo",
+    "virgo",
+    "libra",
+    "scorpio",
+    "sagittarius",
+    "capricorn",
+    "aquarius",
+    "pisces",
   ],
-  planets_babylonian: ["moon","sun","jupiter","venus","saturn","mercury","mars"],
-  planets_weekday: ["sun","moon","mars","mercury","jupiter","venus","saturn"],
-  planets_heliocentric: ["mercury","venus","earth","mars","jupiter","saturn","uranus","neptune"],
-  planets_geocentric: ["moon","mercury","venus","sun","mars","jupiter","saturn"],
+  planets_babylonian: [
+    "moon",
+    "sun",
+    "jupiter",
+    "venus",
+    "saturn",
+    "mercury",
+    "mars",
+  ],
+  planets_weekday: [
+    "sun",
+    "moon",
+    "mars",
+    "mercury",
+    "jupiter",
+    "venus",
+    "saturn",
+  ],
+  planets_heliocentric: [
+    "mercury",
+    "venus",
+    "earth",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune",
+  ],
+  planets_geocentric: [
+    "moon",
+    "mercury",
+    "venus",
+    "sun",
+    "mars",
+    "jupiter",
+    "saturn",
+  ],
   decans: Array.from({ length: 36 }, (_, i) => `decan ${i + 1}`),
 };
 
@@ -67,22 +114,26 @@ function collateSortingKeys<T>(keys: ((a: T, b: T) => number)[]) {
   };
 }
 
-
 export default function AdvancedSearch() {
   const [data, setData] = useState<any | null>(null);
-  const [searchRows, setSearchRows] = useState<SearchRow[]>([{ field: "original", value: "" }]);
-  const [sortRows, setSortRows] = useState<SortRow[]>([{ type: "alphabetical" }]);
+  const [searchRows, setSearchRows] = useState<SearchRow[]>([
+    { field: "original", value: "" },
+  ]);
+  const [sortRows, setSortRows] = useState<SortRow[]>([
+    { type: "alphabetical" },
+  ]);
   const [results, setResults] = useState<any[]>([]);
 
   // Load JSON
   useEffect(() => {
     fetch("/data.json")
-      .then(r => r.json())
-      .then(d => setData(d));
+      .then((r) => r.json())
+      .then((d) => setData(d));
   }, []);
 
   // Add/remove search rows
-  const addSearchRow = () => setSearchRows([...searchRows, { field: "original", value: "" }]);
+  const addSearchRow = () =>
+    setSearchRows([...searchRows, { field: "original", value: "" }]);
   const removeSearchRow = (i: number) =>
     setSearchRows(searchRows.filter((_, idx) => idx !== i));
 
@@ -100,7 +151,8 @@ export default function AdvancedSearch() {
   };
 
   const addSortRow = () => setSortRows([...sortRows, { type: "alphabetical" }]);
-  const removeSortRow = (i: number) => setSortRows(sortRows.filter((_, idx) => idx !== i));
+  const removeSortRow = (i: number) =>
+    setSortRows(sortRows.filter((_, idx) => idx !== i));
   const updateSortType = (i: number, type: SortType) => {
     const r = [...sortRows];
     r[i].type = type;
@@ -143,7 +195,7 @@ export default function AdvancedSearch() {
       source: [],
     };
 
-    searchRows.forEach(row => {
+    searchRows.forEach((row) => {
       if (row.value.trim() !== "") grouped[row.field].push(row);
     });
 
@@ -152,76 +204,73 @@ export default function AdvancedSearch() {
     // -------------------------------
     const filtered = lemmata.filter((lemma: any) => {
       // For each field with conditions, ALL must match
-      return (Object.entries(grouped) as [SearchField, SearchRow[]][])
-      .every(([field, group]) => {
-        if (group.length === 0) return true; // no conditions for this field
+      return (Object.entries(grouped) as [SearchField, SearchRow[]][]).every(
+        ([field, group]) => {
+          if (group.length === 0) return true; // no conditions for this field
 
-        // At least ONE of the conditions for this field must match → OR
-        return group.some(({ value }) => {
-          const term = value.toLowerCase().trim();
+          // At least ONE of the conditions for this field must match → OR
+          return group.some(({ value }) => {
+            const term = value.toLowerCase().trim();
 
-          switch (field) {
-            case "editor":
-              return lemma.editor?.toLowerCase().includes(term);
+            switch (field) {
+              case "editor":
+                return lemma.editor?.toLowerCase().includes(term);
 
-            case "original":
-              return lemma.original?.toLowerCase().includes(term);
+              case "original":
+                return lemma.original?.toLowerCase().includes(term);
 
-            case "transliteration":
-              return lemma.transliteration?.toLowerCase().includes(term);
+              case "transliteration":
+                return lemma.transliteration?.toLowerCase().includes(term);
 
-            case "literal_translation":
-              return lemma.translation?.toLowerCase().includes(term);
+              case "literal_translation":
+                return lemma.translation?.toLowerCase().includes(term);
 
-            case "language":
-              return lemma.language_id === Number(term);
+              case "language":
+                return lemma.language_id === Number(term);
 
-            case "pos":
-              return lemma.partofspeech_id === Number(term);
+              case "pos":
+                return lemma.partofspeech_id === Number(term);
 
-            case "publication": {
-              const qs = quotesByLemma.get(lemma.lemma_id) || [];
-              return qs.some(q =>
-                             q.publication?.toLowerCase().includes(term)
-                            );
-            }
-
-            case "meaning": {
-              const ms = meaningByLemma.get(lemma.lemma_id) || [];
-              return ms.some(m =>
-                             m.value?.toLowerCase().includes(term)
-                            );
-            }
-
-            case "category": {
-              const ms = meaningByLemma.get(lemma.lemma_id) || [];
-              return ms.some(m => {
-                const cat = meaningCategories.find(
-                  (c: any) => c.meaning_id === m.meaning_id
+              case "publication": {
+                const qs = quotesByLemma.get(lemma.lemma_id) || [];
+                return qs.some((q) =>
+                  q.publication?.toLowerCase().includes(term),
                 );
-                return cat?.category?.toLowerCase() === term;
-              });
-            }
+              }
 
-            case "provenance": {
-              const qs = quotesByLemma.get(lemma.lemma_id) || [];
-              return qs.some(q =>
-                             q.provenance?.toLowerCase().includes(term)
-                            );
-            }
+              case "meaning": {
+                const ms = meaningByLemma.get(lemma.lemma_id) || [];
+                return ms.some((m) => m.value?.toLowerCase().includes(term));
+              }
 
-            case "source": {
-              const qs = quotesByLemma.get(lemma.lemma_id) || [];
-              return qs.some(q =>
-                             q.source?.toLowerCase().includes(term)
-                            );
-            }
+              case "category": {
+                const ms = meaningByLemma.get(lemma.lemma_id) || [];
+                return ms.some((m) => {
+                  const cat = meaningCategories.find(
+                    (c: any) => c.meaning_id === m.meaning_id,
+                  );
+                  return cat?.category?.toLowerCase() === term;
+                });
+              }
 
-            default:
-              return true;
-          }
-        });
-      });
+              case "provenance": {
+                const qs = quotesByLemma.get(lemma.lemma_id) || [];
+                return qs.some((q) =>
+                  q.provenance?.toLowerCase().includes(term),
+                );
+              }
+
+              case "source": {
+                const qs = quotesByLemma.get(lemma.lemma_id) || [];
+                return qs.some((q) => q.source?.toLowerCase().includes(term));
+              }
+
+              default:
+                return true;
+            }
+          });
+        },
+      );
     });
 
     if (sortRows.length) {
@@ -240,7 +289,8 @@ export default function AdvancedSearch() {
             return 0;
           };
         } else {
-          return (a: any, b: any) => (a[field] || "").localeCompare(b[field] || "");
+          return (a: any, b: any) =>
+            (a[field] || "").localeCompare(b[field] || "");
         }
       });
 
@@ -254,105 +304,133 @@ export default function AdvancedSearch() {
 
   return (
     <>
-    <div class="grid">
-    <div>
-      <h3>Search criteria</h3>
+      <div class="grid">
+        <div>
+          <h3>Search criteria</h3>
 
-      <form className="search-rows">
-        {searchRows.map((row, i) => (
-          <fieldset key={i} role="group">
-            {/* Field selector */}
-            <select
-              value={row.field}
-              onChange={e => updateField(i, e.target.value as SearchField)}
-            >
-              <option value="editor">Editor</option>
-              <option value="language">Language</option>
-              <option value="pos">Part of Speech</option>
-              <option value="literal_translation">Literal Translation</option>
-              <option value="meaning">Meaning</option>
-              <option value="category">Category</option>
-              <option value="original">Original</option>
-              <option value="transliteration">Transliteration</option>
-              <option value="publication">Publication</option>
-              <option value="provenance">Provenance</option>
-              <option value="source">Source</option>
-            </select>
+          <form className="search-rows">
+            {searchRows.map((row, i) => (
+              <fieldset key={i} role="group">
+                {/* Field selector */}
+                <select
+                  value={row.field}
+                  onChange={(e) =>
+                    updateField(i, e.target.value as SearchField)
+                  }
+                >
+                  <option value="editor">Editor</option>
+                  <option value="language">Language</option>
+                  <option value="pos">Part of Speech</option>
+                  <option value="literal_translation">
+                    Literal Translation
+                  </option>
+                  <option value="meaning">Meaning</option>
+                  <option value="category">Category</option>
+                  <option value="original">Original</option>
+                  <option value="transliteration">Transliteration</option>
+                  <option value="publication">Publication</option>
+                  <option value="provenance">Provenance</option>
+                  <option value="source">Source</option>
+                </select>
 
-            {/* Input field */}
-            {["language", "pos", "category"].includes(row.field) ? (
-              <select
-                value={row.value}
-                onChange={e => updateValue(i, e.target.value)}
-              >
-                <option value="">—</option>
+                {/* Input field */}
+                {["language", "pos", "category"].includes(row.field) ? (
+                  <select
+                    value={row.value}
+                    onChange={(e) => updateValue(i, e.target.value)}
+                  >
+                    <option value="">—</option>
 
-                {row.field === "language" &&
-                  data.languages.map((l: any) => (
-                    <option key={l.language_id} value={l.language_id}>
-                      {l.label}
+                    {row.field === "language" &&
+                      data.languages.map((l: any) => (
+                        <option key={l.language_id} value={l.language_id}>
+                          {l.label}
+                        </option>
+                      ))}
+
+                    {row.field === "category" &&
+                      [
+                        ...new Set(
+                          data.meaningCategories.map((mc: any) => mc?.category),
+                        ),
+                      ]
+                        .toSorted()
+                        .map((c: any) => (
+                          <option key={c} value={c}>
+                            {c}
+                          </option>
+                        ))}
+
+                    {row.field === "pos" &&
+                      data.partsofspeech.map((p: any) => (
+                        <option
+                          key={p.partofspeech_id}
+                          value={p.partofspeech_id}
+                        >
+                          {p.value}
+                        </option>
+                      ))}
+                  </select>
+                ) : (
+                  <input
+                    type="text"
+                    value={row.value}
+                    onChange={(e) => updateValue(i, e.target.value)}
+                    placeholder="Enter search term…"
+                  />
+                )}
+
+                <button class="secondary" onClick={() => removeSearchRow(i)}>
+                  ✕
+                </button>
+              </fieldset>
+            ))}
+          </form>
+
+          <button onClick={addSearchRow} class="secondary">
+            + Add Search Condition
+          </button>
+        </div>
+
+        <div>
+          <h3>Sorting</h3>
+          <form className="sort-rows">
+            {sortRows.map((row, i) => (
+              <fieldset role="group" key={i}>
+                <select
+                  value={row.type}
+                  onChange={(e) =>
+                    updateSortType(i, e.target.value as SortType)
+                  }
+                >
+                  {Object.keys(sortFieldMap).map((k) => (
+                    <option key={k} value={k}>
+                      {k}
                     </option>
                   ))}
-
-                {row.field === "category" &&
-                  [...new Set(data.meaningCategories.map((mc: any) => mc?.category))].toSorted().map((c: any) => (
-                    <option key={c} value={c}>
-                      {c}
-                    </option>
-                  ))}
-
-                {row.field === "pos" &&
-                  data.partsofspeech.map((p: any) => (
-                    <option key={p.partofspeech_id} value={p.partofspeech_id}>
-                      {p.value}
-                    </option>
-                  ))}
-              </select>
-            ) : (
-              <input
-                type="text"
-                value={row.value}
-                onChange={e => updateValue(i, e.target.value)}
-                placeholder="Enter search term…"
-              />
-            )}
-
-            <button class="secondary" onClick={() => removeSearchRow(i)}>✕</button>
-          </fieldset>
-        ))}
-      </form>
-
-      <button onClick={addSearchRow} class="secondary">
-        + Add Search Condition
-      </button>
+                </select>
+                <button class="secondary" onClick={() => removeSortRow(i)}>
+                  ✕
+                </button>
+              </fieldset>
+            ))}
+            <button class="secondary" onClick={addSortRow}>
+              + Add Sort Criterion
+            </button>
+          </form>
+        </div>
       </div>
-
-      <div>
-      <h3>Sorting</h3>
-      <form className="sort-rows">
-        {sortRows.map((row, i) => (
-          <fieldset role="group" key={i}>
-            <select value={row.type} onChange={(e) => updateSortType(i, e.target.value as SortType)}>
-              {Object.keys(sortFieldMap).map(k => <option key={k} value={k}>{k}</option>)}
-            </select>
-            <button class="secondary" onClick={() => removeSortRow(i)}>✕</button>
-          </fieldset>
-        ))}
-        <button class="secondary" onClick={addSortRow}>+ Add Sort Criterion</button>
-      </form>
-      </div>
-
-    </div>
-    <hr/>
+      <hr />
       <article>
-      <header>Results ({results.length})</header>
-      <ul className="search-results">
-        {results.map((l: any) => (
-          <li key={l.lemma_id}><LemmaLink lemma={l}/></li>
-
-        ))}
-      </ul>
+        <header>Results ({results.length})</header>
+        <ul className="search-results">
+          {results.map((l: any) => (
+            <li key={l.lemma_id}>
+              <LemmaLink lemma={l} />
+            </li>
+          ))}
+        </ul>
       </article>
-      </>
+    </>
   );
 }

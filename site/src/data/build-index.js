@@ -4,12 +4,7 @@ import Fuse from "fuse.js";
 const data = JSON.parse(fs.readFileSync("./public/data.json", "utf8"));
 
 const fuse = new Fuse(data.lemmata, {
-  keys: [
-    "original",
-    "translation",
-    "transliteration",
-    "primary_meaning",
-  ],
+  keys: ["original", "translation", "transliteration", "primary_meaning"],
   includeScore: true,
   threshold: 0.35,
 });

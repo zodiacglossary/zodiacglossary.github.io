@@ -12,8 +12,8 @@ export default function Search() {
   // Load data.json in the browser
   useEffect(() => {
     fetch("/data.json")
-      .then(r => r.json())
-      .then(d => {
+      .then((r) => r.json())
+      .then((d) => {
         setData(d);
       });
   }, []);
@@ -23,11 +23,19 @@ export default function Search() {
     if (!data) return;
 
     // If query is empty, show all lemmata
-    const filtered = data.lemmata.filter(l =>
-      (!query || [l.original, l.transliteration, l.primary_meaning].some(f =>
-                                                                         f?.toLowerCase().includes(query.toLowerCase())
-                                                                        ))
-    ).toSorted((a, b) => (a.transliteration || a.original).localeCompare(b.transliteration || b.original));
+    const filtered = data.lemmata
+      .filter(
+        (l) =>
+          !query ||
+          [l.original, l.transliteration, l.primary_meaning].some((f) =>
+            f?.toLowerCase().includes(query.toLowerCase()),
+          ),
+      )
+      .toSorted((a, b) =>
+        (a.transliteration || a.original).localeCompare(
+          b.transliteration || b.original,
+        ),
+      );
 
     setResults(filtered);
   }, [query, data]);
@@ -40,7 +48,7 @@ export default function Search() {
         type="text"
         value={query}
         placeholder="Search..."
-        onChange={e => setQuery(e.target.value)}
+        onChange={(e) => setQuery(e.target.value)}
         className="search-input"
       />
       <SearchResults results={results} />
@@ -53,7 +61,7 @@ function SearchResults({ results }: { results: any[] }) {
 
   return (
     <ul class="search-results">
-      {results.map(l => (
+      {results.map((l) => (
         <li key={l.lemma_id} className="result-item">
           <LemmaLink lemma={l} />
         </li>

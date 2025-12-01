@@ -5,27 +5,25 @@
 @import "@picocss/pico/css/pico.min.css";
 @import "./theme-light.css";
 @import "./theme-dark.css";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&display=swap");
 
 :root {
   --pico-font-family:
-    'Noto Sans Cuneiform',
-    'Noto Sans Egyptian Hieroglyphs',
-    'Noto Sans Coptic',
-    'Noto Sans Greek',
-    'Noto Sans Hebrew',
-    'Noto Sans Devanagari',
-    'Noto Sans',
+    "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "Noto Sans Coptic",
+    "Noto Sans Greek", "Noto Sans Hebrew", "Noto Sans Devanagari", "Noto Sans",
     sans-serif;
 }
 
-.categories, .last-edited, .quotation-translation, .comment {
+.categories,
+.last-edited,
+.quotation-translation,
+.comment {
   color: var(--pico-muted-color);
 }
 
@@ -61,9 +59,7 @@
   overflow-y: auto;
 }
 
-ul.search-results{
+ul.search-results {
   list-style: none;
   padding-left: 0;
 }
-
-
