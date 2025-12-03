@@ -12,7 +12,7 @@
   "schema:isAccessibleForFree": true,
 
   "schema:creator": {
-    "@type": "schema:Organization",
+    "@type": "schema:ReseachOrganization",
     "schema:name": "ZODIAC Project, Freie Universität Berlin",
     "schema:url": "https://www.geschkult.fu-berlin.de/e/zodiac/"
   },
