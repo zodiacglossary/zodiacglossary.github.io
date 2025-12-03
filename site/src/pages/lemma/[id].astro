@@ -5,9 +5,8 @@ import data from "../../../public/data.json";
 import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
-  // data.lemmata is assumed to be an array of lemma objects
-  const prefiltered = undefined;
-  return data.lemmata.filter(l => prefiltered ? prefiltered.includes(l.lemma_id) : true).map((lemma) => ({
+  const predicate = l => l.lemma_id % 10 == 0;
+  return data.lemmata.filter(predicate).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
   }));
 }
@@ -38,15 +37,21 @@ const publicURL = `${Astro.site}${Astro.url.pathname.slice(1)}`;
 
 const jsonLD = {
   "@context": "https://schema.org",
-  "@type": "DefinedTerm",
+  "@type": "CreativeWork",
   "@id": publicURL,
   url: publicURL,
   identifier: lemma.lemma_id.toString(),
-  name: lemma.original || lemma.transliteration,
+  name: lemma.original,
+  alternateName: lemma.transliteration,
   isPartOf: {
     "@type": "Dataset",
     url: Astro.site
   },
+  creator: lemmaEditors.map(u => ({
+    "@type": "Person",
+    name: `${u.first_name} ${u.last_name}`,
+    url: `${Astro.site}people/${u.id}`
+  })),
   description: lemma.primary_meaning,
   inLanguage: lemma.language_label,
   relatedLink: crossLinks.map(c => ({

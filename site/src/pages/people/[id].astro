@@ -16,10 +16,17 @@ const entries = user
 const jsonLD = user ? {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": `${user.first_name} ${user.last_name}`,
-  "email": user.email ? `mailto:${user.email}` : undefined,
-  "url": user.website || undefined,
-  "alternateName": user.username,
+  name: `${user.first_name} ${user.last_name}`,
+  email: user.email ? `mailto:${user.email}` : undefined,
+  url: user.website || undefined,
+  alternateName: user.username,
+  contribution: [
+    {
+      "@type": "Role",
+      roleName: "Contributor",
+      contributionTo: { "@type": "Dataset", url: Astro.page }
+    }
+  ]
 } : null;
 ---
 
