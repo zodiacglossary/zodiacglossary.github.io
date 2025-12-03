@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "ZODIAC Glossary Dataset",
+  "description": "Structured lexical and semantic data from ancient astral science across Akkadian, Aramaic, Egyptian, Greek, Hebrew, Latin, and Sanskrit.",
+  "version": "1.0.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Freie Universität Berlin, ZODIAC Project"
+  },
+  "keywords": [
+    "astral science",
+    "zodiac",
+    "lexicon",
+    "glossary",
+    "ancient languages"
+  ],
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "application/json",
+    "contentUrl": "data.json"
+  }
+}
