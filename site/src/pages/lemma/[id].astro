@@ -33,9 +33,31 @@ const crossLinks = data.crossLinks
     const target = data.lemmata.find(l => l.lemma_id === otherId);
     return { ...c, target };
   });
+
+const publicURL = `${Astro.site}${Astro.url.pathname.slice(1)}`;
+
+const jsonLD = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": publicURL,
+  url: publicURL,
+  identifier: lemma.lemma_id.toString(),
+  name: lemma.original || lemma.transliteration,
+  isPartOf: {
+    "@type": "Dataset",
+    url: Astro.site
+  },
+  description: lemma.primary_meaning,
+  inLanguage: lemma.language_label,
+  relatedLink: crossLinks.map(c => ({
+    "@id": `${Astro.site}lemma/${c.target.lemma_id}`,
+  })),
+  license: "https://creativecommons.org/licenses/by/4.0/",
+  dateModified: lemma.last_edit,
+};
 ---
 
-<Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"}>
+<Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"} jsonLD={jsonLD}>
   <div class="grid">
   <div>
         <h1>{lemma.original}
@@ -94,8 +116,8 @@ const crossLinks = data.crossLinks
 
         <div class="grid">
     <section class="meanings">
-      {meaningsWithQuotes.map((m, i) => (
-      <details open id={`meaning-${i+1}`} class="meaning">
+      {meaningsWithQuotes.map((m) => (
+      <details open id={`meaning-${m.meaning_id}`} class="meaning">
         <summary>
         {m.value}
         {m.categories.length > 0 && (
@@ -167,7 +189,7 @@ const crossLinks = data.crossLinks
        title: (lemma.original || lemma.transliteration) + " (Lemma #" + lemma.lemma_id + ")",
        "container-title": "The ZODIAC Glossary: A Cross-Cultural Glossary of Ancient Astral Science",
        issued: lemma.last_edit ? {"date-parts": [new Date(lemma.last_edit).getFullYear()]} : null,
-       URL: `${Astro.site}${Astro.url.pathname.slice(1)}`,
+       URL: publicURL,
        accessed: {"date-parts": [new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDay()]}
        }} />
     </article>

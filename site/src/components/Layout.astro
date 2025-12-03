@@ -1,7 +1,8 @@
 ---
-const { title = "Glossary", search = false } = Astro.props;
+const { title = "Glossary", search = false, jsonLD } = Astro.props;
 import Search from '../components/Search';
 import "../styles/global.css";
+import defaultMetadata from "../../public/metadata.json";
 ---
 
 <!DOCTYPE html>
@@ -11,6 +12,7 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark">
     <link rel="icon" href="/favicon.ico" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLD || defaultMetadata)}></script>
     <title>{title} | ZODIAC Glossary</title>
   </head>
   <body>
