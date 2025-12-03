@@ -26,6 +26,7 @@ jobs:
 
       - name: Build Astro site
         run: |
+          make            # populate public/
           cd site
           npm run build   # assumes "build" script builds to `dist/`
 

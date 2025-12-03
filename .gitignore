@@ -1,2 +1,5 @@
 node_modules
 dist
+site/public/data.json
+site/public/.populated
+site/public/metadata.json
