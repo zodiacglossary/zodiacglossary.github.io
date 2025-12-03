@@ -3,7 +3,7 @@ name: Export Fly.io DB
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 3 * * 1"   # every Monday at 03:00 UTC (change as needed)
+    - cron: "0 3 * * 1"   # every Monday at 03:00 UTC
 
 jobs:
   export-db:
@@ -14,11 +14,14 @@ jobs:
       FLY_APP_NAME: zodiac-db
       LOCAL_PROXY_PORT: 5432
       EXPORT_OUTPUT_PATH: dataset/data.json
+      VERSION_FILE: dataset/VERSION
+      METADATA_FILE: dataset/metadata.json
 
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false  # prevents read-only default being used for PR
+          persist-credentials: false
+
       - name: Install Fly CLI
         run: curl -L https://fly.io/install.sh | sh
 
@@ -38,7 +41,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Prepare and run export
+      - name: Run export script
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           PGHOST: localhost
@@ -53,32 +56,72 @@ jobs:
         run: |
           kill $(cat proxy_pid.txt) || true
 
+      ############################################################
+      #       VERSION AUTO-BUMP + METADATA UPDATE SECTION        #
+      ############################################################
+
+      - name: Auto-bump dataset version
+        id: bump
+        run: |
+          old_version=$(cat $VERSION_FILE)
+          echo "Old version: $old_version"
+
+          # split version numbers
+          major=$(echo $old_version | cut -d '.' -f1)
+          minor=$(echo $old_version | cut -d '.' -f2)
+          patch=$(echo $old_version | cut -d '.' -f3)
+
+          # increase patch version
+          new_patch=$((patch + 1))
+          new_version="$major.$minor.$new_patch"
+
+          echo "New version: $new_version"
+          echo "$new_version" > $VERSION_FILE
+
+          # expose to next steps
+          echo "new_version=$new_version" >> $GITHUB_ENV
+
+      - name: Update metadata.json
+        run: |
+          ver=${{ env.new_version }}
+          today=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          jq \
+            --arg ver "$ver" \
+            --arg modified "$today" \
+            '.version = $ver | .dateModified = $modified' \
+            $METADATA_FILE > metadata.tmp && mv metadata.tmp $METADATA_FILE
+
+      ############################################################
+
       - name: Commit export changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          # Stage only export output
-          git add $EXPORT_OUTPUT_PATH
+          git add $EXPORT_OUTPUT_PATH $VERSION_FILE $METADATA_FILE
 
-          # Detect if there is anything to commit
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Weekly DB export"
-
+          git commit -m "Automated DB export (version ${{ env.new_version }})"
 
       - name: Set branch name
-        id: vars
         run: echo "BRANCH_NAME=dataset/update-$(date +'%Y%m%d')" >> $GITHUB_ENV
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Weekly DB export"
+          commit-message: "Automated DB export (version ${{ env.new_version }})"
           branch: ${{ env.BRANCH_NAME }}
-          title: "Weekly DB export"
-          body: "This PR contains the latest automated DB export."
+          title: "DB export — version ${{ env.new_version }}"
+          body: |
+            Automated DB export.
+            Dataset version bumped to **${{ env.new_version }}**.
           labels: export
-          add-paths: ${{ env.EXPORT_OUTPUT_PATH }}
+          add-paths: |
+            dataset/data.json
+            dataset/VERSION
+            dataset/metadata.json
