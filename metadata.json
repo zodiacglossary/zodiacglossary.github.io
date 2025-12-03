@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dc": "http://purl.org/dc/elements/1.1/"
+  },
+
+  "@type": "schema:Dataset",
+  "@id": "https://zodiac-glossary.org/dataset",
+  "schema:name": "ZODIAC Glossary of Ancient Astral Science",
+  "schema:description": "A curated, multilingual lexicon of astral terminology from Akkadian, Aramaic, Egyptian, Greek, Hebrew, Latin, Sanskrit, and related traditions, compiled within the ERC-funded project ZODIAC: Ancient Astral Science in Transformation at Freie Universität Berlin.",
+
+  "schema:creator": {
+    "@type": "schema:Organization",
+    "schema:name": "ZODIAC Project, Freie Universität Berlin",
+    "schema:url": "https://www.geschkult.fu-berlin.de/e/zodiac/"
+  },
+
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/",
+  "schema:keywords": [
+    "astral science",
+    "zodiac",
+    "ancient languages",
+    "lexicon",
+    "philology",
+    "Babylonian astronomy"
+  ],
+
+  "schema:temporalCoverage": "3000 BCE/500 CE",
+  "schema:inLanguage": ["akk", "grc", "hbo", "arc", "egy", "lat", "san"],
+
+  "schema:distribution": [
+    {
+      "@type": "schema:DataDownload",
+      "schema:encodingFormat": "application/json",
+      "schema:contentUrl": "https://github.com/zodiacglossary/zodiacglossary.github.io/tree/main/dataset"
+    }
+  ],
+
+  "dcat:contactPoint": {
+    "@type": "schema:ContactPoint",
+    "schema:email": "christian.casey@fu-berlin.de",
+    "schema:contactType": "research"
+  }
+}
