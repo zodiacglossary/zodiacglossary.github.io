@@ -35,6 +35,18 @@
     "astral texts"
   ],
 
+  "schema:funding": {
+    "@type": "schema:Grant",
+    "schema:name": "ZODIAC: Ancient Astral Science in Transformation",
+    "schema:funder": {
+      "@type": "schema:Organization",
+      "schema:name": "European Research Council (ERC)",
+      "schema:url": "https://erc.europa.eu/"
+    },
+    "schema:url": "https://cordis.europa.eu/project/id/885478",
+    "schema:identifier": "ERC-2019-ADG 885865"
+  },
+
   "schema:distribution": [
     {
       "@type": "schema:DataDownload",

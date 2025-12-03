@@ -12,9 +12,18 @@ const user = data.users.find(u => u.id.toString() === userId);
 const entries = user
   ? data.lemmata.filter(l => l.editor.split(", ").includes(user.username))
   : [];
+
+const jsonLD = user ? {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": `${user.first_name} ${user.last_name}`,
+  "email": user.email ? `mailto:${user.email}` : undefined,
+  "url": user.website || undefined,
+  "alternateName": user.username,
+} : null;
 ---
 
-<Layout title={`Entries by ${user ? `${user.first_name} ${user.last_name}` : 'Unknown'}`}>
+<Layout title={`Entries by ${user ? `${user.first_name} ${user.last_name}` : 'Unknown'}`} jsonLD={jsonLD}>
   {user ? (
     <>
       <h1>{user.first_name} {user.last_name}</h1>
