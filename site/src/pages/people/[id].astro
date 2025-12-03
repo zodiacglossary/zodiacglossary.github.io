@@ -20,13 +20,11 @@ const jsonLD = user ? {
   email: user.email ? `mailto:${user.email}` : undefined,
   url: user.website || undefined,
   alternateName: user.username,
-  contribution: [
-    {
-      "@type": "Role",
-      roleName: "Contributor",
-      contributionTo: { "@type": "Dataset", url: Astro.page }
-    }
-  ]
+  worksFor: {
+    "@type": "ResearchOrganization",
+    name: "ZODIAC Project, Freie Universität Berlin",
+    mainEntityOfPage: "https://zodiacglossary.github.io/"
+  }
 } : null;
 ---
 
