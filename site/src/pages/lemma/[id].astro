@@ -5,7 +5,8 @@ import data from "../../../public/data.json";
 import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
-  const predicate = l => l.lemma_id % 10 == 0;
+  // const predicate = l => l.lemma_id % 10 == 0;
+  const predicate = l => true;
   return data.lemmata.filter(predicate).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
   }));
