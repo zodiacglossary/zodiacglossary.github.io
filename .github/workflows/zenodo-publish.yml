@@ -1,87 +1,75 @@
-name: Publish Dataset to Zenodo
+name: Publish to Zenodo
 
 on:
-  workflow_dispatch: {}
   schedule:
-    - cron: "0 4 * * 1" # after the export job, weekly
+    - cron: "15 3 * * 1"     # Run shortly after export job (3:15 UTC)
+  workflow_dispatch: {}
 
 jobs:
   publish-zenodo:
     runs-on: ubuntu-latest
 
     env:
-      ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
-      ZENODO_DEPOSITION_ID: ${{ secrets.ZENODO_DEPOSITION_ID }}
       DATA_PATH: dataset/data.json
       META_PATH: dataset/metadata.json
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Download last published Zenodo version
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      #######################################################################
+      #      1. Download most recent *published* Zenodo data.json          #
+      #######################################################################
+      - name: Fetch latest published Zenodo dataset
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          ZENODO_CONCEPT_ID: ${{ secrets.ZENODO_CONCEPT_ID }}
         run: |
-          curl -L "https://zenodo.org/api/records/${{ secrets.ZENODO_DEPOSITION_ID }}" \
-            | jq -r '.files[] | select(.key == "data.json") | .links.self' \
-            | xargs curl -L -o old-data.json
+          # Get latest published deposition for this concept ID
+          curl -s -L -H "Authorization: Bearer $ZENODO_TOKEN" -H "Content-Type: application/json" \
+            "https://zenodo.org/api/records/?q=conceptrecid:${ZENODO_CONCEPT_ID}&size=1&all_versions=1&sort=version&order=desc" \
+            > zenodo_record.json
 
-      - name: Compare versions
+          # Extract download URL for data.json
+          download_url=$(jq -r '.hits.hits[0].files[] | select(.key=="data.json") | .links.self' zenodo_record.json)
+
+          if [ -z "$download_url" ] || [ "$download_url" = "null" ]; then
+            echo "Could not find data.json in latest Zenodo version."
+            exit 1
+          fi
+
+          curl -s -L "$download_url" -o zenodo-data.json
+
+      #######################################################################
+      #      2. Compare current repo dataset with Zenodo copy              #
+      #######################################################################
+      - name: Compare datasets
         id: diff
         run: |
-          if diff -q dataset/data.json old-data.json; then
+          if diff -q "$DATA_PATH" zenodo-data.json > /dev/null; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No differences detected."
           else
             echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Differences detected — will publish new Zenodo version."
           fi
 
-      - name: Stop if no changes
-        if: steps.diff.outputs.changed == 'false'
-        run: echo "No dataset changes → skipping Zenodo update."
-
-      - name: Create new Zenodo version
-        if: steps.diff.outputs.changed == 'true'
-        id: newversion
-        run: |
-          RESPONSE=$(curl -s \
-            -H "Authorization: Bearer $ZENODO_TOKEN" \
-            -X POST \
-            "https://zenodo.org/api/deposit/depositions/$ZENODO_DEPOSITION_ID/actions/newversion")
-          echo "$RESPONSE" > response.json
-          NEW_ID=$(jq -r '.links.latest_draft | capture("/([0-9]+)$").captures[0].string' response.json)
-          echo "new_id=$NEW_ID" >> $GITHUB_OUTPUT
-
-      - name: Upload data.json
-        if: steps.diff.outputs.changed == 'true'
-        run: |
-          curl -s \
-            -H "Authorization: Bearer $ZENODO_TOKEN" \
-            -F "file=@$DATA_PATH" \
-            "https://zenodo.org/api/deposit/depositions/${{ steps.newversion.outputs.new_id }}/files"
-
-      - name: Upload metadata.json
-        if: steps.diff.outputs.changed == 'true'
-        run: |
-          if [ -f "$META_PATH" ]; then
-            curl -s \
-              -H "Authorization: Bearer $ZENODO_TOKEN" \
-              -F "file=@$META_PATH" \
-              "https://zenodo.org/api/deposit/depositions/${{ steps.newversion.outputs.new_id }}/files"
-          else
-            echo "metadata.json not found; skipping."
-          fi
-
+      #######################################################################
+      #      3. Run your Zenodo publishing script if changed               #
+      #######################################################################
       - name: Publish new Zenodo version
         if: steps.diff.outputs.changed == 'true'
-        id: publish
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          ZENODO_CONCEPT_ID: ${{ secrets.ZENODO_CONCEPT_ID }}
         run: |
-          RESPONSE=$(curl -s \
-            -H "Authorization: Bearer $ZENODO_TOKEN" \
-            -X POST \
-            "https://zenodo.org/api/deposit/depositions/${{ steps.newversion.outputs.new_id }}/actions/publish")
-          echo "$RESPONSE" > publish.json
-          DOI=$(jq -r '.doi' publish.json)
-          echo "doi=$DOI" >> $GITHUB_OUTPUT
-          echo "Published new version: $DOI"
+          cd dataset
+          chmod +x update-zenodo.sh
+          ./update-zenodo.sh
 
-      - name: Save DOI as artifact
-        if: steps.diff.outputs.changed == 'true'
-        run: echo "${{ steps.publish.outputs.doi }}" > doi.txt
+      - name: Done
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "Dataset unchanged — no new Zenodo version published."
