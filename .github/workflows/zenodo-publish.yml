@@ -1,0 +1,87 @@
+name: Publish Dataset to Zenodo
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 4 * * 1" # after the export job, weekly
+
+jobs:
+  publish-zenodo:
+    runs-on: ubuntu-latest
+
+    env:
+      ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+      ZENODO_DEPOSITION_ID: ${{ secrets.ZENODO_DEPOSITION_ID }}
+      DATA_PATH: dataset/data.json
+      META_PATH: dataset/metadata.json
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download last published Zenodo version
+        run: |
+          curl -L "https://zenodo.org/api/records/${{ secrets.ZENODO_DEPOSITION_ID }}" \
+            | jq -r '.files[] | select(.key == "data.json") | .links.self' \
+            | xargs curl -L -o old-data.json
+
+      - name: Compare versions
+        id: diff
+        run: |
+          if diff -q dataset/data.json old-data.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop if no changes
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "No dataset changes → skipping Zenodo update."
+
+      - name: Create new Zenodo version
+        if: steps.diff.outputs.changed == 'true'
+        id: newversion
+        run: |
+          RESPONSE=$(curl -s \
+            -H "Authorization: Bearer $ZENODO_TOKEN" \
+            -X POST \
+            "https://zenodo.org/api/deposit/depositions/$ZENODO_DEPOSITION_ID/actions/newversion")
+          echo "$RESPONSE" > response.json
+          NEW_ID=$(jq -r '.links.latest_draft | capture("/([0-9]+)$").captures[0].string' response.json)
+          echo "new_id=$NEW_ID" >> $GITHUB_OUTPUT
+
+      - name: Upload data.json
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          curl -s \
+            -H "Authorization: Bearer $ZENODO_TOKEN" \
+            -F "file=@$DATA_PATH" \
+            "https://zenodo.org/api/deposit/depositions/${{ steps.newversion.outputs.new_id }}/files"
+
+      - name: Upload metadata.json
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          if [ -f "$META_PATH" ]; then
+            curl -s \
+              -H "Authorization: Bearer $ZENODO_TOKEN" \
+              -F "file=@$META_PATH" \
+              "https://zenodo.org/api/deposit/depositions/${{ steps.newversion.outputs.new_id }}/files"
+          else
+            echo "metadata.json not found; skipping."
+          fi
+
+      - name: Publish new Zenodo version
+        if: steps.diff.outputs.changed == 'true'
+        id: publish
+        run: |
+          RESPONSE=$(curl -s \
+            -H "Authorization: Bearer $ZENODO_TOKEN" \
+            -X POST \
+            "https://zenodo.org/api/deposit/depositions/${{ steps.newversion.outputs.new_id }}/actions/publish")
+          echo "$RESPONSE" > publish.json
+          DOI=$(jq -r '.doi' publish.json)
+          echo "doi=$DOI" >> $GITHUB_OUTPUT
+          echo "Published new version: $DOI"
+
+      - name: Save DOI as artifact
+        if: steps.diff.outputs.changed == 'true'
+        run: echo "${{ steps.publish.outputs.doi }}" > doi.txt
