@@ -405,14 +405,14 @@ export default function AdvancedSearch() {
                   />
                 )}
 
-                <button class="secondary" onClick={() => removeSearchRow(i)}>
+                <button onClick={() => removeSearchRow(i)}>
                   ✕
                 </button>
               </fieldset>
             ))}
           </form>
 
-          <button onClick={addSearchRow} class="secondary">
+          <button onClick={addSearchRow}>
             + Add Search Condition
           </button>
         </div>
@@ -434,12 +434,12 @@ export default function AdvancedSearch() {
                     </option>
                   ))}
                 </select>
-                <button class="secondary" onClick={() => removeSortRow(i)}>
+                <button onClick={() => removeSortRow(i)}>
                   ✕
                 </button>
               </fieldset>
             ))}
-            <button class="secondary" onClick={addSortRow}>
+            <button onClick={addSortRow}>
               + Add Sort Criterion
             </button>
           </form>
@@ -447,14 +447,13 @@ export default function AdvancedSearch() {
       </div>
       <hr />
       <div class="grid">
-        <button onClick={generatePDF} class="secondary">
+        <button onClick={generatePDF}>
           Generate PDF
         </button>
         <div>
           <label>
             <input
               type="checkbox"
-              class="secondary"
               checked={includeSpellingVariants}
               onChange={(e) => setIncludeSpellingVariants(e.target.checked)}
             />{" "}
@@ -465,7 +464,6 @@ export default function AdvancedSearch() {
           <label>
             <input
               type="checkbox"
-              class="secondary"
               checked={includeQuotations}
               onChange={(e) => setIncludeQuotations(e.target.checked)}
             />{" "}
