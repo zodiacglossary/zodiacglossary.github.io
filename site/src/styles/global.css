@@ -23,6 +23,15 @@
   color: var(--pico-muted-color);
 }
 
+img#goatfish {
+  max-width: 350px;
+  margin: 30px auto;
+  height: auto;
+  display: block;
+  filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
+  -webkit-filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
+}
+
 .meaning summary {
   color: var(--pico-color) !important;
 }
