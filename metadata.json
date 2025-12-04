@@ -4,20 +4,17 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "dc": "http://purl.org/dc/elements/1.1/"
   },
-
   "@type": "schema:Dataset",
   "@id": "https://zodiacglossary.github.io/",
   "schema:name": "ZODIAC Glossary of Ancient Astral Science",
   "schema:description": "A curated, multilingual lexicon of astral terminology from Akkadian, Aramaic, Egyptian, Greek, Hebrew, Latin, Sanskrit, and related traditions, compiled within the ERC-funded project ZODIAC: Ancient Astral Science in Transformation at Freie Universität Berlin.",
   "schema:isAccessibleForFree": true,
   "schema:identifier": "https://doi.org/10.5281/zenodo.17800131",
-
   "schema:creator": {
     "@type": "schema:ReseachOrganization",
     "schema:name": "ZODIAC Project, Freie Universität Berlin",
     "schema:url": "https://www.geschkult.fu-berlin.de/e/zodiac/"
   },
-
   "schema:license": "https://creativecommons.org/licenses/by/4.0/",
   "schema:keywords": [
     "astral science",
@@ -27,15 +24,22 @@
     "philology",
     "Babylonian astronomy"
   ],
-
   "schema:temporalCoverage": "3000 BCE/500 CE",
-  "schema:inLanguage": ["akk", "grc", "cop", "hbo", "arc", "egy", "lat", "san"],
+  "schema:inLanguage": [
+    "akk",
+    "grc",
+    "cop",
+    "hbo",
+    "arc",
+    "egy",
+    "lat",
+    "san"
+  ],
   "schema:variableMeasured": [
     "astral terminology",
     "astral concepts",
     "astral texts"
   ],
-
   "schema:funding": {
     "@type": "schema:Grant",
     "schema:name": "ZODIAC: Ancient Astral Science in Transformation",
@@ -47,7 +51,6 @@
     "schema:url": "https://cordis.europa.eu/project/id/885478",
     "schema:identifier": "ERC-2019-ADG 885865"
   },
-
   "schema:distribution": [
     {
       "@type": "schema:DataDownload",
@@ -55,10 +58,11 @@
       "schema:contentUrl": "https://github.com/zodiacglossary/zodiacglossary.github.io/tree/main/dataset"
     }
   ],
-
   "dcat:contactPoint": {
     "@type": "schema:ContactPoint",
     "schema:email": "christian.casey@fu-berlin.de",
     "schema:contactType": "research"
-  }
+  },
+  "version": "1.0.1",
+  "dateModified": "2025-12-04T11:46:52Z"
 }
