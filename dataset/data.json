@@ -34432,6 +34432,29 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 1816,
+      "published": true,
+      "original": "bruma",
+      "translation": "shortest (days)",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "winter solstice",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2025-12-04T11:45:55.354Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1817,
       "published": true,
       "original": "aestas",
@@ -49129,6 +49152,29 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 6050,
+      "published": true,
+      "original": "apollo",
+      "translation": "Apollo",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "Mercury",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2025-12-04T11:45:36.636Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6053,
       "published": true,
       "original": "absisto",
@@ -49196,6 +49242,52 @@
       "checked": false,
       "attention": false,
       "loan_type": "loan"
+    },
+    {
+      "lemma_id": 6087,
+      "published": true,
+      "original": "brumalis",
+      "translation": "of the winter solstice",
+      "transliteration": "",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "of the winter solstice",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2025-12-04T11:45:59.140Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6127,
+      "published": true,
+      "original": "aselli",
+      "translation": "little donkeys",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "the Little Donkeys",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2025-12-04T11:45:47.789Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
     },
     {
       "lemma_id": 6135,
@@ -226470,6 +226562,11 @@
       "link": 732
     },
     {
+      "cross_link_id": 2665,
+      "lemma_id": 1816,
+      "link": 1275
+    },
+    {
       "cross_link_id": 2666,
       "lemma_id": 1817,
       "link": 1122
@@ -228158,6 +228255,11 @@
       "cross_link_id": 3745,
       "lemma_id": 2355,
       "link": 2341
+    },
+    {
+      "cross_link_id": 3747,
+      "lemma_id": 2357,
+      "link": 1816
     },
     {
       "cross_link_id": 3754,
