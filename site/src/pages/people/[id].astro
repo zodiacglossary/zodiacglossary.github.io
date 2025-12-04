@@ -42,7 +42,7 @@ const jsonLD = user ? {
         <ul>
           {entries.map(l => (
             <li>
-              <LemmaLink client:only="react" lemma={l} />
+              <LemmaLink lemma={l} />
             </li>
           ))}
         </ul>
