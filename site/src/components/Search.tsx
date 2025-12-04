@@ -7,7 +7,6 @@ export default function Search() {
   } | null>(null);
 
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<any[]>([]);
 
   // Load data.json in the browser
   useEffect(() => {
@@ -19,10 +18,9 @@ export default function Search() {
   }, []);
 
   // Filter results dynamically
-  useEffect(() => {
+  const results = useMemo(() => {
     if (!data || !query.length) {
-      setResults([]);
-      return;
+      return [];
     }
 
     // If query is empty, show all lemmata
@@ -40,7 +38,7 @@ export default function Search() {
         ),
       );
 
-    setResults(filtered);
+    return filtered;
   }, [query, data]);
 
   if (!data) return <p aria-busy="true">Search loading…</p>;
