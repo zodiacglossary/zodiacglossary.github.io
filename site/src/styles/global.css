@@ -1,10 +1,6 @@
-/* @import "./typography.css"; */
-/* @import "./search.css"; */
-/* @import "./citation.css"; */
-/* @import "./lemma.css"; */
 @import "@picocss/pico/css/pico.min.css";
-@import "./theme-light.css";
-@import "./theme-dark.css";
+/* @import "./theme-light.css"; */
+/* @import "./theme-dark.css"; */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap");
