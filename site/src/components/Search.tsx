@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import LemmaLink from "../components/LemmaLink";
 
 export default function Search() {
@@ -20,7 +20,10 @@ export default function Search() {
 
   // Filter results dynamically
   useEffect(() => {
-    if (!data) return;
+    if (!data || !query.length) {
+      setResults([]);
+      return;
+    }
 
     // If query is empty, show all lemmata
     const filtered = data.lemmata
@@ -40,14 +43,14 @@ export default function Search() {
     setResults(filtered);
   }, [query, data]);
 
-  if (!data) return <p aria-busy="true">Loading…</p>;
+  if (!data) return <p aria-busy="true">Search loading…</p>;
 
   return (
     <div className="search">
       <input
         type="text"
         value={query}
-        placeholder="Search..."
+        placeholder="Search our glossary..."
         onChange={(e) => setQuery(e.target.value)}
         className="search-input"
       />
@@ -57,7 +60,7 @@ export default function Search() {
 }
 
 function SearchResults({ results }: { results: any[] }) {
-  if (!results.length) return <p className="no-results">No results found.</p>;
+  if (!results.length) return <></>;
 
   return (
     <ul class="search-results">
