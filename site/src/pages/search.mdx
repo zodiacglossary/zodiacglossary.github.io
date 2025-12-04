@@ -1,0 +1,16 @@
+---
+layout: ../components/Layout.astro
+title: Advanced Search
+---
+
+import AdvancedSearch from "../components/AdvancedSearch.tsx";
+
+# Advanced Search
+
+  The Advanced Search feature allows you to efficiently find information by setting specific criteria. Start by selecting a search field from the dropdown menu, such as <samp>Editor</samp>, <samp>Language</samp>, or <samp>Part of Speech</samp>, and enter your search term in the adjacent text box. For certain fields, predefined options will help streamline your input.
+
+  You can add multiple search conditions by clicking <samp>+ Add Search Condition</samp> and remove any by clicking the <samp>✕</samp> next to the condition. Once your search criteria are set, organize your results by selecting a sort option from the dropdown, such as Alphabetical or Zodiac.
+
+  As you enter your criteria, matching results will dynamically display below. To generate a PDF of your findings, click the <samp>Generate PDF</samp> button, with options to include spelling variants and quotations. This feature is designed to help you easily navigate our dataset and find exactly what you need.
+
+<AdvancedSearch client:load />
