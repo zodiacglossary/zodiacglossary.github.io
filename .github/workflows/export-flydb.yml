@@ -108,6 +108,16 @@ jobs:
 
           git commit -m "Automated DB export (version ${{ env.new_version }})"
 
+      - name: Create and push version tag
+        run: |
+          version="${{ env.new_version }}"
+          tag="v${version}"
+
+          echo "Creating tag: $tag"
+
+          git tag --force "$tag"
+          git push --force --tags origin "$tag"
+
       - name: Set branch name
         run: echo "BRANCH_NAME=dataset/update-$(date +'%Y%m%d')" >> $GITHUB_ENV
 
