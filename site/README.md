@@ -31,3 +31,8 @@
     - Alessia Pilloni
     - Poorvaa Malhotra
 - invoice
+
+#### 2025-12-08 | .... .... .
+- glossary meeting
+- auto deploy pdf generator
+- fix styling of svgs
