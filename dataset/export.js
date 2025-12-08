@@ -23,6 +23,7 @@ async function main() {
       l.language_id,
       lang.label AS language_label,
       lang.value AS language_value,
+      l.loan_language_id,
       loan_lang.label AS loan_language_label,
       loan_lang.value AS loan_language_value,
       l.primary_meaning,
