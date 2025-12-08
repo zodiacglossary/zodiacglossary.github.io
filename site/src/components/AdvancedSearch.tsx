@@ -4,6 +4,7 @@ import LemmaLink from "../components/LemmaLink";
 type SearchField =
   | "editor"
   | "language"
+  | "loan_language"
   | "pos"
   | "literal_translation"
   | "meaning"
@@ -209,6 +210,7 @@ export default function AdvancedSearch() {
     const grouped: Record<SearchField, SearchRow[]> = {
       editor: [],
       language: [],
+      loan_language: [],
       pos: [],
       literal_translation: [],
       meaning: [],
@@ -252,6 +254,9 @@ export default function AdvancedSearch() {
 
               case "language":
                 return lemma.language_id === Number(term);
+
+              case "loan_language":
+                return lemma.loan_language_id === Number(term);
 
               case "pos":
                 return lemma.partofspeech_id === Number(term);
@@ -345,6 +350,7 @@ export default function AdvancedSearch() {
                 >
                   <option value="editor">Editor</option>
                   <option value="language">Language</option>
+                  <option value="loan_language">Origin language</option>
                   <option value="pos">Part of Speech</option>
                   <option value="literal_translation">
                     Literal Translation
@@ -359,14 +365,14 @@ export default function AdvancedSearch() {
                 </select>
 
                 {/* Input field */}
-                {["language", "pos", "category"].includes(row.field) ? (
+                {["language", "loan_language", "pos", "category"].includes(row.field) ? (
                   <select
                     value={row.value}
                     onChange={(e) => updateValue(i, e.target.value)}
                   >
                     <option value="">—</option>
 
-                    {row.field === "language" &&
+                    {(row.field === "language" || row.field === "loan_language") &&
                       data.languages.map((l: any) => (
                         <option key={l.language_id} value={l.language_id}>
                           {l.label}
