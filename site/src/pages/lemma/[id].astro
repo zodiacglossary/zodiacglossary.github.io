@@ -78,7 +78,7 @@ const jsonLD = {
         }</p>
         {lemma.last_edit && (
         <small class="last-edited">
-        Last edited: {new Date(lemma.last_edit).toLocaleString()}
+        Last edited: {new Date(lemma.last_edit).toISOString().split("T")[0]}
         </small>
         )}
       </div>
