@@ -109,13 +109,19 @@ jobs:
           git commit -m "Automated DB export (version ${{ env.new_version }})"
 
       - name: Create and push version tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          VERSION: ${{ env.new_version }}
         run: |
-          version="${{ env.new_version }}"
-          tag="v${version}"
+          tag="v${VERSION}"
 
           echo "Creating tag: $tag"
 
           git tag --force "$tag"
+
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git
+
           git push --force --tags origin "$tag"
 
       - name: Set branch name
