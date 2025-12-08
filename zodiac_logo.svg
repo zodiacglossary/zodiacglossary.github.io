@@ -3,7 +3,15 @@
 <svg version="1.1" id="Bdoy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 253 155" style="enable-background:new 0 0 253 155;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFDD;}
+  .st0 {
+        fill: black;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .st0 {
+            fill: white;
+        }
+    }
 </style>
 <path class="st0" d="M245.4,138.2c-1.5-3.4-1.1-6.4-3.5-8.7c-2.4-2.3-9.5-7.3-11.7-9.5c-2.1-2.1-7.4-8-8.5-10.1
 	c-1.1-2-3.2-5.9-6.8-7.9c-4.1-2.3-46.4-10.6-46.4-10.6c-10.3-1.3-18.9-11.9-19.5-21.1c-0.3-4.1,1.4-9.7,3.8-13.8

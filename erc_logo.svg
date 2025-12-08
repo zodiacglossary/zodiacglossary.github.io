@@ -3,10 +3,18 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 81.8 81.9" style="enable-background:new 0 0 81.8 81.9;" xml:space="preserve">
 <style type="text/css">
-	
+
 		.st0{clip-path:url(#SVGID_00000032619027959224746820000004516016110677821571_);fill:url(#SVGID_00000131350140268131826120000014911990337414277301_);}
 	.st1{fill:#E65C25;}
-	.st2{fill:#FFFDEE;}
+  .st2 {
+        fill: black;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .st2 {
+            fill: white;
+        }
+    }
 </style>
 <g id="ERC_Logo_00000080915025938964479880000013840855325887048090_">
 	<g>
@@ -93,12 +101,12 @@
 			<clipPath id="SVGID_00000160170640186065081390000012383086050679020947_">
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 			</clipPath>
-			
+
 				<linearGradient id="SVGID_00000007427814330742070190000004117248412065153152_" gradientUnits="userSpaceOnUse" x1="-557.0651" y1="42.3441" x2="-556.6833" y2="42.3441" gradientTransform="matrix(97.1756 0 0 97.1756 54177.832 -4073.6057)">
 				<stop  offset="0" style="stop-color:#E65C25"/>
 				<stop  offset="1" style="stop-color:#FFFFFF"/>
 			</linearGradient>
-			
+
 				<rect x="44.3" y="7.1" style="clip-path:url(#SVGID_00000160170640186065081390000012383086050679020947_);fill:url(#SVGID_00000007427814330742070190000004117248412065153152_);" width="37.5" height="68.2"/>
 		</g>
 	</g>
