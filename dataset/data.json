@@ -522,7 +522,7 @@
       "primary_meaning": "Scorpio",
       "editor": "Marvin, Mathieu",
       "literal_translation2": "Scorpion",
-      "last_edit": "2023-06-27T13:17:11.680Z",
+      "last_edit": "2025-12-15T17:00:14.350Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -1554,7 +1554,7 @@
       "primary_meaning": "Scorpio",
       "editor": "Michael, Thomas",
       "literal_translation2": "",
-      "last_edit": "2024-10-21T15:11:01.314Z",
+      "last_edit": "2025-12-15T16:59:49.734Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -1602,7 +1602,7 @@
       "primary_meaning": "Capricorn",
       "editor": "Michael, Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-01-29T15:45:30.605Z",
+      "last_edit": "2025-12-15T17:01:23.542Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -52393,30 +52393,6 @@
       "loan_type": "none"
     },
     {
-      "lemma_id": 6375,
-      "published": true,
-      "original": "आस्फुजित्",
-      "translation": "Venus",
-      "transliteration": "āsphujit",
-      "partofspeech_id": 6,
-      "partofspeech_label": "Noun",
-      "partofspeech_value": "noun",
-      "language_id": 7,
-      "language_label": "Sanskrit",
-      "language_value": "sanskrit",
-      "loan_language_id": 7,
-      "loan_language_label": "Sanskrit",
-      "loan_language_value": "sanskrit",
-      "primary_meaning": "Venus",
-      "editor": "Poorvaa",
-      "literal_translation2": "",
-      "last_edit": "2025-11-22T17:45:43.315Z",
-      "comment": "Derived from Ancient Greek Ᾰ̓φροδῑ́τη, meaning Venus",
-      "checked": false,
-      "attention": false,
-      "loan_type": "none"
-    },
-    {
       "lemma_id": 6377,
       "published": true,
       "original": "तारा",
@@ -52436,30 +52412,6 @@
       "literal_translation2": "",
       "last_edit": "2025-11-22T18:03:11.030Z",
       "comment": "",
-      "checked": false,
-      "attention": false,
-      "loan_type": "none"
-    },
-    {
-      "lemma_id": 6378,
-      "published": true,
-      "original": "होरा",
-      "translation": "horoscope",
-      "transliteration": "horā",
-      "partofspeech_id": 6,
-      "partofspeech_label": "Noun",
-      "partofspeech_value": "noun",
-      "language_id": 7,
-      "language_label": "Sanskrit",
-      "language_value": "sanskrit",
-      "loan_language_id": 7,
-      "loan_language_label": "Sanskrit",
-      "loan_language_value": "sanskrit",
-      "primary_meaning": "hour",
-      "editor": "Poorvaa",
-      "literal_translation2": "",
-      "last_edit": "2025-11-22T18:19:54.574Z",
-      "comment": "from Gk. ὥρα ‘hour, ascendant",
       "checked": false,
       "attention": false,
       "loan_type": "none"
@@ -52507,6 +52459,126 @@
       "editor": "Poorvaa",
       "literal_translation2": "",
       "last_edit": "2025-11-22T19:35:19.586Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6384,
+      "published": true,
+      "original": "राशि",
+      "translation": "heap",
+      "transliteration": "rāśi",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 7,
+      "language_label": "Sanskrit",
+      "language_value": "sanskrit",
+      "loan_language_id": 7,
+      "loan_language_label": "Sanskrit",
+      "loan_language_value": "sanskrit",
+      "primary_meaning": "Zodiac Sign",
+      "editor": "Poorvaa",
+      "literal_translation2": "",
+      "last_edit": "2025-12-13T08:44:04.606Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6386,
+      "published": true,
+      "original": "भौमः",
+      "translation": "earthly",
+      "transliteration": "bhauma",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 7,
+      "language_label": "Sanskrit",
+      "language_value": "sanskrit",
+      "loan_language_id": 7,
+      "loan_language_label": "Sanskrit",
+      "loan_language_value": "sanskrit",
+      "primary_meaning": "Mars",
+      "editor": "Poorvaa",
+      "literal_translation2": "",
+      "last_edit": "2025-12-13T13:11:01.832Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6387,
+      "published": true,
+      "original": "गुरोः",
+      "translation": "Teacher",
+      "transliteration": "Guru",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 7,
+      "language_label": "Sanskrit",
+      "language_value": "sanskrit",
+      "loan_language_id": 7,
+      "loan_language_label": "Sanskrit",
+      "loan_language_value": "sanskrit",
+      "primary_meaning": "Jupiter",
+      "editor": "Poorvaa",
+      "literal_translation2": "",
+      "last_edit": "2025-12-13T13:15:23.767Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6388,
+      "published": true,
+      "original": "शुक्र",
+      "translation": "Bright",
+      "transliteration": "śukra",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 7,
+      "language_label": "Sanskrit",
+      "language_value": "sanskrit",
+      "loan_language_id": 7,
+      "loan_language_label": "Sanskrit",
+      "loan_language_value": "sanskrit",
+      "primary_meaning": "Venus",
+      "editor": "Poorvaa",
+      "literal_translation2": "",
+      "last_edit": "2025-12-13T13:45:59.687Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6389,
+      "published": true,
+      "original": "ग्रह",
+      "translation": "planet",
+      "transliteration": "graha",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 7,
+      "language_label": "Sanskrit",
+      "language_value": "sanskrit",
+      "loan_language_id": 7,
+      "loan_language_label": "Sanskrit",
+      "loan_language_value": "sanskrit",
+      "primary_meaning": "planet",
+      "editor": "Poorvaa",
+      "literal_translation2": "",
+      "last_edit": "2025-12-13T14:03:05.910Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -52838,7 +52910,7 @@
     },
     {
       "meaning_id": 89,
-      "value": "Scorpion",
+      "value": "Scorpius",
       "lemma_id": 77,
       "category": "constellation",
       "comment": ""
@@ -53419,7 +53491,7 @@
     },
     {
       "meaning_id": 186,
-      "value": "Scorpio",
+      "value": "Scorpius",
       "lemma_id": 137,
       "category": "constellation",
       "comment": ""
@@ -53454,7 +53526,7 @@
     },
     {
       "meaning_id": 196,
-      "value": "Capricorn",
+      "value": "Capricornus",
       "lemma_id": 143,
       "category": "constellation",
       "comment": ""
@@ -80508,23 +80580,9 @@
       "comment": ""
     },
     {
-      "meaning_id": 7728,
-      "value": "Venus",
-      "lemma_id": 6375,
-      "category": "",
-      "comment": ""
-    },
-    {
       "meaning_id": 7729,
       "value": "star",
       "lemma_id": 6377,
-      "category": "",
-      "comment": ""
-    },
-    {
-      "meaning_id": 7730,
-      "value": "",
-      "lemma_id": 6378,
       "category": "",
       "comment": ""
     },
@@ -80539,6 +80597,41 @@
       "meaning_id": 7733,
       "value": "Originating from Egypt, drekāṇas or D3 chart is 1/3 of a zodiac sign equal to 10 degrees (face)",
       "lemma_id": 6381,
+      "category": "",
+      "comment": ""
+    },
+    {
+      "meaning_id": 7734,
+      "value": "equal division of the zodiac into twelve parts of 30°, determined by the position of Moon during one’s birth.",
+      "lemma_id": 6384,
+      "category": "",
+      "comment": ""
+    },
+    {
+      "meaning_id": 7736,
+      "value": "Planet Mars",
+      "lemma_id": 6386,
+      "category": "",
+      "comment": ""
+    },
+    {
+      "meaning_id": 7737,
+      "value": "Jupiter",
+      "lemma_id": 6387,
+      "category": "",
+      "comment": ""
+    },
+    {
+      "meaning_id": 7738,
+      "value": "Venus",
+      "lemma_id": 6388,
+      "category": "",
+      "comment": ""
+    },
+    {
+      "meaning_id": 7739,
+      "value": "planet",
+      "lemma_id": 6389,
       "category": "",
       "comment": ""
     }
@@ -109588,6 +109681,36 @@
       "category_id": 8187,
       "meaning_id": 7732,
       "category": "horoscope"
+    },
+    {
+      "category_id": 8188,
+      "meaning_id": 7734,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8189,
+      "meaning_id": 7734,
+      "category": ""
+    },
+    {
+      "category_id": 8190,
+      "meaning_id": 7735,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8191,
+      "meaning_id": 7736,
+      "category": "planet"
+    },
+    {
+      "category_id": 8192,
+      "meaning_id": 7737,
+      "category": "planet"
+    },
+    {
+      "category_id": 8193,
+      "meaning_id": 7738,
+      "category": "planet"
     }
   ],
   "variants": [
@@ -141671,6 +141794,13 @@
       "transliteration": "dṛkāṇa",
       "lemma_id": 6381,
       "comment": ""
+    },
+    {
+      "variant_id": 7499,
+      "original": "गुरु",
+      "transliteration": "Guru",
+      "lemma_id": 6387,
+      "comment": ""
     }
   ],
   "quotations": [
@@ -143328,7 +143458,7 @@
       "original": "Σκορπίου· οὗτος διὰ τὸ μέγεθος εἰς δύο δωδεκατημόρια διαιρεῖται· καὶ τὸ μὲν ἐπέχουσιν αἱ χηλαί, θάτερον δὲ τὸ σῶμα καὶ τὸ κέντρον. τοῦτον, φασίν, ἐποίησεν Ἄρτεμις ἀναδοθῆναι <ἐκ> τῆς κολώνης τῆς Χίου νήσου, καὶ τὸν Ὠρίωνα πλῆξαι, καὶ οὕτως ἀποθανεῖν, ἐπειδὴ ἐν κυνηγεσίῳ ἀκόσμως αὐτὴν ἐβιάσατο· ὃν Ζεὺς ἐν τοῖς λαμπροῖς ἔθηκε τῶν ἄστρων, ἵν’ εἰδῶσιν οἱ ἐπιγινόμενοι ἄνθρωποι τὴν ἰσχύν τε αὐτοῦ καὶ τὴν δύναμιν.",
       "transliteration": "",
       "lemma_id": 137,
-      "translation": "On Scorpio: this one is divided into two dodekatemoria because of its size. One is occupied by the claws, and the other by the body and stinger. They say Artemis caused it to spring from the hill on the island of Chios and sting Orion, and that was how he died, since he made an unseemly assault on her while hunting—and Zeus placed him among the bright stars, so that people in the future would know his strength and power.",
+      "translation": "On Scorpius: this one is divided into two dodekatemoria because of its size. One is occupied by the claws, and the other by the body and stinger. They say Artemis caused it to spring from the hill on the island of Chios and sting Orion, and that was how he died, since he made an unseemly assault on her while hunting—and Zeus placed him among the bright stars, so that people in the future would know his strength and power.",
       "source": "Pseudo-Eratosthenes, Catasterisms",
       "genre": "astronomy",
       "provenance": "",
@@ -211341,23 +211471,6 @@
       "comment": ""
     },
     {
-      "quotation_id": 7732,
-      "original": "बुधास्फुजिद्भूमिजजीवसौराः संज्ञाभिरेण्ड क्रमशो निकर्षीत् ।\nद्विर्द्विर्गृहेशाः प्रथितास्ततोऽमी ताराधिनाथस्य दिवाकरस्य ॥३३॥",
-      "transliteration": "budhāsphujidbhūmijajīvasaurāḥ saṃjñābhireṇḍa kramaśo nikarṣīt |\ndvirdvirgṛheśāḥ prathitāstato'mī tārādhināthasya divākarasya ||33||",
-      "lemma_id": 6375,
-      "translation": "Budha (Mercury), Śukra (Venus), Bhauma (Mars), Jīva (Jupiter), and Saura (Saturn) — these planets, named in this order, are each known as the lords of two zodiacal signs. They  are planetary rulers of the Moon and sun",
-      "source": "Yavanajātaka",
-      "genre": "astrological treatise",
-      "provenance": "India",
-      "date": "4th-6th century CE",
-      "publication": "Pingree, David. The Yavanajātaka of Sphujidhvaja. Harvard Oriental Series, vol. 48. Cambridge: Harvard University Press",
-      "link": "",
-      "line": "v.1.33",
-      "meaning_id": 7728,
-      "page": "49",
-      "comment": ""
-    },
-    {
       "quotation_id": 7733,
       "original": "बुधास्फुजिद्भूमिजजीवसौराः संज्ञाभिरेण्ड क्रमशो निकर्षीत् ।\nद्विर्द्विर्गृहेशाः प्रथितास्ततोऽमी ताराधिनाथस्य दिवाकरस्य ॥३३॥",
       "transliteration": "budhāsphujidbhūmijajīvasaurāḥ saṃjñābhireṇḍa kramaśo nikarṣīt |\ndvirdvirgṛheśāḥ prathitāstato'mī tārādhināthasya divākarasya ||33||",
@@ -211406,6 +211519,91 @@
       "line": "v.34",
       "meaning_id": 7733,
       "page": "49",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7737,
+      "original": "आद्या तु होरा भवनस्य पत्युरेकादशक्षेत्रपतेर्द्वितीया ।\nस्वद्वादशैकादशराशिपानां द्रेकाणसंज्ञाः क्रमशस्त्रयोऽत्र ॥३९॥",
+      "transliteration": "ādyā tu horā bhavanasya patyurekādaśakṣetrapaterdvitīyā |\nsvadvādaśaikādaśarāśipānāṃ drekāṇasaṃjñāḥ kramaśastrayo'tra ||39||",
+      "lemma_id": 6384,
+      "translation": "But the lord of zodiac sign is first horā is the and the second is the lord of the eleventh zodiac sign. The Drekkāṇas belonging to the lords of the 12th and 11th signs are here designated in regular order as three",
+      "source": "Yavanajātaka",
+      "genre": "astrological treatise",
+      "provenance": "India",
+      "date": "4th-6th century CE",
+      "publication": "Pingree, David. The Yavanajātaka of Sphujidhvaja. Harvard Oriental Series, vol. 48. Cambridge: Harvard University Press",
+      "link": "",
+      "line": "v.1.39",
+      "meaning_id": 7734,
+      "page": "50",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7739,
+      "original": "भौमस्य पंचार्कसुतस्य तद्वदष्टौ गुरोः सप्त बुधस्य भागाः ।\nशुक्रस्य पंचौजगृहेषु चैषां युग्मेषु चैते स्युरपक्रमेण ॥४२॥",
+      "transliteration": "bhaumasya paṃcārkasutasya tadvadaṣṭau guroḥ sapta budhasya bhāgāḥ |\nśukrasya paṃcaujagṛheṣu caiṣāṃ yugmeṣu caite syurapakrameṇa ||42||",
+      "lemma_id": 6386,
+      "translation": "Mars has five portions; similarly, the son of the Sun (Saturn) has five. Jupiter has eight portions, and Mercury has seven. Venus has five portions, and all these are assigned respectively in odd zodiac signs . Among the even zodiac signs those should be reverse in order",
+      "source": "Yavanajātaka",
+      "genre": "astrological treatise",
+      "provenance": "India",
+      "date": "4th-6th century CE",
+      "publication": "Pingree, David. The Yavanajātaka of Sphujidhvaja. Harvard Oriental Series, vol. 48. Cambridge: Harvard University Press",
+      "link": "",
+      "line": "v.1.42",
+      "meaning_id": 7736,
+      "page": "50",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7740,
+      "original": "भौमस्य पंचार्कसुतस्य तद्वदष्टौ गुरोः सप्त बुधस्य भागाः ।\nशुक्रस्य पंचौजगृहेषु चैषां युग्मेषु चैते स्युरपक्रमेण ॥४२॥",
+      "transliteration": "bhaumasya paṃcārkasutasya tadvadaṣṭau guroḥ sapta budhasya bhāgāḥ |\nśukrasya paṃcaujagṛheṣu caiṣāṃ yugmeṣu caite syurapakrameṇa ||42||",
+      "lemma_id": 6387,
+      "translation": "Mars has five portions; similarly, the son of the Sun (Saturn) has five. Jupiter has eight portions, and Mercury has seven. Venus has five portions, and all these are assigned respectively in odd zodiac signs . Among the even zodiac signs those should be reverse in order",
+      "source": "Yavanajātaka",
+      "genre": "astrological treatise",
+      "provenance": "India",
+      "date": "4th-6th century CE",
+      "publication": "Pingree, David. The Yavanajātaka of Sphujidhvaja. Harvard Oriental Series, vol. 48. Cambridge: Harvard University Press",
+      "link": "",
+      "line": "V.1.42",
+      "meaning_id": 7737,
+      "page": "50",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7741,
+      "original": "भौमस्य पंचार्कसुतस्य तद्वदष्टौ गुरोः सप्त बुधस्य भागाः ।\nशुक्रस्य पंचौजगृहेषु चैषां युग्मेषु चैते स्युरपक्रमेण ॥४२॥",
+      "transliteration": "bhaumasya paṃcārkasutasya tadvadaṣṭau guroḥ sapta budhasya bhāgāḥ |\nśukrasya paṃcaujagṛheṣu caiṣāṃ yugmeṣu caite syurapakrameṇa ||42||",
+      "lemma_id": 6388,
+      "translation": "Mars has five portions; similarly, the son of the Sun (Saturn) has five. Jupiter has eight portions, and Mercury has seven. Venus has five portions, and all these are assigned respectively in odd zodiac signs . Among the even zodiac signs those should be reverse in order",
+      "source": "Yavanajātaka",
+      "genre": "astrological treatise",
+      "provenance": "India",
+      "date": "4th-6th century CE",
+      "publication": "Pingree, David. The Yavanajātaka of Sphujidhvaja. Harvard Oriental Series, vol. 48. Cambridge: Harvard University Press",
+      "link": "",
+      "line": "v.1.42",
+      "meaning_id": 7738,
+      "page": "50",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7742,
+      "original": "सौराः सचूडापदलिप्तिकाख्या भाज्यास्तदान्येन भमण्डलेन ।\nतस्येतरक्षेत्रवदुच्यतेंऽशो ग्रहस्य सर्वस्य तदात्मयोगी ॥४३॥",
+      "transliteration": "saurāḥ sacūḍāpadaliptikākhyā bhājyāstadānyena bhamaṇḍalena |\ntasyetarakṣetravaducyateṃ'śo grahasya sarvasya tadātmayogī ||43||",
+      "lemma_id": 6389,
+      "translation": "The sauras(solar divisions) called cūḍāpadas and liptikas are to be divided with the other circle of the zodiac signs. Consequentlt, the Aṁśa (portion) of the planet is declared similar to its placement in another sign and this portion becomes united with the very nature (ātma-yogī) of that planet.",
+      "source": "Yavanajātaka",
+      "genre": "astrological treatise",
+      "provenance": "India",
+      "date": "4th-6th century CE",
+      "publication": "Pingree, David. The Yavanajātaka of Sphujidhvaja. Harvard Oriental Series, vol. 48. Cambridge: Harvard University Press",
+      "link": "",
+      "line": "v.1.43",
+      "meaning_id": 7739,
+      "page": "50",
       "comment": ""
     }
   ],
@@ -234673,6 +234871,46 @@
       "cross_link_id": 5457,
       "lemma_id": 6370,
       "link": 1013
+    },
+    {
+      "cross_link_id": 5458,
+      "lemma_id": 6386,
+      "link": 81
+    },
+    {
+      "cross_link_id": 5459,
+      "lemma_id": 6386,
+      "link": 540
+    },
+    {
+      "cross_link_id": 5460,
+      "lemma_id": 6386,
+      "link": 366
+    },
+    {
+      "cross_link_id": 5461,
+      "lemma_id": 6386,
+      "link": 619
+    },
+    {
+      "cross_link_id": 5462,
+      "lemma_id": 6387,
+      "link": 86
+    },
+    {
+      "cross_link_id": 5463,
+      "lemma_id": 6387,
+      "link": 88
+    },
+    {
+      "cross_link_id": 5464,
+      "lemma_id": 6387,
+      "link": 749
+    },
+    {
+      "cross_link_id": 5465,
+      "lemma_id": 6388,
+      "link": 6374
     }
   ],
   "users": [
