@@ -46,6 +46,7 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           PGHOST: localhost
           PGPORT: ${{ env.LOCAL_PROXY_PORT }}
+          PGPASSWORD: ${{ secrets.PGPASSWORD }}
         run: |
           cd dataset
           npm install
