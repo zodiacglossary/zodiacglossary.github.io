@@ -47,7 +47,7 @@ jobs:
           PGHOST: localhost
           PGPORT: ${{ env.LOCAL_PROXY_PORT }}
           PGPASSWORD: ${{ secrets.PGPASSWORD }}
-          PGUSER: postgres
+          PGUSER: zodiac
         run: |
           cd dataset
           npm install
