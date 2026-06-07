@@ -47,6 +47,7 @@ jobs:
           PGHOST: localhost
           PGPORT: ${{ env.LOCAL_PROXY_PORT }}
           PGPASSWORD: ${{ secrets.PGPASSWORD }}
+          PGUSER: postgres
         run: |
           cd dataset
           npm install
