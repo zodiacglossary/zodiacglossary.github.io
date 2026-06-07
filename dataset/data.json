@@ -138,7 +138,7 @@
       "primary_meaning": "Pleiades",
       "editor": "Marvin, Mathieu",
       "literal_translation2": "bristle",
-      "last_edit": "2024-06-02T16:56:29.691Z",
+      "last_edit": "2026-06-01T09:58:51.698Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -402,7 +402,7 @@
       "primary_meaning": "Taurus",
       "editor": "Mathieu",
       "literal_translation2": "Jaw of the Bull",
-      "last_edit": "2025-11-03T08:55:48.382Z",
+      "last_edit": "2026-06-01T10:01:38.209Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -21423,7 +21423,7 @@
       "loan_language_id": 0,
       "loan_language_label": "",
       "loan_language_value": "none",
-      "primary_meaning": "",
+      "primary_meaning": "to place",
       "editor": "Mathieu",
       "literal_translation2": "to place",
       "last_edit": "2024-07-15T07:42:18.049Z",
@@ -47716,7 +47716,7 @@
       "lemma_id": 2860,
       "published": true,
       "original": "Βασιλίσκος",
-      "translation": "Basiliskos",
+      "translation": "Little King",
       "transliteration": "Basiliskos",
       "partofspeech_id": 6,
       "partofspeech_label": "Noun",
@@ -47730,7 +47730,7 @@
       "primary_meaning": "Regulus (α Leonis)",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-24T09:07:41.223Z",
+      "last_edit": "2026-04-20T15:50:24.371Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -53035,7 +53035,7 @@
     },
     {
       "meaning_id": 52,
-      "value": "bristle",
+      "value": "Pleiades",
       "lemma_id": 60,
       "category": "literal translation",
       "comment": ""
@@ -81536,7 +81536,7 @@
     {
       "category_id": 108,
       "meaning_id": 52,
-      "category": "literal translation"
+      "category": "group of stars and constellations"
     },
     {
       "category_id": 109,
@@ -93111,7 +93111,7 @@
     {
       "category_id": 2601,
       "meaning_id": 2564,
-      "category": "Decan"
+      "category": "decan"
     },
     {
       "category_id": 2604,
@@ -110227,6 +110227,16 @@
       "category_id": 8197,
       "meaning_id": 7750,
       "category": "natural satellite"
+    },
+    {
+      "category_id": 8198,
+      "meaning_id": 52,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8199,
+      "meaning_id": 78,
+      "category": "constellation"
     }
   ],
   "variants": [
@@ -235814,6 +235824,14 @@
       "email": "bmpmak@gmail.com",
       "username": "bmak",
       "website": "https://www.billmak.com"
+    },
+    {
+      "id": 57,
+      "first_name": "Gülru",
+      "last_name": "Turhan",
+      "email": "h.turhan@fu-berlin.de",
+      "username": "Gulru",
+      "website": null
     }
   ],
   "languages": [
