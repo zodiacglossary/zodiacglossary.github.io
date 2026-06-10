@@ -81154,11 +81154,6 @@
       "category": "celestial object"
     },
     {
-      "category_id": 15,
-      "meaning_id": 96,
-      "category": "verb"
-    },
-    {
       "category_id": 16,
       "meaning_id": 92,
       "category": "constellation"
@@ -81167,11 +81162,6 @@
       "category_id": 17,
       "meaning_id": 102,
       "category": "common noun"
-    },
-    {
-      "category_id": 18,
-      "meaning_id": 213,
-      "category": "verb"
     },
     {
       "category_id": 19,
@@ -81192,11 +81182,6 @@
       "category_id": 23,
       "meaning_id": 146,
       "category": "luminary"
-    },
-    {
-      "category_id": 24,
-      "meaning_id": 210,
-      "category": "adjective"
     },
     {
       "category_id": 25,
@@ -81277,11 +81262,6 @@
       "category_id": 42,
       "meaning_id": 62,
       "category": "common noun"
-    },
-    {
-      "category_id": 44,
-      "meaning_id": 209,
-      "category": "adjective"
     },
     {
       "category_id": 45,
@@ -81429,24 +81409,9 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 83,
-      "meaning_id": 97,
-      "category": "verb"
-    },
-    {
       "category_id": 84,
       "meaning_id": 100,
       "category": "planet"
-    },
-    {
-      "category_id": 85,
-      "meaning_id": 75,
-      "category": "noun"
-    },
-    {
-      "category_id": 86,
-      "meaning_id": 95,
-      "category": "verb"
     },
     {
       "category_id": 87,
@@ -81477,11 +81442,6 @@
       "category_id": 93,
       "meaning_id": 99,
       "category": "common noun"
-    },
-    {
-      "category_id": 94,
-      "meaning_id": 153,
-      "category": "noun"
     },
     {
       "category_id": 95,
@@ -81524,11 +81484,6 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 106,
-      "meaning_id": 105,
-      "category": "adjective"
-    },
-    {
       "category_id": 107,
       "meaning_id": 61,
       "category": "zodiac sign"
@@ -81559,11 +81514,6 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 114,
-      "meaning_id": 212,
-      "category": "verb"
-    },
-    {
       "category_id": 117,
       "meaning_id": 147,
       "category": "deity"
@@ -81589,29 +81539,14 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 127,
-      "meaning_id": 107,
-      "category": "adjective"
-    },
-    {
       "category_id": 128,
       "meaning_id": 84,
       "category": "zodiac sign"
     },
     {
-      "category_id": 129,
-      "meaning_id": 129,
-      "category": "adjective"
-    },
-    {
       "category_id": 130,
       "meaning_id": 117,
       "category": "constellation"
-    },
-    {
-      "category_id": 131,
-      "meaning_id": 228,
-      "category": "noun"
     },
     {
       "category_id": 132,
@@ -81629,11 +81564,6 @@
       "category": "month"
     },
     {
-      "category_id": 136,
-      "meaning_id": 240,
-      "category": "noun"
-    },
-    {
       "category_id": 137,
       "meaning_id": 297,
       "category": "mathematical quantity"
@@ -81642,16 +81572,6 @@
       "category_id": 138,
       "meaning_id": 306,
       "category": "mathematical operation"
-    },
-    {
-      "category_id": 139,
-      "meaning_id": 251,
-      "category": "verb"
-    },
-    {
-      "category_id": 140,
-      "meaning_id": 230,
-      "category": "noun"
     },
     {
       "category_id": 142,
@@ -81744,11 +81664,6 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 164,
-      "meaning_id": 231,
-      "category": "noun"
-    },
-    {
       "category_id": 165,
       "meaning_id": 291,
       "category": "lunar position"
@@ -81774,11 +81689,6 @@
       "category": "synodic phenomenon"
     },
     {
-      "category_id": 170,
-      "meaning_id": 243,
-      "category": "noun"
-    },
-    {
       "category_id": 171,
       "meaning_id": 247,
       "category": "astronomical event"
@@ -81787,11 +81697,6 @@
       "category_id": 172,
       "meaning_id": 266,
       "category": "luminary"
-    },
-    {
-      "category_id": 173,
-      "meaning_id": 250,
-      "category": "adjective"
     },
     {
       "category_id": 174,
@@ -81839,11 +81744,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 183,
-      "meaning_id": 242,
-      "category": "noun"
-    },
-    {
       "category_id": 184,
       "meaning_id": 273,
       "category": "month"
@@ -81859,44 +81759,14 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 187,
-      "meaning_id": 256,
-      "category": "verb"
-    },
-    {
       "category_id": 188,
       "meaning_id": 296,
       "category": "mathematical operation"
     },
     {
-      "category_id": 189,
-      "meaning_id": 252,
-      "category": "verb"
-    },
-    {
-      "category_id": 190,
-      "meaning_id": 229,
-      "category": "noun"
-    },
-    {
-      "category_id": 191,
-      "meaning_id": 249,
-      "category": "adjective"
-    },
-    {
-      "category_id": 192,
-      "meaning_id": 253,
-      "category": "verb"
-    },
-    {
       "category_id": 193,
       "meaning_id": 280,
       "category": "common noun"
-    },
-    {
-      "category_id": 194,
-      "meaning_id": 288,
-      "category": "adjective"
     },
     {
       "category_id": 195,
@@ -81932,11 +81802,6 @@
       "category_id": 202,
       "meaning_id": 224,
       "category": "unit of celestial position"
-    },
-    {
-      "category_id": 203,
-      "meaning_id": 282,
-      "category": "adjective"
     },
     {
       "category_id": 204,
@@ -81989,11 +81854,6 @@
       "category": "common noun"
     },
     {
-      "category_id": 215,
-      "meaning_id": 244,
-      "category": "noun"
-    },
-    {
       "category_id": 216,
       "meaning_id": 199,
       "category": "zodiac sign"
@@ -82002,11 +81862,6 @@
       "category_id": 217,
       "meaning_id": 299,
       "category": "synodic phenomenon"
-    },
-    {
-      "category_id": 218,
-      "meaning_id": 214,
-      "category": "verb"
     },
     {
       "category_id": 219,
@@ -82024,44 +81879,9 @@
       "category": "verb of motion"
     },
     {
-      "category_id": 222,
-      "meaning_id": 262,
-      "category": "verb"
-    },
-    {
       "category_id": 223,
       "meaning_id": 278,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 224,
-      "meaning_id": 259,
-      "category": "noun"
-    },
-    {
-      "category_id": 225,
-      "meaning_id": 255,
-      "category": "verb"
-    },
-    {
-      "category_id": 226,
-      "meaning_id": 263,
-      "category": "verb"
-    },
-    {
-      "category_id": 227,
-      "meaning_id": 254,
-      "category": "verb"
-    },
-    {
-      "category_id": 228,
-      "meaning_id": 248,
-      "category": "adjective"
-    },
-    {
-      "category_id": 229,
-      "meaning_id": 257,
-      "category": "adjective"
     },
     {
       "category_id": 231,
@@ -82099,16 +81919,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 239,
-      "meaning_id": 215,
-      "category": "verb"
-    },
-    {
-      "category_id": 240,
-      "meaning_id": 308,
-      "category": "verb"
-    },
-    {
       "category_id": 241,
       "meaning_id": 371,
       "category": "time interval"
@@ -82137,11 +81947,6 @@
       "category_id": 246,
       "meaning_id": 343,
       "category": "mathematical operation"
-    },
-    {
-      "category_id": 247,
-      "meaning_id": 376,
-      "category": "verb"
     },
     {
       "category_id": 248,
@@ -82299,11 +82104,6 @@
       "category": "lunar month"
     },
     {
-      "category_id": 280,
-      "meaning_id": 365,
-      "category": "noun"
-    },
-    {
       "category_id": 281,
       "meaning_id": 314,
       "category": "synodic phenomenon"
@@ -82322,11 +82122,6 @@
       "category_id": 284,
       "meaning_id": 386,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 285,
-      "meaning_id": 366,
-      "category": "noun"
     },
     {
       "category_id": 286,
@@ -82499,11 +82294,6 @@
       "category": "star: normal star"
     },
     {
-      "category_id": 322,
-      "meaning_id": 394,
-      "category": "verb"
-    },
-    {
       "category_id": 323,
       "meaning_id": 390,
       "category": "astrological concept"
@@ -82532,11 +82322,6 @@
       "category_id": 328,
       "meaning_id": 424,
       "category": "mathematical operation"
-    },
-    {
-      "category_id": 329,
-      "meaning_id": 395,
-      "category": "verb"
     },
     {
       "category_id": 330,
@@ -82587,11 +82372,6 @@
       "category_id": 339,
       "meaning_id": 399,
       "category": "astronomical event"
-    },
-    {
-      "category_id": 340,
-      "meaning_id": 454,
-      "category": "adjective"
     },
     {
       "category_id": 341,
@@ -82909,11 +82689,6 @@
       "category": "astrological lot"
     },
     {
-      "category_id": 410,
-      "meaning_id": 504,
-      "category": "noun"
-    },
-    {
       "category_id": 411,
       "meaning_id": 544,
       "category": "cardinal direction"
@@ -82949,11 +82724,6 @@
       "category": "astronomical event"
     },
     {
-      "category_id": 418,
-      "meaning_id": 241,
-      "category": "noun"
-    },
-    {
       "category_id": 419,
       "meaning_id": 514,
       "category": "common noun"
@@ -82977,11 +82747,6 @@
       "category_id": 423,
       "meaning_id": 516,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 424,
-      "meaning_id": 527,
-      "category": "adjective"
     },
     {
       "category_id": 425,
@@ -83052,11 +82817,6 @@
       "category_id": 439,
       "meaning_id": 511,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 440,
-      "meaning_id": 497,
-      "category": "noun"
     },
     {
       "category_id": 441,
@@ -83414,24 +83174,9 @@
       "category": "astronomical event"
     },
     {
-      "category_id": 516,
-      "meaning_id": 580,
-      "category": "conjunction"
-    },
-    {
-      "category_id": 517,
-      "meaning_id": 586,
-      "category": "verb"
-    },
-    {
       "category_id": 518,
       "meaning_id": 637,
       "category": "mathematical operation"
-    },
-    {
-      "category_id": 519,
-      "meaning_id": 620,
-      "category": "preposition"
     },
     {
       "category_id": 520,
@@ -83444,19 +83189,9 @@
       "category": "star: normal star"
     },
     {
-      "category_id": 522,
-      "meaning_id": 581,
-      "category": "conjunction"
-    },
-    {
       "category_id": 523,
       "meaning_id": 602,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 524,
-      "meaning_id": 579,
-      "category": "preposition"
     },
     {
       "category_id": 525,
@@ -83492,11 +83227,6 @@
       "category_id": 531,
       "meaning_id": 582,
       "category": "star: normal star"
-    },
-    {
-      "category_id": 532,
-      "meaning_id": 621,
-      "category": "preposition"
     },
     {
       "category_id": 533,
@@ -83562,11 +83292,6 @@
       "category_id": 546,
       "meaning_id": 617,
       "category": "constellation"
-    },
-    {
-      "category_id": 547,
-      "meaning_id": 619,
-      "category": "preposition"
     },
     {
       "category_id": 548,
@@ -83694,11 +83419,6 @@
       "category": "synodic phenomenon"
     },
     {
-      "category_id": 573,
-      "meaning_id": 626,
-      "category": "preposition"
-    },
-    {
       "category_id": 574,
       "meaning_id": 646,
       "category": "calendrical concept"
@@ -83717,11 +83437,6 @@
       "category_id": 577,
       "meaning_id": 649,
       "category": "astronomical event"
-    },
-    {
-      "category_id": 579,
-      "meaning_id": 625,
-      "category": "preposition"
     },
     {
       "category_id": 581,
@@ -83819,11 +83534,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 600,
-      "meaning_id": 724,
-      "category": "noun"
-    },
-    {
       "category_id": 601,
       "meaning_id": 711,
       "category": "luminary"
@@ -83877,11 +83587,6 @@
       "category_id": 611,
       "meaning_id": 729,
       "category": "astronomical term"
-    },
-    {
-      "category_id": 612,
-      "meaning_id": 622,
-      "category": "preposition"
     },
     {
       "category_id": 613,
@@ -83989,16 +83694,6 @@
       "category": "calendrical concept"
     },
     {
-      "category_id": 637,
-      "meaning_id": 697,
-      "category": "preposition"
-    },
-    {
-      "category_id": 638,
-      "meaning_id": 698,
-      "category": "preposition"
-    },
-    {
       "category_id": 639,
       "meaning_id": 712,
       "category": "planet"
@@ -84007,11 +83702,6 @@
       "category_id": 640,
       "meaning_id": 728,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 641,
-      "meaning_id": 695,
-      "category": "preposition"
     },
     {
       "category_id": 642,
@@ -84107,11 +83797,6 @@
       "category_id": 663,
       "meaning_id": 722,
       "category": "spatial expression"
-    },
-    {
-      "category_id": 664,
-      "meaning_id": 623,
-      "category": "preposition"
     },
     {
       "category_id": 665,
@@ -84289,11 +83974,6 @@
       "category": "mathematical expression"
     },
     {
-      "category_id": 701,
-      "meaning_id": 906,
-      "category": "noun"
-    },
-    {
       "category_id": 702,
       "meaning_id": 753,
       "category": "mathematical operation"
@@ -84404,11 +84084,6 @@
       "category": "lunar month"
     },
     {
-      "category_id": 724,
-      "meaning_id": 905,
-      "category": "noun"
-    },
-    {
       "category_id": 725,
       "meaning_id": 777,
       "category": "spatial concept"
@@ -84452,11 +84127,6 @@
       "category_id": 733,
       "meaning_id": 1109,
       "category": "zodiac sign"
-    },
-    {
-      "category_id": 734,
-      "meaning_id": 770,
-      "category": "verb"
     },
     {
       "category_id": 735,
@@ -84534,11 +84204,6 @@
       "category": "constellation"
     },
     {
-      "category_id": 752,
-      "meaning_id": 856,
-      "category": "noun"
-    },
-    {
       "category_id": 753,
       "meaning_id": 859,
       "category": "celestial object"
@@ -84569,11 +84234,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 762,
-      "meaning_id": 884,
-      "category": "verb"
-    },
-    {
       "category_id": 763,
       "meaning_id": 895,
       "category": "mathematical quantity"
@@ -84587,11 +84247,6 @@
       "category_id": 765,
       "meaning_id": 844,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 766,
-      "meaning_id": 853,
-      "category": "verb"
     },
     {
       "category_id": 767,
@@ -84654,11 +84309,6 @@
       "category": "astronomical quantity"
     },
     {
-      "category_id": 779,
-      "meaning_id": 881,
-      "category": "noun"
-    },
-    {
       "category_id": 780,
       "meaning_id": 834,
       "category": "astral concept"
@@ -84687,11 +84337,6 @@
       "category_id": 785,
       "meaning_id": 874,
       "category": "luminary"
-    },
-    {
-      "category_id": 786,
-      "meaning_id": 854,
-      "category": "verb"
     },
     {
       "category_id": 788,
@@ -84864,16 +84509,6 @@
       "category": "verb of position"
     },
     {
-      "category_id": 823,
-      "meaning_id": 897,
-      "category": "verb"
-    },
-    {
-      "category_id": 824,
-      "meaning_id": 885,
-      "category": "verb"
-    },
-    {
       "category_id": 825,
       "meaning_id": 840,
       "category": "astrological concept"
@@ -85004,11 +84639,6 @@
       "category": "spatial concept"
     },
     {
-      "category_id": 852,
-      "meaning_id": 947,
-      "category": "adjective"
-    },
-    {
       "category_id": 853,
       "meaning_id": 967,
       "category": "mathematical quantity"
@@ -85034,19 +84664,9 @@
       "category": "astronomical genre"
     },
     {
-      "category_id": 858,
-      "meaning_id": 946,
-      "category": "adjective"
-    },
-    {
       "category_id": 859,
       "meaning_id": 557,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 860,
-      "meaning_id": 920,
-      "category": "noun"
     },
     {
       "category_id": 861,
@@ -85209,11 +84829,6 @@
       "category": "astronomical event"
     },
     {
-      "category_id": 900,
-      "meaning_id": 913,
-      "category": "noun"
-    },
-    {
       "category_id": 901,
       "meaning_id": 986,
       "category": "astronomical quantity"
@@ -85232,11 +84847,6 @@
       "category_id": 905,
       "meaning_id": 985,
       "category": "astronomical term"
-    },
-    {
-      "category_id": 906,
-      "meaning_id": 978,
-      "category": "noun"
     },
     {
       "category_id": 907,
@@ -85287,11 +84897,6 @@
       "category_id": 916,
       "meaning_id": 990,
       "category": "spatial expression"
-    },
-    {
-      "category_id": 918,
-      "meaning_id": 911,
-      "category": "noun"
     },
     {
       "category_id": 919,
@@ -85399,11 +85004,6 @@
       "category": "practice"
     },
     {
-      "category_id": 943,
-      "meaning_id": 1058,
-      "category": "noun"
-    },
-    {
       "category_id": 944,
       "meaning_id": 1000,
       "category": "common noun"
@@ -85469,11 +85069,6 @@
       "category": "planet"
     },
     {
-      "category_id": 959,
-      "meaning_id": 1011,
-      "category": "noun"
-    },
-    {
       "category_id": 960,
       "meaning_id": 1070,
       "category": "astronomical term"
@@ -85482,11 +85077,6 @@
       "category_id": 961,
       "meaning_id": 1062,
       "category": "planet"
-    },
-    {
-      "category_id": 962,
-      "meaning_id": 1034,
-      "category": "adjective"
     },
     {
       "category_id": 963,
@@ -85577,11 +85167,6 @@
       "category_id": 980,
       "meaning_id": 1049,
       "category": "cardinal direction"
-    },
-    {
-      "category_id": 981,
-      "meaning_id": 1050,
-      "category": "noun"
     },
     {
       "category_id": 982,
@@ -85727,11 +85312,6 @@
       "category_id": 1013,
       "meaning_id": 1024,
       "category": "celestial object"
-    },
-    {
-      "category_id": 1014,
-      "meaning_id": 1045,
-      "category": "noun"
     },
     {
       "category_id": 1015,
@@ -86259,16 +85839,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 1122,
-      "meaning_id": 1226,
-      "category": "adjective"
-    },
-    {
-      "category_id": 1123,
-      "meaning_id": 1227,
-      "category": "adjective"
-    },
-    {
       "category_id": 1124,
       "meaning_id": 1228,
       "category": "astrological concept"
@@ -86347,11 +85917,6 @@
       "category_id": 1139,
       "meaning_id": 1253,
       "category": "mathematical quantity"
-    },
-    {
-      "category_id": 1141,
-      "meaning_id": 912,
-      "category": "noun"
     },
     {
       "category_id": 1142,
@@ -86769,11 +86334,6 @@
       "category": "spatial concept"
     },
     {
-      "category_id": 1283,
-      "meaning_id": 1341,
-      "category": "adjective"
-    },
-    {
       "category_id": 1284,
       "meaning_id": 1341,
       "category": "adverb of time"
@@ -86884,11 +86444,6 @@
       "category": "luminary or planetary quality"
     },
     {
-      "category_id": 1307,
-      "meaning_id": 1359,
-      "category": "preposition"
-    },
-    {
       "category_id": 1308,
       "meaning_id": 1360,
       "category": "temporal expression"
@@ -86954,19 +86509,9 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 1321,
-      "meaning_id": 1372,
-      "category": "verb"
-    },
-    {
       "category_id": 1322,
       "meaning_id": 1373,
       "category": "astronomical term"
-    },
-    {
-      "category_id": 1323,
-      "meaning_id": 1374,
-      "category": "adjective"
     },
     {
       "category_id": 1324,
@@ -87034,11 +86579,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 1338,
-      "meaning_id": 1386,
-      "category": "preposition"
-    },
-    {
       "category_id": 1339,
       "meaning_id": 1387,
       "category": "astrological concept"
@@ -87097,11 +86637,6 @@
       "category_id": 1350,
       "meaning_id": 1397,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 1351,
-      "meaning_id": 1398,
-      "category": "verb"
     },
     {
       "category_id": 1352,
@@ -87699,11 +87234,6 @@
       "category": "verb of motion"
     },
     {
-      "category_id": 1472,
-      "meaning_id": 1510,
-      "category": "conjunction"
-    },
-    {
       "category_id": 1473,
       "meaning_id": 1511,
       "category": "verb of visual perception"
@@ -88014,11 +87544,6 @@
       "category": "adverb of movement"
     },
     {
-      "category_id": 1553,
-      "meaning_id": 1574,
-      "category": "adjective"
-    },
-    {
       "category_id": 1554,
       "meaning_id": 1575,
       "category": "mathematical quantity"
@@ -88062,41 +87587,6 @@
       "category_id": 1563,
       "meaning_id": 1583,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 1564,
-      "meaning_id": 1584,
-      "category": "adjective"
-    },
-    {
-      "category_id": 1565,
-      "meaning_id": 1585,
-      "category": "adjective"
-    },
-    {
-      "category_id": 1566,
-      "meaning_id": 1586,
-      "category": "verb"
-    },
-    {
-      "category_id": 1567,
-      "meaning_id": 1587,
-      "category": "verb"
-    },
-    {
-      "category_id": 1568,
-      "meaning_id": 1588,
-      "category": "noun"
-    },
-    {
-      "category_id": 1569,
-      "meaning_id": 1589,
-      "category": "adjective"
-    },
-    {
-      "category_id": 1570,
-      "meaning_id": 1590,
-      "category": "adjective"
     },
     {
       "category_id": 1572,
@@ -88799,24 +88289,9 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 1713,
-      "meaning_id": 1730,
-      "category": "noun"
-    },
-    {
-      "category_id": 1714,
-      "meaning_id": 1731,
-      "category": "verb"
-    },
-    {
       "category_id": 1715,
       "meaning_id": 1732,
       "category": "astronomical phenomenon"
-    },
-    {
-      "category_id": 1716,
-      "meaning_id": 1733,
-      "category": "noun"
     },
     {
       "category_id": 1717,
@@ -89154,11 +88629,6 @@
       "category": "constellation"
     },
     {
-      "category_id": 1787,
-      "meaning_id": 1808,
-      "category": "noun"
-    },
-    {
       "category_id": 1788,
       "meaning_id": 1809,
       "category": "constellation"
@@ -89214,21 +88684,6 @@
       "category": "animal part"
     },
     {
-      "category_id": 1799,
-      "meaning_id": 1819,
-      "category": "adjective"
-    },
-    {
-      "category_id": 1800,
-      "meaning_id": 1820,
-      "category": "adjective"
-    },
-    {
-      "category_id": 1801,
-      "meaning_id": 1821,
-      "category": "noun"
-    },
-    {
       "category_id": 1802,
       "meaning_id": 1822,
       "category": "animal part"
@@ -89249,19 +88704,9 @@
       "category": "animal part"
     },
     {
-      "category_id": 1806,
-      "meaning_id": 1826,
-      "category": "adjective"
-    },
-    {
       "category_id": 1807,
       "meaning_id": 1827,
       "category": "term of visual perception"
-    },
-    {
-      "category_id": 1808,
-      "meaning_id": 1828,
-      "category": "adjective"
     },
     {
       "category_id": 1809,
@@ -90479,19 +89924,9 @@
       "category": "astronomical event"
     },
     {
-      "category_id": 2055,
-      "meaning_id": 2052,
-      "category": "adjective"
-    },
-    {
       "category_id": 2056,
       "meaning_id": 2053,
       "category": "celestial object"
-    },
-    {
-      "category_id": 2057,
-      "meaning_id": 2054,
-      "category": "adjective"
     },
     {
       "category_id": 2058,
@@ -90534,11 +89969,6 @@
       "category": "time interval"
     },
     {
-      "category_id": 2066,
-      "meaning_id": 2068,
-      "category": "adjective"
-    },
-    {
       "category_id": 2067,
       "meaning_id": 2070,
       "category": "celestial phenomenon"
@@ -90547,11 +89977,6 @@
       "category_id": 2070,
       "meaning_id": 2072,
       "category": "astronomical quantity"
-    },
-    {
-      "category_id": 2071,
-      "meaning_id": 2073,
-      "category": "verb"
     },
     {
       "category_id": 2072,
@@ -90597,16 +90022,6 @@
       "category_id": 2082,
       "meaning_id": 2080,
       "category": "meteorological phenomenon"
-    },
-    {
-      "category_id": 2083,
-      "meaning_id": 2081,
-      "category": "verb"
-    },
-    {
-      "category_id": 2084,
-      "meaning_id": 2082,
-      "category": "verb"
     },
     {
       "category_id": 2085,
@@ -90734,16 +90149,6 @@
       "category": "celestial phenomenon"
     },
     {
-      "category_id": 2110,
-      "meaning_id": 2105,
-      "category": "adjective"
-    },
-    {
-      "category_id": 2111,
-      "meaning_id": 2106,
-      "category": "adjective"
-    },
-    {
       "category_id": 2112,
       "meaning_id": 2107,
       "category": "celestial object"
@@ -90757,11 +90162,6 @@
       "category_id": 2114,
       "meaning_id": 2109,
       "category": "celestial object"
-    },
-    {
-      "category_id": 2115,
-      "meaning_id": 2110,
-      "category": "adjective"
     },
     {
       "category_id": 2116,
@@ -90927,16 +90327,6 @@
       "category_id": 2148,
       "meaning_id": 2143,
       "category": "type of wind"
-    },
-    {
-      "category_id": 2149,
-      "meaning_id": 2144,
-      "category": "adjective"
-    },
-    {
-      "category_id": 2150,
-      "meaning_id": 2145,
-      "category": "adjective"
     },
     {
       "category_id": 2151,
@@ -91324,11 +90714,6 @@
       "category": "verb of motion"
     },
     {
-      "category_id": 2230,
-      "meaning_id": 2232,
-      "category": "adjective"
-    },
-    {
       "category_id": 2231,
       "meaning_id": 2233,
       "category": "celestial object"
@@ -91542,11 +90927,6 @@
       "category_id": 2273,
       "meaning_id": 2277,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 2274,
-      "meaning_id": 2278,
-      "category": "verb"
     },
     {
       "category_id": 2275,
@@ -92469,21 +91849,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 2472,
-      "meaning_id": 2422,
-      "category": "verb"
-    },
-    {
-      "category_id": 2473,
-      "meaning_id": 2423,
-      "category": "noun"
-    },
-    {
-      "category_id": 2474,
-      "meaning_id": 2425,
-      "category": "verb"
-    },
-    {
       "category_id": 2475,
       "meaning_id": 2426,
       "category": "verb of motion"
@@ -92502,11 +91867,6 @@
       "category_id": 2478,
       "meaning_id": 2431,
       "category": "astronomical term"
-    },
-    {
-      "category_id": 2479,
-      "meaning_id": 2434,
-      "category": "verb"
     },
     {
       "category_id": 2480,
@@ -93532,21 +92892,6 @@
       "category_id": 2688,
       "meaning_id": 1192,
       "category": "cardinal point"
-    },
-    {
-      "category_id": 2689,
-      "meaning_id": 624,
-      "category": "preposition"
-    },
-    {
-      "category_id": 2690,
-      "meaning_id": 627,
-      "category": "preposition"
-    },
-    {
-      "category_id": 2691,
-      "meaning_id": 2629,
-      "category": "preposition"
     },
     {
       "category_id": 2692,
@@ -98529,11 +97874,6 @@
       "category": "literal translation"
     },
     {
-      "category_id": 3718,
-      "meaning_id": 3348,
-      "category": "adjective"
-    },
-    {
       "category_id": 3719,
       "meaning_id": 3349,
       "category": "star"
@@ -98887,11 +98227,6 @@
       "category_id": 3793,
       "meaning_id": 3404,
       "category": "part of constellation"
-    },
-    {
-      "category_id": 3794,
-      "meaning_id": 3405,
-      "category": "verb"
     },
     {
       "category_id": 3795,
@@ -109419,11 +108754,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 8017,
-      "meaning_id": 7573,
-      "category": "adjective"
-    },
-    {
       "category_id": 8018,
       "meaning_id": 7574,
       "category": "astrological concept"
@@ -110077,11 +109407,6 @@
       "category_id": 8150,
       "meaning_id": 7690,
       "category": ""
-    },
-    {
-      "category_id": 8151,
-      "meaning_id": 7691,
-      "category": "adjective"
     },
     {
       "category_id": 8152,
