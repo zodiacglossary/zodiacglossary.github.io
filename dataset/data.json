@@ -138,7 +138,7 @@
       "primary_meaning": "Pleiades",
       "editor": "Marvin, Mathieu",
       "literal_translation2": "bristle",
-      "last_edit": "2024-06-02T16:56:29.691Z",
+      "last_edit": "2026-06-01T09:58:51.698Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -402,7 +402,7 @@
       "primary_meaning": "Taurus",
       "editor": "Mathieu",
       "literal_translation2": "Jaw of the Bull",
-      "last_edit": "2025-11-03T08:55:48.382Z",
+      "last_edit": "2026-06-01T10:01:38.209Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -21423,7 +21423,7 @@
       "loan_language_id": 0,
       "loan_language_label": "",
       "loan_language_value": "none",
-      "primary_meaning": "",
+      "primary_meaning": "to place",
       "editor": "Mathieu",
       "literal_translation2": "to place",
       "last_edit": "2024-07-15T07:42:18.049Z",
@@ -53035,7 +53035,7 @@
     },
     {
       "meaning_id": 52,
-      "value": "bristle",
+      "value": "Pleiades",
       "lemma_id": 60,
       "category": "literal translation",
       "comment": ""
@@ -53093,7 +53093,7 @@
       "meaning_id": 60,
       "value": "twins",
       "lemma_id": 61,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -53198,7 +53198,7 @@
       "meaning_id": 75,
       "value": "water",
       "lemma_id": 69,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -53338,21 +53338,21 @@
       "meaning_id": 95,
       "value": "to look",
       "lemma_id": 83,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 96,
       "value": "to behold",
       "lemma_id": 83,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 97,
       "value": "to be in aspect with",
       "lemma_id": 83,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -53408,7 +53408,7 @@
       "meaning_id": 105,
       "value": "heroic, martial, ferocious",
       "lemma_id": 87,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -53422,7 +53422,7 @@
       "meaning_id": 107,
       "value": "white, pale, bleached",
       "lemma_id": 89,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -53541,7 +53541,7 @@
       "meaning_id": 129,
       "value": "normal, regular, usual, steady",
       "lemma_id": 97,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -53695,7 +53695,7 @@
       "meaning_id": 153,
       "value": "planets",
       "lemma_id": 112,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -53954,49 +53954,49 @@
       "meaning_id": 209,
       "value": "money-making",
       "lemma_id": 147,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 210,
       "value": "active",
       "lemma_id": 147,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 212,
       "value": "to do business",
       "lemma_id": 152,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 213,
       "value": "to be active",
       "lemma_id": 152,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 214,
       "value": "to do business together",
       "lemma_id": 154,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 215,
       "value": "to be jointly active",
       "lemma_id": 154,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 217,
       "value": "inactive",
       "lemma_id": 155,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -54066,28 +54066,28 @@
       "meaning_id": 228,
       "value": "image",
       "lemma_id": 163,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 229,
       "value": "likeness",
       "lemma_id": 163,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 230,
       "value": "statue",
       "lemma_id": 163,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 231,
       "value": "zodiac sign",
       "lemma_id": 163,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -54136,35 +54136,35 @@
       "meaning_id": 240,
       "value": "going",
       "lemma_id": 168,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 241,
       "value": "pace",
       "lemma_id": 168,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 242,
       "value": "journey",
       "lemma_id": 168,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 243,
       "value": "movement",
       "lemma_id": 168,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 244,
       "value": "darkening",
       "lemma_id": 169,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -54185,70 +54185,70 @@
       "meaning_id": 248,
       "value": "sympathetic",
       "lemma_id": 171,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 249,
       "value": "unsympathetic",
       "lemma_id": 172,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 250,
       "value": "unconnected",
       "lemma_id": 173,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 251,
       "value": "to command",
       "lemma_id": 174,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 252,
       "value": "to be strong",
       "lemma_id": 175,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 253,
       "value": "to oppress",
       "lemma_id": 176,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 254,
       "value": "to bend forward",
       "lemma_id": 177,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 255,
       "value": "to incline toward",
       "lemma_id": 177,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 256,
       "value": "to be a neighbor",
       "lemma_id": 178,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 257,
       "value": "attached",
       "lemma_id": 179,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -54262,7 +54262,7 @@
       "meaning_id": 259,
       "value": "neighboring",
       "lemma_id": 181,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -54283,14 +54283,14 @@
       "meaning_id": 262,
       "value": "to prevail",
       "lemma_id": 184,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 263,
       "value": "to be superior to",
       "lemma_id": 184,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -54402,7 +54402,7 @@
       "meaning_id": 282,
       "value": "pious",
       "lemma_id": 194,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -54416,7 +54416,7 @@
       "meaning_id": 288,
       "value": "impious",
       "lemma_id": 196,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -54542,7 +54542,7 @@
       "meaning_id": 308,
       "value": "to add",
       "lemma_id": 222,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -54934,14 +54934,14 @@
       "meaning_id": 365,
       "value": "beginning",
       "lemma_id": 268,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 366,
       "value": "(a festival)",
       "lemma_id": 268,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -55011,7 +55011,7 @@
       "meaning_id": 376,
       "value": "to be worried, disturbed, restless",
       "lemma_id": 275,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -55130,14 +55130,14 @@
       "meaning_id": 394,
       "value": "to become eclipsed",
       "lemma_id": 289,
-      "category": "verb",
+      "category": "",
       "comment": "N-stem (passive) of the Akkadian verb adāru \"to become obscured\""
     },
     {
       "meaning_id": 395,
       "value": "to become nervous, impatient, apprehensive",
       "lemma_id": 289,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -55522,7 +55522,7 @@
       "meaning_id": 454,
       "value": "strong",
       "lemma_id": 337,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -55788,7 +55788,7 @@
       "meaning_id": 497,
       "value": "firmament",
       "lemma_id": 364,
-      "category": "noun",
+      "category": "",
       "comment": "Previously understood to be a constellation."
     },
     {
@@ -55837,7 +55837,7 @@
       "meaning_id": 504,
       "value": "astrological influence",
       "lemma_id": 370,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -55998,7 +55998,7 @@
       "meaning_id": 527,
       "value": "related to choice",
       "lemma_id": 389,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -56327,21 +56327,21 @@
       "meaning_id": 579,
       "value": "until",
       "lemma_id": 429,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 580,
       "value": "while",
       "lemma_id": 429,
-      "category": "conjunction",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 581,
       "value": "as long as",
       "lemma_id": 429,
-      "category": "conjunction",
+      "category": "",
       "comment": ""
     },
     {
@@ -56376,7 +56376,7 @@
       "meaning_id": 586,
       "value": "to ascend",
       "lemma_id": 433,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -56607,56 +56607,56 @@
       "meaning_id": 619,
       "value": "from",
       "lemma_id": 448,
-      "category": "preposition",
+      "category": "",
       "comment": "a point in space and time"
     },
     {
       "meaning_id": 620,
       "value": "out of",
       "lemma_id": 448,
-      "category": "preposition",
+      "category": "",
       "comment": "a place, an object, a quantity"
     },
     {
       "meaning_id": 621,
       "value": "since",
       "lemma_id": 448,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 622,
       "value": "after",
       "lemma_id": 448,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 623,
       "value": "by",
       "lemma_id": 448,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 624,
       "value": "in",
       "lemma_id": 468,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 625,
       "value": "on",
       "lemma_id": 468,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 626,
       "value": "from",
       "lemma_id": 468,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
@@ -57125,35 +57125,35 @@
       "meaning_id": 694,
       "value": "in front of",
       "lemma_id": 525,
-      "category": "preposition",
+      "category": "",
       "comment": "astronomical meaning"
     },
     {
       "meaning_id": 695,
       "value": "from",
       "lemma_id": 525,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 696,
       "value": "before",
       "lemma_id": 525,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 697,
       "value": "on account of",
       "lemma_id": 525,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 698,
       "value": "by",
       "lemma_id": 525,
-      "category": "preposition",
+      "category": "",
       "comment": ""
     },
     {
@@ -57335,7 +57335,7 @@
       "meaning_id": 724,
       "value": "foundation",
       "lemma_id": 546,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -57643,7 +57643,7 @@
       "meaning_id": 770,
       "value": "to appear",
       "lemma_id": 170,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -58091,7 +58091,7 @@
       "meaning_id": 843,
       "value": "to cause",
       "lemma_id": 650,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -58161,14 +58161,14 @@
       "meaning_id": 853,
       "value": "to abandon, depart",
       "lemma_id": 659,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 854,
       "value": "to look, behold, observe",
       "lemma_id": 661,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -58182,7 +58182,7 @@
       "meaning_id": 856,
       "value": "Scroll of Imhotep",
       "lemma_id": 663,
-      "category": "noun",
+      "category": "",
       "comment": "Title of an astrological work"
     },
     {
@@ -58357,7 +58357,7 @@
       "meaning_id": 881,
       "value": "Book of the astronomers",
       "lemma_id": 688,
-      "category": "noun",
+      "category": "",
       "comment": "Category of instructional texts"
     },
     {
@@ -58378,14 +58378,14 @@
       "meaning_id": 884,
       "value": "to make a (divinatory) consultation",
       "lemma_id": 691,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 885,
       "value": "to establish",
       "lemma_id": 692,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -58469,7 +58469,7 @@
       "meaning_id": 897,
       "value": "to add to",
       "lemma_id": 704,
-      "category": "verb",
+      "category": "",
       "comment": ""
     },
     {
@@ -58525,14 +58525,14 @@
       "meaning_id": 905,
       "value": "diagram",
       "lemma_id": 713,
-      "category": "noun",
+      "category": "",
       "comment": "Could also perhaps be a image of stars"
     },
     {
       "meaning_id": 906,
       "value": "teaching",
       "lemma_id": 714,
-      "category": "noun",
+      "category": "",
       "comment": "Can refer to the content of an astrological manual"
     },
     {
@@ -58560,28 +58560,28 @@
       "meaning_id": 910,
       "value": "prediction",
       "lemma_id": 718,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 911,
       "value": "command, instruction",
       "lemma_id": 718,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 912,
       "value": "declaration",
       "lemma_id": 718,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 913,
       "value": "injunction",
       "lemma_id": 718,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -58630,7 +58630,7 @@
       "meaning_id": 920,
       "value": "torch",
       "lemma_id": 732,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -58791,14 +58791,14 @@
       "meaning_id": 946,
       "value": "first",
       "lemma_id": 484,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 947,
       "value": "first",
       "lemma_id": 485,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -59015,7 +59015,7 @@
       "meaning_id": 978,
       "value": "watering place, drinking place",
       "lemma_id": 781,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -59232,7 +59232,7 @@
       "meaning_id": 1011,
       "value": "papyrus roll",
       "lemma_id": 811,
-      "category": "noun",
+      "category": "",
       "comment": "Can be a designation for an astronomical or astrological papyrus"
     },
     {
@@ -59260,7 +59260,7 @@
       "meaning_id": 1015,
       "value": "astronomical table",
       "lemma_id": 815,
-      "category": "noun",
+      "category": "",
       "comment": "The meaning is inferred."
     },
     {
@@ -59393,7 +59393,7 @@
       "meaning_id": 1034,
       "value": "swift",
       "lemma_id": 832,
-      "category": "adjective",
+      "category": "",
       "comment": ""
     },
     {
@@ -59456,7 +59456,7 @@
       "meaning_id": 1045,
       "value": "sky",
       "lemma_id": 853,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -59491,7 +59491,7 @@
       "meaning_id": 1050,
       "value": "earth",
       "lemma_id": 857,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -59526,14 +59526,14 @@
       "meaning_id": 1055,
       "value": "mathematician",
       "lemma_id": 861,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 1056,
       "value": "astrologer",
       "lemma_id": 861,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -59547,7 +59547,7 @@
       "meaning_id": 1058,
       "value": "divination",
       "lemma_id": 863,
-      "category": "noun",
+      "category": "",
       "comment": ""
     },
     {
@@ -60597,14 +60597,14 @@
       "meaning_id": 1226,
       "value": "left",
       "lemma_id": 1018,
-      "category": "adjective",
+      "category": "",
       "comment": "of aspects"
     },
     {
       "meaning_id": 1227,
       "value": "right",
       "lemma_id": 1019,
-      "category": "adjective",
+      "category": "",
       "comment": "of aspects"
     },
     {
@@ -81536,7 +81536,7 @@
     {
       "category_id": 108,
       "meaning_id": 52,
-      "category": "literal translation"
+      "category": "group of stars and constellations"
     },
     {
       "category_id": 109,
@@ -81587,11 +81587,6 @@
       "category_id": 123,
       "meaning_id": 131,
       "category": "zodiac sign"
-    },
-    {
-      "category_id": 124,
-      "meaning_id": 60,
-      "category": "noun"
     },
     {
       "category_id": 127,
@@ -93111,7 +93106,7 @@
     {
       "category_id": 2601,
       "meaning_id": 2564,
-      "category": "Decan"
+      "category": "decan"
     },
     {
       "category_id": 2604,
@@ -110227,6 +110222,16 @@
       "category_id": 8197,
       "meaning_id": 7750,
       "category": "natural satellite"
+    },
+    {
+      "category_id": 8198,
+      "meaning_id": 52,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8199,
+      "meaning_id": 78,
+      "category": "constellation"
     }
   ],
   "variants": [
@@ -235814,6 +235819,14 @@
       "email": "bmpmak@gmail.com",
       "username": "bmak",
       "website": "https://www.billmak.com"
+    },
+    {
+      "id": 57,
+      "first_name": "Gülru",
+      "last_name": "Turhan",
+      "email": "h.turhan@fu-berlin.de",
+      "username": "Gulru",
+      "website": null
     }
   ],
   "languages": [

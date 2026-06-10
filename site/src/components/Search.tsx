@@ -29,7 +29,8 @@ export default function Search() {
         (l) =>
           !query ||
           [l.original, l.transliteration, l.primary_meaning].some((f) =>
-            f?.toLowerCase().includes(query.toLowerCase()),
+            f?.toLowerCase().includes(query.toLowerCase()) ||
+            f?.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')),
           ),
       )
       .toSorted((a, b) =>
