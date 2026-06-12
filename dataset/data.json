@@ -81576,7 +81576,7 @@
     {
       "category_id": 142,
       "meaning_id": 222,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 143,
@@ -81641,7 +81641,7 @@
     {
       "category_id": 159,
       "meaning_id": 270,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 160,
@@ -81701,7 +81701,7 @@
     {
       "category_id": 174,
       "meaning_id": 269,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 175,
@@ -81771,7 +81771,7 @@
     {
       "category_id": 195,
       "meaning_id": 232,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 197,
@@ -81806,7 +81806,7 @@
     {
       "category_id": 204,
       "meaning_id": 234,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 205,
@@ -81831,7 +81831,7 @@
     {
       "category_id": 209,
       "meaning_id": 169,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 210,
@@ -81876,7 +81876,7 @@
     {
       "category_id": 221,
       "meaning_id": 268,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 223,
@@ -81999,11 +81999,6 @@
       "category": "synodic phenomenon"
     },
     {
-      "category_id": 258,
-      "meaning_id": 327,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 259,
       "meaning_id": 333,
       "category": "unit of celestial position"
@@ -82029,11 +82024,6 @@
       "category": "unit of length"
     },
     {
-      "category_id": 264,
-      "meaning_id": 330,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 265,
       "meaning_id": 359,
       "category": "astrological house"
@@ -82052,11 +82042,6 @@
       "category_id": 268,
       "meaning_id": 326,
       "category": "synodic phenomenon"
-    },
-    {
-      "category_id": 269,
-      "meaning_id": 332,
-      "category": "star: normal star"
     },
     {
       "category_id": 270,
@@ -82216,7 +82201,7 @@
     {
       "category_id": 306,
       "meaning_id": 338,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 307,
@@ -82287,11 +82272,6 @@
       "category_id": 320,
       "meaning_id": 407,
       "category": "time interval"
-    },
-    {
-      "category_id": 321,
-      "meaning_id": 423,
-      "category": "star: normal star"
     },
     {
       "category_id": 323,
@@ -82429,11 +82409,6 @@
       "category": "constellation"
     },
     {
-      "category_id": 352,
-      "meaning_id": 416,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 353,
       "meaning_id": 450,
       "category": "common noun"
@@ -82459,24 +82434,14 @@
       "category": "astronomical phenomenon"
     },
     {
-      "category_id": 359,
-      "meaning_id": 414,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 360,
       "meaning_id": 432,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 361,
       "meaning_id": 419,
       "category": "synodic phenomenon"
-    },
-    {
-      "category_id": 362,
-      "meaning_id": 417,
-      "category": "star: normal star"
     },
     {
       "category_id": 363,
@@ -82526,12 +82491,7 @@
     {
       "category_id": 372,
       "meaning_id": 434,
-      "category": "verb of motion"
-    },
-    {
-      "category_id": 373,
-      "meaning_id": 328,
-      "category": "star: normal star"
+      "category": "motion"
     },
     {
       "category_id": 374,
@@ -82552,11 +82512,6 @@
       "category_id": 378,
       "meaning_id": 398,
       "category": "astronomical event"
-    },
-    {
-      "category_id": 379,
-      "meaning_id": 422,
-      "category": "star: normal star"
     },
     {
       "category_id": 381,
@@ -82604,29 +82559,14 @@
       "category": "time interval"
     },
     {
-      "category_id": 391,
-      "meaning_id": 415,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 392,
       "meaning_id": 431,
-      "category": "verb of motion"
-    },
-    {
-      "category_id": 393,
-      "meaning_id": 329,
-      "category": "star: normal star"
+      "category": "motion"
     },
     {
       "category_id": 394,
       "meaning_id": 408,
       "category": "time interval"
-    },
-    {
-      "category_id": 395,
-      "meaning_id": 331,
-      "category": "star: normal star"
     },
     {
       "category_id": 396,
@@ -82734,11 +82674,6 @@
       "category": "synodic phenomenon"
     },
     {
-      "category_id": 421,
-      "meaning_id": 563,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 422,
       "meaning_id": 515,
       "category": "common noun"
@@ -82754,16 +82689,6 @@
       "category": "unit of length"
     },
     {
-      "category_id": 426,
-      "meaning_id": 503,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 427,
-      "meaning_id": 552,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 428,
       "meaning_id": 476,
       "category": "planet"
@@ -82777,16 +82702,6 @@
       "category_id": 430,
       "meaning_id": 484,
       "category": "astronomical event"
-    },
-    {
-      "category_id": 431,
-      "meaning_id": 555,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 432,
-      "meaning_id": 556,
-      "category": "star: normal star"
     },
     {
       "category_id": 433,
@@ -82831,7 +82746,7 @@
     {
       "category_id": 443,
       "meaning_id": 499,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 444,
@@ -82839,19 +82754,9 @@
       "category": "type of wind"
     },
     {
-      "category_id": 445,
-      "meaning_id": 554,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 446,
       "meaning_id": 523,
       "category": "astronomical event"
-    },
-    {
-      "category_id": 447,
-      "meaning_id": 501,
-      "category": "star: normal star"
     },
     {
       "category_id": 448,
@@ -82924,11 +82829,6 @@
       "category": "calendrical concept"
     },
     {
-      "category_id": 462,
-      "meaning_id": 553,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 463,
       "meaning_id": 549,
       "category": "constellation"
@@ -82972,16 +82872,6 @@
       "category_id": 473,
       "meaning_id": 488,
       "category": "common noun"
-    },
-    {
-      "category_id": 474,
-      "meaning_id": 521,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 475,
-      "meaning_id": 520,
-      "category": "star: normal star"
     },
     {
       "category_id": 476,
@@ -83029,24 +82919,9 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 485,
-      "meaning_id": 519,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 486,
-      "meaning_id": 518,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 487,
       "meaning_id": 537,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 488,
-      "meaning_id": 502,
-      "category": "star: normal star"
     },
     {
       "category_id": 489,
@@ -83069,24 +82944,9 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 494,
-      "meaning_id": 566,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 495,
       "meaning_id": 615,
       "category": "common noun"
-    },
-    {
-      "category_id": 496,
-      "meaning_id": 603,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 497,
-      "meaning_id": 597,
-      "category": "star: normal star"
     },
     {
       "category_id": 498,
@@ -83107,11 +82967,6 @@
       "category_id": 501,
       "meaning_id": 575,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 502,
-      "meaning_id": 565,
-      "category": "star: normal star"
     },
     {
       "category_id": 503,
@@ -83184,11 +83039,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 521,
-      "meaning_id": 613,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 523,
       "meaning_id": 602,
       "category": "astrological concept"
@@ -83204,29 +83054,14 @@
       "category": "astronomical event"
     },
     {
-      "category_id": 527,
-      "meaning_id": 606,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 528,
-      "meaning_id": 607,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 529,
       "meaning_id": 584,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 530,
       "meaning_id": 585,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 531,
-      "meaning_id": 582,
-      "category": "star: normal star"
     },
     {
       "category_id": 533,
@@ -83239,19 +83074,9 @@
       "category": "astronomical event"
     },
     {
-      "category_id": 535,
-      "meaning_id": 598,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 536,
-      "meaning_id": 583,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 537,
       "meaning_id": 595,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 538,
@@ -83271,17 +83096,7 @@
     {
       "category_id": 541,
       "meaning_id": 632,
-      "category": "verb of motion"
-    },
-    {
-      "category_id": 542,
-      "meaning_id": 590,
-      "category": "star: normal star"
-    },
-    {
-      "category_id": 544,
-      "meaning_id": 614,
-      "category": "star: normal star"
+      "category": "motion"
     },
     {
       "category_id": 545,
@@ -83311,7 +83126,7 @@
     {
       "category_id": 551,
       "meaning_id": 634,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 552,
@@ -83331,12 +83146,7 @@
     {
       "category_id": 555,
       "meaning_id": 635,
-      "category": "verb of motion"
-    },
-    {
-      "category_id": 556,
-      "meaning_id": 638,
-      "category": "star: normal star"
+      "category": "motion"
     },
     {
       "category_id": 557,
@@ -83346,7 +83156,7 @@
     {
       "category_id": 558,
       "meaning_id": 592,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 559,
@@ -83364,11 +83174,6 @@
       "category": "constellation"
     },
     {
-      "category_id": 562,
-      "meaning_id": 605,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 563,
       "meaning_id": 642,
       "category": "astrological concept"
@@ -83379,11 +83184,6 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 565,
-      "meaning_id": 130,
-      "category": "star: normal star"
-    },
-    {
       "category_id": 566,
       "meaning_id": 588,
       "category": "astrological lot"
@@ -83391,7 +83191,7 @@
     {
       "category_id": 567,
       "meaning_id": 633,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 568,
@@ -83422,11 +83222,6 @@
       "category_id": 574,
       "meaning_id": 646,
       "category": "calendrical concept"
-    },
-    {
-      "category_id": 575,
-      "meaning_id": 604,
-      "category": "star: normal star"
     },
     {
       "category_id": 576,
@@ -83759,11 +83554,6 @@
       "category": "astronomical term"
     },
     {
-      "category_id": 656,
-      "meaning_id": 655,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 657,
       "meaning_id": 674,
       "category": "astronomical quantity"
@@ -83929,11 +83719,6 @@
       "category": "mathematical expression"
     },
     {
-      "category_id": 692,
-      "meaning_id": 749,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 693,
       "meaning_id": 758,
       "category": "luminary"
@@ -84024,11 +83809,6 @@
       "category": "mathematical quantity"
     },
     {
-      "category_id": 712,
-      "meaning_id": 751,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 713,
       "meaning_id": 785,
       "category": "deity"
@@ -84052,11 +83832,6 @@
       "category_id": 717,
       "meaning_id": 760,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 718,
-      "meaning_id": 750,
-      "category": "star: ziqpu star"
     },
     {
       "category_id": 719,
@@ -84316,7 +84091,7 @@
     {
       "category_id": 781,
       "meaning_id": 896,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 782,
@@ -84366,7 +84141,7 @@
     {
       "category_id": 793,
       "meaning_id": 846,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 794,
@@ -84381,12 +84156,12 @@
     {
       "category_id": 796,
       "meaning_id": 829,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 797,
       "meaning_id": 873,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 798,
@@ -84481,12 +84256,12 @@
     {
       "category_id": 817,
       "meaning_id": 857,
-      "category": "adverb of time"
+      "category": "time"
     },
     {
       "category_id": 818,
       "meaning_id": 858,
-      "category": "adverb of time"
+      "category": "time"
     },
     {
       "category_id": 819,
@@ -84506,7 +84281,7 @@
     {
       "category_id": 822,
       "meaning_id": 830,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 825,
@@ -84731,7 +84506,7 @@
     {
       "category_id": 875,
       "meaning_id": 958,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 876,
@@ -85091,12 +84866,12 @@
     {
       "category_id": 965,
       "meaning_id": 1035,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 966,
       "meaning_id": 1036,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 967,
@@ -85306,7 +85081,7 @@
     {
       "category_id": 1012,
       "meaning_id": 1013,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1013,
@@ -86146,12 +85921,12 @@
     {
       "category_id": 1229,
       "meaning_id": 170,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1230,
       "meaning_id": 223,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1231,
@@ -86336,7 +86111,7 @@
     {
       "category_id": 1284,
       "meaning_id": 1341,
-      "category": "adverb of time"
+      "category": "time"
     },
     {
       "category_id": 1285,
@@ -86571,7 +86346,7 @@
     {
       "category_id": 1336,
       "meaning_id": 1384,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1337,
@@ -87111,7 +86886,7 @@
     {
       "category_id": 1447,
       "meaning_id": 1490,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1448,
@@ -87121,7 +86896,7 @@
     {
       "category_id": 1449,
       "meaning_id": 1491,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1450,
@@ -87146,12 +86921,12 @@
     {
       "category_id": 1454,
       "meaning_id": 1494,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1455,
       "meaning_id": 1495,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1456,
@@ -87161,17 +86936,17 @@
     {
       "category_id": 1457,
       "meaning_id": 1496,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1458,
       "meaning_id": 1167,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1459,
       "meaning_id": 1497,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1460,
@@ -87181,7 +86956,7 @@
     {
       "category_id": 1461,
       "meaning_id": 1498,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1462,
@@ -87216,7 +86991,7 @@
     {
       "category_id": 1468,
       "meaning_id": 1506,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 1469,
@@ -87226,22 +87001,22 @@
     {
       "category_id": 1470,
       "meaning_id": 1508,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1471,
       "meaning_id": 1509,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1473,
       "meaning_id": 1511,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 1474,
       "meaning_id": 1512,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1475,
@@ -87376,12 +87151,12 @@
     {
       "category_id": 1503,
       "meaning_id": 1542,
-      "category": "adverb of movement"
+      "category": "motion"
     },
     {
       "category_id": 1504,
       "meaning_id": 1543,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1505,
@@ -87541,7 +87316,7 @@
     {
       "category_id": 1551,
       "meaning_id": 1341,
-      "category": "adverb of movement"
+      "category": "motion"
     },
     {
       "category_id": 1554,
@@ -87611,7 +87386,7 @@
     {
       "category_id": 1576,
       "meaning_id": 1595,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1577,
@@ -87646,7 +87421,7 @@
     {
       "category_id": 1583,
       "meaning_id": 1603,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1584,
@@ -87711,12 +87486,12 @@
     {
       "category_id": 1596,
       "meaning_id": 1616,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1597,
       "meaning_id": 1617,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1598,
@@ -87751,7 +87526,7 @@
     {
       "category_id": 1604,
       "meaning_id": 1624,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1605,
@@ -88014,46 +87789,6 @@
       "category": "planet"
     },
     {
-      "category_id": 1657,
-      "meaning_id": 1676,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1658,
-      "meaning_id": 1677,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1659,
-      "meaning_id": 1678,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1660,
-      "meaning_id": 1679,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1661,
-      "meaning_id": 1680,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1662,
-      "meaning_id": 1681,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1664,
-      "meaning_id": 1682,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1665,
-      "meaning_id": 1683,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 1666,
       "meaning_id": 1684,
       "category": "astrological concept"
@@ -88067,16 +87802,6 @@
       "category_id": 1668,
       "meaning_id": 1686,
       "category": "astrological concept"
-    },
-    {
-      "category_id": 1669,
-      "meaning_id": 1687,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1670,
-      "meaning_id": 1688,
-      "category": "star: ziqpu star"
     },
     {
       "category_id": 1671,
@@ -88099,31 +87824,6 @@
       "category": "astronomical phenomenon"
     },
     {
-      "category_id": 1675,
-      "meaning_id": 1691,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1676,
-      "meaning_id": 1692,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1677,
-      "meaning_id": 1693,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1678,
-      "meaning_id": 1694,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1679,
-      "meaning_id": 1695,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 1680,
       "meaning_id": 1697,
       "category": "astrological concept"
@@ -88131,7 +87831,7 @@
     {
       "category_id": 1681,
       "meaning_id": 1698,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1682,
@@ -88164,19 +87864,9 @@
       "category": "astrological concept"
     },
     {
-      "category_id": 1688,
-      "meaning_id": 1705,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 1689,
       "meaning_id": 1706,
       "category": "mathematical operation"
-    },
-    {
-      "category_id": 1690,
-      "meaning_id": 1707,
-      "category": "star: ziqpu star"
     },
     {
       "category_id": 1691,
@@ -88192,11 +87882,6 @@
       "category_id": 1693,
       "meaning_id": 1710,
       "category": "astrological place"
-    },
-    {
-      "category_id": 1694,
-      "meaning_id": 1711,
-      "category": "star: ziqpu star"
     },
     {
       "category_id": 1695,
@@ -88296,7 +87981,7 @@
     {
       "category_id": 1717,
       "meaning_id": 1734,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 1718,
@@ -88352,11 +88037,6 @@
       "category_id": 1728,
       "meaning_id": 123,
       "category": "constellation"
-    },
-    {
-      "category_id": 1730,
-      "meaning_id": 1746,
-      "category": "star: ziqpu star"
     },
     {
       "category_id": 1731,
@@ -88569,19 +88249,9 @@
       "category": "celestial object"
     },
     {
-      "category_id": 1775,
-      "meaning_id": 1796,
-      "category": "star: ziqpu star"
-    },
-    {
-      "category_id": 1776,
-      "meaning_id": 1797,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 1777,
       "meaning_id": 1798,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 1778,
@@ -88706,7 +88376,7 @@
     {
       "category_id": 1807,
       "meaning_id": 1827,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 1809,
@@ -89196,12 +88866,12 @@
     {
       "category_id": 1907,
       "meaning_id": 1820,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 1908,
       "meaning_id": 1819,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 1909,
@@ -89801,7 +89471,7 @@
     {
       "category_id": 2030,
       "meaning_id": 2027,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 2031,
@@ -89911,7 +89581,7 @@
     {
       "category_id": 2052,
       "meaning_id": 2048,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2053,
@@ -90016,7 +89686,7 @@
     {
       "category_id": 2081,
       "meaning_id": 2079,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2082,
@@ -90051,7 +89721,7 @@
     {
       "category_id": 2090,
       "meaning_id": 2088,
-      "category": "adverb of time"
+      "category": "time"
     },
     {
       "category_id": 2091,
@@ -90061,7 +89731,7 @@
     {
       "category_id": 2092,
       "meaning_id": 2090,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2093,
@@ -90186,7 +89856,7 @@
     {
       "category_id": 2120,
       "meaning_id": 2115,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2121,
@@ -90516,7 +90186,7 @@
     {
       "category_id": 2189,
       "meaning_id": 2191,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2190,
@@ -90546,12 +90216,12 @@
     {
       "category_id": 2195,
       "meaning_id": 2197,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2196,
       "meaning_id": 2198,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2197,
@@ -90616,7 +90286,7 @@
     {
       "category_id": 2209,
       "meaning_id": 2211,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2210,
@@ -90626,7 +90296,7 @@
     {
       "category_id": 2211,
       "meaning_id": 2213,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2212,
@@ -90636,7 +90306,7 @@
     {
       "category_id": 2213,
       "meaning_id": 2214,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2214,
@@ -90651,17 +90321,17 @@
     {
       "category_id": 2217,
       "meaning_id": 2218,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2218,
       "meaning_id": 2219,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2219,
       "meaning_id": 2220,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2220,
@@ -90711,7 +90381,7 @@
     {
       "category_id": 2229,
       "meaning_id": 2231,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2231,
@@ -90721,7 +90391,7 @@
     {
       "category_id": 2232,
       "meaning_id": 2234,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2233,
@@ -90746,7 +90416,7 @@
     {
       "category_id": 2237,
       "meaning_id": 2239,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2238,
@@ -90776,12 +90446,12 @@
     {
       "category_id": 2243,
       "meaning_id": 2245,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2244,
       "meaning_id": 2246,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2245,
@@ -90801,12 +90471,12 @@
     {
       "category_id": 2248,
       "meaning_id": 2250,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2249,
       "meaning_id": 2251,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2250,
@@ -90846,7 +90516,7 @@
     {
       "category_id": 2257,
       "meaning_id": 2259,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2258,
@@ -90861,27 +90531,27 @@
     {
       "category_id": 2260,
       "meaning_id": 2262,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2261,
       "meaning_id": 2263,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2262,
       "meaning_id": 2264,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2263,
       "meaning_id": 2265,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2264,
       "meaning_id": 2266,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2265,
@@ -91491,7 +91161,7 @@
     {
       "category_id": 2399,
       "meaning_id": 2341,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2400,
@@ -91586,7 +91256,7 @@
     {
       "category_id": 2418,
       "meaning_id": 2367,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2419,
@@ -91621,7 +91291,7 @@
     {
       "category_id": 2425,
       "meaning_id": 2375,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2426,
@@ -91656,7 +91326,7 @@
     {
       "category_id": 2432,
       "meaning_id": 2379,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2433,
@@ -91666,7 +91336,7 @@
     {
       "category_id": 2434,
       "meaning_id": 2380,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2435,
@@ -91776,7 +91446,7 @@
     {
       "category_id": 2457,
       "meaning_id": 2408,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2458,
@@ -91791,7 +91461,7 @@
     {
       "category_id": 2460,
       "meaning_id": 2411,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2461,
@@ -91826,7 +91496,7 @@
     {
       "category_id": 2467,
       "meaning_id": 2418,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2468,
@@ -91851,7 +91521,7 @@
     {
       "category_id": 2475,
       "meaning_id": 2426,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2476,
@@ -91871,7 +91541,7 @@
     {
       "category_id": 2480,
       "meaning_id": 2408,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2481,
@@ -91906,22 +91576,22 @@
     {
       "category_id": 2487,
       "meaning_id": 2443,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2488,
       "meaning_id": 2443,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2489,
       "meaning_id": 2444,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2490,
       "meaning_id": 2444,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2491,
@@ -92356,12 +92026,12 @@
     {
       "category_id": 2579,
       "meaning_id": 2537,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 2580,
       "meaning_id": 2538,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 2581,
@@ -92381,7 +92051,7 @@
     {
       "category_id": 2584,
       "meaning_id": 2542,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2585,
@@ -92726,7 +92396,7 @@
     {
       "category_id": 2655,
       "meaning_id": 2601,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2656,
@@ -92811,7 +92481,7 @@
     {
       "category_id": 2672,
       "meaning_id": 2617,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2673,
@@ -92861,7 +92531,7 @@
     {
       "category_id": 2682,
       "meaning_id": 2627,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2683,
@@ -93296,12 +92966,12 @@
     {
       "category_id": 2779,
       "meaning_id": 2681,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2780,
       "meaning_id": 2682,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2781,
@@ -93416,12 +93086,12 @@
     {
       "category_id": 2804,
       "meaning_id": 2704,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2805,
       "meaning_id": 2705,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2806,
@@ -93521,7 +93191,7 @@
     {
       "category_id": 2825,
       "meaning_id": 2723,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2826,
@@ -93591,7 +93261,7 @@
     {
       "category_id": 2839,
       "meaning_id": 2737,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2840,
@@ -93621,7 +93291,7 @@
     {
       "category_id": 2845,
       "meaning_id": 2744,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2846,
@@ -93631,7 +93301,7 @@
     {
       "category_id": 2847,
       "meaning_id": 2746,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 2848,
@@ -93641,12 +93311,12 @@
     {
       "category_id": 2849,
       "meaning_id": 2748,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2850,
       "meaning_id": 2749,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2851,
@@ -93676,12 +93346,12 @@
     {
       "category_id": 2856,
       "meaning_id": 2761,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2857,
       "meaning_id": 2762,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2858,
@@ -93691,7 +93361,7 @@
     {
       "category_id": 2859,
       "meaning_id": 2764,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2860,
@@ -93706,7 +93376,7 @@
     {
       "category_id": 2863,
       "meaning_id": 2769,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 2864,
@@ -93721,7 +93391,7 @@
     {
       "category_id": 2866,
       "meaning_id": 2772,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 2867,
@@ -93861,12 +93531,12 @@
     {
       "category_id": 2894,
       "meaning_id": 2804,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2895,
       "meaning_id": 2805,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 2896,
@@ -94426,12 +94096,12 @@
     {
       "category_id": 3008,
       "meaning_id": 2917,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3009,
       "meaning_id": 2918,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3010,
@@ -94526,7 +94196,7 @@
     {
       "category_id": 3028,
       "meaning_id": 2932,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3029,
@@ -94761,7 +94431,7 @@
     {
       "category_id": 3077,
       "meaning_id": 2940,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3078,
@@ -94791,7 +94461,7 @@
     {
       "category_id": 3083,
       "meaning_id": 2946,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3084,
@@ -94806,7 +94476,7 @@
     {
       "category_id": 3086,
       "meaning_id": 2950,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3087,
@@ -94946,7 +94616,7 @@
     {
       "category_id": 3114,
       "meaning_id": 2973,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3115,
@@ -94961,7 +94631,7 @@
     {
       "category_id": 3117,
       "meaning_id": 2976,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3118,
@@ -95006,17 +94676,17 @@
     {
       "category_id": 3127,
       "meaning_id": 2985,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3128,
       "meaning_id": 2986,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3129,
       "meaning_id": 2987,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3130,
@@ -95634,11 +95304,6 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 3255,
-      "meaning_id": 416,
-      "category": "star: ziqpu star"
-    },
-    {
       "category_id": 3256,
       "meaning_id": 554,
       "category": "star"
@@ -96026,7 +95691,7 @@
     {
       "category_id": 3334,
       "meaning_id": 3088,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3338,
@@ -96041,12 +95706,12 @@
     {
       "category_id": 3340,
       "meaning_id": 3092,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3341,
       "meaning_id": 3093,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3342,
@@ -96101,7 +95766,7 @@
     {
       "category_id": 3352,
       "meaning_id": 2424,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3353,
@@ -96121,7 +95786,7 @@
     {
       "category_id": 3356,
       "meaning_id": 2204,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3357,
@@ -96166,7 +95831,7 @@
     {
       "category_id": 3365,
       "meaning_id": 2240,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3366,
@@ -96181,12 +95846,12 @@
     {
       "category_id": 3368,
       "meaning_id": 3097,
-      "category": "verb of time"
+      "category": "time"
     },
     {
       "category_id": 3369,
       "meaning_id": 3099,
-      "category": "adjective of time"
+      "category": "time"
     },
     {
       "category_id": 3370,
@@ -96396,7 +96061,7 @@
     {
       "category_id": 3413,
       "meaning_id": 3111,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 3414,
@@ -96451,12 +96116,12 @@
     {
       "category_id": 3424,
       "meaning_id": 3138,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3425,
       "meaning_id": 3139,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 3426,
@@ -96506,7 +96171,7 @@
     {
       "category_id": 3436,
       "meaning_id": 3144,
-      "category": "adjective of time"
+      "category": "time"
     },
     {
       "category_id": 3437,
@@ -96851,12 +96516,12 @@
     {
       "category_id": 3506,
       "meaning_id": 2428,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3507,
       "meaning_id": 3175,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3508,
@@ -96886,7 +96551,7 @@
     {
       "category_id": 3514,
       "meaning_id": 3183,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 3516,
@@ -96996,7 +96661,7 @@
     {
       "category_id": 3537,
       "meaning_id": 3195,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3538,
@@ -97016,12 +96681,12 @@
     {
       "category_id": 3541,
       "meaning_id": 3198,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3542,
       "meaning_id": 3184,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 3543,
@@ -97036,7 +96701,7 @@
     {
       "category_id": 3545,
       "meaning_id": 854,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3546,
@@ -97061,7 +96726,7 @@
     {
       "category_id": 3550,
       "meaning_id": 3204,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3551,
@@ -97071,7 +96736,7 @@
     {
       "category_id": 3552,
       "meaning_id": 3206,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3553,
@@ -97081,12 +96746,12 @@
     {
       "category_id": 3554,
       "meaning_id": 3208,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 3555,
       "meaning_id": 3209,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 3556,
@@ -97136,7 +96801,7 @@
     {
       "category_id": 3565,
       "meaning_id": 3219,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3566,
@@ -97151,12 +96816,12 @@
     {
       "category_id": 3568,
       "meaning_id": 3222,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3569,
       "meaning_id": 3223,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3570,
@@ -97271,7 +96936,7 @@
     {
       "category_id": 3593,
       "meaning_id": 3239,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3594,
@@ -98011,7 +97676,7 @@
     {
       "category_id": 3746,
       "meaning_id": 3373,
-      "category": "verb of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 3747,
@@ -105331,12 +104996,12 @@
     {
       "category_id": 6972,
       "meaning_id": 2346,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 6973,
       "meaning_id": 6575,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 6976,
@@ -105356,12 +105021,12 @@
     {
       "category_id": 6980,
       "meaning_id": 6579,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 6981,
       "meaning_id": 6580,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 6982,
@@ -105376,7 +105041,7 @@
     {
       "category_id": 6984,
       "meaning_id": 6582,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 6986,
@@ -105436,7 +105101,7 @@
     {
       "category_id": 6998,
       "meaning_id": 6594,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 6999,
@@ -105486,12 +105151,12 @@
     {
       "category_id": 7008,
       "meaning_id": 6601,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 7009,
       "meaning_id": 6602,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 7010,
@@ -107371,12 +107036,12 @@
     {
       "category_id": 7735,
       "meaning_id": 7314,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 7736,
       "meaning_id": 7315,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7737,
@@ -107441,7 +107106,7 @@
     {
       "category_id": 7749,
       "meaning_id": 7328,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7750,
@@ -107451,7 +107116,7 @@
     {
       "category_id": 7751,
       "meaning_id": 7329,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 7752,
@@ -107461,7 +107126,7 @@
     {
       "category_id": 7754,
       "meaning_id": 7330,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7755,
@@ -107601,7 +107266,7 @@
     {
       "category_id": 7783,
       "meaning_id": 7353,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7784,
@@ -107676,7 +107341,7 @@
     {
       "category_id": 7798,
       "meaning_id": 7368,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7799,
@@ -107726,7 +107391,7 @@
     {
       "category_id": 7808,
       "meaning_id": 7376,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7809,
@@ -107801,12 +107466,12 @@
     {
       "category_id": 7823,
       "meaning_id": 7389,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7824,
       "meaning_id": 7390,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7825,
@@ -107826,7 +107491,7 @@
     {
       "category_id": 7828,
       "meaning_id": 7393,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7829,
@@ -107836,7 +107501,7 @@
     {
       "category_id": 7830,
       "meaning_id": 7395,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 7831,
@@ -107966,7 +107631,7 @@
     {
       "category_id": 7857,
       "meaning_id": 7422,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 7858,
@@ -108146,7 +107811,7 @@
     {
       "category_id": 7894,
       "meaning_id": 7459,
-      "category": "term of motion"
+      "category": "motion"
     },
     {
       "category_id": 7895,
@@ -108451,7 +108116,7 @@
     {
       "category_id": 7955,
       "meaning_id": 7517,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 7956,
@@ -108511,7 +108176,7 @@
     {
       "category_id": 7967,
       "meaning_id": 7529,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7968,
@@ -108656,7 +108321,7 @@
     {
       "category_id": 7997,
       "meaning_id": 7554,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 7998,
@@ -108971,7 +108636,7 @@
     {
       "category_id": 8061,
       "meaning_id": 7613,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 8062,
@@ -109216,7 +108881,7 @@
     {
       "category_id": 8112,
       "meaning_id": 7659,
-      "category": "term of visual perception"
+      "category": "visual perception"
     },
     {
       "category_id": 8113,
@@ -109276,7 +108941,7 @@
     {
       "category_id": 8124,
       "meaning_id": 7671,
-      "category": "adverb of time"
+      "category": "time"
     },
     {
       "category_id": 8125,
@@ -109286,22 +108951,22 @@
     {
       "category_id": 8126,
       "meaning_id": 7673,
-      "category": "verb of motion"
+      "category": "motion"
     },
     {
       "category_id": 8127,
       "meaning_id": 7673,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 8128,
       "meaning_id": 7674,
-      "category": "verb of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 8129,
       "meaning_id": 7675,
-      "category": "verb of position"
+      "category": "position"
     },
     {
       "category_id": 8130,
@@ -109557,6 +109222,661 @@
       "category_id": 8199,
       "meaning_id": 78,
       "category": "constellation"
+    },
+    {
+      "category_id": 8200,
+      "meaning_id": 327,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8201,
+      "meaning_id": 330,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8202,
+      "meaning_id": 332,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8203,
+      "meaning_id": 423,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8204,
+      "meaning_id": 416,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8205,
+      "meaning_id": 414,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8206,
+      "meaning_id": 417,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8207,
+      "meaning_id": 328,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8208,
+      "meaning_id": 422,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8209,
+      "meaning_id": 415,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8210,
+      "meaning_id": 329,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8211,
+      "meaning_id": 331,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8212,
+      "meaning_id": 563,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8213,
+      "meaning_id": 503,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8214,
+      "meaning_id": 552,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8215,
+      "meaning_id": 555,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8216,
+      "meaning_id": 556,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8217,
+      "meaning_id": 554,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8218,
+      "meaning_id": 501,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8219,
+      "meaning_id": 553,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8220,
+      "meaning_id": 521,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8221,
+      "meaning_id": 520,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8222,
+      "meaning_id": 519,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8223,
+      "meaning_id": 518,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8224,
+      "meaning_id": 502,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8225,
+      "meaning_id": 566,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8226,
+      "meaning_id": 603,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8227,
+      "meaning_id": 597,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8228,
+      "meaning_id": 565,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8229,
+      "meaning_id": 613,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8230,
+      "meaning_id": 606,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8231,
+      "meaning_id": 607,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8232,
+      "meaning_id": 582,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8233,
+      "meaning_id": 598,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8234,
+      "meaning_id": 583,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8235,
+      "meaning_id": 590,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8236,
+      "meaning_id": 614,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8237,
+      "meaning_id": 638,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8238,
+      "meaning_id": 605,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8239,
+      "meaning_id": 130,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8240,
+      "meaning_id": 604,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8241,
+      "meaning_id": 655,
+      "category": "star"
+    },
+    {
+      "category_id": 8242,
+      "meaning_id": 655,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8243,
+      "meaning_id": 749,
+      "category": "star"
+    },
+    {
+      "category_id": 8244,
+      "meaning_id": 749,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8245,
+      "meaning_id": 750,
+      "category": "star"
+    },
+    {
+      "category_id": 8246,
+      "meaning_id": 750,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8247,
+      "meaning_id": 751,
+      "category": "star"
+    },
+    {
+      "category_id": 8248,
+      "meaning_id": 751,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8249,
+      "meaning_id": 1676,
+      "category": "star"
+    },
+    {
+      "category_id": 8250,
+      "meaning_id": 1676,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8251,
+      "meaning_id": 1677,
+      "category": "star"
+    },
+    {
+      "category_id": 8252,
+      "meaning_id": 1677,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8253,
+      "meaning_id": 1678,
+      "category": "star"
+    },
+    {
+      "category_id": 8254,
+      "meaning_id": 1678,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8255,
+      "meaning_id": 1679,
+      "category": "star"
+    },
+    {
+      "category_id": 8256,
+      "meaning_id": 1679,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8257,
+      "meaning_id": 1680,
+      "category": "star"
+    },
+    {
+      "category_id": 8258,
+      "meaning_id": 1680,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8259,
+      "meaning_id": 1681,
+      "category": "star"
+    },
+    {
+      "category_id": 8260,
+      "meaning_id": 1681,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8261,
+      "meaning_id": 1682,
+      "category": "star"
+    },
+    {
+      "category_id": 8262,
+      "meaning_id": 1682,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8263,
+      "meaning_id": 1683,
+      "category": "star"
+    },
+    {
+      "category_id": 8264,
+      "meaning_id": 1683,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8265,
+      "meaning_id": 1687,
+      "category": "star"
+    },
+    {
+      "category_id": 8266,
+      "meaning_id": 1687,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8267,
+      "meaning_id": 1688,
+      "category": "star"
+    },
+    {
+      "category_id": 8268,
+      "meaning_id": 1688,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8269,
+      "meaning_id": 1691,
+      "category": "star"
+    },
+    {
+      "category_id": 8270,
+      "meaning_id": 1691,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8271,
+      "meaning_id": 1692,
+      "category": "star"
+    },
+    {
+      "category_id": 8272,
+      "meaning_id": 1692,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8273,
+      "meaning_id": 1693,
+      "category": "star"
+    },
+    {
+      "category_id": 8274,
+      "meaning_id": 1693,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8275,
+      "meaning_id": 1694,
+      "category": "star"
+    },
+    {
+      "category_id": 8276,
+      "meaning_id": 1694,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8277,
+      "meaning_id": 1695,
+      "category": "star"
+    },
+    {
+      "category_id": 8278,
+      "meaning_id": 1695,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8279,
+      "meaning_id": 1705,
+      "category": "star"
+    },
+    {
+      "category_id": 8280,
+      "meaning_id": 1705,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8281,
+      "meaning_id": 1707,
+      "category": "star"
+    },
+    {
+      "category_id": 8282,
+      "meaning_id": 1707,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8283,
+      "meaning_id": 1711,
+      "category": "star"
+    },
+    {
+      "category_id": 8284,
+      "meaning_id": 1711,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8285,
+      "meaning_id": 1746,
+      "category": "star"
+    },
+    {
+      "category_id": 8286,
+      "meaning_id": 1746,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8287,
+      "meaning_id": 1796,
+      "category": "star"
+    },
+    {
+      "category_id": 8288,
+      "meaning_id": 1796,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8289,
+      "meaning_id": 1797,
+      "category": "star"
+    },
+    {
+      "category_id": 8290,
+      "meaning_id": 1797,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8291,
+      "meaning_id": 416,
+      "category": "star"
+    },
+    {
+      "category_id": 8343,
+      "meaning_id": 416,
+      "category": "ziqpu star"
+    },
+    {
+      "category_id": 8344,
+      "meaning_id": 327,
+      "category": "star"
+    },
+    {
+      "category_id": 8345,
+      "meaning_id": 330,
+      "category": "star"
+    },
+    {
+      "category_id": 8346,
+      "meaning_id": 332,
+      "category": "star"
+    },
+    {
+      "category_id": 8347,
+      "meaning_id": 423,
+      "category": "star"
+    },
+    {
+      "category_id": 8348,
+      "meaning_id": 414,
+      "category": "star"
+    },
+    {
+      "category_id": 8349,
+      "meaning_id": 417,
+      "category": "star"
+    },
+    {
+      "category_id": 8350,
+      "meaning_id": 328,
+      "category": "star"
+    },
+    {
+      "category_id": 8351,
+      "meaning_id": 422,
+      "category": "star"
+    },
+    {
+      "category_id": 8352,
+      "meaning_id": 415,
+      "category": "star"
+    },
+    {
+      "category_id": 8353,
+      "meaning_id": 329,
+      "category": "star"
+    },
+    {
+      "category_id": 8354,
+      "meaning_id": 331,
+      "category": "star"
+    },
+    {
+      "category_id": 8355,
+      "meaning_id": 563,
+      "category": "star"
+    },
+    {
+      "category_id": 8356,
+      "meaning_id": 503,
+      "category": "star"
+    },
+    {
+      "category_id": 8357,
+      "meaning_id": 552,
+      "category": "star"
+    },
+    {
+      "category_id": 8358,
+      "meaning_id": 555,
+      "category": "star"
+    },
+    {
+      "category_id": 8359,
+      "meaning_id": 556,
+      "category": "star"
+    },
+    {
+      "category_id": 8360,
+      "meaning_id": 501,
+      "category": "star"
+    },
+    {
+      "category_id": 8361,
+      "meaning_id": 553,
+      "category": "star"
+    },
+    {
+      "category_id": 8362,
+      "meaning_id": 521,
+      "category": "star"
+    },
+    {
+      "category_id": 8363,
+      "meaning_id": 520,
+      "category": "star"
+    },
+    {
+      "category_id": 8364,
+      "meaning_id": 519,
+      "category": "star"
+    },
+    {
+      "category_id": 8365,
+      "meaning_id": 502,
+      "category": "star"
+    },
+    {
+      "category_id": 8366,
+      "meaning_id": 566,
+      "category": "star"
+    },
+    {
+      "category_id": 8367,
+      "meaning_id": 603,
+      "category": "star"
+    },
+    {
+      "category_id": 8368,
+      "meaning_id": 597,
+      "category": "star"
+    },
+    {
+      "category_id": 8369,
+      "meaning_id": 565,
+      "category": "star"
+    },
+    {
+      "category_id": 8370,
+      "meaning_id": 613,
+      "category": "star"
+    },
+    {
+      "category_id": 8371,
+      "meaning_id": 606,
+      "category": "star"
+    },
+    {
+      "category_id": 8372,
+      "meaning_id": 607,
+      "category": "star"
+    },
+    {
+      "category_id": 8373,
+      "meaning_id": 582,
+      "category": "star"
+    },
+    {
+      "category_id": 8374,
+      "meaning_id": 598,
+      "category": "star"
+    },
+    {
+      "category_id": 8375,
+      "meaning_id": 583,
+      "category": "star"
+    },
+    {
+      "category_id": 8376,
+      "meaning_id": 590,
+      "category": "star"
+    },
+    {
+      "category_id": 8377,
+      "meaning_id": 614,
+      "category": "star"
+    },
+    {
+      "category_id": 8378,
+      "meaning_id": 638,
+      "category": "star"
+    },
+    {
+      "category_id": 8379,
+      "meaning_id": 605,
+      "category": "star"
+    },
+    {
+      "category_id": 8380,
+      "meaning_id": 130,
+      "category": "star"
+    },
+    {
+      "category_id": 8381,
+      "meaning_id": 604,
+      "category": "star"
     }
   ],
   "variants": [
