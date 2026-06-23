@@ -20,11 +20,15 @@ import defaultMetadata from "../../public/metadata.json";
     <script type="application/ld+json" set:html={JSON.stringify(jsonLD || defaultMetadata)}></script>
     <title>{frontmatter ? frontmatter.title : title} | ZODIAC Glossary</title>
   </head>
-  <body>
-    <header class="container">
+ <body>
+  <div class="site-shell">
+  <header class="container site-header">
       <nav>
         <ul>
           <li><strong><a href="/">ZODIAC Glossary</a></strong></li>
+        </ul>
+        <ul class="nav-search">
+          <li><slot name="search" /></li>
         </ul>
         <ul>
           <li><a href="/people">People</a></li>
@@ -32,11 +36,11 @@ import defaultMetadata from "../../public/metadata.json";
         </ul>
       </nav>
     </header>
-      <main class="container">
-        <slot />
+      <main class="container site-main">
+  <slot />
+</main>
 
-      </main>
-      <footer class="container">
+      <footer class="container site-footer">
         <hr/>
       <a href="https://zodiacglossary.github.io">The ZODIAC Glossary</a> © 2025 by <a href="https://www.geschkult.fu-berlin.de/e/zodiac/">ZODIAC: Ancient Astral Science in Transformation</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
         <div class="logos">
@@ -46,5 +50,6 @@ import defaultMetadata from "../../public/metadata.json";
         <a href="https://europa.eu/"><img src="/eu.svg" alt="flag of the European Union"/></a>
         </div>
       </footer>
+   </div>
   </body>
 </html>

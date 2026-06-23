@@ -1,6 +1,10 @@
+/* ============================================================
+   IMPORTS — framework, themes, fonts
+   ============================================================ */
 @import "@picocss/pico/css/pico.min.css";
 /* @import "./theme-light.css"; */
 /* @import "./theme-dark.css"; */
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap");
@@ -9,6 +13,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&display=swap");
 
+
+/* ============================================================
+   ROOT / TYPOGRAPHY
+   ============================================================ */
 :root {
   --pico-font-family:
     "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "Noto Sans Coptic",
@@ -16,37 +24,194 @@
     sans-serif;
 }
 
-.categories,
+.transliteration {
+  font-style: italic;
+  color: var(--pico-muted-color);
+}
+
+/* shared muted text */
 .last-edited,
 .quotation-translation,
 .comment {
   color: var(--pico-muted-color);
 }
 
-img#goatfish {
-  max-width: 350px;
-  margin: 30px auto;
-  height: auto;
+
+/* ============================================================
+   PAGE LAYOUT — shell, header, main, footer
+   ============================================================ */
+.site-shell {
+  min-height: 100vh;
+}
+
+.site-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.site-main {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  line-height: 1.7;
+}
+
+.site-main h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.site-main h2 {
+  margin-top: 3rem;
+}
+
+.site-footer {
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+
+/* push the "See also" column to the right of the top grid */
+.grid > div:last-child:not(:first-child) {
+  margin-left: auto;
+  text-align: justify;
+  max-width: 22rem;
+}
+
+
+/* ============================================================
+   FACTS BAR — meanings / category / translation / variants
+   ============================================================ */
+.facts-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border-top: 1px solid var(--pico-muted-border-color);
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  margin: 1.5rem 0;
+}
+
+.facts-cell {
+  flex: 1;
+  min-width: 150px;
+  padding: 1rem 1.25rem;
+  border-right: 1px solid var(--pico-muted-border-color);
+}
+
+.facts-cell:last-child {
+  border-right: none;
+}
+
+.facts-label {
   display: block;
-  filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
-  -webkit-filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  color: var(--pico-muted-color);
+  margin-bottom: 0.5rem;
+}
+
+.facts-value {
+  font-size: 0.95rem;
+}
+
+/* clickable index links in the Meanings cell */
+.meaning-index-link {
+  text-decoration: none;
+}
+
+.meaning-index-link:hover {
+  text-decoration: underline;
+}
+
+
+/* ============================================================
+   MEANINGS — groups, senses, numbering, separators
+   ============================================================ */
+.group-heading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.meaning-group + .meaning-group {
+  margin-top: 1rem;
+}
+
+.meaning {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+.meaning:last-child {
+  border-bottom: none;
 }
 
 .meaning summary {
   color: var(--pico-color) !important;
 }
 
+/* the 1.a / 2.b prefix */
+.sense-number {
+  font-weight: 600;
+  color: var(--pico-primary);
+}
+
+/* category text + the vertical-bar separator before it */
+.categories {
+  color: var(--pico-muted-color);
+}
+
+.facts-cell:nth-child(2) {
+  flex: 1.1;
+}
+
+.facts-value > div {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.categories::before {
+  content: "|";
+  margin: 0 0.4rem;
+  color: var(--pico-muted-color);
+}
+
+
+/* ============================================================
+   QUOTATIONS
+   ============================================================ */
 .quotation-text p {
   white-space: pre-wrap;
 }
 
-.transliteration {
-  font-style: italic;
-  color: var(--pico-muted-color);
+.quote-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.5rem;
+  margin: 0.5rem 0;
 }
 
+
+/* ============================================================
+   SEARCH RESULTS
+   ============================================================ */
+.search-results {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+ul.search-results {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+/* ============================================================
+   LOGOS / IMAGERY
+   ============================================================ */
 .logos {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -60,12 +225,78 @@ img#goatfish {
   opacity: 0.9;
 }
 
-.search-results {
-  max-height: 500px;
-  overflow-y: auto;
+img#goatfish {
+  max-width: 350px;
+  margin: 30px auto;
+  height: auto;
+  display: block;
+  filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
+  -webkit-filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
+}
+/* search box sitting inside the nav, only on lemma pages */
+.nav-search {
+  flex: 1;
+  max-width: 46rem;
+  margin: 0 1rem;
 }
 
-ul.search-results {
+.nav-search > li {
+  width: 100%;
+}
+
+/* the search component fills the nav cell, results float below */
+.nav-search .search {
+  position: relative;
+  width: 100%;
+}
+
+.nav-search .search-input {
+  margin-bottom: 0;
+  padding-top: 0.1rem;     /* thinner: shrinks the height. Lower = thinner */
+  padding-bottom: 0.4rem;
+  height: auto;
+
+}
+
+.nav-search .search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  margin-top: 0.25rem;
+  background: var(--pico-background-color);
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+  box-shadow: var(--pico-card-box-shadow);
+  padding: 0.5rem;
+
+  /* force a clean vertical list */
+  display: block;
   list-style: none;
-  padding-left: 0;
+  margin-left: 0;
+  padding-left: 0.5rem;
+}
+
+.nav-search .search-results li {
+  display: block;
+  width: 100%;
+  padding: 0.35rem 0.25rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  white-space: normal;
+}
+
+.nav-search .search-results li:last-child {
+  border-bottom: none;
+}
+.nav-search .search-results {
+  max-height: 8rem;   /* ~8 results, then scrolls inside the panel */
+  overflow-y: auto;
+}
+h1 {
+  font-size: 3rem;          /* the big size — applies to MUL.MUL */
+}
+
+h1 .transliteration {
+  font-size: 1.75rem;       /* smaller — applies only to zappu */
 }

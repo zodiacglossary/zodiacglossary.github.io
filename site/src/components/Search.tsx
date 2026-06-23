@@ -62,7 +62,7 @@ function SearchResults({ results }: { results: any[] }) {
   if (!results.length) return <></>;
 
   return (
-    <ul class="search-results">
+    <ul className="search-results">
       {results.map((l) => (
         <li key={l.lemma_id} className="result-item">
           <LemmaLink lemma={l} />
