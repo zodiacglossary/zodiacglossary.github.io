@@ -1,11 +1,11 @@
 ---
 import Layout from "../../components/Layout.astro";
 import LemmaLink from "../../components/LemmaLink";
+import Search from "../../components/Search";
 import data from "../../../public/data.json";
 import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
-  // const predicate = l => l.lemma_id % 100 == 0;
   const predicate = l => true;
   return data.lemmata.filter(predicate).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
@@ -15,6 +15,7 @@ export async function getStaticPaths() {
 const id = Number(Astro.params.id);
 const lemma = data.lemmata.find(l => l.lemma_id === id);
 const meanings = data.meanings.filter(m => m.lemma_id === id);
+const uniqueMeanings = [...new Set(meanings.map(m => m.value).filter(Boolean))];
 const meaningsWithQuotes = meanings.map(m => ({
   ...m,
   quotations: data.quotations.filter(q => q.meaning_id === m.meaning_id),
@@ -22,6 +23,20 @@ const meaningsWithQuotes = meanings.map(m => ({
       .filter(c => c.meaning_id === m.meaning_id)
       .map(c => c.category)
 }));
+
+// Group meanings by their word (value), preserving first-seen order.
+// Result: [ { value: "Pleiades", senses: [...] }, { value: "Taurus", senses: [...] } ]
+const groupedMeanings = [];
+for (const m of meaningsWithQuotes) {
+  let group = groupedMeanings.find(g => g.value === m.value);
+  if (!group) {
+    group = { value: m.value, senses: [] };
+    groupedMeanings.push(group);
+  }
+  group.senses.push(m);
+}
+
+const uniqueCategories = [...new Set(meaningsWithQuotes.flatMap(m => m.categories))].filter(Boolean);
 const variants = data.variants.filter(v => v.lemma_id === id);
 const quotations = data.quotations.filter(q => q.lemma_id === id);
 const external = data.externalLinks.filter(e => e.lemma_id === id);
@@ -65,140 +80,161 @@ const jsonLD = {
 ---
 
 <Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"} jsonLD={jsonLD}>
+  <Search client:load slot="search" />
+
   <div class="grid">
-  <div>
-        <h1>{lemma.original}
-          {(lemma.original && lemma.transliteration) ? <br/> : null}
-          {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
-        </h1>
-        <p>{lemma.language_label} {lemma.partofspeech_value} {lemma.loan_language_value && lemma.loan_language_value !== "none" && <>
-            <br/>
-           {lemma.loan_type === "none" || lemma.loan_type === "loan" ? "loaned" : lemma.loan_type === "quote" ? "quoted" : lemma.loan_type === "calque" ? "calqued" : null} from {lemma.loan_language_label}
-          </>
-        }</p>
-        {lemma.last_edit && (
-        <small class="last-edited">
-        Last edited: {new Date(lemma.last_edit).toISOString().split("T")[0]}
-        </small>
-        )}
-      </div>
-
-      <div>
-        <table>
-            <tbody>
-             {lemma.primary_meaning && <tr>
-              <th scope="row">Primary meaning</th>
-              <td>{lemma.primary_meaning}</td>
-              </tr>}
-             {lemma.translation && <tr>
-              <th scope="row">Literal translation</th>
-              <td>{lemma.translation}</td>
-              </tr>}
-             {variants.length > 0 && <tr>
-              <th scope="row">Variants</th>
-              <td>
-                  {variants.map(v => <div>{v.original} {v.transliteration && <span class="transliteration">{v.transliteration}</span>} {v.comment && <span class="comment">{v.comment}</span>}</div>)}
-              </td>
-             </tr>}
-              {lemma.editor && (
-              <tr>
-                <th scope="row">Edited by</th>
-                <td>
-                  {lemmaEditors.map((u, index) => (
-                  <div><a href={`/people/${u.id}`} key={u.id}>
-                      {u.first_name} {u.last_name}
-                    </a></div>
-                     ))}
-                </td>
-              </tr>
-                    )
-                  }
-            </tbody>
-        </table>
-      </div>
-    </div>
-    </div>
-
-    <hr/>
-
-        <div class="grid">
-    <section class="meanings">
-      {meaningsWithQuotes.map((m) => (
-      <details open id={`meaning-${m.meaning_id}`} class="meaning">
-        <summary>
-        {m.value}
-        {m.categories.length > 0 && (
-        <span class="categories">{m.categories.join(", ")}</span>
-        )}
-        </summary>
-
-
-          <div>
-            {m.comment && <p class="comment">{m.comment}</p>}
-          {m.quotations.map(q => (
-            <blockquote>
-              <div class="quotation-text">
-              {q.original && <p>{q.original}</p>}
-              {q.transliteration && <p class="transliteration">{q.transliteration}</p>}
-              </div>
-              {q.translation && <p class="quotation-translation">‘{q.translation}’</p>}
-            <footer>
-              <cite>
-              <div>
-                  — {q.source} {q.line}
-              </div>
-              <p>
-              {q.genre && <div><strong>Genre:</strong> {q.genre}</div>}
-              {q.provenance && <div><strong>Provenance:</strong> {q.provenance}</div>}
-              {q.date && <div><strong>Date:</strong> {q.date}</div>}
-              </p>
-              <p><small>
-              {q.publication}
-              {q.page}
-              </small></p>
-              {q.comment && <p>{q.comment}</p>}
-              </cite>
-            </footer>
-            </blockquote>
-          ))}
-      </details>
-        <hr/>
-      ))}
-    </section>
-
     <div>
-    {crossLinks.length > 0 &&
-    <article>
-      <header>See also</header>
-      {crossLinks.map(c => (
-      <p>
-        <LemmaLink lemma={c.target} />
-      </p>
-      ))}
-    </article>
-    }
+      <h1>{lemma.original}
+        {(lemma.original && lemma.transliteration) ? <br/> : null}
+        {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
+      </h1>
+      <p>{lemma.language_label} {lemma.partofspeech_value}</p>
+      {lemma.last_edit && (
+        <small class="last-edited">
+          Last edited: {new Date(lemma.last_edit).toISOString().split("T")[0]}
+          {lemmaEditors.length > 0 && (
+            <><br/> Edited by: {lemmaEditors.map((u, i) => (
+              <><a href={`/people/${u.id}`}>{u.first_name} {u.last_name}</a>{i < lemmaEditors.length - 1 ? ", " : ""}</>
+            ))}</>
+          )}
+        </small>
+      )}
+    </div>
 
-    {external.length > 0 &&
+    {crossLinks.length > 0 && (
+      <div>
+        <small class="facts-label">See also</small>
+        {crossLinks.map(c => (
+          <div><LemmaLink lemma={c.target} /></div>
+        ))}
+      </div>
+    )}
+  </div>
+
+  <hr/>
+
+  <div class="facts-bar">
+    {groupedMeanings.length > 0 && (
+      <div class="facts-cell">
+        <small class="facts-label">Meanings</small>
+        <div class="facts-value">
+          {groupedMeanings.map((group, groupIndex) => (
+            <div>
+              <a class="meaning-index-link" href={`#group-${groupIndex}`}>
+                {groupIndex + 1}. {group.value}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {uniqueCategories.length > 0 && (
+      <div class="facts-cell">
+        <small class="facts-label">Categories</small>
+        <div class="facts-value">
+          {[...new Set(meaningsWithQuotes.flatMap(m => m.categories))].filter(Boolean).map(cat => (
+            <div>{cat}</div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {lemma.translation && (
+      <div class="facts-cell">
+        <small class="facts-label">Literal translation</small>
+        <div class="facts-value">{lemma.translation}</div>
+      </div>
+    )}
+
+    {variants.length > 0 && (
+      <div class="facts-cell">
+        <small class="facts-label">Variants</small>
+        <div class="facts-value">
+          {variants.map(v => (
+            <div>
+              {v.original} {v.transliteration && <span class="transliteration">{v.transliteration}</span>}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+
+  <hr/>
+
+  <section class="meanings">
+    {groupedMeanings.map((group, groupIndex) => (
+      <div class="meaning-group" id={`group-${groupIndex}`}>
+        <h3 class="group-heading">{groupIndex + 1}. {group.value}</h3>
+
+        {group.senses.map((m, senseIndex) => (
+          <details open id={`meaning-${m.meaning_id}`} class="meaning">
+            <summary>
+              <span class="sense-number">{groupIndex + 1}.{String.fromCharCode(97 + senseIndex)}</span>{" "}
+              {m.value}
+              {m.categories.length > 0 && (
+                <span class="categories">{m.categories.join(", ")}</span>
+              )}
+            </summary>
+
+            <div>
+              {m.comment && <p class="comment">{m.comment}</p>}
+              {m.quotations.map(q => (
+                <blockquote>
+                  <div class="quotation-text">
+                    {q.original && <p>{q.original}</p>}
+                    {q.transliteration && <p class="transliteration">{q.transliteration}</p>}
+                  </div>
+                  {q.translation && <p class="quotation-translation">‘{q.translation}’</p>}
+                  <footer>
+                    <cite>
+                      <div>
+                        — {q.source} {q.line}
+                      </div>
+                      <p class="quote-meta">
+                        {q.genre && <span><strong>Genre:</strong> {q.genre}</span>}
+                        {q.provenance && <span><strong>Provenance:</strong> {q.provenance}</span>}
+                        {q.date && <span><strong>Date:</strong> {q.date}</span>}
+                      </p>
+                      <p><small>
+                        {q.publication}
+                        {q.page}
+                      </small></p>
+                      {q.comment && <p>{q.comment}</p>}
+                    </cite>
+                  </footer>
+                </blockquote>
+              ))}
+            </div>
+          </details>
+        ))}
+      </div>
+    ))}
+  </section>
+
+  {external.length > 0 &&
     <article>
       <header>External links</header>
       <ul>
         {external.map(e => <li><a href={e.url}>{e.display}</a></li>)}
       </ul>
     </article>
-    }
+  }
 
-    <article>
-      <header>Cite this entry</header>
-      <CitationDisplay entry={{
-       id: "zodiac"+lemma.lemma_id,
-       type: "webpage",
-       author: lemmaEditors.map(u => ({given: u.first_name, family: u.last_name})),
-       title: (lemma.original || lemma.transliteration) + " (Lemma #" + lemma.lemma_id + ")",
-       "container-title": "The ZODIAC Glossary: A Cross-Cultural Glossary of Ancient Astral Science",
-       issued: lemma.last_edit ? {"date-parts": [new Date(lemma.last_edit).getFullYear()]} : null,
-       URL: publicURL,
-       accessed: {"date-parts": [new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDay()]}
-       }} />
-    </article>
-    </div>
+  <hr/>
+
+  <article>
+    <header>Cite this entry</header>
+    <CitationDisplay entry={{
+     id: "zodiac"+lemma.lemma_id,
+     type: "webpage",
+     author: lemmaEditors.map(u => ({given: u.first_name, family: u.last_name})),
+     title: (lemma.original || lemma.transliteration) + " (Lemma #" + lemma.lemma_id + ")",
+     "container-title": "The ZODIAC Glossary: A Cross-Cultural Glossary of Ancient Astral Science",
+     issued: lemma.last_edit ? {"date-parts": [new Date(lemma.last_edit).getFullYear()]} : null,
+     URL: publicURL,
+     accessed: {"date-parts": [new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDay()]}
+     }} />
+  </article>
 </Layout>
