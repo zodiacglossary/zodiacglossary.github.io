@@ -85,7 +85,7 @@
    ============================================================ */
 .facts-bar {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0;
   border-top: 1px solid var(--pico-muted-border-color);
   border-bottom: 1px solid var(--pico-muted-border-color);
@@ -94,7 +94,7 @@
 
 .facts-cell {
   flex: 1;
-  min-width: 150px;
+  min-width: 0;
   padding: 1rem 1.25rem;
   border-right: 1px solid var(--pico-muted-border-color);
 }
@@ -299,4 +299,44 @@ h1 {
 
 h1 .transliteration {
   font-size: 1.75rem;       /* smaller — applies only to zappu */
+}
+/* ============================================================
+   MOBILE — overrides for phones & small tablets (≤768px)
+   Desktop layout above is untouched.
+   ============================================================ */
+@media (max-width: 768px) {
+
+  /* Headword: scale down so long lemmata fit */
+  .site-main h1 { font-size: 2.2rem; margin-bottom: 1rem; }
+  h1 .transliteration { font-size: 1.4rem; }
+
+  /* NAV: let it wrap, and give the search its own full-width row
+     so the placeholder isn't cut to "Search ou..." */
+  .site-header nav { flex-wrap: wrap; }
+  .nav-search {
+    flex: 1 1 100%;     /* take a whole row to itself */
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  /* "See also": desktop pushes it right + justifies it.
+     On mobile → full width, normal left alignment. */
+  .grid > div:last-child:not(:first-child) {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  /* FACTS BAR: stack into a clean labelled list with a
+     hairline between each fact (no boxy grid, no vertical lines) */
+  .facts-bar { display: block; }
+  .facts-cell,
+  .facts-cell:nth-child(2) {
+    flex: none;
+    border-right: none;    /* remove the vertical dividers */
+    padding: 0.85rem 0;    /* vertical spacing, no side padding */
+  }
+  .facts-cell + .facts-cell {
+    border-top: 1px solid var(--pico-muted-border-color);  /* hairline between */
+  }
 }
