@@ -45,7 +45,6 @@ async function main() {
   // --- Fetch others -------------------------------------------
   const meanings = (await client.query(`SELECT * FROM meanings ORDER BY meaning_id;`)).rows;
   const meaningCategories = (await client.query(`SELECT * FROM meaning_categories ORDER BY category_id;`)).rows;
-  const categoryTree = (await client.query(`SELECT * FROM category_tree ORDER BY id;`)).rows;
   const variants = (await client.query(`SELECT * FROM variants ORDER BY variant_id;`)).rows;
   const quotations = (await client.query(`SELECT * FROM quotations ORDER BY quotation_id;`)).rows;
   const externalLinks = (await client.query(`SELECT * FROM external_links ORDER BY external_link_id;`)).rows;
@@ -65,7 +64,6 @@ async function main() {
     lemmata,
     meanings,
     meaningCategories,
-    categoryTree,
     variants,
     quotations,
     externalLinks,
