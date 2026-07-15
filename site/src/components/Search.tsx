@@ -25,6 +25,7 @@ export default function Search() {
 
     // If query is empty, show all lemmata
     const filtered = data.lemmata
+      .filter((l) => (l.original || l.transliteration) && l.primary_meaning)
       .filter(
         (l) =>
           !query ||
