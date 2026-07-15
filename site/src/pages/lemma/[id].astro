@@ -38,6 +38,10 @@ for (const m of meaningsWithQuotes) {
 
 const uniqueCategories = [...new Set(meaningsWithQuotes.flatMap(m => m.categories))].filter(Boolean);
 const variants = data.variants.filter(v => v.lemma_id === id);
+const literalTranslation =
+  (lemma.language_id === 1 && lemma.literal_translation2)
+    ? lemma.literal_translation2
+    : lemma.translation;
 const quotations = data.quotations.filter(q => q.lemma_id === id);
 const external = data.externalLinks.filter(e => e.lemma_id === id);
 const lemmaEditors = data.users.filter(u => lemma.editor.split(", ").includes(u.username));
@@ -140,10 +144,10 @@ const jsonLD = {
       </div>
     )}
 
-    {lemma.translation && (
+    {literalTranslation && (
       <div class="facts-cell">
         <small class="facts-label">Literal translation</small>
-        <div class="facts-value">{lemma.translation}</div>
+        <div class="facts-value">{literalTranslation}</div>
       </div>
     )}
 
