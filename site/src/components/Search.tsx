@@ -33,11 +33,11 @@ export default function Search() {
             f?.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')),
           ),
       )
-      .toSorted((a, b) =>
-        (a.transliteration || a.original).localeCompare(
-          b.transliteration || b.original,
-        ),
-      );
+          .toSorted((a, b) =>
+      (a.transliteration || a.original || "").localeCompare(
+        b.transliteration || b.original || "",
+      ),
+    );
 
     return filtered;
   }, [query, data]);
