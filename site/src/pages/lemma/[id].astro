@@ -6,7 +6,7 @@ import data from "../../../public/data.json";
 import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
-  const predicate = l => true;
+  const predicate = l => (l.original || l.transliteration) && l.primary_meaning;
   return data.lemmata.filter(predicate).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
   }));
@@ -51,7 +51,8 @@ const crossLinks = data.crossLinks
     const otherId = c.lemma_id === lemma.lemma_id ? c.link : c.lemma_id;
     const target = data.lemmata.find(l => l.lemma_id === otherId);
     return { ...c, target };
-  });
+  })
+.filter(c => c.target && (c.target.original || c.target.transliteration) && c.target.primary_meaning);
 
 const publicURL = `${Astro.site}${Astro.url.pathname.slice(1)}`;
 
