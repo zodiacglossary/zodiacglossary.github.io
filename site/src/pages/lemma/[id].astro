@@ -14,6 +14,9 @@ export async function getStaticPaths() {
 
 const id = Number(Astro.params.id);
 const lemma = data.lemmata.find(l => l.lemma_id === id);
+const hasLogogram = (s) => /\p{Lu}(?!\p{Ll})/u.test(s ?? "");
+const showOriginal =
+  lemma.language_id === 1 ? hasLogogram(lemma.original) : !!lemma.original;
 const meanings = data.meanings.filter(m => m.lemma_id === id);
 const uniqueMeanings = [...new Set(meanings.map(m => m.value).filter(Boolean))];
 const meaningsWithQuotes = meanings.map(m => ({
@@ -91,8 +94,8 @@ const jsonLD = {
       {lemma.language_id === 1 ? (
         <h1>
           {lemma.transliteration}
-          {(lemma.original && lemma.transliteration) ? <br/> : null}
-          {lemma.original && <span class="transliteration">{lemma.original}</span>}
+          {(showOriginal && lemma.transliteration) ? <br/> : null}
+          {showOriginal && <span class="transliteration">{lemma.original}</span>}
         </h1>
       ) : (
         <h1>
