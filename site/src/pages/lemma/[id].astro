@@ -6,10 +6,7 @@ import data from "../../../public/data.json";
 import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
-  const predicate = l =>
-  l.language_id === 1
-    ? l.original && l.translation
-    : (l.original || l.transliteration) && l.primary_meaning;
+  const predicate = l => (l.original || l.transliteration) && l.primary_meaning;
   return data.lemmata.filter(predicate).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
   }));
@@ -89,21 +86,37 @@ const jsonLD = {
 
 <Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"} jsonLD={jsonLD}>
   <Search client:load slot="search" />
-
   <div class="grid">
     <div>
-      <h1>{lemma.original}
-        {(lemma.original && lemma.transliteration) ? <br/> : null}
-        {lemma.transliteration && (<span class="transliteration">{lemma.transliteration}</span>)}
-      </h1>
+      {lemma.language_id === 1 ? (
+        <h1>
+          {lemma.transliteration}
+          {(lemma.original && lemma.transliteration) ? <br/> : null}
+          {lemma.original && <span class="transliteration">{lemma.original}</span>}
+        </h1>
+      ) : (
+        <h1>
+          {lemma.original}
+          {(lemma.original && lemma.transliteration) ? <br/> : null}
+          {lemma.transliteration && <span class="transliteration">{lemma.transliteration}</span>}
+        </h1>
+      )}
+
       <p>{lemma.language_label} {lemma.partofspeech_value}</p>
+
       {lemma.last_edit && (
         <small class="last-edited">
           Last edited: {new Date(lemma.last_edit).toISOString().split("T")[0]}
           {lemmaEditors.length > 0 && (
-            <><br/> Edited by: {lemmaEditors.map((u, i) => (
-              <><a href={`/people/${u.id}`}>{u.first_name} {u.last_name}</a>{i < lemmaEditors.length - 1 ? ", " : ""}</>
-            ))}</>
+            <>
+              <br/> Edited by:{" "}
+              {lemmaEditors.map((u, i) => (
+                <>
+                  <a href={`/people/${u.id}`}>{u.first_name} {u.last_name}</a>
+                  {i < lemmaEditors.length - 1 ? ", " : ""}
+                </>
+              ))}
+            </>
           )}
         </small>
       )}
