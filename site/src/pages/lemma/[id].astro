@@ -6,7 +6,10 @@ import data from "../../../public/data.json";
 import CitationDisplay from "../../components/CitationDisplay.astro";
 
 export async function getStaticPaths() {
-  const predicate = l => (l.original || l.transliteration) && l.primary_meaning;
+  const predicate = l =>
+  l.language_id === 1
+    ? l.original && l.translation
+    : (l.original || l.transliteration) && l.primary_meaning;
   return data.lemmata.filter(predicate).map((lemma) => ({
     params: { id: lemma.lemma_id.toString() },
   }));
