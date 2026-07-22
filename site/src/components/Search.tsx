@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import LemmaLink from "../components/LemmaLink";
-import LemmaTitle from "../components/LemmaTitle"; 
+ 
 // Lowercase, drop accents, AND turn sub/superscript digits into normal ones
 // (E₂ → e2), so typing "E2" matches "E₂".
 function norm(s: string) {
