@@ -5,6 +5,7 @@
 /* @import "./theme-light.css"; */
 /* @import "./theme-dark.css"; */
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap");
@@ -17,10 +18,16 @@
 /* ============================================================
    ROOT / TYPOGRAPHY
    ============================================================ */
+/* Same sans look as before, but "Noto Sans" is now FIRST so transliteration
+   letters and their macrons / circumflexes (ū, â, š…) are drawn by one font
+   and stay aligned. The script-specific fonts follow as fallbacks for
+   cuneiform, hieroglyphs, etc. Putting the cuneiform font first was what made
+   the macron drift sideways. */
 :root {
   --pico-font-family:
+    "Noto Sans",
     "Noto Sans Cuneiform", "Noto Sans Egyptian Hieroglyphs", "Noto Sans Coptic",
-    "Noto Sans Greek", "Noto Sans Hebrew", "Noto Sans Devanagari", "Noto Sans",
+    "Noto Sans Greek", "Noto Sans Hebrew", "Noto Sans Devanagari",
     sans-serif;
 }
 
@@ -72,11 +79,146 @@
   padding-bottom: 2rem;
 }
 
-/* push the "See also" column to the right of the top grid */
-.grid > div:last-child:not(:first-child) {
-  margin-left: auto;
-  text-align: justify;
-  max-width: 22rem;
+/* Headword sizing: big lemma, smaller transliteration underneath */
+h1 .transliteration {
+  font-size: 1.75rem;
+}
+
+
+/* ============================================================
+   STYLE 2 HEADER — headword, secondary form, grammar + variants
+   Sized ~3x the ~1rem quotation text.
+   ============================================================ */
+.entry-head .headword {
+  font-size: 3rem;        /* headword — the big lemma line */
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.headword-secondary {
+  font-size: 2rem;        /* original (Akkadian) / transliteration under it */
+  color: var(--pico-muted-color);
+  margin-top: 0.2rem;
+}
+
+/* Akkadian only: the headword is the transliteration → italic, and the form
+   beneath it is the logogram (MUL.MUL) → upright. Other languages keep the
+   default (upright headword, italic transliteration underneath). */
+.entry-head.is-akkadian .headword {
+  font-style: italic;
+}
+
+.entry-head.is-akkadian .headword-secondary {
+  font-style: normal;
+}
+
+.grammar-line {
+  font-size: 1.4rem;      /* part-of-speech line, e.g. AKKADIAN · VERB */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+  margin-top: 0.9rem;
+}
+
+/* VARIANTS — small uppercase label on its own line, then all variants on
+   one horizontal line under it. A semicolon separates variants so it never
+   competes with the colon inside each one (NIM : šūlû), even with many. */
+.variant-line {
+  margin-top: 0.7rem;
+}
+
+.variant-label {
+  display: block;                 /* label sits on its own line above */
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+  margin-bottom: 0.2rem;
+}
+
+.variant-item {
+  display: inline;                /* variants flow on one line, wrap if long */
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+/* The markup prints a literal ", " between variants — hide it and show a
+   semicolon instead. To switch separators, change the content below:
+   comma → ", "   middle dot → " · "   semicolon → "; "  */
+.variant-sep {
+  font-size: 0;                   /* hides the literal comma from the markup */
+}
+
+.variant-sep::after {
+  content: ", ";
+  font-size: 1.15rem;
+  color: var(--pico-muted-color);
+}
+
+/* Keep the transliteration (Latin + diacritics) in one font so the macron
+   over ū / circumflex over â never drifts sideways. Same sans look as before. */
+.entry-head .headword,
+.headword-secondary,
+.variant-item,
+.transliteration {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* edit history under the header — larger than Pico's default <small> */
+.last-edited {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1.75rem;
+}
+
+.meta-line {
+  display: block;
+}
+
+/* space between "Edited by" and "Last edited" */
+.meta-line + .meta-line {
+  margin-top: 0.5rem;
+}
+
+
+/* ============================================================
+   SEE ALSO BAR — links to /compare/{id} (opens in new tab)
+   Full-width, no box: sits freely between the facts-bar and quotations.
+   ============================================================ */
+.see-also-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.75rem 0;
+  border: none;
+  background: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.see-also-bar:hover {
+  background: none;
+}
+
+.see-also-bar:hover .see-also-text {
+  text-decoration: underline;
+}
+
+.see-also-count {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: var(--pico-muted-border-color);
+}
+
+.see-also-bar .chev {
+  margin-left: auto;      /* pushes the › to the far right, stretching the bar */
+  font-size: 1.1rem;
+  color: var(--pico-muted-color);
 }
 
 
@@ -99,6 +241,10 @@
   border-right: 1px solid var(--pico-muted-border-color);
 }
 
+.facts-cell:nth-child(1) {
+  flex: 1.1;                 /* Meanings is now the first cell — give it a bit more room */
+}
+
 .facts-cell:last-child {
   border-right: none;
 }
@@ -114,6 +260,11 @@
 
 .facts-value {
   font-size: 0.95rem;
+}
+
+.facts-value > div {
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 /* clickable index links in the Meanings cell */
@@ -163,18 +314,63 @@
   color: var(--pico-muted-color);
 }
 
-.facts-cell:nth-child(2) {
-  flex: 1.1;
-}
-
-.facts-value > div {
-  white-space: normal;
-  overflow-wrap: break-word;
-}
 .categories::before {
   content: "|";
   margin: 0 0.4rem;
   color: var(--pico-muted-color);
+}
+
+
+/* ============================================================
+   COMPARE PAGE — /compare/[id], plain tables (no coloring)
+   ============================================================ */
+.chart-back {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+}
+
+.chart-title {
+  margin-bottom: 1.5rem;
+}
+
+.chart-lang {
+  font-weight: 400;
+  color: var(--pico-muted-color);
+}
+
+.chart-block {
+  margin: 1.75rem 0;
+}
+
+.chart-concept {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.chart-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.chart-table th,
+.chart-table td {
+  text-align: left;
+  padding: 0.45rem 0.7rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  vertical-align: top;
+}
+
+.chart-table th {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  color: var(--pico-muted-color);
+}
+
+/* Current entry: distinguished by weight only, no background colour. */
+.chart-current td {
+  font-weight: 600;
 }
 
 
@@ -206,6 +402,64 @@ ul.search-results {
   padding-left: 0;
 }
 
+/* search box sitting inside the nav, only on lemma pages */
+.nav-search {
+  flex: 1;
+  max-width: 46rem;
+  margin: 0 1rem;
+}
+
+.nav-search > li {
+  width: 100%;
+}
+
+/* the search component fills the nav cell, results float below */
+.nav-search .search {
+  position: relative;
+  width: 100%;
+}
+
+.nav-search .search-input {
+  margin-bottom: 0;
+  padding-top: 0.1rem;     /* thinner: shrinks the height. Lower = thinner */
+  padding-bottom: 0.4rem;
+  height: auto;
+}
+
+.nav-search .search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  margin-top: 0.25rem;
+  background: var(--pico-background-color);
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+  box-shadow: var(--pico-card-box-shadow);
+
+  /* force a clean vertical list */
+  display: block;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0.5rem;
+
+  max-height: 8rem;   /* ~8 results, then scrolls inside the panel */
+  overflow-y: auto;
+}
+
+.nav-search .search-results li {
+  display: block;
+  width: 100%;
+  padding: 0.35rem 0.25rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  white-space: normal;
+}
+
+.nav-search .search-results li:last-child {
+  border-bottom: none;
+}
+
 
 /* ============================================================
    LOGOS / IMAGERY
@@ -233,73 +487,8 @@ img#goatfish {
   filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
   -webkit-filter: drop-shadow(2px 2px 2px var(--pico-muted-color));
 }
-/* search box sitting inside the nav, only on lemma pages */
-.nav-search {
-  flex: 1;
-  max-width: 46rem;
-  margin: 0 1rem;
-}
 
-.nav-search > li {
-  width: 100%;
-}
 
-/* the search component fills the nav cell, results float below */
-.nav-search .search {
-  position: relative;
-  width: 100%;
-}
-
-.nav-search .search-input {
-  margin-bottom: 0;
-  padding-top: 0.1rem;     /* thinner: shrinks the height. Lower = thinner */
-  padding-bottom: 0.4rem;
-  height: auto;
-
-}
-
-.nav-search .search-results {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  margin-top: 0.25rem;
-  background: var(--pico-background-color);
-  border: 1px solid var(--pico-muted-border-color);
-  border-radius: var(--pico-border-radius);
-  box-shadow: var(--pico-card-box-shadow);
-  padding: 0.5rem;
-
-  /* force a clean vertical list */
-  display: block;
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0.5rem;
-}
-
-.nav-search .search-results li {
-  display: block;
-  width: 100%;
-  padding: 0.35rem 0.25rem;
-  border-bottom: 1px solid var(--pico-muted-border-color);
-  white-space: normal;
-}
-
-.nav-search .search-results li:last-child {
-  border-bottom: none;
-}
-.nav-search .search-results {
-  max-height: 8rem;   /* ~8 results, then scrolls inside the panel */
-  overflow-y: auto;
-}
-h1 {
-  font-size: 3rem;          /* the big size — applies to MUL.MUL */
-}
-
-h1 .transliteration {
-  font-size: 1.75rem;       /* smaller — applies only to zappu */
-}
 /* ============================================================
    MOBILE — overrides for phones & small tablets (≤768px)
    Desktop layout above is untouched.
@@ -310,6 +499,9 @@ h1 .transliteration {
   .site-main h1 { font-size: 2.2rem; margin-bottom: 1rem; }
   h1 .transliteration { font-size: 1.4rem; }
 
+  .entry-head .headword { font-size: 2.2rem; }
+  .headword-secondary { font-size: 1.5rem; }
+
   /* NAV: let it wrap, and give the search its own full-width row
      so the placeholder isn't cut to "Search ou..." */
   .site-header nav { flex-wrap: wrap; }
@@ -319,19 +511,11 @@ h1 .transliteration {
     margin: 0.5rem 0;
   }
 
-  /* "See also": desktop pushes it right + justifies it.
-     On mobile → full width, normal left alignment. */
-  .grid > div:last-child:not(:first-child) {
-    margin-left: 0;
-    max-width: 100%;
-    text-align: left;
-  }
-
   /* FACTS BAR: stack into a clean labelled list with a
      hairline between each fact (no boxy grid, no vertical lines) */
   .facts-bar { display: block; }
   .facts-cell,
-  .facts-cell:nth-child(2) {
+  .facts-cell:nth-child(1) {
     flex: none;
     border-right: none;    /* remove the vertical dividers */
     padding: 0.85rem 0;    /* vertical spacing, no side padding */

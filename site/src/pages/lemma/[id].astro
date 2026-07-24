@@ -20,8 +20,18 @@ const showOriginal =
   lemma.language_id === 1
     ? hasLogogram(lemma.original) || hasNumberOrMark(lemma.original)
     : !!lemma.original;
+
+// Headword line = transliteration for Akkadian, original for everything else.
+const headword = lemma.language_id === 1 ? lemma.transliteration : lemma.original;
+// Secondary line under the headword = original for Akkadian, transliteration for the rest.
+const secondaryForm =
+  lemma.language_id === 1
+    ? (showOriginal ? lemma.original : null)
+    : lemma.transliteration;
+// Uppercase grammatical line, e.g. "AKKADIAN · VERB".
+const grammarLine = [lemma.language_label, lemma.partofspeech_value].filter(Boolean).join(" · ");
+
 const meanings = data.meanings.filter(m => m.lemma_id === id);
-const uniqueMeanings = [...new Set(meanings.map(m => m.value).filter(Boolean))];
 const meaningsWithQuotes = meanings.map(m => ({
   ...m,
   quotations: data.quotations.filter(q => q.meaning_id === m.meaning_id),
@@ -43,7 +53,16 @@ for (const m of meaningsWithQuotes) {
 }
 
 const uniqueCategories = [...new Set(meaningsWithQuotes.flatMap(m => m.categories))].filter(Boolean);
-const variants = data.variants.filter(v => v.lemma_id === id);
+
+// Variants for this lemma, but drop any that are IDENTICAL to the headword
+// (same spelling isn't a variant, it's just the same word).
+const norm = (s) => (s ?? "").trim();
+const sameAsLemma = (v) =>
+  norm(v.transliteration) === norm(lemma.transliteration) &&
+  norm(v.original) === norm(lemma.original);
+const variants = data.variants
+  .filter(v => v.lemma_id === id)
+  .filter(v => !sameAsLemma(v));
 const literalTranslation =
   (lemma.language_id === 1 && lemma.literal_translation2)
     ? lemma.literal_translation2
@@ -92,49 +111,51 @@ const jsonLD = {
 
 <Layout title={(lemma.original || lemma.transliteration) + " (#" + lemma.lemma_id + ")"} jsonLD={jsonLD}>
   <Search client:load slot="search" />
-  <div class="grid">
-    <div>
-      {lemma.language_id === 1 ? (
-        <h1>
-          {lemma.transliteration}
-          {(showOriginal && lemma.transliteration) ? <br/> : null}
-          {showOriginal && <span class="transliteration">{lemma.original}</span>}
-        </h1>
-      ) : (
-        <h1>
-          {lemma.original}
-          {(lemma.original && lemma.transliteration) ? <br/> : null}
-          {lemma.transliteration && <span class="transliteration">{lemma.transliteration}</span>}
-        </h1>
-      )}
 
-      <p>{lemma.language_label} {lemma.partofspeech_value}</p>
+  <div class={lemma.language_id === 1 ? "entry-head is-akkadian" : "entry-head"}>
+    <h1 class="headword">{headword}</h1>
 
-      {lemma.last_edit && (
-        <small class="last-edited">
-          Last edited: {new Date(lemma.last_edit).toISOString().split("T")[0]}
-          {lemmaEditors.length > 0 && (
-            <>
-              <br/> Edited by:{" "}
-              {lemmaEditors.map((u, i) => (
-                <>
-                  <a href={`/people/${u.id}`}>{u.first_name} {u.last_name}</a>
-                  {i < lemmaEditors.length - 1 ? ", " : ""}
-                </>
-              ))}
-            </>
-          )}
-        </small>
-      )}
-    </div>
+    {secondaryForm && (
+      <div class="headword-secondary transliteration">{secondaryForm}</div>
+    )}
 
-    {crossLinks.length > 0 && (
-      <div>
-        <small class="facts-label">See also</small>
-        {crossLinks.map(c => (
-          <div><LemmaLink lemma={c.target} /></div>
+    {grammarLine && <div class="grammar-line">{grammarLine}</div>}
+
+    {variants.length > 0 && (
+      <div class="variant-line">
+        <span class="variant-label">variant{variants.length > 1 ? "s" : ""}</span>{" "}
+        {variants.map((v, i) => (
+          <span class="variant-item">
+            {v.original}
+            {v.transliteration && (
+              <>: <span class="transliteration">{v.transliteration}</span></>
+            )}
+            {i < variants.length - 1 ? <span class="variant-sep">, </span> : null}
+          </span>
         ))}
       </div>
+    )}
+
+    {(lemmaEditors.length > 0 || lemma.last_edit) && (
+      <small class="last-edited">
+        {lemmaEditors.length > 0 && (
+          <>
+            Edited by:{" "}
+            {lemmaEditors.map((u, i) => (
+              <>
+                <a href={`/people/${u.id}`}>{u.first_name} {u.last_name}</a>
+                {i < lemmaEditors.length - 1 ? ", " : ""}
+              </>
+            ))}
+          </>
+        )}
+        {lemma.last_edit && (
+          <>
+            {lemmaEditors.length > 0 ? <br/> : null}
+            Last edited: {new Date(lemma.last_edit).toISOString().split("T")[0]}
+          </>
+        )}
+      </small>
     )}
   </div>
 
@@ -155,38 +176,31 @@ const jsonLD = {
         </div>
       </div>
     )}
-
-    {uniqueCategories.length > 0 && (
-      <div class="facts-cell">
-        <small class="facts-label">Categories</small>
-        <div class="facts-value">
-          {[...new Set(meaningsWithQuotes.flatMap(m => m.categories))].filter(Boolean).map(cat => (
-            <div>{cat}</div>
-          ))}
-        </div>
-      </div>
-    )}
-
     {literalTranslation && (
       <div class="facts-cell">
         <small class="facts-label">Literal translation</small>
         <div class="facts-value">{literalTranslation}</div>
       </div>
     )}
-
-    {variants.length > 0 && (
+    {uniqueCategories.length > 0 && (
       <div class="facts-cell">
-        <small class="facts-label">Variants</small>
+        <small class="facts-label">Categories</small>
         <div class="facts-value">
-          {variants.map(v => (
-            <div>
-              {v.original} {v.transliteration && <span class="transliteration">{v.transliteration}</span>}
-            </div>
+          {uniqueCategories.map(cat => (
+            <div>{cat}</div>
           ))}
         </div>
       </div>
     )}
   </div>
+
+  {crossLinks.length > 0 && (
+    <a class="see-also-bar" href={`/compare/${lemma.lemma_id}`} target="_blank" rel="noopener">
+      <span class="see-also-text">Related Lemmata</span>
+      <span class="see-also-count">{crossLinks.length}</span>
+      <span class="chev">›</span>
+    </a>
+  )}
 
   <hr/>
 

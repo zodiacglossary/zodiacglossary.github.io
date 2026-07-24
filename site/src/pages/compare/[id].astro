@@ -1,0 +1,140 @@
+---
+// src/pages/compare/[id].astro
+// A dedicated page (opened in a new tab from the "See also ›" bar) that shows
+// how the SAME meaning is expressed across the lemmata that cross-link to each
+// other. One row per lemma; meanings shared with the headword are marked, and
+// meanings unique to a language are flagged as differing.
+import Layout from "../../components/Layout.astro";
+import LemmaLink from "../../components/LemmaLink";
+import Search from "../../components/Search";
+import data from "../../../public/data.json";
+
+export async function getStaticPaths() {
+  const valid = (l) => (l.original || l.transliteration) && l.primary_meaning;
+  const validIds = new Set(data.lemmata.filter(valid).map(l => l.lemma_id));
+
+  // Only build a compare page for lemmata that actually have a valid cross-link,
+  // so we don't generate empty pages.
+  const linked = new Set();
+  for (const c of data.crossLinks) {
+    if (validIds.has(c.lemma_id) && validIds.has(c.link)) {
+      linked.add(c.lemma_id);
+      linked.add(c.link);
+    }
+  }
+
+  return data.lemmata
+    .filter(l => valid(l) && linked.has(l.lemma_id))
+    .map(l => ({ params: { id: l.lemma_id.toString() } }));
+}
+
+const id = Number(Astro.params.id);
+const lemma = data.lemmata.find(l => l.lemma_id === id);
+
+// Cross-linked lemmata (both directions of the crossLinks table).
+const crossLinks = data.crossLinks
+  .filter(c => c.lemma_id === id || c.link === id)
+  .map(c => {
+    const otherId = c.lemma_id === id ? c.link : c.lemma_id;
+    return data.lemmata.find(l => l.lemma_id === otherId);
+  })
+  .filter(t => t && (t.original || t.transliteration) && t.primary_meaning);
+
+// Helper: unique meaning words recorded for any lemma id.
+const meaningsForLemma = (lid) => [
+  ...new Set(
+    data.meanings
+      .filter(m => m.lemma_id === lid)
+      .map(m => m.value)
+      .filter(Boolean)
+  ),
+];
+
+const currentMeanings = meaningsForLemma(id);
+const currentMeaningSet = new Set(currentMeanings.map(v => v.toLowerCase()));
+
+// Build the rows: headword first (as the reference), then each cross-link.
+const rows = [
+  {
+    target: lemma,
+    isCurrent: true,
+    language: lemma.language_label,
+    meanings: currentMeanings.map(v => ({ value: v, shared: true })),
+  },
+  ...crossLinks.map(t => {
+    const raw = meaningsForLemma(t.lemma_id);
+    const values = raw.length > 0 ? raw : [t.primary_meaning].filter(Boolean);
+    return {
+      target: t,
+      isCurrent: false,
+      language: t.language_label,
+      meanings: values.map(v => ({
+        value: v,
+        shared: currentMeaningSet.has(v.toLowerCase()),
+      })),
+    };
+  }),
+];
+
+// The union of every meaning that appears anywhere in this cluster — useful as
+// a quick header of "the shared concept(s)".
+const allMeanings = [
+  ...new Set(rows.flatMap(r => r.meanings.map(m => m.value))),
+];
+
+const headword = lemma.transliteration || lemma.original;
+---
+
+<Layout title={"See also: " + headword + " (#" + lemma.lemma_id + ")"}>
+  <Search client:load slot="search" />
+
+  <p class="compare-back">
+    <a href={`/lemma/${lemma.lemma_id}`}>← Back to {headword}</a>
+  </p>
+
+  <h1 class="compare-title">
+    Cross-references 
+    <span class="compare-sub">for {headword}</span>
+  </h1>
+
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Lemma</th>
+        <th>Language</th>
+        <th>Meanings</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(row => (
+        <tr class={row.isCurrent ? "current-row" : ""}>
+          <td>
+            {row.isCurrent ? (
+              <span class="current-lemma">
+                {row.target.transliteration || row.target.original}
+                <span class="this-tag">headword</span>
+              </span>
+            ) : (
+              <LemmaLink lemma={row.target} />
+            )}
+          </td>
+          <td>{row.language}</td>
+          <td>
+            {row.meanings.length === 0 ? (
+              <span class="no-meaning">—</span>
+            ) : (
+              row.meanings.map((m, i) => (
+                <>
+                  <span class={m.shared ? "meaning-chip shared" : "meaning-chip differs"}>
+                    {m.value}
+                  </span>
+                  {i < row.meanings.length - 1 ? " " : ""}
+                </>
+              ))
+            )}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</Layout>
