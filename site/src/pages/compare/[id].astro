@@ -75,7 +75,16 @@ const rows = [
     };
   }),
 ];
-
+// Keep the headword row pinned first, then group the rest so the same
+// languages sit together: the headword's own language leads, the others A→Z.
+rows.sort((a, b) => {
+  if (a.isCurrent) return -1;        // headword always at the very top
+  if (b.isCurrent) return 1;
+  const aHome = a.language === lemma.language_label ? 0 : 1;
+  const bHome = b.language === lemma.language_label ? 0 : 1;
+  if (aHome !== bHome) return aHome - bHome;   // headword's language next
+  return a.language.localeCompare(b.language); // then alphabetical by language
+});
 // The union of every meaning that appears anywhere in this cluster — useful as
 // a quick header of "the shared concept(s)".
 const allMeanings = [
