@@ -121,7 +121,6 @@ const headword = lemma.transliteration || lemma.original;
             {row.isCurrent ? (
               <span class="current-lemma">
                 {row.target.transliteration || row.target.original}
-                <span class="this-tag">headword</span>
               </span>
             ) : (
               <LemmaLink lemma={row.target} />
