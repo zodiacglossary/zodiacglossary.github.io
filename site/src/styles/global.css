@@ -524,3 +524,22 @@ img#goatfish {
     border-top: 1px solid var(--pico-muted-border-color);  /* hairline between */
   }
 }
+/* Compare page — make the headword row stand out */
+.current-lemma {
+  font-weight: 700;
+}
+
+.this-tag {
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+  font-weight: 400;
+}
+
+/* optional: a faint tint behind the whole headword row */
+.current-row td {
+  background: var(--pico-code-background-color);
+}
+
