@@ -330,7 +330,7 @@
       "primary_meaning": "Sagittarius",
       "editor": "Andreas",
       "literal_translation2": "",
-      "last_edit": "2024-10-21T13:16:05.676Z",
+      "last_edit": "2026-07-23T14:13:10.916Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -1170,7 +1170,7 @@
       "primary_meaning": "Libra",
       "editor": "Michael, Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-05T10:16:04.223Z",
+      "last_edit": "2026-07-23T14:15:57.068Z",
       "comment": "TP: needs a quote for Libra (constellation)",
       "checked": false,
       "attention": true,
@@ -9676,7 +9676,7 @@
       "lemma_id": 512,
       "published": true,
       "original": "a-pir",
-      "translation": "to be covered",
+      "translation": "to cover",
       "transliteration": "apāru",
       "partofspeech_id": 10,
       "partofspeech_label": "Verb",
@@ -9689,8 +9689,8 @@
       "loan_language_value": "none",
       "primary_meaning": "it is covered",
       "editor": "Mathieu",
-      "literal_translation2": "to be covered",
-      "last_edit": "2024-03-22T15:34:26.061Z",
+      "literal_translation2": "to cover",
+      "last_edit": "2026-07-22T09:31:55.708Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -15978,7 +15978,7 @@
       "primary_meaning": "to compute",
       "editor": "Mathieu",
       "literal_translation2": "to compute",
-      "last_edit": "2023-08-22T08:18:32.534Z",
+      "last_edit": "2026-07-23T13:42:37.075Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -53181,13 +53181,6 @@
       "comment": ""
     },
     {
-      "meaning_id": 73,
-      "value": "the one who draws",
-      "lemma_id": 68,
-      "category": "",
-      "comment": ""
-    },
-    {
       "meaning_id": 74,
       "value": "Aquarius",
       "lemma_id": 69,
@@ -73047,20 +73040,6 @@
       "comment": ""
     },
     {
-      "meaning_id": 3053,
-      "value": "Libra",
-      "lemma_id": 111,
-      "category": "",
-      "comment": ""
-    },
-    {
-      "meaning_id": 3054,
-      "value": "yoke",
-      "lemma_id": 111,
-      "category": "",
-      "comment": ""
-    },
-    {
       "meaning_id": 3055,
       "value": "scorpion",
       "lemma_id": 137,
@@ -75052,13 +75031,6 @@
       "meaning_id": 3344,
       "value": "Propus (η Geminorum)",
       "lemma_id": 2855,
-      "category": "",
-      "comment": ""
-    },
-    {
-      "meaning_id": 3345,
-      "value": "balance-beam",
-      "lemma_id": 111,
       "category": "",
       "comment": ""
     },
@@ -94892,11 +94864,6 @@
       "category": "animal"
     },
     {
-      "category_id": 3226,
-      "meaning_id": 73,
-      "category": "literal translation"
-    },
-    {
       "category_id": 3227,
       "meaning_id": 3049,
       "category": "creature"
@@ -94914,16 +94881,6 @@
     {
       "category_id": 3230,
       "meaning_id": 3052,
-      "category": "literal translation"
-    },
-    {
-      "category_id": 3231,
-      "meaning_id": 3053,
-      "category": "constellation"
-    },
-    {
-      "category_id": 3232,
-      "meaning_id": 3054,
       "category": "literal translation"
     },
     {
@@ -97250,11 +97207,6 @@
       "category_id": 3714,
       "meaning_id": 3344,
       "category": "star"
-    },
-    {
-      "category_id": 3715,
-      "meaning_id": 3345,
-      "category": "literal translation"
     },
     {
       "category_id": 3719,
@@ -209341,6 +209293,23 @@
       "line": "1.61",
       "meaning_id": 7757,
       "page": "55",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7762,
+      "original": "(26) DIB.MEŠ ša₂ ᵈSAG.ME.GAR u ᵈGU₄.UD KI a-ḫa-a-meš DIB.MEŠ\n(27) A.AN u A.KAL GAL.MEŠ 15 u 2.30 KI.MEŠ ŠAR₂.ŠAR₂",
+      "transliteration": "",
+      "lemma_id": 819,
+      "translation": "(26) Passings (= conjunctions), which Sagmegar (Jupiter) and Šiḫṭu (Mercury) perform together: (27) heavy rain and high water. Right and left you evaluate the positions.",
+      "source": "AO 6449 (TCL 6 19 = TU 19)",
+      "genre": "astrological weather prediction",
+      "provenance": "Uruk",
+      "date": "226 BCE (12 V Seleucid Era 84)",
+      "publication": "Hunger, H. 1976. Astrologische Wettervorhersagen. Zeitschrift fur Assyriologie 66: 234–260",
+      "link": "",
+      "line": "Obv. 26-27",
+      "meaning_id": 1021,
+      "page": "",
       "comment": ""
     }
   ],
