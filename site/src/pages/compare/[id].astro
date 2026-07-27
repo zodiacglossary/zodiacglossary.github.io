@@ -34,6 +34,24 @@ const meaningsForLemma = (lid, lemmaObj) => {
 };
 
 export async function getStaticPaths() {
+  // NOTE: getStaticPaths runs in its own isolated scope in Astro — it cannot
+  // see the helpers defined at the top of the file, so we redefine them here.
+  const valid = (l) => (l.original || l.transliteration) && l.primary_meaning;
+  const norm = (s) => (s || "").toLowerCase().trim().replace(/^the\s+/, "");
+  const meaningsForLemma = (lid, lemmaObj) => {
+    const fromTable = [
+      ...new Set(
+        data.meanings
+          .filter(m => m.lemma_id === lid)
+          .map(m => m.value)
+          .filter(Boolean)
+      ),
+    ];
+    if (fromTable.length > 0) return fromTable;
+    const obj = lemmaObj || data.lemmata.find(l => l.lemma_id === lid);
+    return obj && obj.primary_meaning ? [obj.primary_meaning] : [];
+  };
+
   const validIds = new Set(data.lemmata.filter(valid).map(l => l.lemma_id));
 
   // (1) lemmata that have a valid cross-link
