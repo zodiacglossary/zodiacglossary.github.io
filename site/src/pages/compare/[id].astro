@@ -177,7 +177,6 @@ const headword = lemma.transliteration || lemma.original;
       <tr>
         <th>Lemma</th>
         <th>Language</th>
-        <th>Match</th>
         <th>Meanings</th>
       </tr>
     </thead>
@@ -194,9 +193,6 @@ const headword = lemma.transliteration || lemma.original;
             )}
           </td>
           <td>{row.language}</td>
-          <td>
-            {row.via ? <span class="via-tag">{row.via}</span> : "—"}
-          </td>
           <td>
             {row.meanings.length === 0 ? (
               <span class="no-meaning">—</span>
