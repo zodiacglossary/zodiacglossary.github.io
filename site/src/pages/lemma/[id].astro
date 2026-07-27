@@ -79,6 +79,33 @@ const crossLinks = data.crossLinks
   })
 .filter(c => c.target && (c.target.original || c.target.transliteration) && c.target.primary_meaning);
 
+// Related-lemma count for the "See also" bar: cross-links PLUS meaning matches.
+const validLemma = (l) => (l.original || l.transliteration) && l.primary_meaning;
+const normMeaning = (s) => (s || "").toLowerCase().trim().replace(/^the\s+/, "");
+const meaningsForLemma = (lid, lemmaObj) => {
+  const fromTable = [
+    ...new Set(
+      data.meanings.filter(m => m.lemma_id === lid).map(m => m.value).filter(Boolean)
+    ),
+  ];
+  if (fromTable.length > 0) return fromTable;
+  const obj = lemmaObj || data.lemmata.find(l => l.lemma_id === lid);
+  return obj && obj.primary_meaning ? [obj.primary_meaning] : [];
+};
+const currentMeaningSet = new Set(meaningsForLemma(id, lemma).map(normMeaning));
+const meaningMatched = data.lemmata.filter(t =>
+  t.lemma_id !== id &&
+  validLemma(t) &&
+  meaningsForLemma(t.lemma_id, t).some(v => currentMeaningSet.has(normMeaning(v)))
+);
+const relatedSeen = new Set([id]);
+let relatedCount = 0;
+for (const t of [...crossLinks.map(c => c.target), ...meaningMatched]) {
+  if (!t || relatedSeen.has(t.lemma_id)) continue;
+  relatedSeen.add(t.lemma_id);
+  relatedCount++;
+}
+
 const publicURL = `${Astro.site}${Astro.url.pathname.slice(1)}`;
 
 const jsonLD = {
@@ -194,10 +221,10 @@ const jsonLD = {
     )}
   </div>
 
-  {crossLinks.length > 0 && (
+  {relatedCount > 0 && (
     <a class="see-also-bar" href={`/compare/${lemma.lemma_id}`} target="_blank" rel="noopener">
       <span class="see-also-text">Related Lemmata</span>
-      <span class="see-also-count">{crossLinks.length}</span>
+      <span class="see-also-count">{relatedCount}</span>
       <span class="chev">›</span>
     </a>
   )}
