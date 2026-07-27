@@ -1,20 +1,42 @@
 ---
 // src/pages/compare/[id].astro
 // A dedicated page (opened in a new tab from the "See also ›" bar) that shows
-// how the SAME meaning is expressed across the lemmata that cross-link to each
-// other. One row per lemma; meanings shared with the headword are marked, and
-// meanings unique to a language are flagged as differing.
+// how the SAME meaning is expressed across related lemmata. Rows come from TWO
+// sources, merged with no duplication:
+//   1. lemmata cross-linked to the headword (the crossLinks table)
+//   2. lemmata that share a meaning with the headword (even without a crosslink)
 import Layout from "../../components/Layout.astro";
 import LemmaLink from "../../components/LemmaLink";
 import Search from "../../components/Search";
 import data from "../../../public/data.json";
 
+// A lemma is usable if it has something to display and a primary meaning.
+const valid = (l) => (l.original || l.transliteration) && l.primary_meaning;
+
+// Normalize a meaning string so "King", "king " and "the king" all compare equal.
+const norm = (s) => (s || "").toLowerCase().trim().replace(/^the\s+/, "");
+
+// Every distinct meaning recorded for a lemma. Uses the `meanings` table, and
+// falls back to `primary_meaning` when that table has no rows for the lemma.
+// (The old code only did this fallback for cross-links, never the headword.)
+const meaningsForLemma = (lid, lemmaObj) => {
+  const fromTable = [
+    ...new Set(
+      data.meanings
+        .filter(m => m.lemma_id === lid)
+        .map(m => m.value)
+        .filter(Boolean)
+    ),
+  ];
+  if (fromTable.length > 0) return fromTable;
+  const obj = lemmaObj || data.lemmata.find(l => l.lemma_id === lid);
+  return obj && obj.primary_meaning ? [obj.primary_meaning] : [];
+};
+
 export async function getStaticPaths() {
-  const valid = (l) => (l.original || l.transliteration) && l.primary_meaning;
   const validIds = new Set(data.lemmata.filter(valid).map(l => l.lemma_id));
 
-  // Only build a compare page for lemmata that actually have a valid cross-link,
-  // so we don't generate empty pages.
+  // (1) lemmata that have a valid cross-link
   const linked = new Set();
   for (const c of data.crossLinks) {
     if (validIds.has(c.lemma_id) && validIds.has(c.link)) {
@@ -23,94 +45,121 @@ export async function getStaticPaths() {
     }
   }
 
+  // (2) lemmata that share a normalized meaning with at least one OTHER lemma.
+  // Build an index: meaning -> set of lemma_ids that carry it.
+  const meaningIndex = new Map();
+  for (const l of data.lemmata) {
+    if (!validIds.has(l.lemma_id)) continue;
+    for (const v of meaningsForLemma(l.lemma_id, l)) {
+      const key = norm(v);
+      if (!key) continue;
+      if (!meaningIndex.has(key)) meaningIndex.set(key, new Set());
+      meaningIndex.get(key).add(l.lemma_id);
+    }
+  }
+  const meaningShared = new Set();
+  for (const ids of meaningIndex.values()) {
+    if (ids.size > 1) for (const lid of ids) meaningShared.add(lid);
+  }
+
+  // Build a page for any lemma reachable by EITHER route.
+  const include = new Set([...linked, ...meaningShared]);
   return data.lemmata
-    .filter(l => valid(l) && linked.has(l.lemma_id))
+    .filter(l => valid(l) && include.has(l.lemma_id))
     .map(l => ({ params: { id: l.lemma_id.toString() } }));
 }
 
 const id = Number(Astro.params.id);
 const lemma = data.lemmata.find(l => l.lemma_id === id);
 
-// Cross-linked lemmata (both directions of the crossLinks table).
-const crossLinks = data.crossLinks
+const currentMeanings = meaningsForLemma(id, lemma);
+const currentMeaningSet = new Set(currentMeanings.map(norm));
+
+// ---- Source 1: cross-linked lemmata (both directions of the table) ----
+const crossLinked = data.crossLinks
   .filter(c => c.lemma_id === id || c.link === id)
-  .map(c => {
-    const otherId = c.lemma_id === id ? c.link : c.lemma_id;
-    return data.lemmata.find(l => l.lemma_id === otherId);
-  })
-  .filter(t => t && (t.original || t.transliteration) && t.primary_meaning);
+  .map(c => (c.lemma_id === id ? c.link : c.lemma_id))
+  .map(otherId => data.lemmata.find(l => l.lemma_id === otherId))
+  .filter(t => t && valid(t));
 
-// Helper: unique meaning words recorded for any lemma id.
-const meaningsForLemma = (lid) => [
-  ...new Set(
-    data.meanings
-      .filter(m => m.lemma_id === lid)
-      .map(m => m.value)
-      .filter(Boolean)
-  ),
-];
+const crossLinkedIds = new Set(crossLinked.map(t => t.lemma_id));
 
-const currentMeanings = meaningsForLemma(id);
-const currentMeaningSet = new Set(currentMeanings.map(v => v.toLowerCase()));
+// ---- Source 2: lemmata that share a meaning with the headword ----
+const meaningMatched = data.lemmata.filter(t =>
+  t.lemma_id !== id &&
+  valid(t) &&
+  meaningsForLemma(t.lemma_id, t).some(v => currentMeaningSet.has(norm(v)))
+);
 
-// Build the rows: headword first (as the reference), then each cross-link.
+// ---- Merge the two sources, keeping each lemma only once ----
+const seen = new Set([id]);        // headword handled separately below
+const related = [];
+for (const t of [...crossLinked, ...meaningMatched]) {
+  if (seen.has(t.lemma_id)) continue;
+  seen.add(t.lemma_id);
+  related.push(t);
+}
+
+// Build the rows: headword first (the reference), then each related lemma.
 const rows = [
   {
     target: lemma,
     isCurrent: true,
     language: lemma.language_label,
+    via: null,
     meanings: currentMeanings.map(v => ({ value: v, shared: true })),
   },
-  ...crossLinks.map(t => {
-    const raw = meaningsForLemma(t.lemma_id);
-    const values = raw.length > 0 ? raw : [t.primary_meaning].filter(Boolean);
+  ...related.map(t => {
+    const values = meaningsForLemma(t.lemma_id, t);
+    const isCross = crossLinkedIds.has(t.lemma_id);
+    const sharesMeaning = values.some(v => currentMeaningSet.has(norm(v)));
+    const via = isCross && sharesMeaning ? "cross-link + meaning"
+              : isCross ? "cross-link"
+              : "same meaning";
     return {
       target: t,
       isCurrent: false,
       language: t.language_label,
+      via,
       meanings: values.map(v => ({
         value: v,
-        shared: currentMeaningSet.has(v.toLowerCase()),
+        shared: currentMeaningSet.has(norm(v)),
       })),
     };
   }),
 ];
-// Keep the headword row pinned first, then group the rest so the same
-// languages sit together: the headword's own language leads, the others A→Z.
+
+// Headword pinned first, then group by language: headword's language, then A→Z.
 rows.sort((a, b) => {
-  if (a.isCurrent) return -1;        // headword always at the very top
+  if (a.isCurrent) return -1;
   if (b.isCurrent) return 1;
   const aHome = a.language === lemma.language_label ? 0 : 1;
   const bHome = b.language === lemma.language_label ? 0 : 1;
-  if (aHome !== bHome) return aHome - bHome;   // headword's language next
-  return a.language.localeCompare(b.language); // then alphabetical by language
+  if (aHome !== bHome) return aHome - bHome;
+  return a.language.localeCompare(b.language);
 });
-// The union of every meaning that appears anywhere in this cluster — useful as
-// a quick header of "the shared concept(s)".
+
 const allMeanings = [
   ...new Set(rows.flatMap(r => r.meanings.map(m => m.value))),
 ];
 
 const headword = lemma.transliteration || lemma.original;
 ---
-
 <Layout title={"See also: " + headword + " (#" + lemma.lemma_id + ")"}>
   <Search client:load slot="search" />
-
   <p class="compare-back">
     <a href={`/lemma/${lemma.lemma_id}`}>← Back to {headword}</a>
   </p>
-
   <h1 class="compare-title">
-    Cross-references 
+    Cross-references
     <span class="compare-sub">for {headword}</span>
   </h1>
-
   <table class="comparison-table">
     <thead>
       <tr>
         <th>Lemma</th>
         <th>Language</th>
+        <th>Match</th>
         <th>Meanings</th>
       </tr>
     </thead>
@@ -127,6 +176,9 @@ const headword = lemma.transliteration || lemma.original;
             )}
           </td>
           <td>{row.language}</td>
+          <td>
+            {row.via ? <span class="via-tag">{row.via}</span> : "—"}
+          </td>
           <td>
             {row.meanings.length === 0 ? (
               <span class="no-meaning">—</span>
