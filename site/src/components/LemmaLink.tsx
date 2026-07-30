@@ -23,9 +23,9 @@ export default function LemmaLink({ lemma }: { lemma: any }) {
         <a href={`/lemma/${lemma.lemma_id}`}>
           〈{lemma.transliteration || lemma.original}〉
         </a>{" "}
-        {showOriginal && lemma.transliteration && (
+               {showOriginal && lemma.transliteration && (
           <>
-            <span className="transliteration">{lemma.original}</span>{" "}
+            <span className="logogram">{lemma.original}</span>{" "}
           </>
         )}
         ‘{lemma.primary_meaning}’
