@@ -20,8 +20,10 @@ export default function LemmaLink({ lemma }: { lemma: any }) {
       hasLogogram(lemma.original) || hasNumberOrMark(lemma.original);
     return (
       <>
-        <a href={`/lemma/${lemma.lemma_id}`}>
-          〈{lemma.transliteration || lemma.original}〉
+                <a href={`/lemma/${lemma.lemma_id}`}>
+          〈{lemma.transliteration
+            ? <span className="translit-headword">{lemma.transliteration}</span>
+            : lemma.original}〉
         </a>{" "}
                {showOriginal && lemma.transliteration && (
           <>
