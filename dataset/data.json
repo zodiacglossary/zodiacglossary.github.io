@@ -23322,10 +23322,10 @@
       "primary_meaning": "fixed stars outside the zodiac",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2024-09-23T09:17:39.350Z",
-      "comment": "",
+      "last_edit": "2026-08-02T15:57:08.706Z",
+      "comment": "MO: this meaning is probably incorrect. Also: sphaera is the usual writing of this loanword from Greek, see Cicero, On the Republic",
       "checked": false,
-      "attention": false,
+      "attention": true,
       "loan_type": "loan"
     },
     {
@@ -87616,7 +87616,7 @@
     {
       "category_id": 1686,
       "meaning_id": 1703,
-      "category": "mathematical entity"
+      "category": "mathematical figure"
     },
     {
       "category_id": 1687,
