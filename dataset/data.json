@@ -3786,7 +3786,7 @@
       "primary_meaning": "elongation",
       "editor": "Mathieu",
       "literal_translation2": "?",
-      "last_edit": "2023-06-26T18:33:27.304Z",
+      "last_edit": "2026-08-03T11:21:14.283Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -8370,7 +8370,7 @@
       "primary_meaning": "Lot of illness",
       "editor": "Andreas",
       "literal_translation2": "",
-      "last_edit": "2024-10-21T07:41:50.007Z",
+      "last_edit": "2026-08-03T11:37:06.576Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -9690,7 +9690,7 @@
       "primary_meaning": "it is covered",
       "editor": "Mathieu",
       "literal_translation2": "to cover",
-      "last_edit": "2026-07-22T09:31:55.708Z",
+      "last_edit": "2026-08-03T10:22:49.255Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -23322,10 +23322,10 @@
       "primary_meaning": "fixed stars outside the zodiac",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2024-09-23T09:17:39.350Z",
-      "comment": "",
+      "last_edit": "2026-08-02T15:57:08.706Z",
+      "comment": "MO: this meaning is probably incorrect. Also: sphaera is the usual writing of this loanword from Greek, see Cicero, On the Republic",
       "checked": false,
-      "attention": false,
+      "attention": true,
       "loan_type": "loan"
     },
     {
@@ -28746,7 +28746,7 @@
       "primary_meaning": "4 of the Stag star",
       "editor": "Marvin",
       "literal_translation2": "4 of the stag",
-      "last_edit": "2024-10-27T16:44:24.434Z",
+      "last_edit": "2026-08-03T11:37:13.770Z",
       "comment": "",
       "checked": true,
       "attention": true,
@@ -52967,6 +52967,30 @@
       "checked": false,
       "attention": false,
       "loan_type": "none"
+    },
+    {
+      "lemma_id": 6418,
+      "published": true,
+      "original": "sphaera",
+      "translation": "sphere",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 4,
+      "loan_language_label": "Greek",
+      "loan_language_value": "greek",
+      "primary_meaning": "orrery",
+      "editor": "Mathieu",
+      "literal_translation2": "",
+      "last_edit": "2026-08-10T08:36:50.102Z",
+      "comment": "",
+      "checked": false,
+      "attention": true,
+      "loan_type": "loan"
     }
   ],
   "meanings": [
@@ -81095,6 +81119,13 @@
       "lemma_id": 6409,
       "category": "",
       "comment": ""
+    },
+    {
+      "meaning_id": 7758,
+      "value": "astronomical instrument",
+      "lemma_id": 6418,
+      "category": "",
+      "comment": ""
     }
   ],
   "meaningCategories": [
@@ -81321,7 +81352,7 @@
     {
       "category_id": 77,
       "meaning_id": 217,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 79,
@@ -81407,11 +81438,6 @@
       "category_id": 107,
       "meaning_id": 61,
       "category": "zodiac sign"
-    },
-    {
-      "category_id": 108,
-      "meaning_id": 52,
-      "category": "group of stars and constellations"
     },
     {
       "category_id": 109,
@@ -81526,7 +81552,7 @@
     {
       "category_id": 151,
       "meaning_id": 289,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 152,
@@ -81571,7 +81597,7 @@
     {
       "category_id": 162,
       "meaning_id": 258,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 163,
@@ -81636,7 +81662,7 @@
     {
       "category_id": 178,
       "meaning_id": 161,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 179,
@@ -81656,7 +81682,7 @@
     {
       "category_id": 182,
       "meaning_id": 220,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 184,
@@ -81671,7 +81697,7 @@
     {
       "category_id": 186,
       "meaning_id": 283,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 188,
@@ -81696,7 +81722,7 @@
     {
       "category_id": 199,
       "meaning_id": 281,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 200,
@@ -81751,7 +81777,7 @@
     {
       "category_id": 211,
       "meaning_id": 162,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 212,
@@ -81786,7 +81812,7 @@
     {
       "category_id": 223,
       "meaning_id": 278,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 231,
@@ -81811,12 +81837,12 @@
     {
       "category_id": 237,
       "meaning_id": 260,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 238,
       "meaning_id": 261,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 241,
@@ -81826,7 +81852,7 @@
     {
       "category_id": 242,
       "meaning_id": 388,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 243,
@@ -81866,7 +81892,7 @@
     {
       "category_id": 251,
       "meaning_id": 317,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 252,
@@ -81956,7 +81982,7 @@
     {
       "category_id": 272,
       "meaning_id": 383,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 273,
@@ -82001,12 +82027,12 @@
     {
       "category_id": 283,
       "meaning_id": 385,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 284,
       "meaning_id": 386,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 286,
@@ -82051,7 +82077,7 @@
     {
       "category_id": 294,
       "meaning_id": 353,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 295,
@@ -82091,12 +82117,12 @@
     {
       "category_id": 303,
       "meaning_id": 356,
-      "category": "astronomical quantity: moon system a, time of lunation (g)"
+      "category": "moon system a, time of lunation (g)"
     },
     {
       "category_id": 305,
       "meaning_id": 347,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 306,
@@ -82116,7 +82142,7 @@
     {
       "category_id": 309,
       "meaning_id": 384,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 310,
@@ -82126,7 +82152,7 @@
     {
       "category_id": 311,
       "meaning_id": 387,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 312,
@@ -82136,7 +82162,7 @@
     {
       "category_id": 313,
       "meaning_id": 389,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 314,
@@ -82146,7 +82172,7 @@
     {
       "category_id": 315,
       "meaning_id": 363,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 316,
@@ -82156,7 +82182,7 @@
     {
       "category_id": 317,
       "meaning_id": 426,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 318,
@@ -82166,7 +82192,7 @@
     {
       "category_id": 319,
       "meaning_id": 428,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 320,
@@ -82176,7 +82202,7 @@
     {
       "category_id": 323,
       "meaning_id": 390,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 324,
@@ -82216,7 +82242,7 @@
     {
       "category_id": 332,
       "meaning_id": 477,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 333,
@@ -82226,7 +82252,7 @@
     {
       "category_id": 334,
       "meaning_id": 455,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 335,
@@ -82256,7 +82282,7 @@
     {
       "category_id": 341,
       "meaning_id": 451,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 343,
@@ -82271,7 +82297,7 @@
     {
       "category_id": 345,
       "meaning_id": 397,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 346,
@@ -82281,7 +82307,7 @@
     {
       "category_id": 347,
       "meaning_id": 427,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 348,
@@ -82361,7 +82387,7 @@
     {
       "category_id": 369,
       "meaning_id": 391,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 370,
@@ -82411,7 +82437,7 @@
     {
       "category_id": 383,
       "meaning_id": 400,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 385,
@@ -82426,7 +82452,7 @@
     {
       "category_id": 387,
       "meaning_id": 430,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 389,
@@ -82491,7 +82517,7 @@
     {
       "category_id": 406,
       "meaning_id": 1119,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 408,
@@ -82546,7 +82572,7 @@
     {
       "category_id": 423,
       "meaning_id": 516,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 425,
@@ -82561,7 +82587,7 @@
     {
       "category_id": 429,
       "meaning_id": 489,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 430,
@@ -82576,7 +82602,7 @@
     {
       "category_id": 435,
       "meaning_id": 517,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 436,
@@ -82596,7 +82622,7 @@
     {
       "category_id": 439,
       "meaning_id": 511,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 441,
@@ -82606,7 +82632,7 @@
     {
       "category_id": 442,
       "meaning_id": 539,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 443,
@@ -82626,7 +82652,7 @@
     {
       "category_id": 448,
       "meaning_id": 528,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 449,
@@ -82656,7 +82682,7 @@
     {
       "category_id": 454,
       "meaning_id": 498,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 455,
@@ -82686,7 +82712,7 @@
     {
       "category_id": 460,
       "meaning_id": 478,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 461,
@@ -82721,7 +82747,7 @@
     {
       "category_id": 470,
       "meaning_id": 558,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 471,
@@ -82741,7 +82767,7 @@
     {
       "category_id": 477,
       "meaning_id": 506,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 478,
@@ -82766,17 +82792,17 @@
     {
       "category_id": 483,
       "meaning_id": 536,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 484,
       "meaning_id": 505,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 487,
       "meaning_id": 537,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 489,
@@ -82786,7 +82812,7 @@
     {
       "category_id": 493,
       "meaning_id": 459,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 498,
@@ -82796,17 +82822,17 @@
     {
       "category_id": 499,
       "meaning_id": 589,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 500,
       "meaning_id": 599,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 501,
       "meaning_id": 575,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 503,
@@ -82826,7 +82852,7 @@
     {
       "category_id": 507,
       "meaning_id": 601,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 508,
@@ -82836,17 +82862,17 @@
     {
       "category_id": 509,
       "meaning_id": 643,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 510,
       "meaning_id": 591,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 511,
       "meaning_id": 639,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 512,
@@ -82861,7 +82887,7 @@
     {
       "category_id": 514,
       "meaning_id": 600,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 515,
@@ -82876,12 +82902,12 @@
     {
       "category_id": 520,
       "meaning_id": 745,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 523,
       "meaning_id": 602,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 525,
@@ -82901,7 +82927,7 @@
     {
       "category_id": 530,
       "meaning_id": 585,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 533,
@@ -82926,7 +82952,7 @@
     {
       "category_id": 539,
       "meaning_id": 616,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 540,
@@ -82976,7 +83002,7 @@
     {
       "category_id": 553,
       "meaning_id": 640,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 554,
@@ -83001,7 +83027,7 @@
     {
       "category_id": 559,
       "meaning_id": 587,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 560,
@@ -83016,12 +83042,12 @@
     {
       "category_id": 563,
       "meaning_id": 642,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 564,
       "meaning_id": 742,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 566,
@@ -83051,7 +83077,7 @@
     {
       "category_id": 571,
       "meaning_id": 576,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 572,
@@ -83091,7 +83117,7 @@
     {
       "category_id": 584,
       "meaning_id": 744,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 585,
@@ -83111,7 +83137,7 @@
     {
       "category_id": 588,
       "meaning_id": 737,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 589,
@@ -83131,7 +83157,7 @@
     {
       "category_id": 592,
       "meaning_id": 740,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 593,
@@ -83141,12 +83167,12 @@
     {
       "category_id": 594,
       "meaning_id": 708,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 595,
       "meaning_id": 678,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 596,
@@ -83156,17 +83182,17 @@
     {
       "category_id": 597,
       "meaning_id": 657,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 598,
       "meaning_id": 703,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 599,
       "meaning_id": 726,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 601,
@@ -83186,12 +83212,12 @@
     {
       "category_id": 604,
       "meaning_id": 683,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 605,
       "meaning_id": 730,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 606,
@@ -83206,7 +83232,7 @@
     {
       "category_id": 608,
       "meaning_id": 725,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 609,
@@ -83226,12 +83252,12 @@
     {
       "category_id": 613,
       "meaning_id": 741,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 615,
       "meaning_id": 676,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 619,
@@ -83266,7 +83292,7 @@
     {
       "category_id": 626,
       "meaning_id": 705,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 627,
@@ -83281,7 +83307,7 @@
     {
       "category_id": 629,
       "meaning_id": 656,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 630,
@@ -83296,7 +83322,7 @@
     {
       "category_id": 632,
       "meaning_id": 727,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 633,
@@ -83326,12 +83352,12 @@
     {
       "category_id": 640,
       "meaning_id": 728,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 642,
       "meaning_id": 704,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 643,
@@ -83346,7 +83372,7 @@
     {
       "category_id": 645,
       "meaning_id": 706,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 647,
@@ -83356,7 +83382,7 @@
     {
       "category_id": 648,
       "meaning_id": 709,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 649,
@@ -83396,12 +83422,12 @@
     {
       "category_id": 659,
       "meaning_id": 720,
-      "category": "constellations: descriptive term"
+      "category": "descriptive term"
     },
     {
       "category_id": 660,
       "meaning_id": 732,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 661,
@@ -83426,12 +83452,12 @@
     {
       "category_id": 666,
       "meaning_id": 739,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 667,
       "meaning_id": 675,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 669,
@@ -83456,7 +83482,7 @@
     {
       "category_id": 673,
       "meaning_id": 772,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 674,
@@ -83466,7 +83492,7 @@
     {
       "category_id": 675,
       "meaning_id": 747,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 676,
@@ -83486,12 +83512,12 @@
     {
       "category_id": 679,
       "meaning_id": 774,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 680,
       "meaning_id": 776,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 681,
@@ -83511,7 +83537,7 @@
     {
       "category_id": 684,
       "meaning_id": 761,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 685,
@@ -83521,7 +83547,7 @@
     {
       "category_id": 686,
       "meaning_id": 773,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 687,
@@ -83536,7 +83562,7 @@
     {
       "category_id": 689,
       "meaning_id": 746,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 690,
@@ -83561,7 +83587,7 @@
     {
       "category_id": 695,
       "meaning_id": 806,
-      "category": "lunar month"
+      "category": "month name"
     },
     {
       "category_id": 696,
@@ -83606,12 +83632,12 @@
     {
       "category_id": 706,
       "meaning_id": 788,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 707,
       "meaning_id": 798,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 708,
@@ -83656,7 +83682,7 @@
     {
       "category_id": 717,
       "meaning_id": 760,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 719,
@@ -83686,12 +83712,12 @@
     {
       "category_id": 725,
       "meaning_id": 777,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 726,
       "meaning_id": 907,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 727,
@@ -83721,7 +83747,7 @@
     {
       "category_id": 732,
       "meaning_id": 748,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 733,
@@ -83741,7 +83767,7 @@
     {
       "category_id": 738,
       "meaning_id": 762,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 739,
@@ -83751,7 +83777,7 @@
     {
       "category_id": 740,
       "meaning_id": 799,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 742,
@@ -83776,12 +83802,12 @@
     {
       "category_id": 746,
       "meaning_id": 1120,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 747,
       "meaning_id": 1121,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 748,
@@ -83821,7 +83847,7 @@
     {
       "category_id": 758,
       "meaning_id": 883,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 759,
@@ -83831,7 +83857,7 @@
     {
       "category_id": 761,
       "meaning_id": 862,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 763,
@@ -83846,7 +83872,7 @@
     {
       "category_id": 765,
       "meaning_id": 844,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 767,
@@ -83866,12 +83892,12 @@
     {
       "category_id": 770,
       "meaning_id": 828,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 771,
       "meaning_id": 878,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 772,
@@ -83886,7 +83912,7 @@
     {
       "category_id": 775,
       "meaning_id": 877,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 776,
@@ -83921,7 +83947,7 @@
     {
       "category_id": 783,
       "meaning_id": 863,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 784,
@@ -83991,7 +84017,7 @@
     {
       "category_id": 799,
       "meaning_id": 902,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 800,
@@ -84016,7 +84042,7 @@
     {
       "category_id": 804,
       "meaning_id": 882,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 805,
@@ -84041,12 +84067,12 @@
     {
       "category_id": 810,
       "meaning_id": 900,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 811,
       "meaning_id": 879,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 812,
@@ -84056,12 +84082,12 @@
     {
       "category_id": 813,
       "meaning_id": 898,
-      "category": "astral concept"
+      "category": "spatial expression"
     },
     {
       "category_id": 814,
       "meaning_id": 876,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 815,
@@ -84106,7 +84132,7 @@
     {
       "category_id": 825,
       "meaning_id": 840,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 826,
@@ -84116,7 +84142,7 @@
     {
       "category_id": 827,
       "meaning_id": 845,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 828,
@@ -84126,7 +84152,7 @@
     {
       "category_id": 829,
       "meaning_id": 880,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 830,
@@ -84136,7 +84162,7 @@
     {
       "category_id": 831,
       "meaning_id": 841,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 832,
@@ -84181,7 +84207,7 @@
     {
       "category_id": 840,
       "meaning_id": 945,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 841,
@@ -84201,7 +84227,7 @@
     {
       "category_id": 844,
       "meaning_id": 961,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 845,
@@ -84221,7 +84247,7 @@
     {
       "category_id": 849,
       "meaning_id": 963,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 850,
@@ -84231,7 +84257,7 @@
     {
       "category_id": 851,
       "meaning_id": 847,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 853,
@@ -84256,7 +84282,7 @@
     {
       "category_id": 859,
       "meaning_id": 557,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 861,
@@ -84266,12 +84292,12 @@
     {
       "category_id": 862,
       "meaning_id": 942,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 863,
       "meaning_id": 943,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 865,
@@ -84291,7 +84317,7 @@
     {
       "category_id": 869,
       "meaning_id": 941,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 870,
@@ -84361,7 +84387,7 @@
     {
       "category_id": 884,
       "meaning_id": 929,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 885,
@@ -84381,7 +84407,7 @@
     {
       "category_id": 888,
       "meaning_id": 930,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 890,
@@ -84446,7 +84472,7 @@
     {
       "category_id": 908,
       "meaning_id": 977,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 909,
@@ -84456,12 +84482,12 @@
     {
       "category_id": 910,
       "meaning_id": 983,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 911,
       "meaning_id": 755,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 912,
@@ -84481,7 +84507,7 @@
     {
       "category_id": 915,
       "meaning_id": 962,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 916,
@@ -84586,27 +84612,27 @@
     {
       "category_id": 945,
       "meaning_id": 1001,
-      "category": "an epithet of the moon(god)"
+      "category": "epithet of moon(god)"
     },
     {
       "category_id": 947,
       "meaning_id": 1004,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 948,
       "meaning_id": 1005,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 949,
       "meaning_id": 1006,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 951,
       "meaning_id": 1007,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 952,
@@ -84636,7 +84662,7 @@
     {
       "category_id": 957,
       "meaning_id": 1022,
-      "category": "mathematical quantity: number"
+      "category": "number"
     },
     {
       "category_id": 958,
@@ -84786,7 +84812,7 @@
     {
       "category_id": 993,
       "meaning_id": 1105,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 994,
@@ -84821,17 +84847,17 @@
     {
       "category_id": 1000,
       "meaning_id": 1079,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1001,
       "meaning_id": 1080,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1002,
       "meaning_id": 1081,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1003,
@@ -84906,17 +84932,17 @@
     {
       "category_id": 1018,
       "meaning_id": 1122,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1019,
       "meaning_id": 1123,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1020,
       "meaning_id": 1124,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1021,
@@ -84926,37 +84952,37 @@
     {
       "category_id": 1022,
       "meaning_id": 1157,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1023,
       "meaning_id": 1127,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1024,
       "meaning_id": 1129,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1025,
       "meaning_id": 1130,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1026,
       "meaning_id": 1131,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1027,
       "meaning_id": 1132,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1028,
       "meaning_id": 1134,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1029,
@@ -84966,12 +84992,12 @@
     {
       "category_id": 1030,
       "meaning_id": 1175,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1031,
       "meaning_id": 1174,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1032,
@@ -84996,12 +85022,12 @@
     {
       "category_id": 1036,
       "meaning_id": 1138,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1037,
       "meaning_id": 1177,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1038,
@@ -85011,7 +85037,7 @@
     {
       "category_id": 1039,
       "meaning_id": 1176,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1040,
@@ -85031,17 +85057,17 @@
     {
       "category_id": 1043,
       "meaning_id": 1141,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1044,
       "meaning_id": 1143,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1045,
       "meaning_id": 1144,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1046,
@@ -85096,12 +85122,12 @@
     {
       "category_id": 1056,
       "meaning_id": 1153,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1057,
       "meaning_id": 1154,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1058,
@@ -85121,12 +85147,12 @@
     {
       "category_id": 1061,
       "meaning_id": 1159,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1062,
       "meaning_id": 1160,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1063,
@@ -85156,7 +85182,7 @@
     {
       "category_id": 1069,
       "meaning_id": 1168,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1070,
@@ -85221,7 +85247,7 @@
     {
       "category_id": 1082,
       "meaning_id": 1142,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1083,
@@ -85316,12 +85342,12 @@
     {
       "category_id": 1102,
       "meaning_id": 1212,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1103,
       "meaning_id": 1213,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1104,
@@ -85331,7 +85357,7 @@
     {
       "category_id": 1105,
       "meaning_id": 1133,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1106,
@@ -85346,7 +85372,7 @@
     {
       "category_id": 1108,
       "meaning_id": 1128,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1109,
@@ -85381,7 +85407,7 @@
     {
       "category_id": 1115,
       "meaning_id": 1221,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1116,
@@ -85411,62 +85437,62 @@
     {
       "category_id": 1121,
       "meaning_id": 1225,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1124,
       "meaning_id": 1228,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1125,
       "meaning_id": 1230,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1126,
       "meaning_id": 1229,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1127,
       "meaning_id": 1231,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1128,
       "meaning_id": 1232,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1129,
       "meaning_id": 1233,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1130,
       "meaning_id": 1234,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1131,
       "meaning_id": 1235,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1132,
       "meaning_id": 1236,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1133,
       "meaning_id": 1237,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1134,
       "meaning_id": 1238,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1135,
@@ -85501,7 +85527,7 @@
     {
       "category_id": 1143,
       "meaning_id": 1258,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1144,
@@ -85521,7 +85547,7 @@
     {
       "category_id": 1187,
       "meaning_id": 1264,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1189,
@@ -85531,7 +85557,7 @@
     {
       "category_id": 1190,
       "meaning_id": 1267,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1191,
@@ -85541,12 +85567,12 @@
     {
       "category_id": 1192,
       "meaning_id": 1269,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1193,
       "meaning_id": 1270,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1194,
@@ -85556,12 +85582,12 @@
     {
       "category_id": 1195,
       "meaning_id": 1272,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1196,
       "meaning_id": 1273,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1197,
@@ -85571,37 +85597,37 @@
     {
       "category_id": 1198,
       "meaning_id": 1275,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1199,
       "meaning_id": 1276,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1201,
       "meaning_id": 1277,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1202,
       "meaning_id": 1278,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1203,
       "meaning_id": 1279,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1204,
       "meaning_id": 1280,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1205,
       "meaning_id": 1281,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1206,
@@ -85626,7 +85652,7 @@
     {
       "category_id": 1210,
       "meaning_id": 1286,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1211,
@@ -85641,7 +85667,7 @@
     {
       "category_id": 1213,
       "meaning_id": 1288,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1214,
@@ -85651,7 +85677,7 @@
     {
       "category_id": 1215,
       "meaning_id": 1290,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1216,
@@ -85736,7 +85762,7 @@
     {
       "category_id": 1234,
       "meaning_id": 1305,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1235,
@@ -85756,7 +85782,7 @@
     {
       "category_id": 1240,
       "meaning_id": 1307,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 1241,
@@ -85791,7 +85817,7 @@
     {
       "category_id": 1247,
       "meaning_id": 163,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1248,
@@ -85801,37 +85827,37 @@
     {
       "category_id": 1249,
       "meaning_id": 1312,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1250,
       "meaning_id": 1313,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1252,
       "meaning_id": 1315,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1253,
       "meaning_id": 1316,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1254,
       "meaning_id": 1317,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1255,
       "meaning_id": 1318,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1256,
       "meaning_id": 1319,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1257,
@@ -85851,17 +85877,17 @@
     {
       "category_id": 1260,
       "meaning_id": 1323,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1261,
       "meaning_id": 1324,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1262,
       "meaning_id": 1325,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1263,
@@ -85891,17 +85917,17 @@
     {
       "category_id": 1273,
       "meaning_id": 1331,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1280,
       "meaning_id": 1340,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1286,
       "meaning_id": 1342,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 1287,
@@ -85911,7 +85937,7 @@
     {
       "category_id": 1288,
       "meaning_id": 1344,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1289,
@@ -85941,7 +85967,7 @@
     {
       "category_id": 1294,
       "meaning_id": 1348,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 1295,
@@ -86026,7 +86052,7 @@
     {
       "category_id": 1313,
       "meaning_id": 1365,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1314,
@@ -86041,27 +86067,27 @@
     {
       "category_id": 1316,
       "meaning_id": 1368,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1317,
       "meaning_id": 1369,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1318,
       "meaning_id": 1370,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1319,
       "meaning_id": 1371,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1320,
       "meaning_id": 1372,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1322,
@@ -86071,7 +86097,7 @@
     {
       "category_id": 1324,
       "meaning_id": 1375,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1326,
@@ -86091,7 +86117,7 @@
     {
       "category_id": 1329,
       "meaning_id": 1381,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1330,
@@ -86106,12 +86132,12 @@
     {
       "category_id": 1332,
       "meaning_id": 1382,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1333,
       "meaning_id": 1383,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1334,
@@ -86121,7 +86147,7 @@
     {
       "category_id": 1335,
       "meaning_id": 1384,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1336,
@@ -86131,22 +86157,22 @@
     {
       "category_id": 1337,
       "meaning_id": 1385,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1339,
       "meaning_id": 1387,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1340,
       "meaning_id": 1388,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1341,
       "meaning_id": 1389,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1342,
@@ -86171,12 +86197,12 @@
     {
       "category_id": 1346,
       "meaning_id": 1394,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1347,
       "meaning_id": 1395,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1348,
@@ -86191,12 +86217,12 @@
     {
       "category_id": 1350,
       "meaning_id": 1397,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1352,
       "meaning_id": 1398,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1353,
@@ -86226,12 +86252,12 @@
     {
       "category_id": 1358,
       "meaning_id": 1404,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1359,
       "meaning_id": 1405,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1360,
@@ -86241,12 +86267,12 @@
     {
       "category_id": 1361,
       "meaning_id": 1407,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 1362,
       "meaning_id": 1408,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 1363,
@@ -86261,12 +86287,12 @@
     {
       "category_id": 1365,
       "meaning_id": 1411,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1366,
       "meaning_id": 1412,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1367,
@@ -86281,17 +86307,17 @@
     {
       "category_id": 1369,
       "meaning_id": 1413,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1370,
       "meaning_id": 1414,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1371,
       "meaning_id": 1415,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1372,
@@ -86301,7 +86327,7 @@
     {
       "category_id": 1373,
       "meaning_id": 1416,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1374,
@@ -86311,17 +86337,17 @@
     {
       "category_id": 1375,
       "meaning_id": 1417,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1376,
       "meaning_id": 1418,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1377,
       "meaning_id": 1419,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 1378,
@@ -86331,7 +86357,7 @@
     {
       "category_id": 1379,
       "meaning_id": 1422,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1380,
@@ -86631,7 +86657,7 @@
     {
       "category_id": 1440,
       "meaning_id": 1484,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1441,
@@ -86641,12 +86667,12 @@
     {
       "category_id": 1442,
       "meaning_id": 1485,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1443,
       "meaning_id": 1486,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1444,
@@ -86691,7 +86717,7 @@
     {
       "category_id": 1452,
       "meaning_id": 1493,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1453,
@@ -86741,7 +86767,7 @@
     {
       "category_id": 1462,
       "meaning_id": 1499,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1463,
@@ -86751,22 +86777,22 @@
     {
       "category_id": 1464,
       "meaning_id": 1501,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1465,
       "meaning_id": 1502,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1466,
       "meaning_id": 1503,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1467,
       "meaning_id": 1504,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1468,
@@ -86846,7 +86872,7 @@
     {
       "category_id": 1485,
       "meaning_id": 1524,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1486,
@@ -86911,12 +86937,12 @@
     {
       "category_id": 1500,
       "meaning_id": 1539,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1501,
       "meaning_id": 1540,
-      "category": "astral concept"
+      "category": "spatial"
     },
     {
       "category_id": 1502,
@@ -86941,12 +86967,12 @@
     {
       "category_id": 1506,
       "meaning_id": 1545,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1507,
       "meaning_id": 1546,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1508,
@@ -86986,7 +87012,7 @@
     {
       "category_id": 1517,
       "meaning_id": 1554,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 1518,
@@ -87106,17 +87132,17 @@
     {
       "category_id": 1558,
       "meaning_id": 1578,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1559,
       "meaning_id": 1579,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1560,
       "meaning_id": 1580,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1561,
@@ -87126,32 +87152,32 @@
     {
       "category_id": 1562,
       "meaning_id": 1582,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1563,
       "meaning_id": 1583,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1572,
       "meaning_id": 1591,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1573,
       "meaning_id": 1592,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1574,
       "meaning_id": 1593,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1575,
       "meaning_id": 1594,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1576,
@@ -87161,7 +87187,7 @@
     {
       "category_id": 1577,
       "meaning_id": 1596,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1578,
@@ -87171,17 +87197,17 @@
     {
       "category_id": 1579,
       "meaning_id": 1598,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1581,
       "meaning_id": 1600,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1582,
       "meaning_id": 1602,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1583,
@@ -87196,7 +87222,7 @@
     {
       "category_id": 1585,
       "meaning_id": 1605,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1586,
@@ -87211,12 +87237,12 @@
     {
       "category_id": 1588,
       "meaning_id": 1608,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1589,
       "meaning_id": 1609,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1590,
@@ -87226,17 +87252,17 @@
     {
       "category_id": 1591,
       "meaning_id": 1611,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1592,
       "meaning_id": 1612,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1593,
       "meaning_id": 1613,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1594,
@@ -87246,7 +87272,7 @@
     {
       "category_id": 1595,
       "meaning_id": 1615,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1596,
@@ -87266,17 +87292,17 @@
     {
       "category_id": 1599,
       "meaning_id": 1619,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1600,
       "meaning_id": 1620,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1601,
       "meaning_id": 1621,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1602,
@@ -87341,7 +87367,7 @@
     {
       "category_id": 1615,
       "meaning_id": 1634,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1616,
@@ -87356,7 +87382,7 @@
     {
       "category_id": 1618,
       "meaning_id": 1637,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 1619,
@@ -87381,7 +87407,7 @@
     {
       "category_id": 1623,
       "meaning_id": 1642,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1624,
@@ -87406,12 +87432,12 @@
     {
       "category_id": 1628,
       "meaning_id": 1647,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1629,
       "meaning_id": 1648,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1630,
@@ -87531,17 +87557,17 @@
     {
       "category_id": 1653,
       "meaning_id": 1672,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1654,
       "meaning_id": 1673,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1655,
       "meaning_id": 1674,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1656,
@@ -87551,17 +87577,17 @@
     {
       "category_id": 1666,
       "meaning_id": 1684,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1667,
       "meaning_id": 1685,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1668,
       "meaning_id": 1686,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1671,
@@ -87571,7 +87597,7 @@
     {
       "category_id": 1672,
       "meaning_id": 165,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1673,
@@ -87586,7 +87612,7 @@
     {
       "category_id": 1680,
       "meaning_id": 1697,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1681,
@@ -87596,12 +87622,12 @@
     {
       "category_id": 1682,
       "meaning_id": 1699,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1683,
       "meaning_id": 1700,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1684,
@@ -87611,17 +87637,17 @@
     {
       "category_id": 1685,
       "meaning_id": 1702,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1686,
       "meaning_id": 1703,
-      "category": "mathematical entity"
+      "category": "mathematical figure"
     },
     {
       "category_id": 1687,
       "meaning_id": 1704,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1689,
@@ -87646,7 +87672,7 @@
     {
       "category_id": 1695,
       "meaning_id": 1712,
-      "category": ""
+      "category": "unit of celestial position"
     },
     {
       "category_id": 1696,
@@ -87656,32 +87682,32 @@
     {
       "category_id": 1697,
       "meaning_id": 1714,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1698,
       "meaning_id": 1715,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1699,
       "meaning_id": 1716,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1700,
       "meaning_id": 1717,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1701,
       "meaning_id": 1718,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1702,
       "meaning_id": 1719,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1703,
@@ -87701,32 +87727,32 @@
     {
       "category_id": 1706,
       "meaning_id": 1723,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1707,
       "meaning_id": 1724,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1708,
       "meaning_id": 1725,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1710,
       "meaning_id": 1727,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1711,
       "meaning_id": 1728,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1712,
       "meaning_id": 1729,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1715,
@@ -87781,7 +87807,7 @@
     {
       "category_id": 1726,
       "meaning_id": 1743,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1727,
@@ -87841,7 +87867,7 @@
     {
       "category_id": 1740,
       "meaning_id": 1756,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1741,
@@ -87971,7 +87997,7 @@
     {
       "category_id": 1769,
       "meaning_id": 1787,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1770,
@@ -87991,7 +88017,7 @@
     {
       "category_id": 1773,
       "meaning_id": 1794,
-      "category": "divine being"
+      "category": "divine entity"
     },
     {
       "category_id": 1774,
@@ -88166,7 +88192,7 @@
     {
       "category_id": 1816,
       "meaning_id": 1832,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1817,
@@ -88251,22 +88277,22 @@
     {
       "category_id": 1833,
       "meaning_id": 1848,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1834,
       "meaning_id": 1849,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1835,
       "meaning_id": 1850,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1836,
       "meaning_id": 1851,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1837,
@@ -88361,7 +88387,7 @@
     {
       "category_id": 1857,
       "meaning_id": 345,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 1858,
@@ -88951,22 +88977,22 @@
     {
       "category_id": 1976,
       "meaning_id": 1163,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1977,
       "meaning_id": 1164,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1978,
       "meaning_id": 1165,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1979,
       "meaning_id": 1166,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1980,
@@ -88976,7 +89002,7 @@
     {
       "category_id": 1981,
       "meaning_id": 1420,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1982,
@@ -88996,22 +89022,22 @@
     {
       "category_id": 1985,
       "meaning_id": 1989,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1986,
       "meaning_id": 1990,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1987,
       "meaning_id": 1991,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1988,
       "meaning_id": 1992,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 1989,
@@ -89091,7 +89117,7 @@
     {
       "category_id": 2004,
       "meaning_id": 717,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2005,
@@ -89116,7 +89142,7 @@
     {
       "category_id": 2009,
       "meaning_id": 2008,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2010,
@@ -89126,7 +89152,7 @@
     {
       "category_id": 2011,
       "meaning_id": 1367,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2012,
@@ -89161,17 +89187,17 @@
     {
       "category_id": 2020,
       "meaning_id": 2018,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2021,
       "meaning_id": 2019,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 2022,
       "meaning_id": 2020,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2024,
@@ -89186,7 +89212,7 @@
     {
       "category_id": 2026,
       "meaning_id": 2023,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2027,
@@ -89196,12 +89222,12 @@
     {
       "category_id": 2028,
       "meaning_id": 2025,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2029,
       "meaning_id": 2026,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2030,
@@ -89216,27 +89242,27 @@
     {
       "category_id": 2032,
       "meaning_id": 2029,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2033,
       "meaning_id": 2030,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2034,
       "meaning_id": 2031,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2035,
       "meaning_id": 2032,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2036,
       "meaning_id": 2033,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2037,
@@ -89256,7 +89282,7 @@
     {
       "category_id": 2040,
       "meaning_id": 2036,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2041,
@@ -89281,7 +89307,7 @@
     {
       "category_id": 2045,
       "meaning_id": 2041,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2046,
@@ -89291,17 +89317,17 @@
     {
       "category_id": 2047,
       "meaning_id": 2043,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2048,
       "meaning_id": 2044,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2049,
       "meaning_id": 2045,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2050,
@@ -89566,7 +89592,7 @@
     {
       "category_id": 2116,
       "meaning_id": 2111,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2117,
@@ -89816,7 +89842,7 @@
     {
       "category_id": 2168,
       "meaning_id": 2164,
-      "category": ""
+      "category": "cosmological concept"
     },
     {
       "category_id": 2170,
@@ -89826,12 +89852,12 @@
     {
       "category_id": 2171,
       "meaning_id": 2173,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2172,
       "meaning_id": 2174,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2173,
@@ -89906,7 +89932,7 @@
     {
       "category_id": 2187,
       "meaning_id": 2189,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2188,
@@ -89921,7 +89947,7 @@
     {
       "category_id": 2190,
       "meaning_id": 2192,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2191,
@@ -89956,7 +89982,7 @@
     {
       "category_id": 2197,
       "meaning_id": 2199,
-      "category": ""
+      "category": "cosmological concept"
     },
     {
       "category_id": 2198,
@@ -90151,7 +90177,7 @@
     {
       "category_id": 2238,
       "meaning_id": 2240,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 2239,
@@ -90231,7 +90257,7 @@
     {
       "category_id": 2255,
       "meaning_id": 2257,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2256,
@@ -90316,17 +90342,17 @@
     {
       "category_id": 2272,
       "meaning_id": 2276,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2273,
       "meaning_id": 2277,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2275,
       "meaning_id": 2279,
-      "category": "group of stars and constellations"
+      "category": "constellation"
     },
     {
       "category_id": 2277,
@@ -90441,7 +90467,7 @@
     {
       "category_id": 2303,
       "meaning_id": 236,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 2304,
@@ -90451,7 +90477,7 @@
     {
       "category_id": 2305,
       "meaning_id": 735,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 2306,
@@ -90491,7 +90517,7 @@
     {
       "category_id": 2313,
       "meaning_id": 297,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 2314,
@@ -90501,7 +90527,7 @@
     {
       "category_id": 2315,
       "meaning_id": 918,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 2316,
@@ -90511,7 +90537,7 @@
     {
       "category_id": 2317,
       "meaning_id": 1019,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 2318,
@@ -90541,7 +90567,7 @@
     {
       "category_id": 2324,
       "meaning_id": 381,
-      "category": "month XII"
+      "category": "month name"
     },
     {
       "category_id": 2326,
@@ -90556,7 +90582,7 @@
     {
       "category_id": 2330,
       "meaning_id": 273,
-      "category": "month II"
+      "category": "month name"
     },
     {
       "category_id": 2331,
@@ -90606,7 +90632,7 @@
     {
       "category_id": 2341,
       "meaning_id": 367,
-      "category": "month VIII"
+      "category": "month name"
     },
     {
       "category_id": 2342,
@@ -90681,7 +90707,7 @@
     {
       "category_id": 2356,
       "meaning_id": 2297,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2357,
@@ -90696,7 +90722,7 @@
     {
       "category_id": 2359,
       "meaning_id": 1406,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2361,
@@ -90711,22 +90737,22 @@
     {
       "category_id": 2363,
       "meaning_id": 1192,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2364,
       "meaning_id": 2298,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2365,
       "meaning_id": 2299,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2366,
       "meaning_id": 2300,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2367,
@@ -90751,7 +90777,7 @@
     {
       "category_id": 2372,
       "meaning_id": 2308,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2373,
@@ -90961,7 +90987,7 @@
     {
       "category_id": 2415,
       "meaning_id": 2363,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 2416,
@@ -90996,7 +91022,7 @@
     {
       "category_id": 2422,
       "meaning_id": 2370,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 2423,
@@ -91196,7 +91222,7 @@
     {
       "category_id": 2463,
       "meaning_id": 2414,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2464,
@@ -91236,7 +91262,7 @@
     {
       "category_id": 2471,
       "meaning_id": 2421,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2475,
@@ -91251,7 +91277,7 @@
     {
       "category_id": 2477,
       "meaning_id": 2430,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2478,
@@ -91266,12 +91292,12 @@
     {
       "category_id": 2481,
       "meaning_id": 2437,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2482,
       "meaning_id": 2438,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2483,
@@ -91316,37 +91342,37 @@
     {
       "category_id": 2491,
       "meaning_id": 2445,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 2492,
       "meaning_id": 2446,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2493,
       "meaning_id": 2447,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2494,
       "meaning_id": 2448,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2495,
       "meaning_id": 2449,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2496,
       "meaning_id": 2450,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2497,
       "meaning_id": 2451,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2498,
@@ -91356,32 +91382,32 @@
     {
       "category_id": 2499,
       "meaning_id": 2453,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2500,
       "meaning_id": 2454,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2501,
       "meaning_id": 2455,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2502,
       "meaning_id": 2456,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2503,
       "meaning_id": 2457,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2504,
       "meaning_id": 2458,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2505,
@@ -91401,7 +91427,7 @@
     {
       "category_id": 2508,
       "meaning_id": 2462,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2509,
@@ -91411,12 +91437,12 @@
     {
       "category_id": 2510,
       "meaning_id": 2464,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2511,
       "meaning_id": 2465,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2512,
@@ -91436,22 +91462,22 @@
     {
       "category_id": 2515,
       "meaning_id": 2475,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2516,
       "meaning_id": 2476,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2517,
       "meaning_id": 2477,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2518,
       "meaning_id": 2478,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2519,
@@ -91461,27 +91487,27 @@
     {
       "category_id": 2520,
       "meaning_id": 2479,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2521,
       "meaning_id": 2480,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2522,
       "meaning_id": 2481,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2523,
       "meaning_id": 2344,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2524,
       "meaning_id": 2482,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2525,
@@ -91501,7 +91527,7 @@
     {
       "category_id": 2528,
       "meaning_id": 2484,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2529,
@@ -91511,32 +91537,32 @@
     {
       "category_id": 2530,
       "meaning_id": 2486,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2531,
       "meaning_id": 2487,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2532,
       "meaning_id": 2488,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2533,
       "meaning_id": 2489,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2534,
       "meaning_id": 2490,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2535,
       "meaning_id": 2493,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2536,
@@ -91546,27 +91572,27 @@
     {
       "category_id": 2537,
       "meaning_id": 2495,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2538,
       "meaning_id": 2496,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2539,
       "meaning_id": 2497,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2540,
       "meaning_id": 2498,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2541,
       "meaning_id": 2499,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2542,
@@ -91576,12 +91602,12 @@
     {
       "category_id": 2543,
       "meaning_id": 2501,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2544,
       "meaning_id": 2502,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2545,
@@ -91591,17 +91617,17 @@
     {
       "category_id": 2546,
       "meaning_id": 2504,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2547,
       "meaning_id": 2505,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2548,
       "meaning_id": 2506,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2549,
@@ -91626,72 +91652,72 @@
     {
       "category_id": 2554,
       "meaning_id": 2513,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2555,
       "meaning_id": 2514,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2556,
       "meaning_id": 2515,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2557,
       "meaning_id": 2516,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2558,
       "meaning_id": 2517,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2559,
       "meaning_id": 2518,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2560,
       "meaning_id": 2519,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2561,
       "meaning_id": 2520,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2562,
       "meaning_id": 2521,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2563,
       "meaning_id": 2522,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2564,
       "meaning_id": 2523,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2565,
       "meaning_id": 2524,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2566,
       "meaning_id": 2525,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2567,
       "meaning_id": 2526,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2568,
@@ -91721,7 +91747,7 @@
     {
       "category_id": 2573,
       "meaning_id": 2531,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2575,
@@ -91731,17 +91757,17 @@
     {
       "category_id": 2576,
       "meaning_id": 2534,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2577,
       "meaning_id": 2535,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2578,
       "meaning_id": 2536,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2579,
@@ -91796,7 +91822,7 @@
     {
       "category_id": 2589,
       "meaning_id": 843,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2590,
@@ -91951,32 +91977,32 @@
     {
       "category_id": 2622,
       "meaning_id": 448,
-      "category": "constellation: 3 x 12 constellations"
+      "category": "3 x 12 constellations"
     },
     {
       "category_id": 2623,
       "meaning_id": 529,
-      "category": "constellation: 3 x 12 constellations"
+      "category": "3 x 12 constellations"
     },
     {
       "category_id": 2624,
       "meaning_id": 442,
-      "category": "constellation: 3 x 12 constellations"
+      "category": "3 x 12 constellations"
     },
     {
       "category_id": 2625,
       "meaning_id": 441,
-      "category": "constellation: 3 x 12 constellations"
+      "category": "3 x 12 constellations"
     },
     {
       "category_id": 2626,
       "meaning_id": 1295,
-      "category": "constellation: 3 x 12 constellations"
+      "category": "3 x 12 constellations"
     },
     {
       "category_id": 2627,
       "meaning_id": 2331,
-      "category": "an epithet of the moon(god)"
+      "category": "epithet of moon(god)"
     },
     {
       "category_id": 2628,
@@ -91996,12 +92022,12 @@
     {
       "category_id": 2631,
       "meaning_id": 535,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2632,
       "meaning_id": 2587,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2633,
@@ -92031,22 +92057,22 @@
     {
       "category_id": 2638,
       "meaning_id": 445,
-      "category": "constellation: 3 x 12 constellations"
+      "category": "3 x 12 constellations"
     },
     {
       "category_id": 2639,
       "meaning_id": 2588,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2640,
       "meaning_id": 2589,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2641,
       "meaning_id": 2590,
-      "category": ""
+      "category": "divine agency"
     },
     {
       "category_id": 2642,
@@ -92056,12 +92082,12 @@
     {
       "category_id": 2643,
       "meaning_id": 2591,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2644,
       "meaning_id": 2592,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2645,
@@ -92086,7 +92112,7 @@
     {
       "category_id": 2649,
       "meaning_id": 2595,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2650,
@@ -92096,22 +92122,22 @@
     {
       "category_id": 2651,
       "meaning_id": 2597,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2652,
       "meaning_id": 2598,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2653,
       "meaning_id": 2599,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2654,
       "meaning_id": 2600,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2655,
@@ -92176,7 +92202,7 @@
     {
       "category_id": 2667,
       "meaning_id": 2612,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2668,
@@ -92196,7 +92222,7 @@
     {
       "category_id": 2671,
       "meaning_id": 2616,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2672,
@@ -92206,37 +92232,37 @@
     {
       "category_id": 2673,
       "meaning_id": 2618,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2674,
       "meaning_id": 2619,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2675,
       "meaning_id": 2620,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2676,
       "meaning_id": 2621,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2677,
       "meaning_id": 2622,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2678,
       "meaning_id": 2623,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2679,
       "meaning_id": 2624,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2680,
@@ -92246,7 +92272,7 @@
     {
       "category_id": 2681,
       "meaning_id": 2626,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2682,
@@ -92284,11 +92310,6 @@
       "category": "cardinal point"
     },
     {
-      "category_id": 2692,
-      "meaning_id": 2250,
-      "category": ""
-    },
-    {
       "category_id": 2695,
       "meaning_id": 2630,
       "category": "celestial phenomenon"
@@ -92307,11 +92328,6 @@
       "category_id": 2698,
       "meaning_id": 2474,
       "category": "zodiac sign quality"
-    },
-    {
-      "category_id": 2699,
-      "meaning_id": 2474,
-      "category": ""
     },
     {
       "category_id": 2700,
@@ -92336,7 +92352,7 @@
     {
       "category_id": 2705,
       "meaning_id": 2638,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2706,
@@ -92351,7 +92367,7 @@
     {
       "category_id": 2708,
       "meaning_id": 2640,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2709,
@@ -92366,7 +92382,7 @@
     {
       "category_id": 2711,
       "meaning_id": 364,
-      "category": "lunar month"
+      "category": "month name"
     },
     {
       "category_id": 2712,
@@ -92436,7 +92452,7 @@
     {
       "category_id": 2727,
       "meaning_id": 2646,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 2728,
@@ -92446,7 +92462,7 @@
     {
       "category_id": 2729,
       "meaning_id": 2647,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 2730,
@@ -92541,12 +92557,12 @@
     {
       "category_id": 2748,
       "meaning_id": 2662,
-      "category": "mathematical quantity: number"
+      "category": "number"
     },
     {
       "category_id": 2749,
       "meaning_id": 2663,
-      "category": "mathematical quantity: number"
+      "category": "number"
     },
     {
       "category_id": 2750,
@@ -92586,7 +92602,7 @@
     {
       "category_id": 2759,
       "meaning_id": 2667,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2761,
@@ -92626,7 +92642,7 @@
     {
       "category_id": 2768,
       "meaning_id": 2677,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 2769,
@@ -92651,7 +92667,7 @@
     {
       "category_id": 2773,
       "meaning_id": 2679,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 2774,
@@ -92666,12 +92682,12 @@
     {
       "category_id": 2776,
       "meaning_id": 1243,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2777,
       "meaning_id": 2634,
-      "category": "group of stars and constellations"
+      "category": "group of stars or constellations"
     },
     {
       "category_id": 2778,
@@ -92706,42 +92722,42 @@
     {
       "category_id": 2784,
       "meaning_id": 2686,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2785,
       "meaning_id": 2687,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2786,
       "meaning_id": 2688,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2787,
       "meaning_id": 2689,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2788,
       "meaning_id": 2690,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2789,
       "meaning_id": 2691,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2790,
       "meaning_id": 2692,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2791,
       "meaning_id": 2693,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2792,
@@ -92751,37 +92767,37 @@
     {
       "category_id": 2793,
       "meaning_id": 2694,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2794,
       "meaning_id": 2695,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2796,
       "meaning_id": 2697,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2797,
       "meaning_id": 2698,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2798,
       "meaning_id": 2699,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2799,
       "meaning_id": 2700,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2800,
       "meaning_id": 2701,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2801,
@@ -92791,7 +92807,7 @@
     {
       "category_id": 2802,
       "meaning_id": 2703,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2803,
@@ -92816,7 +92832,7 @@
     {
       "category_id": 2807,
       "meaning_id": 2707,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2808,
@@ -92826,37 +92842,37 @@
     {
       "category_id": 2809,
       "meaning_id": 1083,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2810,
       "meaning_id": 2709,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2812,
       "meaning_id": 2711,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2813,
       "meaning_id": 2712,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2814,
       "meaning_id": 2713,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2815,
       "meaning_id": 2714,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2816,
       "meaning_id": 2715,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2817,
@@ -92956,7 +92972,7 @@
     {
       "category_id": 2837,
       "meaning_id": 2735,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2838,
@@ -93036,7 +93052,7 @@
     {
       "category_id": 2853,
       "meaning_id": 2756,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2854,
@@ -93071,7 +93087,7 @@
     {
       "category_id": 2860,
       "meaning_id": 2766,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2861,
@@ -93086,12 +93102,12 @@
     {
       "category_id": 2864,
       "meaning_id": 2770,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2865,
       "meaning_id": 2771,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 2866,
@@ -93101,7 +93117,7 @@
     {
       "category_id": 2867,
       "meaning_id": 2773,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2868,
@@ -93111,7 +93127,7 @@
     {
       "category_id": 2869,
       "meaning_id": 2775,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2870,
@@ -93126,7 +93142,7 @@
     {
       "category_id": 2872,
       "meaning_id": 2778,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2873,
@@ -93151,7 +93167,7 @@
     {
       "category_id": 2877,
       "meaning_id": 2784,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 2878,
@@ -93221,7 +93237,7 @@
     {
       "category_id": 2891,
       "meaning_id": 2799,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2892,
@@ -93246,12 +93262,12 @@
     {
       "category_id": 2896,
       "meaning_id": 2806,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2897,
       "meaning_id": 2807,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2898,
@@ -93266,12 +93282,12 @@
     {
       "category_id": 2900,
       "meaning_id": 2810,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2901,
       "meaning_id": 2811,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2902,
@@ -93326,7 +93342,7 @@
     {
       "category_id": 2912,
       "meaning_id": 2823,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2913,
@@ -93356,17 +93372,17 @@
     {
       "category_id": 2918,
       "meaning_id": 2829,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2919,
       "meaning_id": 2830,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2920,
       "meaning_id": 2831,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2921,
@@ -93396,27 +93412,27 @@
     {
       "category_id": 2926,
       "meaning_id": 2837,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2927,
       "meaning_id": 2838,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2928,
       "meaning_id": 2839,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2929,
       "meaning_id": 2840,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2930,
       "meaning_id": 2841,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2931,
@@ -93426,47 +93442,47 @@
     {
       "category_id": 2932,
       "meaning_id": 2842,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2933,
       "meaning_id": 2843,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2934,
       "meaning_id": 2844,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2935,
       "meaning_id": 2845,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2936,
       "meaning_id": 2846,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2937,
       "meaning_id": 2847,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2938,
       "meaning_id": 2848,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2939,
       "meaning_id": 2849,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2940,
       "meaning_id": 2850,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2941,
@@ -93476,7 +93492,7 @@
     {
       "category_id": 2942,
       "meaning_id": 2852,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2943,
@@ -93486,7 +93502,7 @@
     {
       "category_id": 2944,
       "meaning_id": 2854,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2946,
@@ -93496,22 +93512,22 @@
     {
       "category_id": 2947,
       "meaning_id": 2858,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2948,
       "meaning_id": 2859,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2949,
       "meaning_id": 2860,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2950,
       "meaning_id": 2862,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2951,
@@ -93531,82 +93547,82 @@
     {
       "category_id": 2954,
       "meaning_id": 2866,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2955,
       "meaning_id": 2867,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2956,
       "meaning_id": 2868,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2957,
       "meaning_id": 2066,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2958,
       "meaning_id": 2869,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2959,
       "meaning_id": 2870,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2960,
       "meaning_id": 2871,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2961,
       "meaning_id": 2872,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2962,
       "meaning_id": 2873,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2963,
       "meaning_id": 2874,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2964,
       "meaning_id": 2875,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2965,
       "meaning_id": 2876,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2966,
       "meaning_id": 2877,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2967,
       "meaning_id": 2878,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2968,
       "meaning_id": 2879,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2969,
       "meaning_id": 2880,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2970,
@@ -93621,12 +93637,12 @@
     {
       "category_id": 2972,
       "meaning_id": 2883,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2973,
       "meaning_id": 2884,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2974,
@@ -93646,47 +93662,47 @@
     {
       "category_id": 2977,
       "meaning_id": 2888,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2978,
       "meaning_id": 2889,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2979,
       "meaning_id": 2890,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2980,
       "meaning_id": 2891,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2981,
       "meaning_id": 2892,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2982,
       "meaning_id": 2893,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2983,
       "meaning_id": 2894,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2984,
       "meaning_id": 2895,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2985,
       "meaning_id": 2896,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2986,
@@ -93696,12 +93712,12 @@
     {
       "category_id": 2987,
       "meaning_id": 2898,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2988,
       "meaning_id": 2899,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2989,
@@ -93711,12 +93727,12 @@
     {
       "category_id": 2990,
       "meaning_id": 2900,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2991,
       "meaning_id": 2901,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 2992,
@@ -93761,42 +93777,42 @@
     {
       "category_id": 3000,
       "meaning_id": 2909,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3001,
       "meaning_id": 2910,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3002,
       "meaning_id": 2911,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3003,
       "meaning_id": 2912,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3004,
       "meaning_id": 2913,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3005,
       "meaning_id": 2914,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3006,
       "meaning_id": 2915,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3007,
       "meaning_id": 2916,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3008,
@@ -93821,12 +93837,12 @@
     {
       "category_id": 3012,
       "meaning_id": 2921,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3013,
       "meaning_id": 2922,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3014,
@@ -93881,12 +93897,12 @@
     {
       "category_id": 3024,
       "meaning_id": 2929,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3025,
       "meaning_id": 2930,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3026,
@@ -93916,42 +93932,42 @@
     {
       "category_id": 3032,
       "meaning_id": 2678,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3033,
       "meaning_id": 2754,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3034,
       "meaning_id": 2740,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3035,
       "meaning_id": 2005,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3036,
       "meaning_id": 1832,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3037,
       "meaning_id": 165,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3038,
       "meaning_id": 2202,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3039,
       "meaning_id": 2625,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3040,
@@ -94011,7 +94027,7 @@
     {
       "category_id": 3053,
       "meaning_id": 2473,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3054,
@@ -94031,17 +94047,17 @@
     {
       "category_id": 3057,
       "meaning_id": 2169,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3058,
       "meaning_id": 2168,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3059,
       "meaning_id": 2393,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3060,
@@ -94056,7 +94072,7 @@
     {
       "category_id": 3062,
       "meaning_id": 2936,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3063,
@@ -94166,12 +94182,12 @@
     {
       "category_id": 3084,
       "meaning_id": 2948,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3085,
       "meaning_id": 2949,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3086,
@@ -94211,7 +94227,7 @@
     {
       "category_id": 3093,
       "meaning_id": 2952,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3094,
@@ -94226,7 +94242,7 @@
     {
       "category_id": 3096,
       "meaning_id": 2955,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3097,
@@ -94311,7 +94327,7 @@
     {
       "category_id": 3113,
       "meaning_id": 2972,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3114,
@@ -94881,7 +94897,7 @@
     {
       "category_id": 3230,
       "meaning_id": 3052,
-      "category": "literal translation"
+      "category": "zodiac sign"
     },
     {
       "category_id": 3233,
@@ -94891,7 +94907,7 @@
     {
       "category_id": 3234,
       "meaning_id": 3056,
-      "category": "literal translation"
+      "category": "zodiac sign"
     },
     {
       "category_id": 3236,
@@ -95306,7 +95322,7 @@
     {
       "category_id": 3320,
       "meaning_id": 2417,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3321,
@@ -95316,7 +95332,7 @@
     {
       "category_id": 3322,
       "meaning_id": 1454,
-      "category": "interval of celestial position"
+      "category": "decan"
     },
     {
       "category_id": 3323,
@@ -95336,12 +95352,12 @@
     {
       "category_id": 3326,
       "meaning_id": 2702,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3327,
       "meaning_id": 2753,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3328,
@@ -95356,7 +95372,7 @@
     {
       "category_id": 3330,
       "meaning_id": 3085,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3331,
@@ -95366,12 +95382,12 @@
     {
       "category_id": 3332,
       "meaning_id": 3087,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3333,
       "meaning_id": 3088,
-      "category": "an epithet of the moon(god)"
+      "category": "epithet of moon(god)"
     },
     {
       "category_id": 3334,
@@ -95386,7 +95402,7 @@
     {
       "category_id": 3339,
       "meaning_id": 3084,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3340,
@@ -95426,7 +95442,7 @@
     {
       "category_id": 3347,
       "meaning_id": 3102,
-      "category": "planetary motion"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 3348,
@@ -95506,7 +95522,7 @@
     {
       "category_id": 3363,
       "meaning_id": 2342,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3364,
@@ -95526,7 +95542,7 @@
     {
       "category_id": 3367,
       "meaning_id": 1989,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3368,
@@ -95541,12 +95557,12 @@
     {
       "category_id": 3370,
       "meaning_id": 1993,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3371,
       "meaning_id": 3106,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3372,
@@ -95561,7 +95577,7 @@
     {
       "category_id": 3374,
       "meaning_id": 2307,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3376,
@@ -95596,12 +95612,12 @@
     {
       "category_id": 3383,
       "meaning_id": 3112,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3384,
       "meaning_id": 3113,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3385,
@@ -95611,7 +95627,7 @@
     {
       "category_id": 3386,
       "meaning_id": 3115,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3387,
@@ -95671,7 +95687,7 @@
     {
       "category_id": 3398,
       "meaning_id": 3127,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3399,
@@ -95696,7 +95712,7 @@
     {
       "category_id": 3403,
       "meaning_id": 3132,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3404,
@@ -95706,7 +95722,7 @@
     {
       "category_id": 3405,
       "meaning_id": 3109,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3406,
@@ -95721,7 +95737,7 @@
     {
       "category_id": 3408,
       "meaning_id": 3090,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3409,
@@ -95741,7 +95757,7 @@
     {
       "category_id": 3412,
       "meaning_id": 3108,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3413,
@@ -95776,22 +95792,22 @@
     {
       "category_id": 3419,
       "meaning_id": 3133,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3420,
       "meaning_id": 3134,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3421,
       "meaning_id": 3135,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3422,
       "meaning_id": 3136,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3423,
@@ -96011,7 +96027,7 @@
     {
       "category_id": 3469,
       "meaning_id": 3151,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3470,
@@ -96061,7 +96077,7 @@
     {
       "category_id": 3479,
       "meaning_id": 3161,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 3480,
@@ -96076,7 +96092,7 @@
     {
       "category_id": 3482,
       "meaning_id": 3163,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 3483,
@@ -96106,7 +96122,7 @@
     {
       "category_id": 3488,
       "meaning_id": 3167,
-      "category": "astronomical quantity: lunar six interval"
+      "category": "lunar six interval"
     },
     {
       "category_id": 3489,
@@ -96131,7 +96147,7 @@
     {
       "category_id": 3493,
       "meaning_id": 3170,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3494,
@@ -96206,7 +96222,7 @@
     {
       "category_id": 3508,
       "meaning_id": 3176,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3510,
@@ -96216,7 +96232,7 @@
     {
       "category_id": 3511,
       "meaning_id": 3179,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3512,
@@ -96226,7 +96242,7 @@
     {
       "category_id": 3513,
       "meaning_id": 3182,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3514,
@@ -96246,12 +96262,12 @@
     {
       "category_id": 3518,
       "meaning_id": 3188,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3519,
       "meaning_id": 3188,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3520,
@@ -96266,7 +96282,7 @@
     {
       "category_id": 3522,
       "meaning_id": 3190,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3523,
@@ -96286,7 +96302,7 @@
     {
       "category_id": 3526,
       "meaning_id": 3191,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3527,
@@ -96301,7 +96317,7 @@
     {
       "category_id": 3529,
       "meaning_id": 3192,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3530,
@@ -96311,7 +96327,7 @@
     {
       "category_id": 3531,
       "meaning_id": 3193,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3532,
@@ -96346,12 +96362,12 @@
     {
       "category_id": 3538,
       "meaning_id": 3196,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3539,
       "meaning_id": 3197,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3540,
@@ -96401,7 +96417,7 @@
     {
       "category_id": 3549,
       "meaning_id": 3203,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3550,
@@ -96411,7 +96427,7 @@
     {
       "category_id": 3551,
       "meaning_id": 3205,
-      "category": "demonym"
+      "category": "practitioner"
     },
     {
       "category_id": 3552,
@@ -96531,7 +96547,7 @@
     {
       "category_id": 3577,
       "meaning_id": 3232,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3578,
@@ -96556,27 +96572,22 @@
     {
       "category_id": 3582,
       "meaning_id": 3232,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3583,
       "meaning_id": 3232,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3584,
       "meaning_id": 3231,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3585,
       "meaning_id": 3229,
       "category": "temporal expression"
-    },
-    {
-      "category_id": 3586,
-      "meaning_id": 3229,
-      "category": ""
     },
     {
       "category_id": 3587,
@@ -96586,17 +96597,17 @@
     {
       "category_id": 3588,
       "meaning_id": 3203,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3589,
       "meaning_id": 2929,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3590,
       "meaning_id": 3237,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3591,
@@ -96614,14 +96625,9 @@
       "category": "visual perception"
     },
     {
-      "category_id": 3594,
-      "meaning_id": 1254,
-      "category": ""
-    },
-    {
       "category_id": 3595,
       "meaning_id": 3240,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3596,
@@ -96646,17 +96652,17 @@
     {
       "category_id": 3600,
       "meaning_id": 3245,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3601,
       "meaning_id": 3246,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3602,
       "meaning_id": 3247,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3603,
@@ -96666,12 +96672,12 @@
     {
       "category_id": 3604,
       "meaning_id": 3249,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3605,
       "meaning_id": 3250,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3606,
@@ -96726,7 +96732,7 @@
     {
       "category_id": 3616,
       "meaning_id": 3261,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3617,
@@ -96736,7 +96742,7 @@
     {
       "category_id": 3618,
       "meaning_id": 3262,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3619,
@@ -96751,17 +96757,17 @@
     {
       "category_id": 3621,
       "meaning_id": 738,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3622,
       "meaning_id": 3263,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 3623,
       "meaning_id": 3264,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 3624,
@@ -96781,7 +96787,7 @@
     {
       "category_id": 3627,
       "meaning_id": 3266,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3628,
@@ -96796,12 +96802,12 @@
     {
       "category_id": 3630,
       "meaning_id": 3267,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3631,
       "meaning_id": 3268,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3632,
@@ -96811,7 +96817,7 @@
     {
       "category_id": 3633,
       "meaning_id": 3269,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3634,
@@ -97066,7 +97072,7 @@
     {
       "category_id": 3684,
       "meaning_id": 3186,
-      "category": "arithmetical quantity"
+      "category": "arithmetical"
     },
     {
       "category_id": 3685,
@@ -97121,7 +97127,7 @@
     {
       "category_id": 3697,
       "meaning_id": 3326,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3698,
@@ -97221,12 +97227,12 @@
     {
       "category_id": 3721,
       "meaning_id": 1338,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3722,
       "meaning_id": 1339,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 3723,
@@ -97286,7 +97292,7 @@
     {
       "category_id": 3734,
       "meaning_id": 3362,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3735,
@@ -97296,7 +97302,7 @@
     {
       "category_id": 3736,
       "meaning_id": 3364,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 3737,
@@ -97311,7 +97317,7 @@
     {
       "category_id": 3739,
       "meaning_id": 3367,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3740,
@@ -97321,22 +97327,22 @@
     {
       "category_id": 3741,
       "meaning_id": 3368,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3742,
       "meaning_id": 3369,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3743,
       "meaning_id": 3370,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3744,
       "meaning_id": 3371,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3745,
@@ -97401,7 +97407,7 @@
     {
       "category_id": 3757,
       "meaning_id": 3384,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3758,
@@ -97411,7 +97417,7 @@
     {
       "category_id": 3759,
       "meaning_id": 3386,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3760,
@@ -97421,7 +97427,7 @@
     {
       "category_id": 3761,
       "meaning_id": 3388,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 3762,
@@ -97626,37 +97632,37 @@
     {
       "category_id": 5907,
       "meaning_id": 5513,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 5908,
       "meaning_id": 5514,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 5909,
       "meaning_id": 5515,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 5910,
       "meaning_id": 5516,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 5911,
       "meaning_id": 5517,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 5912,
       "meaning_id": 5518,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 6963,
       "meaning_id": 6569,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 6964,
@@ -97676,7 +97682,7 @@
     {
       "category_id": 6967,
       "meaning_id": 6572,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 6968,
@@ -97691,12 +97697,12 @@
     {
       "category_id": 6970,
       "meaning_id": 1547,
-      "category": "geometrical concept"
+      "category": "geometrical"
     },
     {
       "category_id": 6971,
       "meaning_id": 6574,
-      "category": "geometrical concept"
+      "category": "geometrical"
     },
     {
       "category_id": 6972,
@@ -97816,7 +97822,7 @@
     {
       "category_id": 7000,
       "meaning_id": 6595,
-      "category": "mathematical term"
+      "category": "mathematical"
     },
     {
       "category_id": 7001,
@@ -97841,7 +97847,7 @@
     {
       "category_id": 7005,
       "meaning_id": 6599,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7006,
@@ -97851,7 +97857,7 @@
     {
       "category_id": 7007,
       "meaning_id": 6600,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7008,
@@ -99621,12 +99627,12 @@
     {
       "category_id": 7711,
       "meaning_id": 7304,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7712,
       "meaning_id": 7305,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7714,
@@ -99711,12 +99717,12 @@
     {
       "category_id": 7730,
       "meaning_id": 7308,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7731,
       "meaning_id": 7309,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7732,
@@ -99726,7 +99732,7 @@
     {
       "category_id": 7733,
       "meaning_id": 7312,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7734,
@@ -99841,7 +99847,7 @@
     {
       "category_id": 7757,
       "meaning_id": 7333,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7758,
@@ -99861,7 +99867,7 @@
     {
       "category_id": 7761,
       "meaning_id": 7336,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7762,
@@ -99916,12 +99922,12 @@
     {
       "category_id": 7772,
       "meaning_id": 7342,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7773,
       "meaning_id": 7343,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7774,
@@ -99936,17 +99942,17 @@
     {
       "category_id": 7776,
       "meaning_id": 7346,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7777,
       "meaning_id": 7347,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7778,
       "meaning_id": 7348,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7780,
@@ -99961,7 +99967,7 @@
     {
       "category_id": 7782,
       "meaning_id": 7352,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7783,
@@ -100436,17 +100442,17 @@
     {
       "category_id": 7881,
       "meaning_id": 7446,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7884,
       "meaning_id": 7449,
-      "category": "geometrical concept"
+      "category": "geometrical"
     },
     {
       "category_id": 7885,
       "meaning_id": 2173,
-      "category": "geometrical concept"
+      "category": "geometrical"
     },
     {
       "category_id": 7886,
@@ -100531,42 +100537,42 @@
     {
       "category_id": 7902,
       "meaning_id": 7467,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7904,
       "meaning_id": 7469,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7905,
       "meaning_id": 7470,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7906,
       "meaning_id": 7471,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7907,
       "meaning_id": 7476,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7908,
       "meaning_id": 7475,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7909,
       "meaning_id": 7477,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7910,
       "meaning_id": 7472,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7911,
@@ -100581,32 +100587,32 @@
     {
       "category_id": 7913,
       "meaning_id": 7480,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7914,
       "meaning_id": 7481,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7915,
       "meaning_id": 7482,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7916,
       "meaning_id": 7473,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7917,
       "meaning_id": 7474,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7918,
       "meaning_id": 7483,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7919,
@@ -100616,7 +100622,7 @@
     {
       "category_id": 7920,
       "meaning_id": 7486,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7921,
@@ -100661,7 +100667,7 @@
     {
       "category_id": 7929,
       "meaning_id": 7495,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7930,
@@ -100711,7 +100717,7 @@
     {
       "category_id": 7939,
       "meaning_id": 7505,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7940,
@@ -100741,7 +100747,7 @@
     {
       "category_id": 7945,
       "meaning_id": 7509,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7946,
@@ -100776,17 +100782,17 @@
     {
       "category_id": 7952,
       "meaning_id": 7514,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7953,
       "meaning_id": 7515,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7954,
       "meaning_id": 7516,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7955,
@@ -100856,12 +100862,12 @@
     {
       "category_id": 7968,
       "meaning_id": 7530,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7969,
       "meaning_id": 7531,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7970,
@@ -100871,7 +100877,7 @@
     {
       "category_id": 7971,
       "meaning_id": 7533,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7972,
@@ -100881,7 +100887,7 @@
     {
       "category_id": 7973,
       "meaning_id": 7535,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7974,
@@ -100961,7 +100967,7 @@
     {
       "category_id": 7990,
       "meaning_id": 7548,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 7991,
@@ -100986,7 +100992,7 @@
     {
       "category_id": 7995,
       "meaning_id": 7552,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 7996,
@@ -101006,7 +101012,7 @@
     {
       "category_id": 7999,
       "meaning_id": 7556,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 8000,
@@ -101026,7 +101032,7 @@
     {
       "category_id": 8003,
       "meaning_id": 7560,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 8004,
@@ -101051,12 +101057,12 @@
     {
       "category_id": 8008,
       "meaning_id": 7565,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8009,
       "meaning_id": 7566,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8010,
@@ -101066,12 +101072,12 @@
     {
       "category_id": 8011,
       "meaning_id": 7568,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8012,
       "meaning_id": 7569,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8013,
@@ -101086,52 +101092,52 @@
     {
       "category_id": 8016,
       "meaning_id": 7572,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8018,
       "meaning_id": 7574,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8019,
       "meaning_id": 7575,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8020,
       "meaning_id": 7576,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 8021,
       "meaning_id": 7576,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8022,
       "meaning_id": 7577,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8023,
       "meaning_id": 7578,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8024,
       "meaning_id": 7579,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8025,
       "meaning_id": 7580,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8026,
       "meaning_id": 7581,
-      "category": "geometrical concept"
+      "category": "geometrical"
     },
     {
       "category_id": 8027,
@@ -101141,52 +101147,52 @@
     {
       "category_id": 8028,
       "meaning_id": 7582,
-      "category": "geometrical concept"
+      "category": "geometrical"
     },
     {
       "category_id": 8029,
       "meaning_id": 7583,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8030,
       "meaning_id": 7584,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8031,
       "meaning_id": 7585,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8032,
       "meaning_id": 7586,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8033,
       "meaning_id": 7587,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8034,
       "meaning_id": 7588,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8035,
       "meaning_id": 7589,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8036,
       "meaning_id": 7590,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8037,
       "meaning_id": 7591,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8038,
@@ -101201,12 +101207,12 @@
     {
       "category_id": 8040,
       "meaning_id": 7593,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8041,
       "meaning_id": 7594,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 8042,
@@ -101216,7 +101222,7 @@
     {
       "category_id": 8043,
       "meaning_id": 7596,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8044,
@@ -101261,7 +101267,7 @@
     {
       "category_id": 8052,
       "meaning_id": 7605,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8053,
@@ -101271,32 +101277,32 @@
     {
       "category_id": 8054,
       "meaning_id": 7606,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8055,
       "meaning_id": 7607,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8056,
       "meaning_id": 7608,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8057,
       "meaning_id": 7609,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8058,
       "meaning_id": 7610,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8059,
       "meaning_id": 7611,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8060,
@@ -101396,7 +101402,7 @@
     {
       "category_id": 8079,
       "meaning_id": 7626,
-      "category": "astrological concept"
+      "category": "astrological"
     },
     {
       "category_id": 8080,
@@ -101406,7 +101412,7 @@
     {
       "category_id": 8081,
       "meaning_id": 7628,
-      "category": "astronomical concept"
+      "category": "astronomical"
     },
     {
       "category_id": 8082,
@@ -101641,7 +101647,7 @@
     {
       "category_id": 8130,
       "meaning_id": 7676,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 8131,
@@ -101656,7 +101662,7 @@
     {
       "category_id": 8133,
       "meaning_id": 7677,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 8134,
@@ -101726,7 +101732,7 @@
     {
       "category_id": 8147,
       "meaning_id": 2216,
-      "category": "spatial concept"
+      "category": "spatial"
     },
     {
       "category_id": 8152,
@@ -101814,11 +101820,6 @@
       "category": "zodiac sign"
     },
     {
-      "category_id": 8189,
-      "meaning_id": 7734,
-      "category": ""
-    },
-    {
       "category_id": 8191,
       "meaning_id": 7736,
       "category": "planet"
@@ -101841,7 +101842,7 @@
     {
       "category_id": 8195,
       "meaning_id": 7743,
-      "category": ""
+      "category": "astrological house"
     },
     {
       "category_id": 8196,
@@ -209311,6 +209312,23 @@
       "meaning_id": 1021,
       "page": "",
       "comment": ""
+    },
+    {
+      "quotation_id": 7763,
+      "original": "hoc autem sphaerae genus, in quo solis et lunae motus inessent et earum\nquinque stellarum quae errantes et quasi vagae nominarentur, in illa\nsphaera solida non potuisse finiri, atque in eo admirandum esse inventum\nArchimedi, quod excogitasset quem ad modum in dissimillimis motibus\ninaequabiles et varios cursus servaret una conversio.",
+      "transliteration": "",
+      "lemma_id": 6418,
+      "translation": "This kind of sphaera, in which were present the motions of Sun and Moon\nand those five stars that are called wanderers and as it were straying,\ncould not be fashioned in that solid sphaera, and one had to wonder at the\ninventiveness of Archimedes in it, that he had figured out how a single\nrevolution could furnish unequal and diverse courses in unlike motions.",
+      "source": "Cicero, De re publica",
+      "genre": "philosophy",
+      "provenance": "Rome",
+      "date": "54-51 BCE",
+      "publication": "",
+      "link": "",
+      "line": "1.22",
+      "meaning_id": 7758,
+      "page": "",
+      "comment": ""
     }
   ],
   "externalLinks": [
@@ -215025,6 +215043,12 @@
       "url": "https://sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/web/webtc/getword.php?key=%E0%A4%9A%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0&filter=deva&accent=no&transLit=deva",
       "display": "चन्द्रः",
       "lemma_id": 6355
+    },
+    {
+      "external_link_id": 972,
+      "url": "https://www.perseus.tufts.edu/hopper/morph?l=sphaera&la=la",
+      "display": "sphaera",
+      "lemma_id": 6418
     }
   ],
   "crossLinks": [
