@@ -2586,7 +2586,7 @@
       "primary_meaning": "exaltation",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2023-07-11T14:56:35.049Z",
+      "last_edit": "2026-10-06T10:17:22.539Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -10866,7 +10866,7 @@
       "primary_meaning": "depression",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2023-07-11T14:55:17.803Z",
+      "last_edit": "2026-10-06T10:21:59.257Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -10890,7 +10890,7 @@
       "primary_meaning": "exaltation",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2025-01-07T11:49:44.033Z",
+      "last_edit": "2026-10-06T10:16:43.365Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -10914,7 +10914,7 @@
       "primary_meaning": "depression",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2025-01-07T11:49:30.178Z",
+      "last_edit": "2026-10-06T10:13:17.325Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -14394,10 +14394,10 @@
       "primary_meaning": "exaltation",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2025-07-28T08:23:50.764Z",
-      "comment": "",
+      "last_edit": "2026-10-06T10:21:36.428Z",
+      "comment": "MO: 2nd meaning to be improved?",
       "checked": false,
-      "attention": false,
+      "attention": true,
       "loan_type": "none"
     },
     {
@@ -14418,7 +14418,7 @@
       "primary_meaning": "depression",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2025-09-29T14:35:54.096Z",
+      "last_edit": "2026-10-06T10:22:13.783Z",
       "comment": "TP: something is horribly wrong with the Greek in the quotation",
       "checked": false,
       "attention": true,
@@ -14631,11 +14631,11 @@
       "loan_language_id": 0,
       "loan_language_label": "",
       "loan_language_value": "none",
-      "primary_meaning": "exaltation",
+      "primary_meaning": "house of secrecy",
       "editor": "Alessia",
       "literal_translation2": "house of secrecy/protection",
-      "last_edit": "2024-12-16T10:28:05.940Z",
-      "comment": "",
+      "last_edit": "2026-10-06T10:24:45.693Z",
+      "comment": "MO: meaning corrected from \"exaltation\"",
       "checked": false,
       "attention": true,
       "loan_type": "none"
@@ -14655,11 +14655,11 @@
       "loan_language_id": 0,
       "loan_language_label": "",
       "loan_language_value": "none",
-      "primary_meaning": "exaltation",
+      "primary_meaning": "house of secrecy",
       "editor": "Marvin",
       "literal_translation2": "place of secret",
-      "last_edit": "2024-12-09T14:58:24.060Z",
-      "comment": "",
+      "last_edit": "2026-10-06T10:25:45.101Z",
+      "comment": "MO: meaning corrected from exaltation",
       "checked": false,
       "attention": false,
       "loan_type": "none"
@@ -15306,7 +15306,7 @@
       "primary_meaning": "exaltation",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2024-10-14T06:29:37.587Z",
+      "last_edit": "2026-10-06T10:16:25.056Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -18018,7 +18018,7 @@
       "primary_meaning": "exaltation",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2023-12-01T15:39:54.968Z",
+      "last_edit": "2026-10-06T10:15:49.470Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -25849,6 +25849,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 1293,
+      "published": true,
+      "original": "SIG",
+      "translation": "below",
+      "transliteration": "šaplat",
+      "partofspeech_id": 8,
+      "partofspeech_label": "Preposition",
+      "partofspeech_value": "preposition",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "below",
+      "editor": "Marvin",
+      "literal_translation2": "bottom",
+      "last_edit": "2026-10-06T10:05:54.662Z",
+      "comment": "MO: šaplat see BM 45903",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1294,
       "published": true,
       "original": "κινέω",
@@ -28513,6 +28537,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 1412,
+      "published": true,
+      "original": "mul.ŠUDUN",
+      "translation": "Yoke star",
+      "transliteration": "nīru",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "Yoke star",
+      "editor": "Marvin",
+      "literal_translation2": "yoke",
+      "last_edit": "2026-10-06T10:02:43.275Z",
+      "comment": "",
+      "checked": true,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1413,
       "published": true,
       "original": "mul.ŠUDUN.ANŠE",
@@ -28654,6 +28702,30 @@
       "comment": "",
       "checked": true,
       "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 1419,
+      "published": true,
+      "original": "qu₂-ma-ru ša₂ mul.UD.KA.DUḪ.A",
+      "translation": "Shoulder of the Demon-with-the-gaping-mouth-star",
+      "transliteration": "qumāri ša mul.UD.KA.DUḪ.A",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "Shoulder of the Demon-with-the-gaping-mouth-star",
+      "editor": "Marvin",
+      "literal_translation2": "Shoulder of the Demon-with-the-gaping-mouth",
+      "last_edit": "2026-10-06T10:03:13.458Z",
+      "comment": "MO: indicate source of identification",
+      "checked": true,
+      "attention": true,
       "loan_type": "none"
     },
     {
@@ -37770,7 +37842,7 @@
       "primary_meaning": "of an exaltation",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2024-10-14T06:28:23.595Z",
+      "last_edit": "2026-10-06T10:17:08.438Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -39933,6 +40005,30 @@
       "last_edit": "2025-07-21T07:42:34.911Z",
       "comment": "",
       "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2292,
+      "published": true,
+      "original": "MUL-tu-ul-tu",
+      "translation": "worm",
+      "transliteration": "tūltu",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "Worm (star)",
+      "editor": "Alessia",
+      "literal_translation2": "worm",
+      "last_edit": "2026-10-06T10:06:20.476Z",
+      "comment": "",
+      "checked": true,
       "attention": false,
       "loan_type": "none"
     },
@@ -51673,6 +51769,54 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 6142,
+      "published": true,
+      "original": "συσχηματισμός",
+      "translation": "configuration",
+      "transliteration": "suschēmatismos",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "configuration",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:10:06.729Z",
+      "comment": "",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6143,
+      "published": true,
+      "original": "συσχηματίζομαι",
+      "translation": "to be in configuration",
+      "transliteration": "suschematizomai",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to be in configuration",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:10:33.440Z",
+      "comment": "",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6155,
       "published": true,
       "original": "गृह",
@@ -51817,6 +51961,78 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 6211,
+      "published": true,
+      "original": "σπόνδυλοι",
+      "translation": "cervical vertebrae",
+      "transliteration": "sponduloi",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "neck",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:08:39.560Z",
+      "comment": "",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6221,
+      "published": true,
+      "original": "ἄκανθα",
+      "translation": "spine (of fish)",
+      "transliteration": "akantha",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "spine (of fish)",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:07:56.999Z",
+      "comment": "",
+      "checked": true,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6223,
+      "published": true,
+      "original": "συστροφή",
+      "translation": "cluster",
+      "transliteration": "sustrophē",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "stellium",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:11:23.428Z",
+      "comment": "",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6231,
       "published": true,
       "original": "παρθενική",
@@ -51841,6 +52057,78 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 6237,
+      "published": true,
+      "original": "ταπείνωσις",
+      "translation": "lowering",
+      "transliteration": "tapeinōsis",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "depression",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:22:47.042Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6261,
+      "published": true,
+      "original": "συζυγία",
+      "translation": "union",
+      "transliteration": "suzugia",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "syzygy",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:11:59.359Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6262,
+      "published": true,
+      "original": "ἀκρόνυκτος",
+      "translation": "acronychal",
+      "transliteration": "akronuktos",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "acronychal",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:07:35.456Z",
+      "comment": "",
+      "checked": true,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6282,
       "published": true,
       "original": "διαμέτρησις",
@@ -51859,6 +52147,30 @@
       "editor": "Kierán",
       "literal_translation2": "",
       "last_edit": "2025-10-27T06:49:16.048Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6283,
+      "published": true,
+      "original": "τελεία ἔκλειψις",
+      "translation": "complete eclipse",
+      "transliteration": "teleia ekleipsis",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "total eclipse",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:12:32.381Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -51933,6 +52245,30 @@
       "last_edit": "2025-08-04T07:29:01.649Z",
       "comment": "",
       "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6328,
+      "published": true,
+      "original": "αἰθρία",
+      "translation": "clear weather",
+      "transliteration": "aithria",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "clear weather",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-06T10:07:10.461Z",
+      "comment": "",
+      "checked": true,
       "attention": false,
       "loan_type": "none"
     },
@@ -54552,7 +54888,7 @@
       "meaning_id": 277,
       "value": "covered chariot",
       "lemma_id": 191,
-      "category": null,
+      "category": "",
       "comment": ""
     },
     {
@@ -55308,7 +55644,7 @@
       "meaning_id": 392,
       "value": "zodiac sign",
       "lemma_id": 103,
-      "category": "astral concept",
+      "category": "zodiac sign",
       "comment": ""
     },
     {
@@ -55602,7 +55938,7 @@
       "meaning_id": 438,
       "value": "astronomer",
       "lemma_id": 324,
-      "category": "title",
+      "category": "practitioner",
       "comment": "Rarely attested title for an astronomer"
     },
     {
@@ -55938,7 +56274,7 @@
       "meaning_id": 492,
       "value": "astronomer",
       "lemma_id": 345,
-      "category": "title",
+      "category": "practitioner",
       "comment": ""
     },
     {
@@ -56274,14 +56610,14 @@
       "meaning_id": 542,
       "value": "south wind",
       "lemma_id": 403,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
       "meaning_id": 543,
       "value": "west wind",
       "lemma_id": 402,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
@@ -56295,7 +56631,7 @@
       "meaning_id": 545,
       "value": "north wind",
       "lemma_id": 404,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
@@ -56309,7 +56645,7 @@
       "meaning_id": 547,
       "value": "east wind",
       "lemma_id": 405,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
@@ -57499,7 +57835,7 @@
       "meaning_id": 722,
       "value": "beginning",
       "lemma_id": 545,
-      "category": "spatial expression",
+      "category": "spatial",
       "comment": "said of zodiac signs and constellations"
     },
     {
@@ -57821,7 +58157,7 @@
       "meaning_id": 771,
       "value": "zodiac sign",
       "lemma_id": 586,
-      "category": "astral concept",
+      "category": "zodiac sign",
       "comment": ""
     },
     {
@@ -58206,7 +58542,7 @@
       "meaning_id": 834,
       "value": "zodiac sign",
       "lemma_id": 636,
-      "category": "astral concept",
+      "category": "zodiac sign",
       "comment": ""
     },
     {
@@ -58346,7 +58682,7 @@
       "meaning_id": 855,
       "value": "lunar phase",
       "lemma_id": 662,
-      "category": "astral concept",
+      "category": "lunar phase",
       "comment": "Either waning or waxing of the Moon."
     },
     {
@@ -58409,7 +58745,7 @@
       "meaning_id": 864,
       "value": "star-placement",
       "lemma_id": 670,
-      "category": "astral concept",
+      "category": "spatial",
       "comment": ""
     },
     {
@@ -58717,7 +59053,7 @@
       "meaning_id": 908,
       "value": "flaming star (?)",
       "lemma_id": 716,
-      "category": "astral concept",
+      "category": "stellar phenomenon",
       "comment": "The meaning is unclear and the provided translation is merely a conjecture."
     },
     {
@@ -59249,21 +59585,21 @@
       "meaning_id": 989,
       "value": "middle",
       "lemma_id": 792,
-      "category": "spatial expression",
+      "category": "spatial",
       "comment": ""
     },
     {
       "meaning_id": 990,
       "value": "middle one",
       "lemma_id": 793,
-      "category": "spatial expression",
+      "category": "spatial",
       "comment": "Used in connection with numbers that are in between two other numbers (not necessarily their mean value)."
     },
     {
       "meaning_id": 992,
       "value": "decan",
       "lemma_id": 795,
-      "category": "astral concept",
+      "category": "decan",
       "comment": ""
     },
     {
@@ -59634,7 +59970,7 @@
       "meaning_id": 1048,
       "value": "north wind",
       "lemma_id": 856,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
@@ -59655,7 +59991,7 @@
       "meaning_id": 1051,
       "value": "south wind",
       "lemma_id": 858,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
@@ -59809,7 +60145,7 @@
       "meaning_id": 1076,
       "value": "computation",
       "lemma_id": 878,
-      "category": "practice",
+      "category": "mathematical",
       "comment": ""
     },
     {
@@ -59872,7 +60208,7 @@
       "meaning_id": 1085,
       "value": "computation",
       "lemma_id": 888,
-      "category": "practice",
+      "category": "mathematical",
       "comment": ""
     },
     {
@@ -60376,28 +60712,28 @@
       "meaning_id": 1170,
       "value": "east wind",
       "lemma_id": 965,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
       "meaning_id": 1171,
       "value": "east wind",
       "lemma_id": 966,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
       "meaning_id": 1172,
       "value": "south-west wind",
       "lemma_id": 967,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
       "meaning_id": 1173,
       "value": "south-west wind",
       "lemma_id": 968,
-      "category": "type of wind",
+      "category": "wind direction",
       "comment": ""
     },
     {
@@ -80327,7 +80663,7 @@
       "value": "throne",
       "lemma_id": 739,
       "category": "",
-      "comment": ""
+      "comment": "MO: Can the intended meaning be narrowed down? Is it a kind of umbrella term for dignities here?"
     },
     {
       "meaning_id": 7589,
@@ -82360,7 +82696,7 @@
     {
       "category_id": 331,
       "meaning_id": 438,
-      "category": "title"
+      "category": "practitioner"
     },
     {
       "category_id": 332,
@@ -82553,11 +82889,6 @@
       "category": "prediction: operational step"
     },
     {
-      "category_id": 382,
-      "meaning_id": 392,
-      "category": "astral concept"
-    },
-    {
       "category_id": 383,
       "meaning_id": 400,
       "category": "lunar six interval"
@@ -82680,7 +83011,7 @@
     {
       "category_id": 416,
       "meaning_id": 492,
-      "category": "title"
+      "category": "practitioner"
     },
     {
       "category_id": 417,
@@ -82760,12 +83091,12 @@
     {
       "category_id": 443,
       "meaning_id": 499,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 444,
       "meaning_id": 545,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 446,
@@ -82830,7 +83161,7 @@
     {
       "category_id": 459,
       "meaning_id": 547,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 460,
@@ -82860,12 +83191,7 @@
     {
       "category_id": 468,
       "meaning_id": 542,
-      "category": "type of wind"
-    },
-    {
-      "category_id": 469,
-      "meaning_id": 543,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 470,
@@ -83550,7 +83876,7 @@
     {
       "category_id": 663,
       "meaning_id": 722,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 665,
@@ -83863,11 +84189,6 @@
       "category": "constellation"
     },
     {
-      "category_id": 736,
-      "meaning_id": 771,
-      "category": "astral concept"
-    },
-    {
       "category_id": 738,
       "meaning_id": 762,
       "category": "group of stars or constellations"
@@ -84033,11 +84354,6 @@
       "category": "astronomical quantity"
     },
     {
-      "category_id": 780,
-      "meaning_id": 834,
-      "category": "astral concept"
-    },
-    {
       "category_id": 781,
       "meaning_id": 896,
       "category": "motion"
@@ -84061,11 +84377,6 @@
       "category_id": 785,
       "meaning_id": 874,
       "category": "luminary"
-    },
-    {
-      "category_id": 788,
-      "meaning_id": 864,
-      "category": "astral concept"
     },
     {
       "category_id": 789,
@@ -84130,7 +84441,7 @@
     {
       "category_id": 801,
       "meaning_id": 855,
-      "category": "astral concept"
+      "category": "lunar phase"
     },
     {
       "category_id": 802,
@@ -84185,7 +84496,7 @@
     {
       "category_id": 813,
       "meaning_id": 898,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 814,
@@ -84200,12 +84511,12 @@
     {
       "category_id": 817,
       "meaning_id": 857,
-      "category": "time"
+      "category": "temporal expression"
     },
     {
       "category_id": 818,
       "meaning_id": 858,
-      "category": "time"
+      "category": "temporal expression"
     },
     {
       "category_id": 819,
@@ -84306,11 +84617,6 @@
       "category_id": 840,
       "meaning_id": 945,
       "category": "astrological"
-    },
-    {
-      "category_id": 841,
-      "meaning_id": 908,
-      "category": "astral concept"
     },
     {
       "category_id": 842,
@@ -84445,7 +84751,7 @@
     {
       "category_id": 875,
       "meaning_id": 958,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 876,
@@ -84600,7 +84906,7 @@
     {
       "category_id": 914,
       "meaning_id": 989,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 915,
@@ -84610,7 +84916,7 @@
     {
       "category_id": 916,
       "meaning_id": 990,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 919,
@@ -84636,11 +84942,6 @@
       "category_id": 925,
       "meaning_id": 1016,
       "category": "meteorological phenomenon"
-    },
-    {
-      "category_id": 927,
-      "meaning_id": 992,
-      "category": "astral concept"
     },
     {
       "category_id": 928,
@@ -84698,11 +84999,6 @@
       "category": "mathematical quantity"
     },
     {
-      "category_id": 942,
-      "meaning_id": 1057,
-      "category": "practice"
-    },
-    {
       "category_id": 945,
       "meaning_id": 1001,
       "category": "epithet of moon(god)"
@@ -84755,7 +85051,7 @@
     {
       "category_id": 957,
       "meaning_id": 1022,
-      "category": "number"
+      "category": "mathematical quantity"
     },
     {
       "category_id": 958,
@@ -84785,7 +85081,7 @@
     {
       "category_id": 966,
       "meaning_id": 1036,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 967,
@@ -84840,7 +85136,7 @@
     {
       "category_id": 979,
       "meaning_id": 1048,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 980,
@@ -84855,7 +85151,7 @@
     {
       "category_id": 983,
       "meaning_id": 1051,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 984,
@@ -84905,7 +85201,7 @@
     {
       "category_id": 996,
       "meaning_id": 1076,
-      "category": "practice"
+      "category": "mathematical"
     },
     {
       "category_id": 997,
@@ -84945,7 +85241,7 @@
     {
       "category_id": 1005,
       "meaning_id": 1085,
-      "category": "practice"
+      "category": "mathematical"
     },
     {
       "category_id": 1006,
@@ -85255,22 +85551,22 @@
     {
       "category_id": 1071,
       "meaning_id": 1171,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 1072,
       "meaning_id": 1170,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 1073,
       "meaning_id": 1172,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 1074,
       "meaning_id": 1173,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 1075,
@@ -85593,11 +85889,6 @@
       "category": "astrological"
     },
     {
-      "category_id": 1144,
-      "meaning_id": 1258,
-      "category": "astral concept"
-    },
-    {
       "category_id": 1185,
       "meaning_id": 1262,
       "category": "time interval"
@@ -85655,7 +85946,7 @@
     {
       "category_id": 1197,
       "meaning_id": 1274,
-      "category": "practice"
+      "category": "mathematical"
     },
     {
       "category_id": 1198,
@@ -85791,11 +86082,6 @@
       "category_id": 1227,
       "meaning_id": 1301,
       "category": "astronomical term"
-    },
-    {
-      "category_id": 1228,
-      "meaning_id": 1302,
-      "category": "astral concept"
     },
     {
       "category_id": 1229,
@@ -86025,7 +86311,7 @@
     {
       "category_id": 1293,
       "meaning_id": 1348,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1294,
@@ -86035,7 +86321,7 @@
     {
       "category_id": 1295,
       "meaning_id": 1349,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1296,
@@ -86100,7 +86386,7 @@
     {
       "category_id": 1310,
       "meaning_id": 1362,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1311,
@@ -86748,19 +87034,9 @@
       "category": "motion"
     },
     {
-      "category_id": 1448,
-      "meaning_id": 1490,
-      "category": "astrological event"
-    },
-    {
       "category_id": 1449,
       "meaning_id": 1491,
       "category": "motion"
-    },
-    {
-      "category_id": 1450,
-      "meaning_id": 1491,
-      "category": "astrological event"
     },
     {
       "category_id": 1451,
@@ -86771,11 +87047,6 @@
       "category_id": 1452,
       "meaning_id": 1493,
       "category": "astrological"
-    },
-    {
-      "category_id": 1453,
-      "meaning_id": 1494,
-      "category": "astrological event"
     },
     {
       "category_id": 1454,
@@ -86821,11 +87092,6 @@
       "category_id": 1462,
       "meaning_id": 1499,
       "category": "astrological"
-    },
-    {
-      "category_id": 1463,
-      "meaning_id": 1500,
-      "category": "astral concept"
     },
     {
       "category_id": 1464,
@@ -86965,7 +87231,7 @@
     {
       "category_id": 1495,
       "meaning_id": 1534,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1497,
@@ -87025,7 +87291,7 @@
     {
       "category_id": 1508,
       "meaning_id": 1548,
-      "category": "mathematical entity"
+      "category": "geometrical entity"
     },
     {
       "category_id": 1510,
@@ -87680,7 +87946,7 @@
     {
       "category_id": 1686,
       "meaning_id": 1703,
-      "category": "mathematical figure"
+      "category": "geometrical entity"
     },
     {
       "category_id": 1687,
@@ -88660,12 +88926,12 @@
     {
       "category_id": 1907,
       "meaning_id": 1820,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 1908,
       "meaning_id": 1819,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 1909,
@@ -89030,7 +89296,7 @@
     {
       "category_id": 1983,
       "meaning_id": 1988,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1984,
@@ -89075,7 +89341,7 @@
     {
       "category_id": 1992,
       "meaning_id": 1996,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1993,
@@ -89141,11 +89407,6 @@
       "category_id": 2005,
       "meaning_id": 1960,
       "category": "mathematical quantity"
-    },
-    {
-      "category_id": 2006,
-      "meaning_id": 2005,
-      "category": "astral concept"
     },
     {
       "category_id": 2007,
@@ -89815,17 +90076,17 @@
     {
       "category_id": 2159,
       "meaning_id": 2154,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 2160,
       "meaning_id": 2155,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 2161,
       "meaning_id": 2156,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 2162,
@@ -90618,11 +90879,6 @@
       "category": "additive operation"
     },
     {
-      "category_id": 2335,
-      "meaning_id": 418,
-      "category": "astronomical phenomenon"
-    },
-    {
       "category_id": 2336,
       "meaning_id": 418,
       "category": "planetary phenomenon"
@@ -90650,7 +90906,7 @@
     {
       "category_id": 2342,
       "meaning_id": 410,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 2343,
@@ -92108,11 +92364,6 @@
       "category": "cosmological concept"
     },
     {
-      "category_id": 2647,
-      "meaning_id": 2382,
-      "category": "astral concept"
-    },
-    {
       "category_id": 2648,
       "meaning_id": 2594,
       "category": "celestial object"
@@ -92325,12 +92576,12 @@
     {
       "category_id": 2696,
       "meaning_id": 2631,
-      "category": "weather condition"
+      "category": "meteorological phenomenon"
     },
     {
       "category_id": 2697,
       "meaning_id": 2632,
-      "category": "weather condition"
+      "category": "meteorological phenomenon"
     },
     {
       "category_id": 2698,
@@ -92565,12 +92816,12 @@
     {
       "category_id": 2748,
       "meaning_id": 2662,
-      "category": "number"
+      "category": "mathematical quantity"
     },
     {
       "category_id": 2749,
       "meaning_id": 2663,
-      "category": "number"
+      "category": "mathematical quantity"
     },
     {
       "category_id": 2750,
@@ -92998,11 +93249,6 @@
       "category": "astrological position"
     },
     {
-      "category_id": 2841,
-      "meaning_id": 2740,
-      "category": "astral concept"
-    },
-    {
       "category_id": 2842,
       "meaning_id": 2741,
       "category": "astrological position"
@@ -93046,16 +93292,6 @@
       "category_id": 2850,
       "meaning_id": 2749,
       "category": "visual perception"
-    },
-    {
-      "category_id": 2851,
-      "meaning_id": 2753,
-      "category": "astral concept"
-    },
-    {
-      "category_id": 2852,
-      "meaning_id": 2754,
-      "category": "astral concept"
     },
     {
       "category_id": 2853,
@@ -94890,7 +95126,7 @@
     {
       "category_id": 3227,
       "meaning_id": 3049,
-      "category": "creature"
+      "category": "human figure"
     },
     {
       "category_id": 3228,
@@ -95400,7 +95636,7 @@
     {
       "category_id": 3334,
       "meaning_id": 3088,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 3338,
@@ -95555,12 +95791,12 @@
     {
       "category_id": 3368,
       "meaning_id": 3097,
-      "category": "time"
+      "category": "temporal expression"
     },
     {
       "category_id": 3369,
       "meaning_id": 3099,
-      "category": "time"
+      "category": "temporal expression"
     },
     {
       "category_id": 3370,
@@ -95645,7 +95881,7 @@
     {
       "category_id": 3388,
       "meaning_id": 3117,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 3389,
@@ -95660,7 +95896,7 @@
     {
       "category_id": 3391,
       "meaning_id": 3120,
-      "category": "type of wind"
+      "category": "wind direction"
     },
     {
       "category_id": 3392,
@@ -95775,7 +96011,7 @@
     {
       "category_id": 3414,
       "meaning_id": 3111,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 3415,
@@ -95875,7 +96111,7 @@
     {
       "category_id": 3436,
       "meaning_id": 3144,
-      "category": "time"
+      "category": "temporal expression"
     },
     {
       "category_id": 3437,
@@ -95993,11 +96229,6 @@
       "category": "expression of relative position"
     },
     {
-      "category_id": 3461,
-      "meaning_id": 3155,
-      "category": "mathematical entity"
-    },
-    {
       "category_id": 3462,
       "meaning_id": 3156,
       "category": "zodiac sign quality"
@@ -96055,7 +96286,7 @@
     {
       "category_id": 3473,
       "meaning_id": 3147,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 3474,
@@ -96075,7 +96306,7 @@
     {
       "category_id": 3477,
       "meaning_id": 694,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 3478,
@@ -96330,7 +96561,7 @@
     {
       "category_id": 3530,
       "meaning_id": 3192,
-      "category": "astrological place"
+      "category": "astrological position"
     },
     {
       "category_id": 3531,
@@ -96340,7 +96571,7 @@
     {
       "category_id": 3532,
       "meaning_id": 3193,
-      "category": "astrological place"
+      "category": "astrological position"
     },
     {
       "category_id": 3533,
@@ -96500,7 +96731,7 @@
     {
       "category_id": 3565,
       "meaning_id": 3219,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 3566,
@@ -96515,12 +96746,12 @@
     {
       "category_id": 3568,
       "meaning_id": 3222,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 3569,
       "meaning_id": 3223,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 3570,
@@ -97360,7 +97591,7 @@
     {
       "category_id": 3746,
       "meaning_id": 3373,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 3747,
@@ -97628,11 +97859,6 @@
       "category": "planet"
     },
     {
-      "category_id": 3805,
-      "meaning_id": 3411,
-      "category": "luminary"
-    },
-    {
       "category_id": 3806,
       "meaning_id": 3412,
       "category": "constellation"
@@ -97800,11 +98026,6 @@
     {
       "category_id": 6994,
       "meaning_id": 6590,
-      "category": "astral concept"
-    },
-    {
-      "category_id": 6995,
-      "meaning_id": 6591,
       "category": "astral concept"
     },
     {
@@ -100175,7 +100396,7 @@
     {
       "category_id": 7823,
       "meaning_id": 7389,
-      "category": "visual perception"
+      "category": "brightness"
     },
     {
       "category_id": 7824,
@@ -101595,7 +101816,7 @@
     {
       "category_id": 8124,
       "meaning_id": 7671,
-      "category": "time"
+      "category": "temporal expression"
     },
     {
       "category_id": 8125,
@@ -101785,12 +102006,7 @@
     {
       "category_id": 8186,
       "meaning_id": 7732,
-      "category": "hour"
-    },
-    {
-      "category_id": 8187,
-      "meaning_id": 7732,
-      "category": "horoscope"
+      "category": "unit of time"
     },
     {
       "category_id": 8188,
@@ -102641,6 +102857,411 @@
       "category_id": 8412,
       "meaning_id": 1082,
       "category": "planetary motion"
+    },
+    {
+      "category_id": 8413,
+      "meaning_id": 146,
+      "category": "sun"
+    },
+    {
+      "category_id": 8414,
+      "meaning_id": 148,
+      "category": "moon"
+    },
+    {
+      "category_id": 8415,
+      "meaning_id": 164,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8416,
+      "meaning_id": 392,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8417,
+      "meaning_id": 710,
+      "category": "sun"
+    },
+    {
+      "category_id": 8418,
+      "meaning_id": 711,
+      "category": "moon"
+    },
+    {
+      "category_id": 8419,
+      "meaning_id": 771,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8420,
+      "meaning_id": 834,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8421,
+      "meaning_id": 864,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8422,
+      "meaning_id": 866,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8423,
+      "meaning_id": 874,
+      "category": "moon"
+    },
+    {
+      "category_id": 8424,
+      "meaning_id": 908,
+      "category": "stellar phenomenon"
+    },
+    {
+      "category_id": 8425,
+      "meaning_id": 969,
+      "category": "luminary or planetary quality"
+    },
+    {
+      "category_id": 8426,
+      "meaning_id": 992,
+      "category": "decan"
+    },
+    {
+      "category_id": 8427,
+      "meaning_id": 994,
+      "category": "unit of celestial position"
+    },
+    {
+      "category_id": 8428,
+      "meaning_id": 995,
+      "category": "cardinal point"
+    },
+    {
+      "category_id": 8429,
+      "meaning_id": 1001,
+      "category": "moon"
+    },
+    {
+      "category_id": 8430,
+      "meaning_id": 1024,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8431,
+      "meaning_id": 1025,
+      "category": "star"
+    },
+    {
+      "category_id": 8432,
+      "meaning_id": 1026,
+      "category": "planet"
+    },
+    {
+      "category_id": 8433,
+      "meaning_id": 1028,
+      "category": "sun"
+    },
+    {
+      "category_id": 8434,
+      "meaning_id": 1033,
+      "category": "moon"
+    },
+    {
+      "category_id": 8435,
+      "meaning_id": 1064,
+      "category": "star"
+    },
+    {
+      "category_id": 8436,
+      "meaning_id": 1065,
+      "category": "planet"
+    },
+    {
+      "category_id": 8437,
+      "meaning_id": 1065,
+      "category": "star"
+    },
+    {
+      "category_id": 8438,
+      "meaning_id": 1077,
+      "category": "planet"
+    },
+    {
+      "category_id": 8439,
+      "meaning_id": 1078,
+      "category": "planet"
+    },
+    {
+      "category_id": 8440,
+      "meaning_id": 1258,
+      "category": "unit of celestial position"
+    },
+    {
+      "category_id": 8441,
+      "meaning_id": 1302,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8442,
+      "meaning_id": 1500,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8443,
+      "meaning_id": 1528,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8444,
+      "meaning_id": 1581,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8445,
+      "meaning_id": 1830,
+      "category": "star"
+    },
+    {
+      "category_id": 8446,
+      "meaning_id": 1831,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8447,
+      "meaning_id": 1852,
+      "category": "planetary position"
+    },
+    {
+      "category_id": 8448,
+      "meaning_id": 2005,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8449,
+      "meaning_id": 2117,
+      "category": "star"
+    },
+    {
+      "category_id": 8450,
+      "meaning_id": 2206,
+      "category": "planet"
+    },
+    {
+      "category_id": 8451,
+      "meaning_id": 2233,
+      "category": "planet"
+    },
+    {
+      "category_id": 8452,
+      "meaning_id": 2312,
+      "category": "sun"
+    },
+    {
+      "category_id": 8453,
+      "meaning_id": 2358,
+      "category": "star"
+    },
+    {
+      "category_id": 8454,
+      "meaning_id": 2382,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8455,
+      "meaning_id": 2594,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8456,
+      "meaning_id": 2594,
+      "category": "planet"
+    },
+    {
+      "category_id": 8457,
+      "meaning_id": 2594,
+      "category": "star"
+    },
+    {
+      "category_id": 8458,
+      "meaning_id": 2645,
+      "category": "sun"
+    },
+    {
+      "category_id": 8459,
+      "meaning_id": 2648,
+      "category": "moon"
+    },
+    {
+      "category_id": 8460,
+      "meaning_id": 2653,
+      "category": "moon"
+    },
+    {
+      "category_id": 8461,
+      "meaning_id": 2671,
+      "category": "sun"
+    },
+    {
+      "category_id": 8462,
+      "meaning_id": 2732,
+      "category": "moon"
+    },
+    {
+      "category_id": 8463,
+      "meaning_id": 2925,
+      "category": "sun"
+    },
+    {
+      "category_id": 8464,
+      "meaning_id": 2971,
+      "category": "star"
+    },
+    {
+      "category_id": 8465,
+      "meaning_id": 2981,
+      "category": "moon"
+    },
+    {
+      "category_id": 8466,
+      "meaning_id": 2982,
+      "category": "moon"
+    },
+    {
+      "category_id": 8467,
+      "meaning_id": 3270,
+      "category": "constellation"
+    },
+    {
+      "category_id": 8468,
+      "meaning_id": 3324,
+      "category": "moon"
+    },
+    {
+      "category_id": 8469,
+      "meaning_id": 3351,
+      "category": "moon"
+    },
+    {
+      "category_id": 8470,
+      "meaning_id": 6584,
+      "category": "geometrical shape"
+    },
+    {
+      "category_id": 8471,
+      "meaning_id": 6589,
+      "category": "geometrical term"
+    },
+    {
+      "category_id": 8472,
+      "meaning_id": 6590,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8473,
+      "meaning_id": 6591,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8474,
+      "meaning_id": 6592,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8475,
+      "meaning_id": 6593,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8476,
+      "meaning_id": 7541,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8477,
+      "meaning_id": 7482,
+      "category": "spatial expression"
+    },
+    {
+      "category_id": 8478,
+      "meaning_id": 7481,
+      "category": "spatial expression"
+    },
+    {
+      "category_id": 8479,
+      "meaning_id": 7552,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8480,
+      "meaning_id": 7594,
+      "category": "spatial expression"
+    },
+    {
+      "category_id": 8481,
+      "meaning_id": 7594,
+      "category": "synodic phenomenon"
+    },
+    {
+      "category_id": 8482,
+      "meaning_id": 7616,
+      "category": "eclipse phenomenon"
+    },
+    {
+      "category_id": 8483,
+      "meaning_id": 7569,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8484,
+      "meaning_id": 747,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8485,
+      "meaning_id": 1130,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8486,
+      "meaning_id": 983,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8487,
+      "meaning_id": 746,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8488,
+      "meaning_id": 2429,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8489,
+      "meaning_id": 278,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8490,
+      "meaning_id": 929,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8491,
+      "meaning_id": 7588,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8492,
+      "meaning_id": 745,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8493,
+      "meaning_id": 930,
+      "category": "astrological position"
     }
   ],
   "variants": [
@@ -139321,6 +139942,14 @@
       "original": "",
       "transliteration": "rꜥ-ḥtp",
       "lemma_id": 231,
+      "comment": "",
+      "original_fixed": null
+    },
+    {
+      "variant_id": 7501,
+      "original": "MUL-tu-ul-tu",
+      "transliteration": "tūltu",
+      "lemma_id": 2292,
       "comment": "",
       "original_fixed": null
     }
@@ -191314,10 +191943,10 @@
     },
     {
       "quotation_id": 3163,
-      "original": "šu-pul me-e mu-ú-tú [: š]u-pul « šá » AN-e šú-u : ⸢É⸣ ni-ṣir-tú šá dṢal-bat-a-nu",
+      "original": "šu-pul me-e mu-ú-tú [: š]u-pul «šá» AN-e šú-u : ⸢É⸣ ni-ṣir-tú šá d.Ṣal-bat-a-nu",
       "transliteration": "",
       "lemma_id": 751,
-      "translation": "The depth of the Waters of Death is the depth of the sky,\nwhich refers to the exaltation of Mars.",
+      "translation": "The depth of the Waters of Death is the depth of the sky,\nwhich refers to the house of secrecy of Mars.",
       "source": "BM 47529 + 47685",
       "genre": "commentary",
       "provenance": "Babylon or Borsippa",
@@ -221039,6 +221668,16 @@
       "link": 636
     },
     {
+      "cross_link_id": 1278,
+      "lemma_id": 1293,
+      "link": 123
+    },
+    {
+      "cross_link_id": 1279,
+      "lemma_id": 1293,
+      "link": 124
+    },
+    {
       "cross_link_id": 1280,
       "lemma_id": 1294,
       "link": 1243
@@ -221057,6 +221696,11 @@
       "cross_link_id": 1283,
       "lemma_id": 1294,
       "link": 164
+    },
+    {
+      "cross_link_id": 1284,
+      "lemma_id": 1295,
+      "link": 1293
     },
     {
       "cross_link_id": 1285,
@@ -222637,6 +223281,11 @@
       "cross_link_id": 1617,
       "lemma_id": 1417,
       "link": 1316
+    },
+    {
+      "cross_link_id": 1618,
+      "lemma_id": 1419,
+      "link": 697
     },
     {
       "cross_link_id": 1620,
@@ -228504,6 +229153,11 @@
       "link": 657
     },
     {
+      "cross_link_id": 3606,
+      "lemma_id": 2292,
+      "link": 597
+    },
+    {
       "cross_link_id": 3613,
       "lemma_id": 2297,
       "link": 1455
@@ -232424,6 +233078,16 @@
       "link": 536
     },
     {
+      "cross_link_id": 5056,
+      "lemma_id": 6143,
+      "link": 6142
+    },
+    {
+      "cross_link_id": 5058,
+      "lemma_id": 6143,
+      "link": 530
+    },
+    {
       "cross_link_id": 5062,
       "lemma_id": 6157,
       "link": 1312
@@ -232432,6 +233096,11 @@
       "cross_link_id": 5103,
       "lemma_id": 1563,
       "link": 2086
+    },
+    {
+      "cross_link_id": 5120,
+      "lemma_id": 6223,
+      "link": 2804
     },
     {
       "cross_link_id": 5130,
@@ -232444,9 +233113,34 @@
       "link": 2015
     },
     {
+      "cross_link_id": 5133,
+      "lemma_id": 6223,
+      "link": 1174
+    },
+    {
       "cross_link_id": 5146,
       "lemma_id": 6231,
       "link": 95
+    },
+    {
+      "cross_link_id": 5153,
+      "lemma_id": 6237,
+      "link": 568
+    },
+    {
+      "cross_link_id": 5187,
+      "lemma_id": 6261,
+      "link": 2778
+    },
+    {
+      "cross_link_id": 5188,
+      "lemma_id": 6261,
+      "link": 2779
+    },
+    {
+      "cross_link_id": 5189,
+      "lemma_id": 6262,
+      "link": 952
     },
     {
       "cross_link_id": 5210,
@@ -232462,6 +233156,11 @@
       "cross_link_id": 5212,
       "lemma_id": 6282,
       "link": 5429
+    },
+    {
+      "cross_link_id": 5213,
+      "lemma_id": 6283,
+      "link": 1786
     },
     {
       "cross_link_id": 5225,
