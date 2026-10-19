@@ -3450,7 +3450,7 @@
       "primary_meaning": "to appear",
       "editor": "Mathieu, Marvin",
       "literal_translation2": "to appear",
-      "last_edit": "2024-12-11T09:52:54.292Z",
+      "last_edit": "2026-10-16T12:47:22.575Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -6162,7 +6162,7 @@
       "primary_meaning": "equinox",
       "editor": "Mathieu",
       "literal_translation2": "balancing",
-      "last_edit": "2024-06-25T15:24:15.619Z",
+      "last_edit": "2026-10-14T19:04:50.636Z",
       "comment": "MO 6/12 I have not found concrete evidence for the meaning conjunction. 2ndly: the second quotation belongs to the lemma LAL2 = shitqulu\nAP: check the last quote meaning \"opposition\"",
       "checked": false,
       "attention": true,
@@ -11586,7 +11586,7 @@
       "primary_meaning": "zodiac",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-03T15:39:24.813Z",
+      "last_edit": "2026-10-14T19:24:05.344Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -13098,7 +13098,7 @@
       "primary_meaning": "zodiac",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2024-12-11T12:20:55.884Z",
+      "last_edit": "2026-10-14T19:25:40.497Z",
       "comment": "MO. earlier attestation: Euclid's Phaenomena see laufwerk Euclid",
       "checked": false,
       "attention": true,
@@ -14634,7 +14634,7 @@
       "primary_meaning": "house of secrecy",
       "editor": "Alessia",
       "literal_translation2": "house of secrecy/protection",
-      "last_edit": "2026-10-06T10:24:45.693Z",
+      "last_edit": "2026-10-14T19:06:08.949Z",
       "comment": "MO: meaning corrected from \"exaltation\"",
       "checked": false,
       "attention": true,
@@ -18066,9 +18066,9 @@
       "primary_meaning": "to be exalted",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2023-12-12T11:46:33.091Z",
+      "last_edit": "2026-10-14T19:09:23.812Z",
       "comment": "",
-      "checked": false,
+      "checked": true,
       "attention": false,
       "loan_type": "none"
     },
@@ -18810,7 +18810,7 @@
       "primary_meaning": "solstitial",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2025-05-26T13:11:13.335Z",
+      "last_edit": "2026-10-14T18:39:08.868Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -22338,7 +22338,7 @@
       "primary_meaning": "solstice",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-03T15:04:55.997Z",
+      "last_edit": "2026-10-14T19:03:10.344Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -23399,6 +23399,30 @@
       "checked": false,
       "attention": false,
       "loan_type": "loan"
+    },
+    {
+      "lemma_id": 1170,
+      "published": true,
+      "original": "animae substantia",
+      "translation": "substance of the soul",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "lot of the daemon",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:18:27.052Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
     },
     {
       "lemma_id": 1171,
@@ -25338,7 +25362,7 @@
       "primary_meaning": "summer solstice",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-31T15:18:01.239Z",
+      "last_edit": "2026-10-14T19:03:42.602Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -25434,7 +25458,7 @@
       "primary_meaning": "winter solstice",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-03T14:39:12.061Z",
+      "last_edit": "2026-10-14T19:03:27.144Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -25530,7 +25554,7 @@
       "primary_meaning": "celestial equator",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-25T13:35:42.053Z",
+      "last_edit": "2026-10-14T19:23:40.663Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -35257,6 +35281,30 @@
       "loan_type": "quote"
     },
     {
+      "lemma_id": 1721,
+      "published": true,
+      "original": "excessus",
+      "translation": "departure",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "departure",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:08:00.717Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1723,
       "published": true,
       "original": "scema",
@@ -35423,6 +35471,30 @@
       "checked": false,
       "attention": false,
       "loan_type": "none"
+    },
+    {
+      "lemma_id": 1742,
+      "published": true,
+      "original": "zona",
+      "translation": "belt",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 4,
+      "loan_language_label": "Greek",
+      "loan_language_value": "greek",
+      "primary_meaning": "zone",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:32:54.702Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "loan"
     },
     {
       "lemma_id": 1744,
@@ -36025,6 +36097,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 1815,
+      "published": true,
+      "original": "solstitium",
+      "translation": "sun standing still",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "summer solstice",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:37:57.480Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1816,
       "published": true,
       "original": "bruma",
@@ -36042,7 +36138,7 @@
       "primary_meaning": "winter solstice",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2025-12-04T11:45:55.354Z",
+      "last_edit": "2026-10-14T19:01:18.128Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -36067,6 +36163,54 @@
       "editor": "Kierán",
       "literal_translation2": "",
       "last_edit": "2025-10-07T08:12:32.520Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 1818,
+      "published": true,
+      "original": "hibernus",
+      "translation": "of winter",
+      "transliteration": "",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "of winter",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:01:50.827Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 1819,
+      "published": true,
+      "original": "exortus",
+      "translation": "rising",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "heliacal rising",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:11:05.643Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -36121,6 +36265,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 1827,
+      "published": true,
+      "original": "oriens aequinoctialis",
+      "translation": "equinoctial sunrise",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "due east",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:00:21.850Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1835,
       "published": true,
       "original": "argestes",
@@ -36143,6 +36311,30 @@
       "checked": true,
       "attention": false,
       "loan_type": "loan"
+    },
+    {
+      "lemma_id": 1845,
+      "published": true,
+      "original": "circulus aequinoctialis",
+      "translation": "equinoctial circle",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "celestial equator",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:58:57.476Z",
+      "comment": "",
+      "checked": true,
+      "attention": false,
+      "loan_type": "none"
     },
     {
       "lemma_id": 1847,
@@ -36187,6 +36379,30 @@
       "editor": "Kierán",
       "literal_translation2": "",
       "last_edit": "2024-09-23T07:51:07.883Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 1850,
+      "published": true,
+      "original": "angulus rectus",
+      "translation": "straight angle",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "right angle",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:17:08.980Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -36769,6 +36985,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 1934,
+      "published": true,
+      "original": "excedo",
+      "translation": "to go out",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to disappear",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:08:47.492Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 1938,
       "published": true,
       "original": "πίναξ",
@@ -37175,6 +37415,30 @@
       "checked": false,
       "attention": false,
       "loan_type": "loan"
+    },
+    {
+      "lemma_id": 1995,
+      "published": true,
+      "original": "angustus",
+      "translation": "cramped",
+      "transliteration": "",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "occupying less than thirty degrees",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:18:06.973Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
     },
     {
       "lemma_id": 1996,
@@ -37602,7 +37866,7 @@
       "primary_meaning": "summer solstice",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2025-10-07T08:12:54.529Z",
+      "last_edit": "2026-10-14T19:01:02.539Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -37969,6 +38233,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 2079,
+      "published": true,
+      "original": "fratres",
+      "translation": "brothers",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "Gemini",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:12:54.205Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 2083,
       "published": true,
       "original": "diurnus",
@@ -38059,6 +38347,30 @@
       "editor": "Kierán",
       "literal_translation2": "",
       "last_edit": "2024-11-11T09:47:53.730Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2092,
+      "published": true,
+      "original": "fraudatus",
+      "translation": "deformed",
+      "transliteration": "",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "deformed",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:12:30.255Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -38374,6 +38686,30 @@
       "comment": "MO is this the normal word for Aqr?",
       "checked": true,
       "attention": true,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2129,
+      "published": true,
+      "original": "formo",
+      "translation": "to form",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to influence at birth",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:15:45.496Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
       "loan_type": "none"
     },
     {
@@ -38757,6 +39093,30 @@
       "last_edit": "2024-11-25T09:19:07.700Z",
       "comment": "",
       "checked": true,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2211,
+      "published": true,
+      "original": "assero",
+      "translation": "to claim",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to be allotted",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:27:16.759Z",
+      "comment": "",
+      "checked": false,
       "attention": false,
       "loan_type": "none"
     },
@@ -40057,6 +40417,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 2296,
+      "published": true,
+      "original": "animo complexus sum",
+      "translation": "to be embraced by the mind",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to love",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:20:21.950Z",
+      "comment": "MO: what does this mean",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 2297,
       "published": true,
       "original": "auribus pareo",
@@ -40243,6 +40627,30 @@
       "editor": "Kierán",
       "literal_translation2": "",
       "last_edit": "2024-09-23T07:36:42.790Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2342,
+      "published": true,
+      "original": "nodus",
+      "translation": "node",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "equinoctial point",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:43:35.704Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -40801,6 +41209,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 2431,
+      "published": true,
+      "original": "iuga",
+      "translation": "yokes",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "equinox",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:40:15.692Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 2432,
       "published": true,
       "original": "iura",
@@ -41255,6 +41687,78 @@
       "checked": false,
       "attention": false,
       "loan_type": "none"
+    },
+    {
+      "lemma_id": 2504,
+      "published": true,
+      "original": "aspiro",
+      "translation": "to breathe upon",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to influence at birth",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-16T13:02:48.097Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2512,
+      "published": true,
+      "original": "evolo",
+      "translation": "to fly out",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to rise",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:10:37.528Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 2514,
+      "published": true,
+      "original": "anguitenens",
+      "translation": "snake-holder",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 4,
+      "loan_language_label": "Greek",
+      "loan_language_value": "greek",
+      "primary_meaning": "Ophiuchus",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:16:36.762Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "calque"
     },
     {
       "lemma_id": 2516,
@@ -49554,7 +50058,7 @@
       "primary_meaning": "circle",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-25T11:19:55.430Z",
+      "last_edit": "2026-10-14T19:24:29.400Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -49626,7 +50130,7 @@
       "primary_meaning": "parallel circle",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-25T13:35:30.958Z",
+      "last_edit": "2026-10-14T19:24:54.620Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -49650,7 +50154,7 @@
       "primary_meaning": "arctic circle",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-31T14:59:11.515Z",
+      "last_edit": "2026-10-14T19:22:47.093Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -49674,7 +50178,7 @@
       "primary_meaning": "summer tropic",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-31T15:15:12.508Z",
+      "last_edit": "2026-10-14T19:25:23.237Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -49698,7 +50202,7 @@
       "primary_meaning": "winter tropic",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-25T13:35:46.566Z",
+      "last_edit": "2026-10-14T19:23:26.722Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -49722,7 +50226,7 @@
       "primary_meaning": "antarctic circle",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-25T13:35:49.702Z",
+      "last_edit": "2026-10-14T19:22:29.793Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -51505,6 +52009,54 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 6009,
+      "published": true,
+      "original": "ambeo",
+      "translation": "to go around",
+      "transliteration": "",
+      "partofspeech_id": 10,
+      "partofspeech_label": "Verb",
+      "partofspeech_value": "verb",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "to revolve",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:16:15.078Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6028,
+      "published": true,
+      "original": "exortus matutinus",
+      "translation": "morning rising",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "morning rising",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:11:59.374Z",
+      "comment": "quotation lacking",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6035,
       "published": true,
       "original": "abscedo",
@@ -51523,6 +52075,30 @@
       "editor": "Kierán",
       "literal_translation2": "",
       "last_edit": "2025-10-07T08:08:09.413Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6038,
+      "published": true,
+      "original": "altus",
+      "translation": "high",
+      "transliteration": "",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "high",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T19:20:55.362Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -51601,6 +52177,30 @@
       "loan_type": "none"
     },
     {
+      "lemma_id": 6058,
+      "published": true,
+      "original": "solaris",
+      "translation": "of the sun",
+      "transliteration": "",
+      "partofspeech_id": 1,
+      "partofspeech_label": "Adjective",
+      "partofspeech_value": "adjective",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "of the sun",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:38:30.845Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6061,
       "published": true,
       "original": "acontias",
@@ -51649,6 +52249,30 @@
       "loan_type": "loan"
     },
     {
+      "lemma_id": 6081,
+      "published": true,
+      "original": "exortus aequinoctialis",
+      "translation": "equinoctial rising",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "due east",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:59:28.643Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
       "lemma_id": 6087,
       "published": true,
       "original": "brumalis",
@@ -51666,7 +52290,31 @@
       "primary_meaning": "of the winter solstice",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2025-12-04T11:45:59.140Z",
+      "last_edit": "2026-10-14T19:01:37.960Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6093,
+      "published": true,
+      "original": "hora aequinoctialis",
+      "translation": "equinoctial hour",
+      "transliteration": "",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 6,
+      "language_label": "Latin",
+      "language_value": "latin",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "equinoctial hour",
+      "editor": "Kierán",
+      "literal_translation2": "",
+      "last_edit": "2026-10-14T18:59:49.383Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -59247,7 +59895,7 @@
     },
     {
       "meaning_id": 941,
-      "value": "exaltation",
+      "value": "house of secrecy/protection",
       "lemma_id": 751,
       "category": "astrological",
       "comment": "said of planets, placed in a zodiacal constellation"
@@ -68581,7 +69229,7 @@
       "value": "occupying less than thirty degrees",
       "lemma_id": 1995,
       "category": "",
-      "comment": "of a sign"
+      "comment": "of a constellation"
     },
     {
       "meaning_id": 2337,
@@ -68928,10 +69576,10 @@
     },
     {
       "meaning_id": 2386,
-      "value": "ecliptic",
+      "value": "belt",
       "lemma_id": 1742,
       "category": "",
-      "comment": ""
+      "comment": "zodiacal belt"
     },
     {
       "meaning_id": 2387,
@@ -71910,7 +72558,7 @@
     },
     {
       "meaning_id": 2820,
-      "value": "circle",
+      "value": "zone",
       "lemma_id": 1742,
       "category": "",
       "comment": "in the sky"
@@ -83046,7 +83694,7 @@
     {
       "category_id": 430,
       "meaning_id": 484,
-      "category": "astronomical event"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 433,
@@ -84164,11 +84812,6 @@
       "category": "planet"
     },
     {
-      "category_id": 730,
-      "meaning_id": 786,
-      "category": "astral concept"
-    },
-    {
       "category_id": 731,
       "meaning_id": 816,
       "category": "planet"
@@ -84342,11 +84985,6 @@
       "category_id": 776,
       "meaning_id": 852,
       "category": "constellation"
-    },
-    {
-      "category_id": 777,
-      "meaning_id": 866,
-      "category": "astral concept"
     },
     {
       "category_id": 778,
@@ -85336,7 +85974,7 @@
     {
       "category_id": 1027,
       "meaning_id": 1132,
-      "category": "astrological"
+      "category": "astrological position"
     },
     {
       "category_id": 1028,
@@ -86361,7 +86999,7 @@
     {
       "category_id": 1303,
       "meaning_id": 1356,
-      "category": "astronomical event"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 1304,
@@ -87154,11 +87792,6 @@
       "category": "calendrical concept"
     },
     {
-      "category_id": 1479,
-      "meaning_id": 1518,
-      "category": "astronomical event"
-    },
-    {
       "category_id": 1480,
       "meaning_id": 1519,
       "category": "calendrical concept"
@@ -87172,11 +87805,6 @@
       "category_id": 1482,
       "meaning_id": 1521,
       "category": "calendrical concept"
-    },
-    {
-      "category_id": 1483,
-      "meaning_id": 1522,
-      "category": "astronomical event"
     },
     {
       "category_id": 1484,
@@ -87196,7 +87824,7 @@
     {
       "category_id": 1487,
       "meaning_id": 1526,
-      "category": "astral concept"
+      "category": "astronomical circle"
     },
     {
       "category_id": 1488,
@@ -89496,7 +90124,7 @@
     {
       "category_id": 2027,
       "meaning_id": 2024,
-      "category": "astrological event"
+      "category": "planetary motion"
     },
     {
       "category_id": 2028,
@@ -89951,7 +90579,7 @@
     {
       "category_id": 2132,
       "meaning_id": 2127,
-      "category": "astronomical event"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 2133,
@@ -89967,11 +90595,6 @@
       "category_id": 2135,
       "meaning_id": 2131,
       "category": "season"
-    },
-    {
-      "category_id": 2136,
-      "meaning_id": 2132,
-      "category": "astronomical event"
     },
     {
       "category_id": 2137,
@@ -91386,7 +92009,7 @@
     {
       "category_id": 2443,
       "meaning_id": 2392,
-      "category": "season"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 2444,
@@ -93249,11 +93872,6 @@
       "category": "astrological position"
     },
     {
-      "category_id": 2842,
-      "meaning_id": 2741,
-      "category": "astrological position"
-    },
-    {
       "category_id": 2843,
       "meaning_id": 2742,
       "category": "expression of relative position"
@@ -94881,11 +95499,6 @@
     {
       "category_id": 3177,
       "meaning_id": 1163,
-      "category": "zodiac sign quality"
-    },
-    {
-      "category_id": 3178,
-      "meaning_id": 2336,
       "category": "zodiac sign quality"
     },
     {
@@ -98019,26 +98632,6 @@
       "category": "geometrical term"
     },
     {
-      "category_id": 6992,
-      "meaning_id": 6589,
-      "category": "astral concept"
-    },
-    {
-      "category_id": 6994,
-      "meaning_id": 6590,
-      "category": "astral concept"
-    },
-    {
-      "category_id": 6996,
-      "meaning_id": 6592,
-      "category": "astral concept"
-    },
-    {
-      "category_id": 6997,
-      "meaning_id": 6593,
-      "category": "astral concept"
-    },
-    {
       "category_id": 6998,
       "meaning_id": 6594,
       "category": "visual perception"
@@ -100196,7 +100789,7 @@
     {
       "category_id": 7782,
       "meaning_id": 7352,
-      "category": "astronomical"
+      "category": "spatial"
     },
     {
       "category_id": 7783,
@@ -103262,6 +103855,161 @@
       "category_id": 8493,
       "meaning_id": 930,
       "category": "astrological position"
+    },
+    {
+      "category_id": 8494,
+      "meaning_id": 2046,
+      "category": "terrestrial"
+    },
+    {
+      "category_id": 8495,
+      "meaning_id": 2386,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8496,
+      "meaning_id": 2820,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8497,
+      "meaning_id": 2386,
+      "category": ""
+    },
+    {
+      "category_id": 8498,
+      "meaning_id": 7375,
+      "category": "sun"
+    },
+    {
+      "category_id": 8499,
+      "meaning_id": 2144,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8500,
+      "meaning_id": 2861,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8501,
+      "meaning_id": 2741,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8502,
+      "meaning_id": 2819,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8503,
+      "meaning_id": 2166,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8504,
+      "meaning_id": 2166,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8505,
+      "meaning_id": 7416,
+      "category": "unit of time"
+    },
+    {
+      "category_id": 8506,
+      "meaning_id": 2128,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8507,
+      "meaning_id": 7409,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8508,
+      "meaning_id": 1522,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8509,
+      "meaning_id": 1518,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8510,
+      "meaning_id": 965,
+      "category": "synodic phenomenon"
+    },
+    {
+      "category_id": 8511,
+      "meaning_id": 1132,
+      "category": "planetary position"
+    },
+    {
+      "category_id": 8512,
+      "meaning_id": 2132,
+      "category": "stellar phenomenon"
+    },
+    {
+      "category_id": 8513,
+      "meaning_id": 2496,
+      "category": "expression of influence"
+    },
+    {
+      "category_id": 8514,
+      "meaning_id": 2171,
+      "category": "mathematical entity"
+    },
+    {
+      "category_id": 8515,
+      "meaning_id": 6593,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8516,
+      "meaning_id": 6590,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8517,
+      "meaning_id": 6592,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8518,
+      "meaning_id": 786,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8519,
+      "meaning_id": 6586,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8520,
+      "meaning_id": 6589,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8521,
+      "meaning_id": 6591,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8522,
+      "meaning_id": 866,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8523,
+      "meaning_id": 2595,
+      "category": "expression of influence"
+    },
+    {
+      "category_id": 8524,
+      "meaning_id": 2948,
+      "category": ""
     }
   ],
   "variants": [
@@ -220903,6 +221651,16 @@
       "link": 1016
     },
     {
+      "cross_link_id": 1102,
+      "lemma_id": 1170,
+      "link": 1132
+    },
+    {
+      "cross_link_id": 1103,
+      "lemma_id": 1170,
+      "link": 783
+    },
+    {
       "cross_link_id": 1104,
       "lemma_id": 1171,
       "link": 525
@@ -223083,6 +223841,11 @@
       "link": 1003
     },
     {
+      "cross_link_id": 1575,
+      "lemma_id": 1382,
+      "link": 1170
+    },
+    {
       "cross_link_id": 1576,
       "lemma_id": 1382,
       "link": 1132
@@ -223158,6 +223921,11 @@
       "link": 1382
     },
     {
+      "cross_link_id": 1591,
+      "lemma_id": 1384,
+      "link": 1170
+    },
+    {
       "cross_link_id": 1592,
       "lemma_id": 1384,
       "link": 1132
@@ -223186,6 +223954,11 @@
       "cross_link_id": 1597,
       "lemma_id": 1398,
       "link": 1382
+    },
+    {
+      "cross_link_id": 1598,
+      "lemma_id": 1398,
+      "link": 1170
     },
     {
       "cross_link_id": 1599,
@@ -227233,6 +228006,11 @@
       "link": 902
     },
     {
+      "cross_link_id": 2500,
+      "lemma_id": 1721,
+      "link": 659
+    },
+    {
       "cross_link_id": 2502,
       "lemma_id": 1723,
       "link": 530
@@ -227291,6 +228069,11 @@
       "cross_link_id": 2533,
       "lemma_id": 1738,
       "link": 1118
+    },
+    {
+      "cross_link_id": 2556,
+      "lemma_id": 1742,
+      "link": 1277
     },
     {
       "cross_link_id": 2558,
@@ -227483,6 +228266,21 @@
       "link": 732
     },
     {
+      "cross_link_id": 2662,
+      "lemma_id": 1815,
+      "link": 1271
+    },
+    {
+      "cross_link_id": 2663,
+      "lemma_id": 1815,
+      "link": 960
+    },
+    {
+      "cross_link_id": 2664,
+      "lemma_id": 1815,
+      "link": 1125
+    },
+    {
       "cross_link_id": 2665,
       "lemma_id": 1816,
       "link": 1275
@@ -227496,6 +228294,21 @@
       "cross_link_id": 2667,
       "lemma_id": 1817,
       "link": 1784
+    },
+    {
+      "cross_link_id": 2668,
+      "lemma_id": 1818,
+      "link": 1274
+    },
+    {
+      "cross_link_id": 2669,
+      "lemma_id": 1819,
+      "link": 253
+    },
+    {
+      "cross_link_id": 2672,
+      "lemma_id": 954,
+      "link": 1819
     },
     {
       "cross_link_id": 2674,
@@ -227526,6 +228339,16 @@
       "cross_link_id": 2679,
       "lemma_id": 1823,
       "link": 1521
+    },
+    {
+      "cross_link_id": 2683,
+      "lemma_id": 1827,
+      "link": 855
+    },
+    {
+      "cross_link_id": 2700,
+      "lemma_id": 1850,
+      "link": 1436
     },
     {
       "cross_link_id": 2702,
@@ -227843,6 +228666,21 @@
       "link": 1499
     },
     {
+      "cross_link_id": 2902,
+      "lemma_id": 1934,
+      "link": 492
+    },
+    {
+      "cross_link_id": 2904,
+      "lemma_id": 1934,
+      "link": 1721
+    },
+    {
+      "cross_link_id": 2906,
+      "lemma_id": 1934,
+      "link": 791
+    },
+    {
       "cross_link_id": 2908,
       "lemma_id": 1939,
       "link": 656
@@ -228098,6 +228936,11 @@
       "link": 1996
     },
     {
+      "cross_link_id": 3121,
+      "lemma_id": 2035,
+      "link": 1815
+    },
+    {
       "cross_link_id": 3122,
       "lemma_id": 2035,
       "link": 1271
@@ -228223,6 +229066,11 @@
       "link": 956
     },
     {
+      "cross_link_id": 3192,
+      "lemma_id": 2079,
+      "link": 904
+    },
+    {
       "cross_link_id": 3194,
       "lemma_id": 955,
       "link": 2073
@@ -228251,6 +229099,11 @@
       "cross_link_id": 3208,
       "lemma_id": 2094,
       "link": 1784
+    },
+    {
+      "cross_link_id": 3209,
+      "lemma_id": 2094,
+      "link": 1818
     },
     {
       "cross_link_id": 3210,
@@ -228313,9 +229166,19 @@
       "link": 1678
     },
     {
+      "cross_link_id": 3254,
+      "lemma_id": 2131,
+      "link": 2129
+    },
+    {
       "cross_link_id": 3258,
       "lemma_id": 2133,
       "link": 906
+    },
+    {
+      "cross_link_id": 3264,
+      "lemma_id": 2138,
+      "link": 2129
     },
     {
       "cross_link_id": 3265,
@@ -228446,6 +229309,11 @@
       "cross_link_id": 3371,
       "lemma_id": 1280,
       "link": 1348
+    },
+    {
+      "cross_link_id": 3372,
+      "lemma_id": 1279,
+      "link": 1845
     },
     {
       "cross_link_id": 3373,
@@ -229158,6 +230026,11 @@
       "link": 597
     },
     {
+      "cross_link_id": 3612,
+      "lemma_id": 2296,
+      "link": 2294
+    },
+    {
       "cross_link_id": 3613,
       "lemma_id": 2297,
       "link": 1455
@@ -229228,6 +230101,16 @@
       "link": 599
     },
     {
+      "cross_link_id": 3698,
+      "lemma_id": 2342,
+      "link": 971
+    },
+    {
+      "cross_link_id": 3699,
+      "lemma_id": 2342,
+      "link": 959
+    },
+    {
       "cross_link_id": 3702,
       "lemma_id": 2344,
       "link": 2247
@@ -229266,6 +230149,11 @@
       "cross_link_id": 3747,
       "lemma_id": 2357,
       "link": 1816
+    },
+    {
+      "cross_link_id": 3748,
+      "lemma_id": 2357,
+      "link": 1818
     },
     {
       "cross_link_id": 3754,
@@ -229478,6 +230366,21 @@
       "link": 2375
     },
     {
+      "cross_link_id": 3930,
+      "lemma_id": 2431,
+      "link": 1126
+    },
+    {
+      "cross_link_id": 3931,
+      "lemma_id": 2431,
+      "link": 1782
+    },
+    {
+      "cross_link_id": 3932,
+      "lemma_id": 2431,
+      "link": 356
+    },
+    {
       "cross_link_id": 3934,
       "lemma_id": 2433,
       "link": 909
@@ -229623,9 +230526,34 @@
       "link": 1529
     },
     {
+      "cross_link_id": 4066,
+      "lemma_id": 2504,
+      "link": 2129
+    },
+    {
+      "cross_link_id": 4067,
+      "lemma_id": 2504,
+      "link": 2138
+    },
+    {
+      "cross_link_id": 4070,
+      "lemma_id": 2504,
+      "link": 2131
+    },
+    {
       "cross_link_id": 4077,
       "lemma_id": 1166,
       "link": 375
+    },
+    {
+      "cross_link_id": 4087,
+      "lemma_id": 2512,
+      "link": 1479
+    },
+    {
+      "cross_link_id": 4090,
+      "lemma_id": 2514,
+      "link": 2011
     },
     {
       "cross_link_id": 4093,
@@ -230883,6 +231811,16 @@
       "link": 2664
     },
     {
+      "cross_link_id": 4436,
+      "lemma_id": 2665,
+      "link": 1742
+    },
+    {
+      "cross_link_id": 4437,
+      "lemma_id": 2664,
+      "link": 1742
+    },
+    {
       "cross_link_id": 4438,
       "lemma_id": 2668,
       "link": 1521
@@ -231921,6 +232859,11 @@
       "cross_link_id": 4742,
       "lemma_id": 2789,
       "link": 2011
+    },
+    {
+      "cross_link_id": 4743,
+      "lemma_id": 2789,
+      "link": 2514
     },
     {
       "cross_link_id": 4744,
@@ -233261,6 +234204,11 @@
       "cross_link_id": 5368,
       "lemma_id": 6342,
       "link": 904
+    },
+    {
+      "cross_link_id": 5369,
+      "lemma_id": 6342,
+      "link": 2079
     },
     {
       "cross_link_id": 5370,
