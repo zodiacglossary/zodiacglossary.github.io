@@ -138,7 +138,7 @@
       "primary_meaning": "Pleiades",
       "editor": "Marvin, Mathieu",
       "literal_translation2": "bristle",
-      "last_edit": "2026-06-01T09:58:51.698Z",
+      "last_edit": "2026-10-25T10:17:21.341Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -1218,8 +1218,8 @@
       "primary_meaning": "Sothis",
       "editor": "Andreas",
       "literal_translation2": "",
-      "last_edit": "2024-05-24T14:17:00.237Z",
-      "comment": "",
+      "last_edit": "2026-10-25T09:59:27.034Z",
+      "comment": "quotation missing for meaning \"decan\"",
       "checked": false,
       "attention": false,
       "loan_type": "none"
@@ -15546,7 +15546,7 @@
       "primary_meaning": "in terms of degrees",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2023-08-30T09:29:20.005Z",
+      "last_edit": "2026-10-25T08:59:46.062Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -15570,7 +15570,7 @@
       "primary_meaning": "to be in the ascendant",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2024-12-02T10:43:32.619Z",
+      "last_edit": "2026-10-25T09:02:51.957Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -18018,7 +18018,7 @@
       "primary_meaning": "exaltation",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2026-10-06T10:15:49.470Z",
+      "last_edit": "2026-10-25T09:08:58.758Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -22434,10 +22434,10 @@
       "primary_meaning": "half",
       "editor": "Marvin",
       "literal_translation2": "half",
-      "last_edit": "2024-06-24T07:38:47.880Z",
-      "comment": "",
+      "last_edit": "2026-10-25T18:26:27.340Z",
+      "comment": "This lemma is unfinished",
       "checked": true,
-      "attention": false,
+      "attention": true,
       "loan_type": "none"
     },
     {
@@ -25410,7 +25410,7 @@
       "primary_meaning": "autumnal equinox",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-03T15:18:36.134Z",
+      "last_edit": "2026-10-23T14:18:52.947Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -25602,7 +25602,7 @@
       "primary_meaning": "horizon",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-03T15:03:09.827Z",
+      "last_edit": "2026-10-25T09:00:12.131Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -26394,7 +26394,7 @@
       "primary_meaning": "to end in",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2023-10-24T09:21:04.748Z",
+      "last_edit": "2026-10-25T08:54:35.825Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -31698,7 +31698,7 @@
       "primary_meaning": "the face of the Bull",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2023-12-12T11:47:49.618Z",
+      "last_edit": "2026-10-25T09:12:10.438Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -31890,7 +31890,7 @@
       "primary_meaning": "attachment",
       "editor": "Michael",
       "literal_translation2": "",
-      "last_edit": "2025-05-28T11:01:49.289Z",
+      "last_edit": "2026-10-25T08:57:58.294Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -32154,7 +32154,7 @@
       "primary_meaning": "string",
       "editor": "Alessia",
       "literal_translation2": "flax",
-      "last_edit": "2023-12-06T16:39:00.753Z",
+      "last_edit": "2026-10-23T14:48:02.835Z",
       "comment": "MO: J Fincke points out that DUB2 = napasu does not actually mean \"to tauten\" as thought by Hunger.",
       "checked": true,
       "attention": true,
@@ -32514,7 +32514,7 @@
       "primary_meaning": "the arms of the Crab",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2023-12-01T16:16:38.582Z",
+      "last_edit": "2026-10-25T09:22:27.379Z",
       "comment": "MO it seems to me that 16-18 Cancer is an specification of the position of this part of the constellation, i.e. not patt of the meaning",
       "checked": true,
       "attention": true,
@@ -33594,7 +33594,7 @@
       "primary_meaning": "the sting of the Scorpion",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2023-12-01T15:36:35.905Z",
+      "last_edit": "2026-10-25T09:20:57.656Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -33882,10 +33882,10 @@
       "primary_meaning": "Decan 2 (Senmut; Seti I A; Seti I C ; Ramses VI E); Decan 3 (Seti I B); Decan 1 (Tanis);",
       "editor": "Guardiano",
       "literal_translation2": "",
-      "last_edit": "2024-10-28T09:48:14.925Z",
-      "comment": "",
+      "last_edit": "2026-10-25T10:00:34.929Z",
+      "comment": "check this translation",
       "checked": false,
-      "attention": false,
+      "attention": true,
       "loan_type": "none"
     },
     {
@@ -35274,7 +35274,7 @@
       "primary_meaning": "Aries",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2024-11-03T16:18:47.402Z",
+      "last_edit": "2026-10-25T18:21:55.014Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -36210,7 +36210,7 @@
       "primary_meaning": "heliacal rising",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2026-10-14T19:11:05.643Z",
+      "last_edit": "2026-10-25T09:04:57.500Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -36738,7 +36738,7 @@
       "primary_meaning": "to bring into conjunction",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2024-12-02T09:07:21.982Z",
+      "last_edit": "2026-10-25T09:41:17.280Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -43491,9 +43491,9 @@
     {
       "lemma_id": 2615,
       "published": true,
-      "original": "καθ’ Ἑλήνου",
-      "translation": "according to a Greek",
-      "transliteration": "kath’ Helēnou",
+      "original": "καθ’ Ἕλληνας",
+      "translation": "according to the Greeks",
+      "transliteration": "kath’ Hellēnas",
       "partofspeech_id": 2,
       "partofspeech_label": "Adverb",
       "partofspeech_value": "adverb",
@@ -43503,13 +43503,13 @@
       "loan_language_id": 0,
       "loan_language_label": "",
       "loan_language_value": "none",
-      "primary_meaning": "according to the Greeks",
+      "primary_meaning": "according to the Greek calendar",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2025-02-26T13:39:30.919Z",
-      "comment": "",
+      "last_edit": "2026-10-22T15:31:49.234Z",
+      "comment": "TP: it should be checked whether the variant καθ’ Ἕλληνας in plural (as Jones suggests we read the singular καθ’ Ἑλήνου) is also attested.",
       "checked": true,
-      "attention": false,
+      "attention": true,
       "loan_type": "none"
     },
     {
@@ -43695,11 +43695,11 @@
       "loan_language_id": 0,
       "loan_language_label": "",
       "loan_language_value": "none",
-      "primary_meaning": "according to the Egyptians",
+      "primary_meaning": "according to the Egyptian calendar",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2025-02-26T13:39:04.593Z",
-      "comment": "TP: missing quote from P. Oxy. LXI 4251",
+      "last_edit": "2026-10-22T12:27:52.523Z",
+      "comment": "",
       "checked": false,
       "attention": false,
       "loan_type": "none"
@@ -44946,7 +44946,7 @@
       "primary_meaning": "distance",
       "editor": "Kierán",
       "literal_translation2": "",
-      "last_edit": "2024-12-02T08:36:11.189Z",
+      "last_edit": "2026-10-25T18:22:59.399Z",
       "comment": "",
       "checked": true,
       "attention": false,
@@ -46626,7 +46626,7 @@
       "primary_meaning": "constellation",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-02-26T13:37:17.698Z",
+      "last_edit": "2026-10-25T08:56:22.390Z",
       "comment": "MO: catasterism?\n\nTP: in this case no, this is formed from the verb καταστηρίζω “to fix” which I have crosslinked. \n\nThere is however also the very similar verb καταστερίζω “to place among the stars” which is used for the term\nκατηστερισμένον ζῴδιον, which is of course related. This verb and compound should still be added into the glossary.",
       "checked": false,
       "attention": true,
@@ -50034,7 +50034,7 @@
       "primary_meaning": "celestial sphere",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-03-25T11:26:14.094Z",
+      "last_edit": "2026-10-25T09:00:58.711Z",
       "comment": "TP: needs a quote for sphere (geometrical shape)",
       "checked": false,
       "attention": true,
@@ -54143,6 +54143,78 @@
       "checked": false,
       "attention": true,
       "loan_type": "loan"
+    },
+    {
+      "lemma_id": 6420,
+      "published": true,
+      "original": "κατὰ τοὺς ἀρχαίους",
+      "translation": "according to the ancients",
+      "transliteration": "kata tous archaious",
+      "partofspeech_id": 2,
+      "partofspeech_label": "Adverb",
+      "partofspeech_value": "adverb",
+      "language_id": 4,
+      "language_label": "Greek",
+      "language_value": "greek",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "according to the Egyptian calendar",
+      "editor": "Thomas",
+      "literal_translation2": "",
+      "last_edit": "2026-10-22T12:40:41.604Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6422,
+      "published": true,
+      "original": "MUL₂ IGI ša SAG LU",
+      "translation": "front star of the head of the ram",
+      "transliteration": "kakkabu maḫrû ša rēš immeri",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "β Arietis",
+      "editor": "Mathieu",
+      "literal_translation2": "front star of the head of the ram",
+      "last_edit": "2026-10-25T10:23:36.089Z",
+      "comment": "needs quotation, see diaries form 4th century BCE",
+      "checked": false,
+      "attention": true,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6424,
+      "published": true,
+      "original": "ap2-sa3-am-ma-ku",
+      "translation": "apsamakku",
+      "transliteration": "apsamakku",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "concave square",
+      "editor": "Mathieu",
+      "literal_translation2": "apsamakku",
+      "last_edit": "2026-10-25T18:16:54.339Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
     }
   ],
   "meanings": [
@@ -54157,14 +54229,14 @@
       "meaning_id": 10,
       "value": "Furrow",
       "lemma_id": 4,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 42,
       "value": "Aries",
       "lemma_id": 50,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54227,7 +54299,7 @@
       "meaning_id": 54,
       "value": "Pleiades",
       "lemma_id": 60,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54388,7 +54460,7 @@
       "meaning_id": 78,
       "value": "Jaw of the Bull",
       "lemma_id": 71,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54409,14 +54481,14 @@
       "meaning_id": 81,
       "value": "Hired Worker",
       "lemma_id": 72,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 82,
       "value": "Twins",
       "lemma_id": 73,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54437,7 +54509,7 @@
       "meaning_id": 85,
       "value": "Lion",
       "lemma_id": 75,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54451,7 +54523,7 @@
       "meaning_id": 87,
       "value": "Scales",
       "lemma_id": 76,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54465,7 +54537,7 @@
       "meaning_id": 89,
       "value": "Scorpius",
       "lemma_id": 77,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54486,7 +54558,7 @@
       "meaning_id": 92,
       "value": "Bull of Heaven",
       "lemma_id": 71,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54612,7 +54684,7 @@
       "meaning_id": 111,
       "value": "Taurus",
       "lemma_id": 91,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54626,7 +54698,7 @@
       "meaning_id": 114,
       "value": "Gemini",
       "lemma_id": 92,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54640,7 +54712,7 @@
       "meaning_id": 117,
       "value": "Cancer",
       "lemma_id": 93,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54654,7 +54726,7 @@
       "meaning_id": 120,
       "value": "Leo",
       "lemma_id": 94,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54668,7 +54740,7 @@
       "meaning_id": 123,
       "value": "Virgo",
       "lemma_id": 95,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54731,7 +54803,7 @@
       "meaning_id": 132,
       "value": "Crab",
       "lemma_id": 98,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54752,7 +54824,7 @@
       "meaning_id": 135,
       "value": "Tails",
       "lemma_id": 99,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54794,7 +54866,7 @@
       "meaning_id": 141,
       "value": "Goat-Fish",
       "lemma_id": 101,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -54899,7 +54971,7 @@
       "meaning_id": 158,
       "value": "Pabilsag",
       "lemma_id": 119,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -55032,7 +55104,7 @@
       "meaning_id": 183,
       "value": "Claws",
       "lemma_id": 135,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -55046,7 +55118,7 @@
       "meaning_id": 186,
       "value": "Scorpius",
       "lemma_id": 137,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -55067,7 +55139,7 @@
       "meaning_id": 193,
       "value": "Sagittarius",
       "lemma_id": 142,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -55081,7 +55153,7 @@
       "meaning_id": 196,
       "value": "Capricornus",
       "lemma_id": 143,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -55095,7 +55167,7 @@
       "meaning_id": 198,
       "value": "Aquarius",
       "lemma_id": 144,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -55109,7 +55181,7 @@
       "meaning_id": 201,
       "value": "Pisces",
       "lemma_id": 145,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -56593,70 +56665,70 @@
       "meaning_id": 439,
       "value": "Plough-star",
       "lemma_id": 325,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "approx. corresponding to α, β Trianguli and γ Andromedae"
     },
     {
       "meaning_id": 441,
       "value": "Fox-star",
       "lemma_id": 326,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "approx. corresponding to 80-86 Ursae Maioris ?"
     },
     {
       "meaning_id": 442,
       "value": "Old-man-star",
       "lemma_id": 327,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "approx. corresponding to Perseus"
     },
     {
       "meaning_id": 443,
       "value": "Arrow-star",
       "lemma_id": 328,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Canis Maior, Canis Minor, and parts of Puppis and Pyxis"
     },
     {
       "meaning_id": 444,
       "value": "Snake-star",
       "lemma_id": 329,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 445,
       "value": "Bow-star",
       "lemma_id": 330,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "approx. corresponding to δ, ε, σ, ω Canis Minoris and κ Puppis"
     },
     {
       "meaning_id": 446,
       "value": "Kidney-star",
       "lemma_id": 331,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 447,
       "value": "Wagon-star",
       "lemma_id": 332,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "approx. corresponding to Ursa Major"
     },
     {
       "meaning_id": 448,
       "value": "Raven-star",
       "lemma_id": 333,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "approx. corresponding to Corvus"
     },
     {
       "meaning_id": 449,
       "value": "ŠU.PA-star",
       "lemma_id": 334,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Boötes."
     },
     {
@@ -56929,28 +57001,28 @@
       "meaning_id": 493,
       "value": "The constellation sow",
       "lemma_id": 360,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 494,
       "value": "Ursa Major",
       "lemma_id": 361,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 495,
       "value": "Orion",
       "lemma_id": 362,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
       "meaning_id": 496,
       "value": "Ursa Major",
       "lemma_id": 363,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -57034,14 +57106,14 @@
       "meaning_id": 508,
       "value": "Dog-star",
       "lemma_id": 373,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to the southern part of Hercules."
     },
     {
       "meaning_id": 509,
       "value": "She-goat-star",
       "lemma_id": 374,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Lyra."
     },
     {
@@ -57188,21 +57260,21 @@
       "meaning_id": 530,
       "value": "Eagle-star",
       "lemma_id": 392,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Aquila."
     },
     {
       "meaning_id": 531,
       "value": "Fish-star",
       "lemma_id": 393,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Piscis Austrinus."
     },
     {
       "meaning_id": 534,
       "value": "Mad-dog-star",
       "lemma_id": 379,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Lupus."
     },
     {
@@ -57300,28 +57372,28 @@
       "meaning_id": 548,
       "value": "Ewe-star",
       "lemma_id": 406,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to the northeastern part of Boötes (?)"
     },
     {
       "meaning_id": 549,
       "value": "Hitched-Yoke-star",
       "lemma_id": 407,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to α Draconis (?)"
     },
     {
       "meaning_id": 550,
       "value": "Wagon-of-Heaven-star",
       "lemma_id": 408,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Ursa Minor."
     },
     {
       "meaning_id": 551,
       "value": "Heir-of-the-Sublime-Temple-star",
       "lemma_id": 409,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to α Ursae Minoris (?)"
     },
     {
@@ -57762,14 +57834,14 @@
       "meaning_id": 617,
       "value": "Pig-star",
       "lemma_id": 464,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to head and first coil of Draco (?)."
     },
     {
       "meaning_id": 618,
       "value": "Horse-star",
       "lemma_id": 465,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to α, β, γ, δ Cassiopeiae."
     },
     {
@@ -57839,7 +57911,7 @@
       "meaning_id": 628,
       "value": "Stag-star",
       "lemma_id": 469,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to the eastern part of Andromeda."
     },
     {
@@ -58084,28 +58156,28 @@
       "meaning_id": 665,
       "value": "Star of Dignity",
       "lemma_id": 495,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Corona Borealis."
     },
     {
       "meaning_id": 666,
       "value": "Frond-of-Eru-star",
       "lemma_id": 496,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to γ Comae Berenices."
     },
     {
       "meaning_id": 667,
       "value": "Standing-Gods-of-Ekur-star",
       "lemma_id": 497,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to ζ, η Herculis (?)."
     },
     {
       "meaning_id": 668,
       "value": "Sitting-Gods-of-Ekur-star",
       "lemma_id": 498,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to μ Virginis."
     },
     {
@@ -58126,14 +58198,14 @@
       "meaning_id": 671,
       "value": "Nin-nisig-and-Erragal-stars",
       "lemma_id": 500,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "ε and ζ Lyrae."
     },
     {
       "meaning_id": 672,
       "value": "Vole-star",
       "lemma_id": 501,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to 18, 31, 32 Andromedae (?)."
     },
     {
@@ -58560,7 +58632,7 @@
       "meaning_id": 733,
       "value": "Field-star",
       "lemma_id": 555,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. correspponding to α, β, γ Pegasi and α Andromedae."
     },
     {
@@ -58777,7 +58849,7 @@
       "meaning_id": 764,
       "value": "Swallow-star",
       "lemma_id": 584,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding ε, ζ, θ Pegasi, α Equulei, and the western fish of Pisces."
     },
     {
@@ -58889,7 +58961,7 @@
       "meaning_id": 784,
       "value": "Anunitu-star",
       "lemma_id": 597,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Eastern fish and part of line of Pisces."
     },
     {
@@ -58924,21 +58996,21 @@
       "meaning_id": 790,
       "value": "Rooster-star",
       "lemma_id": 601,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Lepus."
     },
     {
       "meaning_id": 791,
       "value": "Corpse-star",
       "lemma_id": 602,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Delphinus (?)."
     },
     {
       "meaning_id": 792,
       "value": "Ninmaḫ-star",
       "lemma_id": 603,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to a part of Vela."
     },
     {
@@ -59078,35 +59150,35 @@
       "meaning_id": 818,
       "value": "Lulal-and-Latarak-stars",
       "lemma_id": 623,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to π3 and π4 Orionis (?)."
     },
     {
       "meaning_id": 819,
       "value": "Mouse-star",
       "lemma_id": 624,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to most of Centaurus."
     },
     {
       "meaning_id": 820,
       "value": "Harrow-star",
       "lemma_id": 625,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to the eastern part of Vela."
     },
     {
       "meaning_id": 821,
       "value": "Šullat-and-Ḫaniš-stars",
       "lemma_id": 626,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to μ Centauri (?), and ε or ν Centauri (?)."
     },
     {
       "meaning_id": 822,
       "value": "Numušda-star",
       "lemma_id": 627,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to η or κ Centauri."
     },
     {
@@ -59309,7 +59381,7 @@
       "meaning_id": 852,
       "value": "Orion",
       "lemma_id": 658,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -59554,28 +59626,28 @@
       "meaning_id": 887,
       "value": "Crook-star",
       "lemma_id": 694,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Auriga"
     },
     {
       "meaning_id": 888,
       "value": "Great-Twins-star",
       "lemma_id": 695,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to α and β Geminorum."
     },
     {
       "meaning_id": 889,
       "value": "Small-Twins-star",
       "lemma_id": 696,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to ζ and λ Geminorum."
     },
     {
       "meaning_id": 890,
       "value": "The-Demon-with-the-gaping-mouth-star",
       "lemma_id": 697,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": "Approx. corresponding to Cygnus, Lacerta, and parts of Cassiopeia and Cepheus."
     },
     {
@@ -60093,7 +60165,7 @@
       "meaning_id": 969,
       "value": "broken",
       "lemma_id": 773,
-      "category": "philological term",
+      "category": "scribal",
       "comment": ""
     },
     {
@@ -60590,7 +60662,7 @@
       "meaning_id": 1044,
       "value": "Ursa Major",
       "lemma_id": 852,
-      "category": "constellation",
+      "category": "star or constellation",
       "comment": ""
     },
     {
@@ -74392,10 +74464,10 @@
     },
     {
       "meaning_id": 3086,
-      "value": "according to the Greeks",
+      "value": "according to the Greek calendar",
       "lemma_id": 2615,
       "category": "",
-      "comment": "of hours of the day"
+      "comment": "referring to the civil calendar of Roman Egypt (also known as “Alexandrian”) in which each year consists of 12 months of 30 days, followed by 5 epagomenal days, with an additional intercalary day every 4 years"
     },
     {
       "meaning_id": 3087,
@@ -74462,10 +74534,10 @@
     },
     {
       "meaning_id": 3096,
-      "value": "according to the Egyptians",
+      "value": "according to the Egyptian calendar",
       "lemma_id": 2625,
       "category": "",
-      "comment": "in the measuring of hours"
+      "comment": "referring to the ancient Egyptian civil calendar in which each year consists of 12 months of 30 days, followed by 5 epagomenal days"
     },
     {
       "meaning_id": 3097,
@@ -82243,6 +82315,27 @@
       "lemma_id": 6418,
       "category": "",
       "comment": ""
+    },
+    {
+      "meaning_id": 7759,
+      "value": "according to the Egyptian calendar",
+      "lemma_id": 6420,
+      "category": "",
+      "comment": "referring to the ancient Egyptian civil calendar in which each year consists of 12 months of 30 days, followed by 5 epagomenal days"
+    },
+    {
+      "meaning_id": 7760,
+      "value": "β Arietis",
+      "lemma_id": 6422,
+      "category": "",
+      "comment": "Variant name attested in diaries from 4th century BCE"
+    },
+    {
+      "meaning_id": 7761,
+      "value": "apsamakku",
+      "lemma_id": 6424,
+      "category": "",
+      "comment": ""
     }
   ],
   "meaningCategories": [
@@ -82269,7 +82362,7 @@
     {
       "category_id": 16,
       "meaning_id": 92,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 19,
@@ -82284,7 +82377,7 @@
     {
       "category_id": 21,
       "meaning_id": 135,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 23,
@@ -82304,7 +82397,7 @@
     {
       "category_id": 28,
       "meaning_id": 82,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 29,
@@ -82314,7 +82407,7 @@
     {
       "category_id": 31,
       "meaning_id": 138,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 33,
@@ -82344,7 +82437,7 @@
     {
       "category_id": 40,
       "meaning_id": 87,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 41,
@@ -82359,7 +82452,7 @@
     {
       "category_id": 48,
       "meaning_id": 158,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 49,
@@ -82389,27 +82482,27 @@
     {
       "category_id": 54,
       "meaning_id": 10,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 55,
       "meaning_id": 89,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 57,
       "meaning_id": 85,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 59,
       "meaning_id": 81,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 60,
       "meaning_id": 42,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 61,
@@ -82439,7 +82532,7 @@
     {
       "category_id": 68,
       "meaning_id": 111,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 69,
@@ -82534,12 +82627,12 @@
     {
       "category_id": 101,
       "meaning_id": 141,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 102,
       "meaning_id": 114,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 103,
@@ -82569,7 +82662,7 @@
     {
       "category_id": 111,
       "meaning_id": 54,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 113,
@@ -82584,7 +82677,7 @@
     {
       "category_id": 118,
       "meaning_id": 120,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 119,
@@ -82609,7 +82702,7 @@
     {
       "category_id": 130,
       "meaning_id": 117,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 133,
@@ -82684,17 +82777,17 @@
     {
       "category_id": 155,
       "meaning_id": 198,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 156,
       "meaning_id": 196,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 158,
       "meaning_id": 193,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 159,
@@ -82784,7 +82877,7 @@
     {
       "category_id": 179,
       "meaning_id": 183,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 180,
@@ -82794,7 +82887,7 @@
     {
       "category_id": 181,
       "meaning_id": 201,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 182,
@@ -82934,7 +83027,7 @@
     {
       "category_id": 231,
       "meaning_id": 186,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 232,
@@ -83324,7 +83417,7 @@
     {
       "category_id": 326,
       "meaning_id": 445,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 327,
@@ -83364,12 +83457,12 @@
     {
       "category_id": 335,
       "meaning_id": 447,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 336,
       "meaning_id": 441,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 337,
@@ -83394,12 +83487,12 @@
     {
       "category_id": 343,
       "meaning_id": 439,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 344,
       "meaning_id": 446,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 345,
@@ -83424,12 +83517,12 @@
     {
       "category_id": 349,
       "meaning_id": 443,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 351,
       "meaning_id": 442,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 354,
@@ -83444,7 +83537,7 @@
     {
       "category_id": 356,
       "meaning_id": 448,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 358,
@@ -83474,7 +83567,7 @@
     {
       "category_id": 365,
       "meaning_id": 449,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 366,
@@ -83579,7 +83672,7 @@
     {
       "category_id": 396,
       "meaning_id": 444,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 397,
@@ -83624,7 +83717,7 @@
     {
       "category_id": 408,
       "meaning_id": 551,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 409,
@@ -83654,7 +83747,7 @@
     {
       "category_id": 415,
       "meaning_id": 534,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 416,
@@ -83699,7 +83792,7 @@
     {
       "category_id": 433,
       "meaning_id": 548,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 435,
@@ -83719,7 +83812,7 @@
     {
       "category_id": 438,
       "meaning_id": 495,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 439,
@@ -83769,12 +83862,12 @@
     {
       "category_id": 451,
       "meaning_id": 494,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 452,
       "meaning_id": 493,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 453,
@@ -83794,17 +83887,17 @@
     {
       "category_id": 456,
       "meaning_id": 550,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 457,
       "meaning_id": 509,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 458,
       "meaning_id": 530,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 459,
@@ -83824,7 +83917,7 @@
     {
       "category_id": 463,
       "meaning_id": 549,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 465,
@@ -83849,17 +83942,17 @@
     {
       "category_id": 471,
       "meaning_id": 508,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 472,
       "meaning_id": 531,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 476,
       "meaning_id": 496,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 477,
@@ -84059,7 +84152,7 @@
     {
       "category_id": 546,
       "meaning_id": 617,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 548,
@@ -84074,7 +84167,7 @@
     {
       "category_id": 550,
       "meaning_id": 618,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 551,
@@ -84124,7 +84217,7 @@
     {
       "category_id": 561,
       "meaning_id": 628,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 563,
@@ -84214,7 +84307,7 @@
     {
       "category_id": 586,
       "meaning_id": 666,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 587,
@@ -84309,7 +84402,7 @@
     {
       "category_id": 606,
       "meaning_id": 667,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 607,
@@ -84344,7 +84437,7 @@
     {
       "category_id": 619,
       "meaning_id": 668,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 620,
@@ -84354,7 +84447,7 @@
     {
       "category_id": 621,
       "meaning_id": 665,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 623,
@@ -84364,7 +84457,7 @@
     {
       "category_id": 624,
       "meaning_id": 671,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 625,
@@ -84514,7 +84607,7 @@
     {
       "category_id": 661,
       "meaning_id": 672,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 662,
@@ -84614,7 +84707,7 @@
     {
       "category_id": 683,
       "meaning_id": 818,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 684,
@@ -84659,7 +84752,7 @@
     {
       "category_id": 694,
       "meaning_id": 733,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 695,
@@ -84699,7 +84792,7 @@
     {
       "category_id": 704,
       "meaning_id": 764,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 705,
@@ -84749,7 +84842,7 @@
     {
       "category_id": 715,
       "meaning_id": 791,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 716,
@@ -84829,7 +84922,7 @@
     {
       "category_id": 735,
       "meaning_id": 784,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 738,
@@ -84839,7 +84932,7 @@
     {
       "category_id": 739,
       "meaning_id": 792,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 740,
@@ -84849,7 +84942,7 @@
     {
       "category_id": 742,
       "meaning_id": 790,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 743,
@@ -84884,17 +84977,17 @@
     {
       "category_id": 749,
       "meaning_id": 822,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 750,
       "meaning_id": 819,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 751,
       "meaning_id": 888,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 753,
@@ -84909,7 +85002,7 @@
     {
       "category_id": 755,
       "meaning_id": 820,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 758,
@@ -84984,7 +85077,7 @@
     {
       "category_id": 776,
       "meaning_id": 852,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 778,
@@ -84999,7 +85092,7 @@
     {
       "category_id": 782,
       "meaning_id": 823,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 783,
@@ -85089,7 +85182,7 @@
     {
       "category_id": 803,
       "meaning_id": 887,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 804,
@@ -85129,7 +85222,7 @@
     {
       "category_id": 812,
       "meaning_id": 889,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 813,
@@ -85169,7 +85262,7 @@
     {
       "category_id": 821,
       "meaning_id": 890,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 822,
@@ -85219,12 +85312,7 @@
     {
       "category_id": 833,
       "meaning_id": 821,
-      "category": "constellation"
-    },
-    {
-      "category_id": 834,
-      "meaning_id": 994,
-      "category": "astral concept"
+      "category": "star or constellation"
     },
     {
       "category_id": 835,
@@ -85374,7 +85462,7 @@
     {
       "category_id": 872,
       "meaning_id": 969,
-      "category": "philological term"
+      "category": "scribal"
     },
     {
       "category_id": 873,
@@ -85754,7 +85842,7 @@
     {
       "category_id": 975,
       "meaning_id": 1044,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 976,
@@ -85897,11 +85985,6 @@
       "category": "astronomical term"
     },
     {
-      "category_id": 1010,
-      "meaning_id": 995,
-      "category": "astral concept"
-    },
-    {
       "category_id": 1011,
       "meaning_id": 1003,
       "category": "calendrical concept"
@@ -85959,11 +86042,6 @@
     {
       "category_id": 1024,
       "meaning_id": 1129,
-      "category": "astrological"
-    },
-    {
-      "category_id": 1025,
-      "meaning_id": 1130,
       "category": "astrological"
     },
     {
@@ -86649,7 +86727,7 @@
     {
       "category_id": 1211,
       "meaning_id": 132,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1212,
@@ -86694,7 +86772,7 @@
     {
       "category_id": 1220,
       "meaning_id": 1295,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1221,
@@ -87797,11 +87875,6 @@
       "category": "calendrical concept"
     },
     {
-      "category_id": 1481,
-      "meaning_id": 1520,
-      "category": "astronomical event"
-    },
-    {
       "category_id": 1482,
       "meaning_id": 1521,
       "category": "calendrical concept"
@@ -87832,14 +87905,9 @@
       "category": "time interval"
     },
     {
-      "category_id": 1489,
-      "meaning_id": 1528,
-      "category": "astral concept"
-    },
-    {
       "category_id": 1490,
       "meaning_id": 1530,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1492,
@@ -87889,7 +87957,7 @@
     {
       "category_id": 1502,
       "meaning_id": 1541,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1503,
@@ -87924,7 +87992,7 @@
     {
       "category_id": 1510,
       "meaning_id": 1549,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1511,
@@ -87944,12 +88012,12 @@
     {
       "category_id": 1514,
       "meaning_id": 1551,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1515,
       "meaning_id": 1552,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1517,
@@ -88075,11 +88143,6 @@
       "category_id": 1560,
       "meaning_id": 1580,
       "category": "astrological"
-    },
-    {
-      "category_id": 1561,
-      "meaning_id": 1581,
-      "category": "astral concept"
     },
     {
       "category_id": 1562,
@@ -88239,12 +88302,12 @@
     {
       "category_id": 1602,
       "meaning_id": 1622,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1603,
       "meaning_id": 1623,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1604,
@@ -88264,7 +88327,7 @@
     {
       "category_id": 1607,
       "meaning_id": 1626,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1608,
@@ -88704,37 +88767,37 @@
     {
       "category_id": 1719,
       "meaning_id": 1736,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1720,
       "meaning_id": 1737,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1721,
       "meaning_id": 1738,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1722,
       "meaning_id": 1739,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1723,
       "meaning_id": 1740,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1724,
       "meaning_id": 1741,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1725,
       "meaning_id": 1742,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1726,
@@ -88744,22 +88807,22 @@
     {
       "category_id": 1727,
       "meaning_id": 1744,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1728,
       "meaning_id": 123,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1731,
       "meaning_id": 1747,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1732,
       "meaning_id": 1748,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1733,
@@ -88774,12 +88837,12 @@
     {
       "category_id": 1735,
       "meaning_id": 1751,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1736,
       "meaning_id": 1752,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1737,
@@ -88794,7 +88857,7 @@
     {
       "category_id": 1739,
       "meaning_id": 1755,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1740,
@@ -88804,17 +88867,17 @@
     {
       "category_id": 1741,
       "meaning_id": 1757,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1742,
       "meaning_id": 1758,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1743,
       "meaning_id": 1759,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1744,
@@ -88824,62 +88887,62 @@
     {
       "category_id": 1745,
       "meaning_id": 1761,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1746,
       "meaning_id": 1762,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1747,
       "meaning_id": 1763,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1748,
       "meaning_id": 1764,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1749,
       "meaning_id": 1765,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1750,
       "meaning_id": 1766,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1751,
       "meaning_id": 1767,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1753,
       "meaning_id": 1769,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1754,
       "meaning_id": 1770,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1755,
       "meaning_id": 1771,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1756,
       "meaning_id": 1772,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1757,
       "meaning_id": 1773,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1758,
@@ -88889,12 +88952,12 @@
     {
       "category_id": 1759,
       "meaning_id": 1775,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1760,
       "meaning_id": 1776,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1761,
@@ -88979,7 +89042,7 @@
     {
       "category_id": 1781,
       "meaning_id": 1802,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1782,
@@ -89004,22 +89067,22 @@
     {
       "category_id": 1786,
       "meaning_id": 1807,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1788,
       "meaning_id": 1809,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1789,
       "meaning_id": 1810,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1790,
       "meaning_id": 1811,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1791,
@@ -89029,7 +89092,7 @@
     {
       "category_id": 1792,
       "meaning_id": 1813,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1793,
@@ -89217,14 +89280,9 @@
       "category": "astrological"
     },
     {
-      "category_id": 1837,
-      "meaning_id": 1852,
-      "category": "astral concept"
-    },
-    {
       "category_id": 1838,
       "meaning_id": 1853,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1840,
@@ -89529,7 +89587,7 @@
     {
       "category_id": 1901,
       "meaning_id": 1916,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 1902,
@@ -89974,7 +90032,7 @@
     {
       "category_id": 1993,
       "meaning_id": 1544,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 1994,
@@ -90084,12 +90142,12 @@
     {
       "category_id": 2018,
       "meaning_id": 2016,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2019,
       "meaning_id": 2017,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2020,
@@ -90239,7 +90297,7 @@
     {
       "category_id": 2050,
       "meaning_id": 2046,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 2051,
@@ -90539,7 +90597,7 @@
     {
       "category_id": 2124,
       "meaning_id": 2119,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2125,
@@ -91234,7 +91292,7 @@
     {
       "category_id": 2271,
       "meaning_id": 2272,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2272,
@@ -91249,12 +91307,12 @@
     {
       "category_id": 2275,
       "meaning_id": 2279,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2277,
       "meaning_id": 2281,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2278,
@@ -91294,7 +91352,7 @@
     {
       "category_id": 2286,
       "meaning_id": 2289,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2287,
@@ -91304,12 +91362,12 @@
     {
       "category_id": 2288,
       "meaning_id": 2290,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2289,
       "meaning_id": 2291,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2290,
@@ -91324,7 +91382,7 @@
     {
       "category_id": 2294,
       "meaning_id": 2295,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2296,
@@ -91739,7 +91797,7 @@
     {
       "category_id": 2386,
       "meaning_id": 2325,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2387,
@@ -91749,7 +91807,7 @@
     {
       "category_id": 2388,
       "meaning_id": 2327,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2389,
@@ -91789,7 +91847,7 @@
     {
       "category_id": 2396,
       "meaning_id": 2336,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 2397,
@@ -91814,7 +91872,7 @@
     {
       "category_id": 2402,
       "meaning_id": 2348,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2403,
@@ -91829,12 +91887,12 @@
     {
       "category_id": 2405,
       "meaning_id": 2351,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2406,
       "meaning_id": 2352,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2407,
@@ -91844,12 +91902,12 @@
     {
       "category_id": 2408,
       "meaning_id": 2354,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2409,
       "meaning_id": 2357,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2410,
@@ -91859,22 +91917,22 @@
     {
       "category_id": 2411,
       "meaning_id": 2359,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2412,
       "meaning_id": 2360,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2413,
       "meaning_id": 2361,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2414,
       "meaning_id": 2362,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2415,
@@ -91899,17 +91957,17 @@
     {
       "category_id": 2419,
       "meaning_id": 2368,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2420,
       "meaning_id": 2369,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2421,
       "meaning_id": 2370,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2422,
@@ -91919,12 +91977,12 @@
     {
       "category_id": 2423,
       "meaning_id": 2373,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2424,
       "meaning_id": 2374,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2425,
@@ -92024,7 +92082,7 @@
     {
       "category_id": 2446,
       "meaning_id": 2396,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2447,
@@ -92039,7 +92097,7 @@
     {
       "category_id": 2449,
       "meaning_id": 2400,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2450,
@@ -92049,17 +92107,17 @@
     {
       "category_id": 2451,
       "meaning_id": 2401,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2452,
       "meaning_id": 2403,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2453,
       "meaning_id": 2404,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2454,
@@ -92099,7 +92157,7 @@
     {
       "category_id": 2461,
       "meaning_id": 2412,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2462,
@@ -93224,7 +93282,7 @@
     {
       "category_id": 2702,
       "meaning_id": 2635,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2703,
@@ -93599,7 +93657,7 @@
     {
       "category_id": 2783,
       "meaning_id": 2685,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 2784,
@@ -94834,7 +94892,7 @@
     {
       "category_id": 3040,
       "meaning_id": 2934,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3043,
@@ -94924,7 +94982,7 @@
     {
       "category_id": 3060,
       "meaning_id": 2935,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3061,
@@ -95004,7 +95062,7 @@
     {
       "category_id": 3076,
       "meaning_id": 2939,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3077,
@@ -95119,12 +95177,12 @@
     {
       "category_id": 3099,
       "meaning_id": 2958,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3100,
       "meaning_id": 2959,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3101,
@@ -95134,7 +95192,7 @@
     {
       "category_id": 3102,
       "meaning_id": 2961,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3103,
@@ -95269,12 +95327,12 @@
     {
       "category_id": 3130,
       "meaning_id": 2988,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3131,
       "meaning_id": 2989,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3132,
@@ -95304,7 +95362,7 @@
     {
       "category_id": 3137,
       "meaning_id": 2995,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3138,
@@ -96192,11 +96250,6 @@
       "category": "decan"
     },
     {
-      "category_id": 3323,
-      "meaning_id": 2022,
-      "category": "interval of celestial position"
-    },
-    {
       "category_id": 3324,
       "meaning_id": 3082,
       "category": "zodiac sign quality"
@@ -96865,11 +96918,6 @@
       "category_id": 3466,
       "meaning_id": 3153,
       "category": "astronomical quantity"
-    },
-    {
-      "category_id": 3467,
-      "meaning_id": 3153,
-      "category": "interval of celestial position"
     },
     {
       "category_id": 3468,
@@ -97677,11 +97725,6 @@
       "category": "aspect"
     },
     {
-      "category_id": 3635,
-      "meaning_id": 3270,
-      "category": "astral concept"
-    },
-    {
       "category_id": 3636,
       "meaning_id": 3271,
       "category": "zodiac sign quality"
@@ -97704,7 +97747,7 @@
     {
       "category_id": 3640,
       "meaning_id": 3273,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3641,
@@ -97714,197 +97757,197 @@
     {
       "category_id": 3642,
       "meaning_id": 3275,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3643,
       "meaning_id": 3276,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3644,
       "meaning_id": 3277,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3645,
       "meaning_id": 3278,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3646,
       "meaning_id": 3279,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3647,
       "meaning_id": 3280,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3648,
       "meaning_id": 3281,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3649,
       "meaning_id": 3282,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3650,
       "meaning_id": 3283,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3651,
       "meaning_id": 3284,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3652,
       "meaning_id": 3285,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3653,
       "meaning_id": 3286,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3654,
       "meaning_id": 3287,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3655,
       "meaning_id": 3288,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3656,
       "meaning_id": 3289,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3657,
       "meaning_id": 3290,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3658,
       "meaning_id": 3291,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3659,
       "meaning_id": 3292,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3660,
       "meaning_id": 3293,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3661,
       "meaning_id": 3294,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3662,
       "meaning_id": 3295,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3663,
       "meaning_id": 3296,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3664,
       "meaning_id": 3297,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3665,
       "meaning_id": 3298,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3666,
       "meaning_id": 3299,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3667,
       "meaning_id": 3300,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3668,
       "meaning_id": 3301,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3669,
       "meaning_id": 3302,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3670,
       "meaning_id": 3303,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3671,
       "meaning_id": 3304,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3672,
       "meaning_id": 3305,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3673,
       "meaning_id": 3306,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3674,
       "meaning_id": 3307,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3675,
       "meaning_id": 3308,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3676,
       "meaning_id": 3309,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3677,
       "meaning_id": 3310,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3678,
       "meaning_id": 3311,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3679,
       "meaning_id": 3312,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3680,
       "meaning_id": 3313,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3681,
@@ -98339,7 +98382,7 @@
     {
       "category_id": 3777,
       "meaning_id": 3397,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 3778,
@@ -98474,7 +98517,7 @@
     {
       "category_id": 3806,
       "meaning_id": 3412,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 5907,
@@ -98607,11 +98650,6 @@
       "category": "cosmological concept"
     },
     {
-      "category_id": 6987,
-      "meaning_id": 6584,
-      "category": "astral concept"
-    },
-    {
       "category_id": 6988,
       "meaning_id": 6585,
       "category": "geometrical shape"
@@ -98674,7 +98712,7 @@
     {
       "category_id": 7006,
       "meaning_id": 1529,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7007,
@@ -101054,7 +101092,7 @@
     {
       "category_id": 7838,
       "meaning_id": 7400,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7839,
@@ -101099,12 +101137,12 @@
     {
       "category_id": 7848,
       "meaning_id": 7411,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7849,
       "meaning_id": 7412,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7850,
@@ -101169,7 +101207,7 @@
     {
       "category_id": 7862,
       "meaning_id": 7426,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7863,
@@ -101204,7 +101242,7 @@
     {
       "category_id": 7869,
       "meaning_id": 7435,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7870,
@@ -101219,7 +101257,7 @@
     {
       "category_id": 7872,
       "meaning_id": 7439,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7873,
@@ -101234,7 +101272,7 @@
     {
       "category_id": 7875,
       "meaning_id": 7441,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7877,
@@ -101789,7 +101827,7 @@
     {
       "category_id": 7996,
       "meaning_id": 7553,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7997,
@@ -101799,7 +101837,7 @@
     {
       "category_id": 7998,
       "meaning_id": 7555,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 7999,
@@ -102642,14 +102680,9 @@
       "category": "luminary"
     },
     {
-      "category_id": 8198,
-      "meaning_id": 52,
-      "category": "constellation"
-    },
-    {
       "category_id": 8199,
       "meaning_id": 78,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8200,
@@ -103464,7 +103497,7 @@
     {
       "category_id": 8415,
       "meaning_id": 164,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8416,
@@ -103594,12 +103627,12 @@
     {
       "category_id": 8441,
       "meaning_id": 1302,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8442,
       "meaning_id": 1500,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8443,
@@ -103619,7 +103652,7 @@
     {
       "category_id": 8446,
       "meaning_id": 1831,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8447,
@@ -103664,7 +103697,7 @@
     {
       "category_id": 8455,
       "meaning_id": 2594,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8456,
@@ -103724,7 +103757,7 @@
     {
       "category_id": 8467,
       "meaning_id": 3270,
-      "category": "constellation"
+      "category": "star or constellation"
     },
     {
       "category_id": 8468,
@@ -103774,12 +103807,12 @@
     {
       "category_id": 8477,
       "meaning_id": 7482,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 8478,
       "meaning_id": 7481,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 8479,
@@ -103789,7 +103822,7 @@
     {
       "category_id": 8480,
       "meaning_id": 7594,
-      "category": "spatial expression"
+      "category": "spatial"
     },
     {
       "category_id": 8481,
@@ -103809,11 +103842,6 @@
     {
       "category_id": 8484,
       "meaning_id": 747,
-      "category": "astrological position"
-    },
-    {
-      "category_id": 8485,
-      "meaning_id": 1130,
       "category": "astrological position"
     },
     {
@@ -104010,6 +104038,151 @@
       "category_id": 8524,
       "meaning_id": 2948,
       "category": ""
+    },
+    {
+      "category_id": 8526,
+      "meaning_id": 7759,
+      "category": "calendrical concept"
+    },
+    {
+      "category_id": 8527,
+      "meaning_id": 1921,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8528,
+      "meaning_id": 1528,
+      "category": "astronomical circle"
+    },
+    {
+      "category_id": 8529,
+      "meaning_id": 2948,
+      "category": "expression of influence"
+    },
+    {
+      "category_id": 8530,
+      "meaning_id": 483,
+      "category": "visual perception"
+    },
+    {
+      "category_id": 8531,
+      "meaning_id": 482,
+      "category": "annual phenomenon"
+    },
+    {
+      "category_id": 8532,
+      "meaning_id": 1364,
+      "category": "eclipse phenomenon"
+    },
+    {
+      "category_id": 8533,
+      "meaning_id": 2177,
+      "category": "eclipse phenomenon"
+    },
+    {
+      "category_id": 8534,
+      "meaning_id": 654,
+      "category": "stellar phenomenon"
+    },
+    {
+      "category_id": 8535,
+      "meaning_id": 409,
+      "category": "eclipse phenomenon"
+    },
+    {
+      "category_id": 8536,
+      "meaning_id": 3162,
+      "category": "synodic phenomenon"
+    },
+    {
+      "category_id": 8537,
+      "meaning_id": 1224,
+      "category": "unit of celestial position"
+    },
+    {
+      "category_id": 8538,
+      "meaning_id": 1520,
+      "category": "eclipse phenomenon"
+    },
+    {
+      "category_id": 8539,
+      "meaning_id": 1866,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8540,
+      "meaning_id": 1866,
+      "category": "spatial"
+    },
+    {
+      "category_id": 8541,
+      "meaning_id": 1852,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8542,
+      "meaning_id": 6584,
+      "category": "mathematical figure"
+    },
+    {
+      "category_id": 8543,
+      "meaning_id": 995,
+      "category": "temporal expression"
+    },
+    {
+      "category_id": 8544,
+      "meaning_id": 2739,
+      "category": "cardinal point"
+    },
+    {
+      "category_id": 8546,
+      "meaning_id": 1130,
+      "category": "astrological position"
+    },
+    {
+      "category_id": 8547,
+      "meaning_id": 1844,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8548,
+      "meaning_id": 1928,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8549,
+      "meaning_id": 1882,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8550,
+      "meaning_id": 2209,
+      "category": "expression of relative position"
+    },
+    {
+      "category_id": 8551,
+      "meaning_id": 52,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8552,
+      "meaning_id": 52,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8553,
+      "meaning_id": 7760,
+      "category": "normal star"
+    },
+    {
+      "category_id": 8554,
+      "meaning_id": 7761,
+      "category": "geometrical shape"
+    },
+    {
+      "category_id": 8555,
+      "meaning_id": 7761,
+      "category": "descriptive term"
     }
   ],
   "variants": [
@@ -132090,7 +132263,7 @@
       "original": "καθ’ Ἑλήνου",
       "transliteration": "kath’ Helēnou",
       "lemma_id": 2615,
-      "comment": "",
+      "comment": "P. Oxy. LXI 4239",
       "original_fixed": "καθ’ Ἑλήνου"
     },
     {
@@ -140698,6 +140871,30 @@
       "original": "MUL-tu-ul-tu",
       "transliteration": "tūltu",
       "lemma_id": 2292,
+      "comment": "",
+      "original_fixed": null
+    },
+    {
+      "variant_id": 7502,
+      "original": "κατὰ τοὺς ἀρχαίους",
+      "transliteration": "kata tous archaious",
+      "lemma_id": 6420,
+      "comment": "",
+      "original_fixed": null
+    },
+    {
+      "variant_id": 7503,
+      "original": "MUL₂ IGI ša SAG LU",
+      "transliteration": "kakkabu maḫrû ša rēš immeri",
+      "lemma_id": 6422,
+      "comment": "",
+      "original_fixed": null
+    },
+    {
+      "variant_id": 7504,
+      "original": "ap2-sa3-am-ma-ku",
+      "transliteration": "apsammakku",
+      "lemma_id": 6424,
       "comment": "",
       "original_fixed": null
     }
@@ -190804,20 +191001,20 @@
     },
     {
       "quotation_id": 3049,
-      "original": "[...] ὥρας εʹ ἡμέρας καθ’ Ἑλήνου",
+      "original": "(...) ιδʹ (ἔτους) Ἁδραιανοῦ\nΑἰλίου τοῦ κυρ]ίου, Τῦβι ιθʹ, ὥρας εʹ ἡμέρας καθ’ Ἑλήνου",
       "transliteration": "",
       "lemma_id": 2615,
-      "translation": "hour 5(?) of the day according to the Greeks",
+      "translation": "(...) (year) 14 of Hadrian\nAelius the lo]rd, Tubi 19, hour 5 of (the) day according to the Greeks",
       "source": "P. Oxy. LXI 4239",
       "genre": "horoscope",
       "provenance": "Oxyrhynchus",
       "date": "130 CE",
       "publication": "Jones, A. (ed.), 1999. Astronomical papyri from Oxyrhynchus (P. Oxy. 4133-4300a), Volumes I and II. Philadelphia: American Philosophical Society.",
       "link": "https://archive.org/details/astronomicalpapy0001jone",
-      "line": "2",
+      "line": "1-2",
       "meaning_id": 3086,
       "page": "I: 253 + II: 376-377",
-      "comment": ""
+      "comment": "Reading καθ’ Ἕλληνας (“according to the Greeks”) for καθ’ Ἑλήνου (“according to a Greek”)."
     },
     {
       "quotation_id": 3050,
@@ -190960,7 +191157,7 @@
       "original": "κατὰ τοὺς Αἰ[γυπτίους\nὥρᾳ γʹ νυκ[τός.",
       "transliteration": "",
       "lemma_id": 2625,
-      "translation": "according to the Egyptians ...\nhour 3 of night.",
+      "translation": "according to the Egyptians [...\nhour 3 of (the) night.",
       "source": "P. Oxy. LXI 4249",
       "genre": "horoscope",
       "provenance": "Oxyrhynchus",
@@ -210826,6 +211023,74 @@
       "line": "1.22",
       "meaning_id": 7758,
       "page": "",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7764,
+      "original": "αʹ (ἔτους) Φιλ[ί]ππων κ[ατ’ Αἰγυ-\nπτίων Φαρ(μοῦθι) κδʹ ο [...\nΜ]εχεὶρ ιζʹ ὥρ(ᾳ) γʹ νυκ[τός.",
+      "transliteration": "",
+      "lemma_id": 2625,
+      "translation": "(Year) 1 of the Philips, according to the Egy-\nptians Pharmouthi 24, which (is)\nMecheir 17, hour 3 of (the) night.",
+      "source": "P. Oxy. LXI 4251",
+      "genre": "horoscope",
+      "provenance": "Oxyrhynchus",
+      "date": "after 244 CE",
+      "publication": "Jones, A. (ed.), 1999. Astronomical papyri from Oxyrhynchus (P. Oxy. 4133-4300a), Volumes I and II. Philadelphia: American Philosophical Society.",
+      "link": "https://archive.org/details/astronomicalpapy0001jone",
+      "line": "2-4",
+      "meaning_id": 3096,
+      "page": "I: 264 + II: 388-391",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7765,
+      "original": "ὥρ(ᾳ) [vac.?] εʹ πληρωμέν[ῃ ...\nκατ[ὰ δὲ] τοὺς ἀρχαίους [...\nὥρ(α) ἡ πρ[ο]κειμένη [...",
+      "transliteration": "",
+      "lemma_id": 6420,
+      "translation": "hour 5 complete[d ...\naccording to the ancients [...\nthe preceding hour [...",
+      "source": "P. Oxy. LXI 4256",
+      "genre": "horoscope",
+      "provenance": "Oxyrhynchus",
+      "date": "269-275 CE",
+      "publication": "Jones, A. (ed.), 1999. Astronomical papyri from Oxyrhynchus (P. Oxy. 4133-4300a), Volumes I and II. Philadelphia: American Philosophical Society.",
+      "link": "https://archive.org/details/astronomicalpapy0001jone",
+      "line": "2-4",
+      "meaning_id": 7759,
+      "page": "I: 266 + II: 394-395",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7766,
+      "original": "Rev. 4 GE6 7 SAG GE6 sin ina IGI MUL2.MUL2 1 1/2 KUŠ3 sin 4 KUŠ3 ana ULU3 SIG kal GE6 DIRI AN DIB AN UTAḪ",
+      "transliteration": "",
+      "lemma_id": 60,
+      "translation": "Night of the 7th , beginning of the night , the moon was 1 1 /2 cubits in front of the Bristle, the moon being 4 cubits low to the south; all night clouds crossed the sky, rain shower.",
+      "source": "BM 55523+55553 (ADRT II No. 195D)",
+      "genre": "astronomical diary",
+      "provenance": "Babylon",
+      "date": "196 BCE",
+      "publication": "Sachs, A. J., Hunger, H. 1989. Astronomical Diaries and Related Texts from Babylonia, Vol. II: Diaries from 261 B.C. to 165 B.C. Vienna: Verlag der Österreichischen Akademie der Wissenschaften.",
+      "link": "",
+      "line": "Rev. 4",
+      "meaning_id": 52,
+      "page": "264-265",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7767,
+      "original": "ii 18) ¶ mul.ALLA šu-bat d.60 áp-sà-⌈am-ma⌉-ku 4 MUL ina Á.MEŠ-šú\n19) e-ṣir-u’ ina lìb-bi-šú 6 MUL a-hi-nu-ú a-[h]a-meš U5-u’\n20) ⌈1+en⌉ MUL ina SAG-šú e-ṣir ina pa-n[i-šú mu.lSAG.ME.GAR GU]B-zu",
+      "transliteration": "",
+      "lemma_id": 6424,
+      "translation": "ii 18) ¶ “The Crab,” the seat of Anu, an apsamakku. Four stars at its sides\n19) are drawn; inside it six stars side by side straddle o[n]e another,\n20) one star is drawn at its head, in fro[nt of it Jupiter stan]ds.",
+      "source": "MLC 1866",
+      "genre": "uranology text",
+      "provenance": "Uruk",
+      "date": "214 BCE",
+      "publication": "P.-A. Beaulieu, E. Frahm, W. Horowitz and J. Steele 2018, The Cuneiform Uranology Texts. Drawing the Constellations. Transactions of the American Philosophical Society 107, Part 2",
+      "link": "",
+      "line": "Obv. ii 18-20",
+      "meaning_id": 7761,
+      "page": "36, 40",
       "comment": ""
     }
   ],
@@ -234544,6 +234809,16 @@
       "cross_link_id": 5466,
       "lemma_id": 2691,
       "link": 576
+    },
+    {
+      "cross_link_id": 5467,
+      "lemma_id": 6420,
+      "link": 2625
+    },
+    {
+      "cross_link_id": 5468,
+      "lemma_id": 6420,
+      "link": 2615
     }
   ],
   "users": [
