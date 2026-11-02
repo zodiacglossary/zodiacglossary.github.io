@@ -426,7 +426,7 @@
       "primary_meaning": "Aries",
       "editor": "Mathieu, Marvin",
       "literal_translation2": "hired worker",
-      "last_edit": "2024-07-01T07:12:14.312Z",
+      "last_edit": "2026-10-28T15:02:01.432Z",
       "comment": "Add page numbers",
       "checked": true,
       "attention": true,
@@ -26034,8 +26034,8 @@
       "primary_meaning": "Pleiades",
       "editor": "Thomas",
       "literal_translation2": "",
-      "last_edit": "2025-07-14T07:39:49.705Z",
-      "comment": "TP: should this be a \"constellation\" or \"part of constellation\"? Both together in one meaning? Separate meanings?",
+      "last_edit": "2026-10-28T15:06:59.610Z",
+      "comment": "TP: should this be a \"constellation\" or \"part of constellation\"? Both together in one meaning? Separate meanings? MO: separate meanings.",
       "checked": true,
       "attention": true,
       "loan_type": "none"
@@ -54186,10 +54186,10 @@
       "primary_meaning": "β Arietis",
       "editor": "Mathieu",
       "literal_translation2": "front star of the head of the ram",
-      "last_edit": "2026-10-25T10:23:36.089Z",
+      "last_edit": "2026-10-28T14:38:44.985Z",
       "comment": "needs quotation, see diaries form 4th century BCE",
       "checked": false,
-      "attention": true,
+      "attention": false,
       "loan_type": "none"
     },
     {
@@ -54211,6 +54211,30 @@
       "editor": "Mathieu",
       "literal_translation2": "apsamakku",
       "last_edit": "2026-10-25T18:16:54.339Z",
+      "comment": "",
+      "checked": false,
+      "attention": false,
+      "loan_type": "none"
+    },
+    {
+      "lemma_id": 6425,
+      "published": true,
+      "original": "LU",
+      "translation": "ram",
+      "transliteration": "immeru",
+      "partofspeech_id": 6,
+      "partofspeech_label": "Noun",
+      "partofspeech_value": "noun",
+      "language_id": 1,
+      "language_label": "Akkadian",
+      "language_value": "akkadian",
+      "loan_language_id": 0,
+      "loan_language_label": "",
+      "loan_language_value": "none",
+      "primary_meaning": "Aries",
+      "editor": "Mathieu",
+      "literal_translation2": "ram",
+      "last_edit": "2026-10-28T15:00:53.126Z",
       "comment": "",
       "checked": false,
       "attention": false,
@@ -54551,7 +54575,7 @@
       "meaning_id": 91,
       "value": "hired worker",
       "lemma_id": 72,
-      "category": null,
+      "category": "",
       "comment": ""
     },
     {
@@ -56469,7 +56493,7 @@
       "meaning_id": 410,
       "value": "behind",
       "lemma_id": 302,
-      "category": "expression of relative position",
+      "category": "relative position",
       "comment": ""
     },
     {
@@ -56917,7 +56941,7 @@
       "meaning_id": 480,
       "value": "clouds",
       "lemma_id": 353,
-      "category": "celestial phenomenon",
+      "category": "luminous entity other than star planet luminary",
       "comment": ""
     },
     {
@@ -58254,14 +58278,14 @@
       "meaning_id": 679,
       "value": "earthshine",
       "lemma_id": 510,
-      "category": "celestial phenomenon",
+      "category": "luminous entity other than star planet luminary",
       "comment": "phenomenon reported near first lunar crescent, perhaps earthshine (Hunger)"
     },
     {
       "meaning_id": 680,
       "value": "garment of the sky",
       "lemma_id": 511,
-      "category": "celestial phenomenon",
+      "category": "luminous entity other than star planet luminary",
       "comment": "phenomenon reported during lunar eclipses; identification unclear"
     },
     {
@@ -58394,7 +58418,7 @@
       "meaning_id": 699,
       "value": "a luminous phenomenon in the sky produced by the moon, a star or a meteor",
       "lemma_id": 519,
-      "category": "celestial phenomenon",
+      "category": "luminous entity other than star planet luminary",
       "comment": ""
     },
     {
@@ -58520,7 +58544,7 @@
       "meaning_id": 717,
       "value": "ascendant",
       "lemma_id": 541,
-      "category": "cardinal point",
+      "category": "astrological cardine",
       "comment": ""
     },
     {
@@ -58800,7 +58824,7 @@
       "meaning_id": 757,
       "value": "to swallow",
       "lemma_id": 578,
-      "category": "celestial phenomenon",
+      "category": "luminous entity other than star planet luminary",
       "comment": "Refers to a lunar eclipse"
     },
     {
@@ -58975,7 +58999,7 @@
       "meaning_id": 786,
       "value": "zodiac",
       "lemma_id": 599,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
@@ -59479,7 +59503,7 @@
       "meaning_id": 866,
       "value": "zodiac",
       "lemma_id": 672,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
@@ -59703,7 +59727,7 @@
       "meaning_id": 898,
       "value": "to be distant from",
       "lemma_id": 706,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
@@ -60333,21 +60357,21 @@
       "meaning_id": 994,
       "value": "in terms of degrees",
       "lemma_id": 797,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 995,
       "value": "to be in the ascendant",
       "lemma_id": 798,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
       "meaning_id": 997,
       "value": "square, quadrant",
       "lemma_id": 800,
-      "category": "astral concept",
+      "category": "",
       "comment": "Unclear translation"
     },
     {
@@ -61222,7 +61246,7 @@
       "meaning_id": 1140,
       "value": "light of a meteor",
       "lemma_id": 925,
-      "category": "celestial phenomenon",
+      "category": "luminous entity other than star planet luminary",
       "comment": ""
     },
     {
@@ -61796,7 +61820,7 @@
       "meaning_id": 1224,
       "value": "exact by degrees",
       "lemma_id": 1016,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
@@ -61929,7 +61953,7 @@
       "meaning_id": 1245,
       "value": "to be in opposition",
       "lemma_id": 1037,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
@@ -61943,7 +61967,7 @@
       "meaning_id": 1247,
       "value": "in opposition",
       "lemma_id": 1040,
-      "category": "astral concept",
+      "category": "",
       "comment": ""
     },
     {
@@ -82336,6 +82360,13 @@
       "lemma_id": 6424,
       "category": "",
       "comment": ""
+    },
+    {
+      "meaning_id": 7762,
+      "value": "Aries",
+      "lemma_id": 6425,
+      "category": "",
+      "comment": ""
     }
   ],
   "meaningCategories": [
@@ -83292,7 +83323,7 @@
     {
       "category_id": 297,
       "meaning_id": 342,
-      "category": "astronomical event"
+      "category": "stellar phenomenon"
     },
     {
       "category_id": 299,
@@ -83387,7 +83418,7 @@
     {
       "category_id": 318,
       "meaning_id": 410,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 319,
@@ -83477,7 +83508,7 @@
     {
       "category_id": 339,
       "meaning_id": 399,
-      "category": "astronomical event"
+      "category": "stellar phenomenon"
     },
     {
       "category_id": 341,
@@ -83962,7 +83993,7 @@
     {
       "category_id": 478,
       "meaning_id": 480,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 479,
@@ -84322,7 +84353,7 @@
     {
       "category_id": 589,
       "meaning_id": 673,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 590,
@@ -84487,7 +84518,7 @@
     {
       "category_id": 630,
       "meaning_id": 679,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 631,
@@ -84512,7 +84543,7 @@
     {
       "category_id": 635,
       "meaning_id": 717,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 636,
@@ -84542,7 +84573,7 @@
     {
       "category_id": 644,
       "meaning_id": 699,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 645,
@@ -84568,11 +84599,6 @@
       "category_id": 650,
       "meaning_id": 690,
       "category": "time interval"
-    },
-    {
-      "category_id": 651,
-      "meaning_id": 687,
-      "category": "measurement quantity"
     },
     {
       "category_id": 654,
@@ -84612,7 +84638,7 @@
     {
       "category_id": 662,
       "meaning_id": 680,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 663,
@@ -84682,7 +84708,7 @@
     {
       "category_id": 678,
       "meaning_id": 757,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 679,
@@ -84817,7 +84843,7 @@
     {
       "category_id": 709,
       "meaning_id": 759,
-      "category": "astronomical event"
+      "category": "eclipse phenomenon"
     },
     {
       "category_id": 710,
@@ -84862,7 +84888,7 @@
     {
       "category_id": 720,
       "meaning_id": 246,
-      "category": "astronomical event"
+      "category": "eclipse phenomenon"
     },
     {
       "category_id": 721,
@@ -85587,7 +85613,7 @@
     {
       "category_id": 904,
       "meaning_id": 984,
-      "category": "astronomical event"
+      "category": "synodic phenomenon"
     },
     {
       "category_id": 905,
@@ -85703,11 +85729,6 @@
       "category_id": 935,
       "meaning_id": 1017,
       "category": "meteorological phenomenon"
-    },
-    {
-      "category_id": 936,
-      "meaning_id": 997,
-      "category": "astral concept"
     },
     {
       "category_id": 937,
@@ -85837,7 +85858,7 @@
     {
       "category_id": 974,
       "meaning_id": 1042,
-      "category": "astronomical event"
+      "category": "eclipse phenomenon"
     },
     {
       "category_id": 975,
@@ -86362,7 +86383,7 @@
     {
       "category_id": 1090,
       "meaning_id": 1140,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 1091,
@@ -86498,11 +86519,6 @@
       "category_id": 1118,
       "meaning_id": 1148,
       "category": "astronomical event"
-    },
-    {
-      "category_id": 1119,
-      "meaning_id": 1224,
-      "category": "astral concept"
     },
     {
       "category_id": 1120,
@@ -86977,7 +86993,7 @@
     {
       "category_id": 1267,
       "meaning_id": 1330,
-      "category": "astronomical event"
+      "category": "motion"
     },
     {
       "category_id": 1273,
@@ -87082,7 +87098,7 @@
     {
       "category_id": 1304,
       "meaning_id": 1357,
-      "category": "astronomical event"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 1306,
@@ -87295,14 +87311,9 @@
       "category": "astronomical term"
     },
     {
-      "category_id": 1356,
-      "meaning_id": 1402,
-      "category": "astronomical event"
-    },
-    {
       "category_id": 1357,
       "meaning_id": 1403,
-      "category": "astronomical event"
+      "category": "motion"
     },
     {
       "category_id": 1358,
@@ -87337,7 +87348,7 @@
     {
       "category_id": 1364,
       "meaning_id": 1410,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 1365,
@@ -87862,7 +87873,7 @@
     {
       "category_id": 1477,
       "meaning_id": 1516,
-      "category": "astronomical event"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 1478,
@@ -87942,7 +87953,7 @@
     {
       "category_id": 1499,
       "meaning_id": 1538,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 1500,
@@ -87972,7 +87983,7 @@
     {
       "category_id": 1505,
       "meaning_id": 1544,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 1506,
@@ -88242,7 +88253,7 @@
     {
       "category_id": 1590,
       "meaning_id": 1610,
-      "category": "astronomical event"
+      "category": "motion"
     },
     {
       "category_id": 1591,
@@ -88262,7 +88273,7 @@
     {
       "category_id": 1594,
       "meaning_id": 1614,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 1595,
@@ -88317,7 +88328,7 @@
     {
       "category_id": 1605,
       "meaning_id": 1625,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 1606,
@@ -89340,11 +89351,6 @@
       "category": "part of zodiac sign"
     },
     {
-      "category_id": 1852,
-      "meaning_id": 1867,
-      "category": "astral concept"
-    },
-    {
       "category_id": 1853,
       "meaning_id": 1868,
       "category": "part of zodiac sign"
@@ -90082,7 +90088,7 @@
     {
       "category_id": 2003,
       "meaning_id": 1589,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2004,
@@ -90262,12 +90268,12 @@
     {
       "category_id": 2043,
       "meaning_id": 2039,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2044,
       "meaning_id": 2040,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2045,
@@ -90352,7 +90358,7 @@
     {
       "category_id": 2063,
       "meaning_id": 2066,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2064,
@@ -90367,7 +90373,7 @@
     {
       "category_id": 2067,
       "meaning_id": 2070,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2070,
@@ -90377,7 +90383,7 @@
     {
       "category_id": 2072,
       "meaning_id": 2074,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2073,
@@ -90387,7 +90393,7 @@
     {
       "category_id": 2076,
       "meaning_id": 2076,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2077,
@@ -90397,7 +90403,7 @@
     {
       "category_id": 2078,
       "meaning_id": 2077,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2079,
@@ -90427,12 +90433,12 @@
     {
       "category_id": 2086,
       "meaning_id": 2084,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2088,
       "meaning_id": 2086,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2089,
@@ -90457,7 +90463,7 @@
     {
       "category_id": 2093,
       "meaning_id": 2091,
-      "category": "astronomical event"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 2094,
@@ -90477,7 +90483,7 @@
     {
       "category_id": 2097,
       "meaning_id": 2095,
-      "category": "astronomical event"
+      "category": "eclipse phenomenon"
     },
     {
       "category_id": 2098,
@@ -90487,7 +90493,7 @@
     {
       "category_id": 2099,
       "meaning_id": 2097,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2100,
@@ -90497,7 +90503,7 @@
     {
       "category_id": 2101,
       "meaning_id": 2098,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2102,
@@ -90507,7 +90513,7 @@
     {
       "category_id": 2103,
       "meaning_id": 2099,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2104,
@@ -90532,12 +90538,12 @@
     {
       "category_id": 2108,
       "meaning_id": 2103,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2109,
       "meaning_id": 2104,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2112,
@@ -90567,12 +90573,12 @@
     {
       "category_id": 2118,
       "meaning_id": 2113,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2119,
       "meaning_id": 2114,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2120,
@@ -90592,7 +90598,7 @@
     {
       "category_id": 2123,
       "meaning_id": 2118,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2124,
@@ -90602,12 +90608,12 @@
     {
       "category_id": 2125,
       "meaning_id": 2121,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2126,
       "meaning_id": 2122,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2127,
@@ -90837,7 +90843,7 @@
     {
       "category_id": 2176,
       "meaning_id": 2179,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2177,
@@ -91057,12 +91063,12 @@
     {
       "category_id": 2222,
       "meaning_id": 2223,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2223,
       "meaning_id": 2224,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2224,
@@ -91072,22 +91078,22 @@
     {
       "category_id": 2225,
       "meaning_id": 2227,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2226,
       "meaning_id": 2228,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2227,
       "meaning_id": 2229,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2228,
       "meaning_id": 2230,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2229,
@@ -91260,11 +91266,6 @@
       "category": "motion"
     },
     {
-      "category_id": 2265,
-      "meaning_id": 2267,
-      "category": "astral concept"
-    },
-    {
       "category_id": 2266,
       "meaning_id": 2268,
       "category": "mathematical expression"
@@ -91347,7 +91348,7 @@
     {
       "category_id": 2285,
       "meaning_id": 2288,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2286,
@@ -91595,11 +91596,6 @@
       "category": "unit of time"
     },
     {
-      "category_id": 2344,
-      "meaning_id": 1693,
-      "category": "astronomical phenomenon"
-    },
-    {
       "category_id": 2345,
       "meaning_id": 409,
       "category": "lunar phenomenon"
@@ -91627,7 +91623,7 @@
     {
       "category_id": 2350,
       "meaning_id": 1016,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2351,
@@ -91837,7 +91833,7 @@
     {
       "category_id": 2394,
       "meaning_id": 2332,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2395,
@@ -91862,7 +91858,7 @@
     {
       "category_id": 2400,
       "meaning_id": 2344,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2401,
@@ -91897,7 +91893,7 @@
     {
       "category_id": 2407,
       "meaning_id": 2353,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2408,
@@ -92037,12 +92033,12 @@
     {
       "category_id": 2435,
       "meaning_id": 2384,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2436,
       "meaning_id": 2385,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2437,
@@ -92132,7 +92128,7 @@
     {
       "category_id": 2456,
       "meaning_id": 2407,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2457,
@@ -92213,11 +92209,6 @@
       "category_id": 2475,
       "meaning_id": 2426,
       "category": "motion"
-    },
-    {
-      "category_id": 2476,
-      "meaning_id": 2427,
-      "category": "astral concept"
     },
     {
       "category_id": 2477,
@@ -92397,12 +92388,12 @@
     {
       "category_id": 2513,
       "meaning_id": 2467,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2514,
       "meaning_id": 1227,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2515,
@@ -92427,7 +92418,7 @@
     {
       "category_id": 2519,
       "meaning_id": 2478,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2520,
@@ -92457,12 +92448,12 @@
     {
       "category_id": 2525,
       "meaning_id": 2482,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2526,
       "meaning_id": 2481,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2527,
@@ -92665,11 +92656,6 @@
       "category": "astrological"
     },
     {
-      "category_id": 2568,
-      "meaning_id": 2527,
-      "category": "astronomical term"
-    },
-    {
       "category_id": 2569,
       "meaning_id": 2528,
       "category": "zodiac sign"
@@ -92732,12 +92718,12 @@
     {
       "category_id": 2582,
       "meaning_id": 2540,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2583,
       "meaning_id": 2541,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2584,
@@ -93022,7 +93008,7 @@
     {
       "category_id": 2642,
       "meaning_id": 2591,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2643,
@@ -93037,7 +93023,7 @@
     {
       "category_id": 2645,
       "meaning_id": 2592,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2646,
@@ -93057,7 +93043,7 @@
     {
       "category_id": 2650,
       "meaning_id": 2596,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2651,
@@ -93087,22 +93073,22 @@
     {
       "category_id": 2656,
       "meaning_id": 2602,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2657,
       "meaning_id": 2021,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2658,
       "meaning_id": 2603,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2659,
       "meaning_id": 1698,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2660,
@@ -93232,27 +93218,27 @@
     {
       "category_id": 2685,
       "meaning_id": 1182,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2686,
       "meaning_id": 1194,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2687,
       "meaning_id": 1198,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2688,
       "meaning_id": 1192,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 2695,
       "meaning_id": 2630,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 2696,
@@ -93302,7 +93288,7 @@
     {
       "category_id": 2707,
       "meaning_id": 2639,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2708,
@@ -93700,11 +93686,6 @@
       "category": "astrological"
     },
     {
-      "category_id": 2792,
-      "meaning_id": 2163,
-      "category": "astral concept"
-    },
-    {
       "category_id": 2793,
       "meaning_id": 2694,
       "category": "astrological"
@@ -93767,7 +93748,7 @@
     {
       "category_id": 2806,
       "meaning_id": 2706,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2807,
@@ -93817,7 +93798,7 @@
     {
       "category_id": 2817,
       "meaning_id": 2716,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2818,
@@ -93857,7 +93838,7 @@
     {
       "category_id": 2826,
       "meaning_id": 2724,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2827,
@@ -93902,12 +93883,12 @@
     {
       "category_id": 2835,
       "meaning_id": 2733,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2836,
       "meaning_id": 2734,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2837,
@@ -93917,7 +93898,7 @@
     {
       "category_id": 2838,
       "meaning_id": 2736,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2839,
@@ -93932,7 +93913,7 @@
     {
       "category_id": 2843,
       "meaning_id": 2742,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2844,
@@ -94210,11 +94191,6 @@
       "category": "astrological"
     },
     {
-      "category_id": 2902,
-      "meaning_id": 2812,
-      "category": "practice"
-    },
-    {
       "category_id": 2903,
       "meaning_id": 2813,
       "category": "temporal expression"
@@ -94267,7 +94243,7 @@
     {
       "category_id": 2913,
       "meaning_id": 2824,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2914,
@@ -94357,7 +94333,7 @@
     {
       "category_id": 2931,
       "meaning_id": 2841,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2932,
@@ -94417,7 +94393,7 @@
     {
       "category_id": 2943,
       "meaning_id": 2853,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 2944,
@@ -94653,11 +94629,6 @@
       "category_id": 2991,
       "meaning_id": 2901,
       "category": "astrological"
-    },
-    {
-      "category_id": 2992,
-      "meaning_id": 2902,
-      "category": "astral concept"
     },
     {
       "category_id": 2993,
@@ -95197,7 +95168,7 @@
     {
       "category_id": 3103,
       "meaning_id": 2962,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3104,
@@ -96415,11 +96386,6 @@
       "category": "mathematical expression"
     },
     {
-      "category_id": 3360,
-      "meaning_id": 2092,
-      "category": "temporal expression"
-    },
-    {
       "category_id": 3361,
       "meaning_id": 2825,
       "category": "time interval"
@@ -96637,12 +96603,12 @@
     {
       "category_id": 3406,
       "meaning_id": 3118,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 3407,
       "meaning_id": 3115,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 3408,
@@ -96682,7 +96648,7 @@
     {
       "category_id": 3415,
       "meaning_id": 3113,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 3416,
@@ -96782,7 +96748,7 @@
     {
       "category_id": 3437,
       "meaning_id": 2383,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3438,
@@ -96887,12 +96853,12 @@
     {
       "category_id": 3459,
       "meaning_id": 3153,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3460,
       "meaning_id": 3154,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3462,
@@ -96928,11 +96894,6 @@
       "category_id": 3469,
       "meaning_id": 3151,
       "category": "astronomical"
-    },
-    {
-      "category_id": 3470,
-      "meaning_id": 3150,
-      "category": "expression of relative position"
     },
     {
       "category_id": 3471,
@@ -97042,7 +97003,7 @@
     {
       "category_id": 3492,
       "meaning_id": 3170,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 3493,
@@ -97352,7 +97313,7 @@
     {
       "category_id": 3556,
       "meaning_id": 3210,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 3557,
@@ -97387,7 +97348,7 @@
     {
       "category_id": 3564,
       "meaning_id": 3218,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 3565,
@@ -97512,7 +97473,7 @@
     {
       "category_id": 3591,
       "meaning_id": 3238,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3592,
@@ -97532,7 +97493,7 @@
     {
       "category_id": 3596,
       "meaning_id": 3241,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3597,
@@ -97627,7 +97588,7 @@
     {
       "category_id": 3615,
       "meaning_id": 3260,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 3616,
@@ -98562,7 +98523,7 @@
     {
       "category_id": 6965,
       "meaning_id": 6571,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 6966,
@@ -98732,7 +98693,7 @@
     {
       "category_id": 7010,
       "meaning_id": 6603,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 7361,
@@ -100587,7 +100548,7 @@
     {
       "category_id": 7732,
       "meaning_id": 7310,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 7733,
@@ -100897,7 +100858,7 @@
     {
       "category_id": 7796,
       "meaning_id": 7366,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 7797,
@@ -100912,12 +100873,7 @@
     {
       "category_id": 7799,
       "meaning_id": 7369,
-      "category": "expression of relative position"
-    },
-    {
-      "category_id": 7800,
-      "meaning_id": 7370,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 7801,
@@ -100967,47 +100923,47 @@
     {
       "category_id": 7810,
       "meaning_id": 7377,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7811,
       "meaning_id": 7378,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7812,
       "meaning_id": 7379,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7813,
       "meaning_id": 7380,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7814,
       "meaning_id": 7381,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7815,
       "meaning_id": 7382,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7816,
       "meaning_id": 7383,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7817,
       "meaning_id": 7384,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7818,
       "meaning_id": 7385,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7819,
@@ -101042,12 +100998,12 @@
     {
       "category_id": 7826,
       "meaning_id": 7391,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7827,
       "meaning_id": 7392,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7828,
@@ -101057,7 +101013,7 @@
     {
       "category_id": 7829,
       "meaning_id": 7394,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7830,
@@ -101067,7 +101023,7 @@
     {
       "category_id": 7831,
       "meaning_id": 7395,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 7832,
@@ -101177,7 +101133,7 @@
     {
       "category_id": 7856,
       "meaning_id": 7421,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 7857,
@@ -102207,7 +102163,7 @@
     {
       "category_id": 8074,
       "meaning_id": 7621,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 8075,
@@ -102247,7 +102203,7 @@
     {
       "category_id": 8082,
       "meaning_id": 7628,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 8083,
@@ -102362,7 +102318,7 @@
     {
       "category_id": 8107,
       "meaning_id": 7654,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 8108,
@@ -102382,7 +102338,7 @@
     {
       "category_id": 8111,
       "meaning_id": 7658,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 8112,
@@ -102397,7 +102353,7 @@
     {
       "category_id": 8114,
       "meaning_id": 7661,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 8115,
@@ -102427,7 +102383,7 @@
     {
       "category_id": 8120,
       "meaning_id": 7667,
-      "category": "celestial phenomenon"
+      "category": "luminous entity other than star planet luminary"
     },
     {
       "category_id": 8121,
@@ -102905,11 +102861,6 @@
       "category": "ziqpu star"
     },
     {
-      "category_id": 8245,
-      "meaning_id": 750,
-      "category": "star"
-    },
-    {
       "category_id": 8246,
       "meaning_id": 750,
       "category": "ziqpu star"
@@ -103055,11 +103006,6 @@
       "category": "ziqpu star"
     },
     {
-      "category_id": 8275,
-      "meaning_id": 1694,
-      "category": "star"
-    },
-    {
       "category_id": 8276,
       "meaning_id": 1694,
       "category": "ziqpu star"
@@ -103115,11 +103061,6 @@
       "category": "ziqpu star"
     },
     {
-      "category_id": 8287,
-      "meaning_id": 1796,
-      "category": "star"
-    },
-    {
       "category_id": 8288,
       "meaning_id": 1796,
       "category": "ziqpu star"
@@ -103147,11 +103088,6 @@
     {
       "category_id": 8344,
       "meaning_id": 327,
-      "category": "star"
-    },
-    {
-      "category_id": 8345,
-      "meaning_id": 330,
       "category": "star"
     },
     {
@@ -103285,11 +103221,6 @@
       "category": "star"
     },
     {
-      "category_id": 8372,
-      "meaning_id": 607,
-      "category": "star"
-    },
-    {
       "category_id": 8373,
       "meaning_id": 582,
       "category": "star"
@@ -103352,12 +103283,12 @@
     {
       "category_id": 8386,
       "meaning_id": 171,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 8387,
       "meaning_id": 317,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 8388,
@@ -103562,7 +103493,7 @@
     {
       "category_id": 8428,
       "meaning_id": 995,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 8429,
@@ -103982,7 +103913,7 @@
     {
       "category_id": 8513,
       "meaning_id": 2496,
-      "category": "expression of influence"
+      "category": "general expression of influence or signification"
     },
     {
       "category_id": 8514,
@@ -104032,7 +103963,7 @@
     {
       "category_id": 8523,
       "meaning_id": 2595,
-      "category": "expression of influence"
+      "category": "general expression of influence or signification"
     },
     {
       "category_id": 8524,
@@ -104057,7 +103988,7 @@
     {
       "category_id": 8529,
       "meaning_id": 2948,
-      "category": "expression of influence"
+      "category": "general expression of influence or signification"
     },
     {
       "category_id": 8530,
@@ -104102,7 +104033,7 @@
     {
       "category_id": 8538,
       "meaning_id": 1520,
-      "category": "eclipse phenomenon"
+      "category": "annual phenomenon"
     },
     {
       "category_id": 8539,
@@ -104132,7 +104063,7 @@
     {
       "category_id": 8544,
       "meaning_id": 2739,
-      "category": "cardinal point"
+      "category": "astrological cardine"
     },
     {
       "category_id": 8546,
@@ -104157,7 +104088,7 @@
     {
       "category_id": 8550,
       "meaning_id": 2209,
-      "category": "expression of relative position"
+      "category": "relative position"
     },
     {
       "category_id": 8551,
@@ -104183,6 +104114,1586 @@
       "category_id": 8555,
       "meaning_id": 7761,
       "category": "descriptive term"
+    },
+    {
+      "category_id": 8556,
+      "meaning_id": 7762,
+      "category": "zodiac sign"
+    },
+    {
+      "category_id": 8557,
+      "meaning_id": 330,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8558,
+      "meaning_id": 607,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8559,
+      "meaning_id": 613,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8560,
+      "meaning_id": 614,
+      "category": "group of stars or constellations"
+    },
+    {
+      "category_id": 8561,
+      "meaning_id": 1928,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8562,
+      "meaning_id": 1837,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8563,
+      "meaning_id": 1838,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8564,
+      "meaning_id": 1882,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8565,
+      "meaning_id": 1823,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8566,
+      "meaning_id": 1877,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8567,
+      "meaning_id": 1945,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8568,
+      "meaning_id": 1887,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8569,
+      "meaning_id": 1971,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8570,
+      "meaning_id": 1972,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8571,
+      "meaning_id": 1919,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8572,
+      "meaning_id": 2349,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8573,
+      "meaning_id": 1841,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8574,
+      "meaning_id": 1886,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8575,
+      "meaning_id": 1955,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8576,
+      "meaning_id": 1898,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8577,
+      "meaning_id": 1979,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8578,
+      "meaning_id": 1863,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8579,
+      "meaning_id": 1835,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8580,
+      "meaning_id": 1949,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8581,
+      "meaning_id": 1978,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8582,
+      "meaning_id": 1843,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8583,
+      "meaning_id": 1878,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8584,
+      "meaning_id": 1974,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8585,
+      "meaning_id": 1434,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8586,
+      "meaning_id": 1480,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8587,
+      "meaning_id": 1482,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8588,
+      "meaning_id": 1460,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8589,
+      "meaning_id": 1477,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8590,
+      "meaning_id": 1445,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8591,
+      "meaning_id": 1452,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8592,
+      "meaning_id": 1476,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8593,
+      "meaning_id": 1450,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8594,
+      "meaning_id": 1454,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8595,
+      "meaning_id": 1837,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8596,
+      "meaning_id": 1838,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8597,
+      "meaning_id": 1431,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8598,
+      "meaning_id": 1462,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8599,
+      "meaning_id": 1430,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8600,
+      "meaning_id": 1472,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8601,
+      "meaning_id": 1432,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8602,
+      "meaning_id": 1474,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8603,
+      "meaning_id": 1438,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8604,
+      "meaning_id": 1823,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8605,
+      "meaning_id": 1877,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8606,
+      "meaning_id": 1945,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8607,
+      "meaning_id": 1887,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8608,
+      "meaning_id": 1971,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8609,
+      "meaning_id": 1972,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8610,
+      "meaning_id": 1919,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8611,
+      "meaning_id": 1841,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8612,
+      "meaning_id": 1886,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8613,
+      "meaning_id": 1955,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8614,
+      "meaning_id": 1898,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8615,
+      "meaning_id": 1979,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8616,
+      "meaning_id": 1863,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8617,
+      "meaning_id": 1835,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8618,
+      "meaning_id": 1949,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8619,
+      "meaning_id": 1978,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8620,
+      "meaning_id": 1843,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8621,
+      "meaning_id": 1878,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8622,
+      "meaning_id": 1974,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8623,
+      "meaning_id": 3382,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8624,
+      "meaning_id": 3374,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8625,
+      "meaning_id": 3375,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8626,
+      "meaning_id": 3361,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8627,
+      "meaning_id": 7370,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8628,
+      "meaning_id": 50,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8629,
+      "meaning_id": 457,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8630,
+      "meaning_id": 459,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8631,
+      "meaning_id": 461,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8632,
+      "meaning_id": 707,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8633,
+      "meaning_id": 993,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8634,
+      "meaning_id": 1067,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8635,
+      "meaning_id": 1162,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8636,
+      "meaning_id": 1209,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8637,
+      "meaning_id": 1222,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8638,
+      "meaning_id": 1223,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8639,
+      "meaning_id": 1245,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8640,
+      "meaning_id": 1247,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8641,
+      "meaning_id": 1266,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8642,
+      "meaning_id": 1327,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8643,
+      "meaning_id": 1412,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8644,
+      "meaning_id": 1413,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8645,
+      "meaning_id": 1483,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8646,
+      "meaning_id": 1597,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8647,
+      "meaning_id": 1604,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8648,
+      "meaning_id": 1606,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8649,
+      "meaning_id": 1607,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8650,
+      "meaning_id": 1701,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8651,
+      "meaning_id": 1718,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8652,
+      "meaning_id": 2006,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8653,
+      "meaning_id": 2047,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8654,
+      "meaning_id": 2124,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8655,
+      "meaning_id": 2125,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8656,
+      "meaning_id": 2188,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8657,
+      "meaning_id": 2195,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8658,
+      "meaning_id": 2203,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8659,
+      "meaning_id": 2207,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8660,
+      "meaning_id": 2208,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8661,
+      "meaning_id": 2210,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8662,
+      "meaning_id": 2211,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8663,
+      "meaning_id": 2243,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8664,
+      "meaning_id": 2463,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8665,
+      "meaning_id": 2466,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8666,
+      "meaning_id": 3261,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8667,
+      "meaning_id": 3262,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8668,
+      "meaning_id": 3266,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8669,
+      "meaning_id": 3268,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8670,
+      "meaning_id": 3269,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8671,
+      "meaning_id": 7336,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8672,
+      "meaning_id": 7354,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8673,
+      "meaning_id": 7614,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8674,
+      "meaning_id": 7615,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8675,
+      "meaning_id": 7626,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8676,
+      "meaning_id": 7643,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8677,
+      "meaning_id": 7725,
+      "category": "relative position"
+    },
+    {
+      "category_id": 8678,
+      "meaning_id": 1627,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8679,
+      "meaning_id": 1627,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8680,
+      "meaning_id": 1629,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8681,
+      "meaning_id": 1629,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8682,
+      "meaning_id": 1631,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8683,
+      "meaning_id": 1631,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8684,
+      "meaning_id": 1799,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8685,
+      "meaning_id": 1799,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8686,
+      "meaning_id": 1822,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8687,
+      "meaning_id": 1822,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8688,
+      "meaning_id": 1824,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8689,
+      "meaning_id": 1824,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8690,
+      "meaning_id": 1825,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8691,
+      "meaning_id": 1825,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8692,
+      "meaning_id": 1829,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8693,
+      "meaning_id": 1829,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8694,
+      "meaning_id": 1836,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8695,
+      "meaning_id": 1836,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8696,
+      "meaning_id": 1839,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8697,
+      "meaning_id": 1839,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8698,
+      "meaning_id": 1840,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8699,
+      "meaning_id": 1840,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8700,
+      "meaning_id": 1842,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8701,
+      "meaning_id": 1842,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8702,
+      "meaning_id": 1844,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8703,
+      "meaning_id": 1845,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8704,
+      "meaning_id": 1845,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8705,
+      "meaning_id": 1846,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8706,
+      "meaning_id": 1846,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8707,
+      "meaning_id": 1847,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8708,
+      "meaning_id": 1847,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8709,
+      "meaning_id": 1857,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8710,
+      "meaning_id": 1857,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8711,
+      "meaning_id": 1858,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8712,
+      "meaning_id": 1858,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8713,
+      "meaning_id": 1859,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8714,
+      "meaning_id": 1859,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8715,
+      "meaning_id": 1860,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8716,
+      "meaning_id": 1860,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8717,
+      "meaning_id": 1861,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8718,
+      "meaning_id": 1861,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8719,
+      "meaning_id": 1862,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8720,
+      "meaning_id": 1862,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8721,
+      "meaning_id": 1879,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8722,
+      "meaning_id": 1879,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8723,
+      "meaning_id": 1880,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8724,
+      "meaning_id": 1880,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8725,
+      "meaning_id": 1881,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8726,
+      "meaning_id": 1881,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8727,
+      "meaning_id": 1883,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8728,
+      "meaning_id": 1883,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8729,
+      "meaning_id": 1884,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8730,
+      "meaning_id": 1884,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8731,
+      "meaning_id": 1885,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8732,
+      "meaning_id": 1885,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8733,
+      "meaning_id": 1888,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8734,
+      "meaning_id": 1888,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8735,
+      "meaning_id": 1889,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8736,
+      "meaning_id": 1889,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8737,
+      "meaning_id": 1890,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8738,
+      "meaning_id": 1890,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8739,
+      "meaning_id": 1891,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8740,
+      "meaning_id": 1891,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8741,
+      "meaning_id": 1892,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8742,
+      "meaning_id": 1892,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8743,
+      "meaning_id": 1893,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8744,
+      "meaning_id": 1893,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8745,
+      "meaning_id": 1894,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8746,
+      "meaning_id": 1894,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8747,
+      "meaning_id": 1895,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8748,
+      "meaning_id": 1895,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8749,
+      "meaning_id": 1896,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8750,
+      "meaning_id": 1896,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8751,
+      "meaning_id": 1897,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8752,
+      "meaning_id": 1897,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8753,
+      "meaning_id": 1921,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8754,
+      "meaning_id": 1922,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8755,
+      "meaning_id": 1922,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8756,
+      "meaning_id": 1923,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8757,
+      "meaning_id": 1923,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8758,
+      "meaning_id": 1924,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8759,
+      "meaning_id": 1924,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8760,
+      "meaning_id": 1925,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8761,
+      "meaning_id": 1925,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8762,
+      "meaning_id": 1926,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8763,
+      "meaning_id": 1926,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8764,
+      "meaning_id": 1927,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8765,
+      "meaning_id": 1927,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8766,
+      "meaning_id": 1944,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8767,
+      "meaning_id": 1944,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8768,
+      "meaning_id": 1946,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8769,
+      "meaning_id": 1946,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8770,
+      "meaning_id": 1947,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8771,
+      "meaning_id": 1947,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8772,
+      "meaning_id": 1948,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8773,
+      "meaning_id": 1948,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8774,
+      "meaning_id": 1950,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8775,
+      "meaning_id": 1950,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8776,
+      "meaning_id": 1951,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8777,
+      "meaning_id": 1951,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8778,
+      "meaning_id": 1952,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8779,
+      "meaning_id": 1952,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8780,
+      "meaning_id": 1953,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8781,
+      "meaning_id": 1953,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8782,
+      "meaning_id": 1954,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8783,
+      "meaning_id": 1954,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8784,
+      "meaning_id": 1970,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8785,
+      "meaning_id": 1970,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8786,
+      "meaning_id": 1973,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8787,
+      "meaning_id": 1973,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8788,
+      "meaning_id": 1975,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8789,
+      "meaning_id": 1975,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8790,
+      "meaning_id": 1976,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8791,
+      "meaning_id": 1976,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8792,
+      "meaning_id": 1977,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8793,
+      "meaning_id": 1977,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8794,
+      "meaning_id": 1980,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8795,
+      "meaning_id": 1980,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8796,
+      "meaning_id": 1981,
+      "category": "part of constellation"
+    },
+    {
+      "category_id": 8797,
+      "meaning_id": 1981,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8798,
+      "meaning_id": 1423,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8799,
+      "meaning_id": 1425,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8800,
+      "meaning_id": 1426,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8801,
+      "meaning_id": 1427,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8802,
+      "meaning_id": 1428,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8803,
+      "meaning_id": 1429,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8804,
+      "meaning_id": 1433,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8805,
+      "meaning_id": 1435,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8806,
+      "meaning_id": 1436,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8807,
+      "meaning_id": 1439,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8808,
+      "meaning_id": 1440,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8809,
+      "meaning_id": 1441,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8810,
+      "meaning_id": 1442,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8811,
+      "meaning_id": 1443,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8812,
+      "meaning_id": 1444,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8813,
+      "meaning_id": 1446,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8814,
+      "meaning_id": 1447,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8815,
+      "meaning_id": 1448,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8816,
+      "meaning_id": 1449,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8817,
+      "meaning_id": 1451,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8818,
+      "meaning_id": 1453,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8819,
+      "meaning_id": 1455,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8820,
+      "meaning_id": 1456,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8821,
+      "meaning_id": 1457,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8822,
+      "meaning_id": 1458,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8823,
+      "meaning_id": 1459,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8824,
+      "meaning_id": 1461,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8825,
+      "meaning_id": 1463,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8826,
+      "meaning_id": 1464,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8827,
+      "meaning_id": 1465,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8828,
+      "meaning_id": 1466,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8829,
+      "meaning_id": 1468,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8830,
+      "meaning_id": 1469,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8831,
+      "meaning_id": 1470,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8832,
+      "meaning_id": 1471,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8833,
+      "meaning_id": 1473,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8834,
+      "meaning_id": 1475,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8835,
+      "meaning_id": 1478,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8836,
+      "meaning_id": 1479,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8837,
+      "meaning_id": 1481,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8838,
+      "meaning_id": 3077,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8839,
+      "meaning_id": 3316,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8840,
+      "meaning_id": 3317,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8841,
+      "meaning_id": 3318,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8842,
+      "meaning_id": 3319,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8843,
+      "meaning_id": 3320,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8844,
+      "meaning_id": 3321,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8845,
+      "meaning_id": 3329,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8846,
+      "meaning_id": 3330,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8847,
+      "meaning_id": 3331,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8848,
+      "meaning_id": 3332,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8849,
+      "meaning_id": 3333,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8850,
+      "meaning_id": 3334,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8851,
+      "meaning_id": 3335,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8852,
+      "meaning_id": 3336,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8853,
+      "meaning_id": 3337,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8854,
+      "meaning_id": 3338,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8855,
+      "meaning_id": 3339,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8856,
+      "meaning_id": 3340,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8857,
+      "meaning_id": 3341,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8858,
+      "meaning_id": 3342,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8859,
+      "meaning_id": 3343,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8860,
+      "meaning_id": 3353,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8861,
+      "meaning_id": 3354,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8862,
+      "meaning_id": 3355,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8863,
+      "meaning_id": 3356,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8864,
+      "meaning_id": 3357,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8865,
+      "meaning_id": 3358,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8866,
+      "meaning_id": 3359,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8867,
+      "meaning_id": 3360,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8868,
+      "meaning_id": 3376,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8869,
+      "meaning_id": 3377,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8870,
+      "meaning_id": 3378,
+      "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8871,
+      "meaning_id": 3379,
+      "category": "part of zodiac sign"
     }
   ],
   "variants": [
@@ -104441,14 +105952,6 @@
       "lemma_id": 72,
       "comment": "",
       "original_fixed": "lu₂.ḪUN.GA₂"
-    },
-    {
-      "variant_id": 42,
-      "original": "LU",
-      "transliteration": "",
-      "lemma_id": 72,
-      "comment": "",
-      "original_fixed": "LU"
     },
     {
       "variant_id": 43,
@@ -140895,6 +142398,22 @@
       "original": "ap2-sa3-am-ma-ku",
       "transliteration": "apsammakku",
       "lemma_id": 6424,
+      "comment": "",
+      "original_fixed": null
+    },
+    {
+      "variant_id": 7505,
+      "original": "LU",
+      "transliteration": "immeru",
+      "lemma_id": 6425,
+      "comment": "",
+      "original_fixed": null
+    },
+    {
+      "variant_id": 7506,
+      "original": "mul₂.LU",
+      "transliteration": "immeru",
+      "lemma_id": 6425,
       "comment": "",
       "original_fixed": null
     }
@@ -211092,6 +212611,57 @@
       "meaning_id": 7761,
       "page": "36, 40",
       "comment": ""
+    },
+    {
+      "quotation_id": 7768,
+      "original": "⸢GU₄⸣.UD SIG MUL₂ IGI ša₂ SAG LU 2 KUŠ₃ 4 SI GU₄.UD 8 SI ana ŠU₂ LA₂",
+      "transliteration": "",
+      "lemma_id": 6422,
+      "translation": "Mercury was 2 cubits 4 fingers below the Front Star of the Head of the Ram (β Arietis), Mercury being 8 fingers back to the west.",
+      "source": "BM 34634 (ADRT I No. -384)",
+      "genre": "astronomical diary",
+      "provenance": "Babylon",
+      "date": "385 BCE",
+      "publication": "Sachs, A. J., Hunger, H. 1988. Astronomical Diaries and Related Texts from Babylonia, Vol. I: Diaries from 652 B.C. to 262 B.C. Vienna: Verlag der Österreichischen Akademie der Wissenschaften.",
+      "link": "https://oracc.museum.upenn.edu/adsd/adart1/X103840.29?srch=s.KscVCY",
+      "line": "Rev. 10",
+      "meaning_id": 7760,
+      "page": "",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7769,
+      "original": "ina DU₆ U₄ 14 AN.MI EN.NUN.USAN ina mul₂.LU sin GAR",
+      "transliteration": "",
+      "lemma_id": 6425,
+      "translation": "In month VII day 14 Sin brings about an eclipse in the first watch in the Ram (Aries).",
+      "source": "AO 6455 (TCL VI 11 = TU 11)",
+      "genre": "collection of astrological and astronomical rules",
+      "provenance": "Uruk",
+      "date": "ca. 200 BCE",
+      "publication": "Brack-Bernsen, Lis, and Hunger, Hermann. 2002. TU 11. A Collection of Rules for the Prediction of Lunar Phases and of Month Lengths. SCIAMVS 3: 3–90.",
+      "link": "https://www.sciamvs.org/files/SCIAMVS_03_003-090_BrackBernsen_Hunger.pdf",
+      "line": "Obv. 17",
+      "meaning_id": 7762,
+      "page": "",
+      "comment": ""
+    },
+    {
+      "quotation_id": 7770,
+      "original": "9) GU₄.UD ina KUR IGI-su TA 10 LU EN 20 MUL₂.MUL₂\n10) ina KUR ŠU₂-šu₂ DIB-iq KIMIN",
+      "transliteration": "",
+      "lemma_id": 6425,
+      "translation": "9) Mercury passes by its appearance in the morning (MF) from 10 Ari until 20 Tau, \n10) (and) its setting in the morning (ML), ditto.",
+      "source": "AO 6477 (BMAPT No. 42)",
+      "genre": "mathematical astronomy: procedure text",
+      "provenance": "Uruk",
+      "date": "ca. 250-150 BCE",
+      "publication": "Ossendrijver 2012 No. 42",
+      "link": "",
+      "line": "Obv. 9-10",
+      "meaning_id": 7762,
+      "page": "",
+      "comment": ""
     }
   ],
   "externalLinks": [
@@ -234819,6 +236389,11 @@
       "cross_link_id": 5468,
       "lemma_id": 6420,
       "link": 2615
+    },
+    {
+      "cross_link_id": 5470,
+      "lemma_id": 6425,
+      "link": 6422
     }
   ],
   "users": [
