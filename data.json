@@ -105694,6 +105694,416 @@
       "category_id": 8871,
       "meaning_id": 3379,
       "category": "part of zodiac sign"
+    },
+    {
+      "category_id": 8872,
+      "meaning_id": 1423,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8873,
+      "meaning_id": 1424,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8874,
+      "meaning_id": 1425,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8875,
+      "meaning_id": 1426,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8876,
+      "meaning_id": 1427,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8877,
+      "meaning_id": 1430,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8878,
+      "meaning_id": 1431,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8879,
+      "meaning_id": 1432,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8880,
+      "meaning_id": 1433,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8881,
+      "meaning_id": 1434,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8882,
+      "meaning_id": 1436,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8883,
+      "meaning_id": 1438,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8884,
+      "meaning_id": 1439,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8885,
+      "meaning_id": 1440,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8886,
+      "meaning_id": 1445,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8887,
+      "meaning_id": 1446,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8888,
+      "meaning_id": 1448,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8889,
+      "meaning_id": 1450,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8890,
+      "meaning_id": 1452,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8891,
+      "meaning_id": 1453,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8892,
+      "meaning_id": 1454,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8893,
+      "meaning_id": 1455,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8894,
+      "meaning_id": 1456,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8895,
+      "meaning_id": 1457,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8896,
+      "meaning_id": 1458,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8897,
+      "meaning_id": 1459,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8898,
+      "meaning_id": 1460,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8899,
+      "meaning_id": 1462,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8900,
+      "meaning_id": 1463,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8901,
+      "meaning_id": 1464,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8902,
+      "meaning_id": 1466,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8903,
+      "meaning_id": 1470,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8904,
+      "meaning_id": 1472,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8905,
+      "meaning_id": 1474,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8906,
+      "meaning_id": 1475,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8907,
+      "meaning_id": 1476,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8908,
+      "meaning_id": 1477,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8909,
+      "meaning_id": 1478,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8910,
+      "meaning_id": 1480,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8911,
+      "meaning_id": 1481,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8912,
+      "meaning_id": 1482,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8913,
+      "meaning_id": 3077,
+      "category": "irregular zodiacal decan"
+    },
+    {
+      "category_id": 8914,
+      "meaning_id": 181,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8915,
+      "meaning_id": 3316,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8916,
+      "meaning_id": 3317,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8917,
+      "meaning_id": 3318,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8918,
+      "meaning_id": 3319,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8919,
+      "meaning_id": 3320,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8920,
+      "meaning_id": 3321,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8921,
+      "meaning_id": 3329,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8922,
+      "meaning_id": 3330,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8923,
+      "meaning_id": 3331,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8924,
+      "meaning_id": 3332,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8925,
+      "meaning_id": 3333,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8926,
+      "meaning_id": 3334,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8927,
+      "meaning_id": 3335,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8928,
+      "meaning_id": 3336,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8929,
+      "meaning_id": 3337,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8930,
+      "meaning_id": 3338,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8931,
+      "meaning_id": 3339,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8932,
+      "meaning_id": 3340,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8933,
+      "meaning_id": 3341,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8934,
+      "meaning_id": 3342,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8935,
+      "meaning_id": 3343,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8936,
+      "meaning_id": 3353,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8937,
+      "meaning_id": 3354,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8938,
+      "meaning_id": 3355,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8939,
+      "meaning_id": 3356,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8940,
+      "meaning_id": 3357,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8941,
+      "meaning_id": 3358,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8942,
+      "meaning_id": 3359,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8943,
+      "meaning_id": 3360,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8944,
+      "meaning_id": 3361,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8945,
+      "meaning_id": 3374,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8946,
+      "meaning_id": 3375,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8947,
+      "meaning_id": 3376,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8948,
+      "meaning_id": 3377,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8949,
+      "meaning_id": 3378,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8950,
+      "meaning_id": 3379,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8951,
+      "meaning_id": 3380,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8952,
+      "meaning_id": 3381,
+      "category": "10 degree decan"
+    },
+    {
+      "category_id": 8953,
+      "meaning_id": 3382,
+      "category": "10 degree decan"
     }
   ],
   "variants": [
